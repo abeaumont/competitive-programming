@@ -59,7 +59,7 @@ main() =>
   foreach(I in 1..T)
     X1 = [],
     X2 = [],
-    X3 = [], 
+    X3 = [],
     [N, M] = [read_number() : J in 1..2],
     foreach(J in 1..M)
       [A, Y, X] = readln().split(),
@@ -67,7 +67,7 @@ main() =>
       X := X.to_number(),
       if A == "+" then
         X1 := [(Y, X)|X1]
-      elseif A == "x" then	     
+      elseif A == "x" then
         X2 := [(Y, X)|X2]
       else
         X3 := [(Y, X)|X3]
