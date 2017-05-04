@@ -4,7 +4,7 @@ My solutions for [Round 1C 2017](https://code.google.com/codejam/contest/3274486
 
 Solutions are provided as they were sent, with minimal editing.
 
-Final Rank: 843
+Final Rank: 814
 
 * [A](https://code.google.com/codejam/contest/3274486/dashboard#s=p0): [A.pi](A.pi)
 * [B](https://code.google.com/codejam/contest/3264486/dashboard#s=p1): [B.pi](B.pi)
