@@ -1,0 +1,2 @@
+(write (+ (read) (read)))
+
