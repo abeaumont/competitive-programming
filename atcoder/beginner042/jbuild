@@ -1,0 +1,3 @@
+(executables
+ ((names (d_gen))
+  (libraries (core_kernel))))
