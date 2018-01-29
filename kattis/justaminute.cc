@@ -14,5 +14,5 @@ int main() {
     s += b;
   }
   if (s <= m * 60) cout << "measurement error\n";
-  else cout << fixed << setprecision(7) << double(s) / double(m * 60) << endl;
+  else cout << fixed << setprecision(9) << double(s) / double(m * 60) << endl;
 }
