@@ -73,7 +73,7 @@ class cc(solution):
         target = self._target()
         try:
             print 'Building {}... '.format(target),
-            cmd = 'c++ {} -O2 -o {}'.format(self.code, target)
+            cmd = 'c++ {} -o {} -O2 -std=c++14'.format(self.code, target)
             output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
                                              shell=True)
             print_ok()
