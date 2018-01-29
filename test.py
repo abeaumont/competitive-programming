@@ -73,7 +73,7 @@ class cc(solution):
         target = self._target()
         try:
             print 'Building {}... '.format(target),
-            cmd = 'g++ {} -O2 -o {}'.format(self.code, target)
+            cmd = 'c++ {} -O2 -o {}'.format(self.code, target)
             output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
                                              shell=True)
             print_ok()
@@ -85,7 +85,7 @@ class cc(solution):
             raise e
 
     def run_command(self, test):
-        return './{} < {}'.format(self._target(), test)
+        return '{} < {}'.format(self._target(), test)
 
     def clean(self):
         target = self._target()
