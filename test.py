@@ -58,6 +58,9 @@ class solution(object):
                     else:
                         print_fail()
                         ok = False
+            except subprocess.CalledProcessError as e:
+                print_fail(e.output)
+                ok = False
             except Exception as e:
                 print_fail(str(e))
                 ok = False
@@ -74,6 +77,9 @@ class cc(solution):
             output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
                                              shell=True)
             print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
         except Exception as e:
             print_fail(str(e))
             raise e
