@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:2.7
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: run tests
+          command: |
+            python test.py
+
+      - store_artifacts:
+          path: test-reports
+          destination: test-reports
