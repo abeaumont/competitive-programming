@@ -1,0 +1,3 @@
+(executables
+ ((names (road_generator))
+  (libraries (core_kernel))))
