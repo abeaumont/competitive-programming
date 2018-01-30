@@ -23,8 +23,10 @@ void s(const vvi &v, si &x, int m, int n, int k, ll c) {
       x.insert(i);
     }
   }
-  s(v, x, m, n, k + 1, c + v[k][n]);
-  for (auto i : set) x.erase(i);
+  if (!set.empty()) {
+    s(v, x, m, n, k + 1, c + v[k][n]);
+    for (auto i : set) x.erase(i);
+  }
 }
 
 int main() {
