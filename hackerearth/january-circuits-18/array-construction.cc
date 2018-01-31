@@ -15,6 +15,9 @@ int main() {
     v[i] = vi(n);
     for (int j = 0; j < n; j++) cin >> v[i][j];
   }
-  for (int i = 0; i < n - 1; i++) cout << 0 << " ";
-  cout << m << endl;
+  int q = m / n;
+  int r = m % n;
+  for (int i = 0; i < r; i++) cout << q + 1 << " ";
+  for (int i = r; i < n - 1; i++) cout << q << " ";
+  cout << q << endl;
 }
