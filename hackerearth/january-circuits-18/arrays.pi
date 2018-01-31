@@ -1,0 +1,14 @@
+import util, cp.
+
+main =>
+  [N, K] = [to_int(X) : X in read_line().split()],
+  X = new_array(N, 3),
+  X :: 0..K - 1,
+  foreach (I in 1..N)
+    X[I] = {to_int(Y) : Y in read_line().split()},
+  end,
+  T = new_array(1),
+  T :: 1..K,
+  M #= max([(X[I,1] + T[1]) mod K + (X[I,2] + T[1]) mod K + (X[I,3] + T[1]) mod K : I in 1..N]),
+  solve($[split,min(M)], T),
+  M.println.
