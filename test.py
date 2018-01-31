@@ -4,7 +4,7 @@ import os.path
 import subprocess
 import sys
 
-languages = ['cc', 'py']
+languages = ['cc', 'pi', 'py']
 
 
 class ansicolors:
@@ -43,10 +43,9 @@ class solution(object):
 
     def run(self):
         ok = True
-        target = self._target()
         for test in self.tests:
             try:
-                print 'Checking {} for {}... '.format(target, test),
+                print 'Checking {} for {}... '.format(self.code, test),
                 cmd = self.run_command(test)
                 output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
                                                  shell=True)
@@ -90,6 +89,17 @@ class cc(solution):
     def clean(self):
         target = self._target()
         os.remove(target)
+
+
+class pi(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return 'picat {} < {}'.format(self.code, test)
+
+    def clean(self):
+        pass
 
 
 class py(solution):
