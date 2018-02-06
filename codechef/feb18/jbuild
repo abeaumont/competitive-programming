@@ -1,0 +1,3 @@
+(executables
+ ((names (chanoq_generator))
+  (libraries (core_kernel))))
