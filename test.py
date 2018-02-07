@@ -4,7 +4,7 @@ import os.path
 import subprocess
 import sys
 
-languages = ['cc', 'pi', 'py']
+languages = ['cc', 'lisp', 'pi', 'py']
 
 
 class ansicolors:
@@ -89,6 +89,17 @@ class cc(solution):
     def clean(self):
         target = self._target()
         os.remove(target)
+
+
+class lisp(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return 'sbcl --script {} < {}'.format(self.code, test)
+
+    def clean(self):
+        pass
 
 
 class pi(solution):
