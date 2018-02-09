@@ -16,9 +16,9 @@ int main() {
     vi l(m), u(m);
     for (int i = 0; i < m; i++) cin >> l[i] >> u[i];
     vvi a(n);
-    for (int i = 0; i < m; i++) {
-      a[i] = vi(n);
-      for (int j = 0; j < n; j++) cin >> a[i][j];
+    for (int i = 0; i < n; i++) {
+      a[i] = vi(m);
+      for (int j = 0; j < m; j++) cin >> a[i][j];
     }
     int M = m + 1;
     int b;
@@ -26,7 +26,7 @@ int main() {
       int inv = 0;
       for (int j = 0; j < n; j++)
         for (int o = j + 1; o < n; o++)
-          if (a[i][j] < a[i][o]) inv++;
+          if (a[j][i] < a[o][i]) inv++;
       if (inv < M) {
         M = inv;
         b = i;
