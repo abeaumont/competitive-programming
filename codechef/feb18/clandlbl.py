@@ -11,9 +11,16 @@ def gcd(a, b):
 
 for _ in range(input()):
     n = input()
-    g = [None] * n
+    g = {}
+    h = [None] * n
+    r = [None] * n
     for i in range(n):
-        g[i] = tuple(sorted(map(int, raw_input().split())))
+        h[i] = map(int, raw_input().split())
+        key = tuple(sorted(h[i]))
+        if key in g:
+            g[key].append(i)
+        else:
+            g[key] = [i]
     a = {}
     m = [None] * n
     for i in range(n):
@@ -26,5 +33,31 @@ for _ in range(input()):
         key = tuple(sorted(m[i]))
         if key in a: a[key].append(i)
         else: a[key] = [i]
-    for x in g:
-        print a[x].pop() + 1
+    s = [(len(v), k) for k, v in a.iteritems()]
+    s.sort()
+    l = set()
+    hi = [None] * n
+    for _, k in s:
+        if len(a[k]) == 1:
+            x = a[k][0]
+            y = g[k][0]
+            r[y] = x
+            hi[x] = y
+            l.add(x)
+        else:
+            t = set()
+            for x in a[k]:
+                for y in g[k]:
+                    if y in t: continue
+                    ok = True
+                    for z in l:
+                        if m[x][z] != h[y][hi[z]]:
+                            ok = False
+                            break
+                    if ok:
+                        r[y] = x
+                        hi[x] = y
+                        l.add(x)
+                        t.add(y)
+                        break
+    for i in r: print i + 1
