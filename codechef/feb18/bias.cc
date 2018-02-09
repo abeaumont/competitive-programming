@@ -1,10 +1,15 @@
 // https://www.codechef.com/FEB18/problems/BIAS
+#include <algorithm>
+#include <cmath>
 #include <iostream>
+#include <tuple>
 #include <vector>
 
 using namespace std;
 
+typedef tuple<int, int> ii;
 typedef vector<int> vi;
+typedef vector<ii> vii;
 typedef vector<vi> vvi;
 
 int main() {
@@ -20,21 +25,22 @@ int main() {
       a[i] = vi(m);
       for (int j = 0; j < m; j++) cin >> a[i][j];
     }
-    int M = m + 1;
-    int b;
+    vii invs(m);
     for (int i = 0; i < m; i++) {
       int inv = 0;
       for (int j = 0; j < n; j++)
         for (int o = j + 1; o < n; o++)
           if (a[j][i] < a[o][i]) inv++;
-      if (inv < M) {
-        M = inv;
-        b = i;
-      }
+      invs[i] = make_tuple(inv, i);
+    }
+    sort(invs.begin(), invs.end());
+    vi r(m);
+    for (int i = 0; i < m; i++) {
+      int k = get<1>(invs[i]);
+      r[k] = u[k] - round(double(u[k] - l[k]) * double(i) / (m - 1));
     }
     for (int i = 0; i < m; i++) {
-      if (i == b) cout << u[i];
-      else cout << l[i];
+      cout << r[i];
       if (i < m - 1) cout << " ";
     }
     cout << endl;
