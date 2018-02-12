@@ -4,7 +4,7 @@ import os.path
 import subprocess
 import sys
 
-languages = ['cc', 'lisp', 'pi', 'py']
+languages = ['cc', 'lisp', 'pi', 'py', 'rb', 'rs']
 
 
 class ansicolors:
@@ -68,11 +68,14 @@ class solution(object):
 
 
 class cc(solution):
+    @property
+    def target(self):
+        return self._target() + '-cc'
+
     def build(self):
-        target = self._target()
         try:
-            print 'Building {}... '.format(target),
-            cmd = 'c++ {} -o {} -O2 -std=c++14'.format(self.code, target)
+            print 'Building {}... '.format(self.target),
+            cmd = 'c++ {} -o {} -O2 -std=c++14'.format(self.code, self.target)
             output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
                                              shell=True)
             print_ok()
@@ -84,11 +87,10 @@ class cc(solution):
             raise e
 
     def run_command(self, test):
-        return '{} < {}'.format(self._target(), test)
+        return '{} < {}'.format(self.target, test)
 
     def clean(self):
-        target = self._target()
-        os.remove(target)
+        os.remove(self.target)
 
 
 class lisp(solution):
@@ -122,6 +124,42 @@ class py(solution):
 
     def clean(self):
         pass
+
+class rb(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return 'ruby {} < {}'.format(self.code, test)
+
+    def clean(self):
+        pass
+
+
+class rs(solution):
+    @property
+    def target(self):
+        return self._target() + '-rs'
+
+    def build(self):
+        try:
+            print 'Building {}... '.format(self.target),
+            cmd = 'rustc {} -o {} -O'.format(self.code, self.target)
+            output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
+                                             shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
 
 
 def check_code(solutions):
