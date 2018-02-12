@@ -2,7 +2,6 @@
 (defconstant +mod+ (+ (expt 10 9) 7))
 
 (defun chevyshev (n p)
-  (format t "~a~%" p)
   (loop
      :for i :from 1 :to n
      :for a = 1 :then b
