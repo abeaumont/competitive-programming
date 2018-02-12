@@ -1,2 +1,2 @@
 ;; https://www.hackerrank.com/challenges/solve-me-first
-(write (+ (read) (read)))
+(format t "~d~%" (+ (read) (read)))
