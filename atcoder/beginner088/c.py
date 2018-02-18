@@ -1,3 +1,4 @@
+# https://abc088.contest.atcoder.jp/tasks/abc088_c
 def f(c):
     for a1 in range(101):
         for a2 in range(101):
