@@ -1,0 +1,3 @@
+(executable
+ ((name heritage_generator)
+  (libraries (core_kernel))))
