@@ -1,0 +1,30 @@
+2
+graph 2 vertex edge
+string 2 words letters
+problem classification
+when reading programming problems one can often get some
+hints regarding the topic of the problem by skimming the
+problem statement for certain words if for example the
+word vertex or edge appears the problem is almost
+certainly a graph problem while the words words or
+letters suggest that the problem is about strings your
+task is to implement a simple program that attempts to
+classify a problem according to one of n categories each
+category has an associated set of words which if they
+appear as words in a statement suggest the problem
+belongs to this category when classifying a statement
+the program should suggest those categories which have
+the highest number of occurences of their associated
+words in the above example we suggested that the
+category graph may have the associated words vertex
+and edge and the category string could have the
+associated words words and letters then if there were
+occurances each of the words vertex and edge the number
+of matches for the category graph would be if the
+statement contained occurances of words and of letters
+the number of matches for the category string would be 
+since there are more matches for the second category
+the program should suggest it if there are multiple
+categories with the same number of matches your
+program should suggest all of them
+input
