@@ -29,5 +29,3 @@ for _ in range(input()):
             c += 1
         unite(l, s, a, b)
         print s[find(l, a)]
-
-
