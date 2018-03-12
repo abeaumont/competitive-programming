@@ -1,3 +1,4 @@
+;; https://www.codechef.com/MARCH18A/problems/GCDCNT
 (let* ((n (read))
 			 (a (make-array n :initial-contents (loop :repeat n :collect (read))))
 			 (q (read)))

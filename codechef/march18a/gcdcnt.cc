@@ -1,3 +1,4 @@
+// https://www.codechef.com/MARCH18A/problems/GCDCNT
 #include <iostream>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <vector>

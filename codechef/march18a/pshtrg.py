@@ -1,3 +1,4 @@
+# https://www.codechef.com/MARCH18A/problems/PSHTRG
 n, q = map(int, raw_input().split())
 a = map(int, raw_input().split())
 for _ in range(q):
