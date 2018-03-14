@@ -35,7 +35,7 @@ int main() {
 		string s;
 		cin >> x >> s;
 		if (!m.count(s)) {
-			m[s] = m.size();
+			m[s] = mi.size();
 			mi.push_back(s);
 			a.push_back(vi());
 		}
