@@ -223,7 +223,7 @@ def check_solutions(solutions):
     ok2 = run_solutions(solutions)
     ok = ok and ok2
     ok2 = clean_solutions(solutions)
-    return ok and ok2
+    return ok and ok2, len(solutions)
 
 
 def get_solutions(root='.'):
@@ -245,7 +245,9 @@ def get_solutions(root='.'):
 
 def main():
     """Test that all the solutions build and provide proper outputs"""
-    ok = check_solutions(get_solutions())
+    solutions = get_solutions()
+    ok, l = check_solutions(solutions)
+    print 'Checked {} solutions for {} problems...'.format(l, len(solutions))
     return 0 if ok else 1
 
 if __name__ == '__main__':
