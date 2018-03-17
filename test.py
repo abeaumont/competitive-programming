@@ -129,7 +129,7 @@ class nim(solution):
 
     def clean(self):
         os.remove(self.target)
-        shutil.rmtree('nimcache')
+        shutil.rmtree(os.path.join(os.path.dirname(self.code), 'nimcache'), True)
 
 
 class pi(solution):
