@@ -1,10 +1,11 @@
 import re
 import os
 import os.path
+import shutil
 import subprocess
 import sys
 
-languages = ['cc', 'lisp', 'pi', 'py', 'rb', 'rs']
+languages = ['cc', 'lisp', 'nim', 'pi', 'py', 'rb', 'rs']
 
 
 class ansicolors:
@@ -102,6 +103,33 @@ class lisp(solution):
 
     def clean(self):
         pass
+
+
+class nim(solution):
+    @property
+    def target(self):
+        return self._target() + '-nim'
+
+    def build(self):
+        try:
+            print 'Building {}... '.format(self.target),
+            cmd = 'nim c -o:{} -d:release {} '.format(self.target, self.code)
+            output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
+                                             shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
+        shutil.rmtree('nimcache')
 
 
 class pi(solution):
