@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://www.codechef.com/FEB18/problems/LUCASTH
 def s(n, mod):
     p = [0] * n

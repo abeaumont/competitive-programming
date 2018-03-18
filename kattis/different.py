@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/different
 while True:
     try:

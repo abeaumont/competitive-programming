@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc081.contest.atcoder.jp/tasks/arc086_b
 import math
 

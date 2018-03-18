@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc081.contest.atcoder.jp/tasks/arc086_a
 [n, k] = map(int, raw_input().split())
 xs = map(int, raw_input().split())

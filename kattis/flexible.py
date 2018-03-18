@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/flexible
 k = int(raw_input().split()[0])
 xs = [0] + map(int, raw_input().split()) + [k]

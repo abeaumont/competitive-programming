@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 from random import randint
 n = randint(1, 2000)
 z = randint(1, 10**9)

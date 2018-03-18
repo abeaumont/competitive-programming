@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/catalansquare
 def c(n):
     a = 1

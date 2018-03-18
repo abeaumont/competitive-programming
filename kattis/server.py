@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/server
 def count(xs, t):
     s = 0

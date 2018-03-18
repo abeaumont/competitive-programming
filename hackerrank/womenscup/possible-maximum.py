@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://www.hackerrank.com/contests/womenscup/challenges/possible-maximum
 for _ in range(input()):
     n, k = map(int, raw_input().split())

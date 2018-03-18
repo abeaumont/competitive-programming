@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 i = 1
 while True:
     n = input()

@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc080.contest.atcoder.jp/tasks/abc080_d
 [n, c] = map(int, raw_input().split())
 cs = [None] * c

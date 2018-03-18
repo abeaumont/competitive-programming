@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://www.codechef.com/MARCH18A/problems/PSHTRG
 n, q = map(int, raw_input().split())
 a = map(int, raw_input().split())

@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc088.contest.atcoder.jp/tasks/abc088_c
 def f(c):
     for a1 in range(101):

@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/cross
 def cross(sudoku, n):
     rows = {x for x in range(9)}

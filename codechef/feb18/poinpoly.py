@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://www.codechef.com/FEB18/problems/POINPOLY
 for _ in range(input()):
     n = input()

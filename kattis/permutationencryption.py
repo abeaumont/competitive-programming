@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/permutationencryption
 while True:
     xs = map(int, raw_input().split())

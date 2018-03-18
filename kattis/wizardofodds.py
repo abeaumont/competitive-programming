@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/wizardofodds
 [n, k] = map(int, raw_input().split())
 i = 0

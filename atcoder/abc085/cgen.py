@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 import random
 
 a = random.randint(0, 10)

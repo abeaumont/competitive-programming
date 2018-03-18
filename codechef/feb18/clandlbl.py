@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://www.codechef.com/FEB18/problems/CLANDLBL
 def divisors(n):
     c = 0

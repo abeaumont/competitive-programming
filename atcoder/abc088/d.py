@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc088.contest.atcoder.jp/tasks/abc088_d
 import sys
 import Queue

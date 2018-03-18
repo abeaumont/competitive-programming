@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc087.contest.atcoder.jp/tasks/abc087_b
 a = input()
 b = input()

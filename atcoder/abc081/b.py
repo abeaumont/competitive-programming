@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc081.contest.atcoder.jp/tasks/abc081_b
 n = input()
 xs = map(int, raw_input().split())

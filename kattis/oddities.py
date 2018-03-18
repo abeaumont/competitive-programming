@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/oddities
 for i in range(input()):
     a = input()

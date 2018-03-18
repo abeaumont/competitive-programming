@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://www.hackerrank.com/challenges/nested-list
 m1, m2 = None, None
 s = []

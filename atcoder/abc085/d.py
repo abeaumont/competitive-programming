@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc085.contest.atcoder.jp/tasks/abc085_d
 import sys
 

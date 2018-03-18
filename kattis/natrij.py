@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/natrij
 xs = [raw_input() for _ in range(2)]
 xs = map(lambda x: map(int, x.split(':')), xs)

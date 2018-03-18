@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc090.contest.atcoder.jp/tasks/arc091_b
 n, k = map(int, raw_input().split())
 c = 0

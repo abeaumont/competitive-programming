@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/aaah
 a = raw_input()
 b = raw_input()

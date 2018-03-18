@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://www.hackerrank.com/challenges/the-minion-game
 x = [0, 0]
 s = raw_input()

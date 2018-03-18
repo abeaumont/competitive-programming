@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/busnumbers
 raw_input()
 xs = map(int, raw_input().split())

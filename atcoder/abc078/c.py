@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://abc078.contest.atcoder.jp/tasks/arc085_a
 n, m = map(int, raw_input().split())
 k = n - m

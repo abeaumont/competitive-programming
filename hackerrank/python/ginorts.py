@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://www.hackerrank.com/challenges/ginorts
 from __future__ import print_function
 import string

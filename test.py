@@ -148,7 +148,7 @@ class py(solution):
         pass
 
     def run_command(self, test):
-        return 'python2 {} < {}'.format(self.code, test)
+        return './{} < {}'.format(self.code, test)
 
     def clean(self):
         pass

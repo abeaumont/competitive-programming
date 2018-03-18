@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 import random
 n = random.randint(1, 100)
 q = random.randint(1, 100)

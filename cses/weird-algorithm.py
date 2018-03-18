@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 n = input()
 while n > 1:
     print n,

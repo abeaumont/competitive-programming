@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # https://open.kattis.com/problems/virtualfriends
 def find(l, x):
     while x != l[x]: x = l[x]
