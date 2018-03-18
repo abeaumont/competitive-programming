@@ -14,11 +14,13 @@ void primes(vi &p) {
 	p.push_back(2);
 	for (int i = 3; i <= 31623; i++) {
 		bool a = true;
-		for (auto x : p)
+		for (auto x : p) {
+			if (x * x > i) break;
 			if (!(i % x)) {
 				a = false;
 				break;
 			}
+		}
 		if (a) p.push_back(i);
 	}
 }
