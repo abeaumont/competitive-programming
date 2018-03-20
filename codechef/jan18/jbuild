@@ -1,0 +1,3 @@
+(executable
+ ((name kcongen)
+  (libraries (core_kernel))))
