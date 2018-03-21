@@ -1,0 +1,12 @@
+## Solutions for Codechef's [January Challenge 2018](https://www.codechef.com/JAN18)
+
+- [X] [Rectangle](rectangl.cc) ([contest site](https://www.codechef.com/JAN18/problems/RECTANGL))
+- [X] [Maximum Score](maxsc.cc) ([contest site](https://www.codechef.com/JAN18/problems/MAXSC/))
+- [X] [K-Concatenation](kcon.cc) ([contest site](https://www.codechef.com/JAN18/problems/KCON/))
+- [X] [Partition the numbers](prtition.cc) ([contest site](https://www.codechef.com/JAN18/problems/PRTITION))
+- [X] [String Merging](strmrg.cc) ([constest site](https://www.codechef.com/JAN18/problems/STRMRG))
+- [ ] (Challenge) Chef and Palindromes ([constest site](https://www.codechef.com/JAN18/problems/CHEFPALS))
+- [ ] [Monster](monster.cc) _Subtask #1_ ([contest site](https://www.codechef.com/JAN18/problems/MONSTER))
+- [ ] A humongous Query ([contest site](https://www.codechef.com/JAN18/problems/XYHUMOQ))
+- [ ] Killjee and the k-th letter ([contest site](https://www.codechef.com/JAN18/problems/KILLKTH))
+- [ ] Simplify the Square Root ([contest site](https://www.codechef.com/JAN18/problems/SQRGOOD))
