@@ -1,4 +1,5 @@
 // https://open.kattis.com/problems/moogle
+#include <cmath>
 #include <iostream>
 #include <iomanip>
 #include <vector>
@@ -15,7 +16,7 @@ double error(const vi &a, int i, int j) {
 	double r = 0;
 	for (int k = i + 1; k < j; k++) {
 		double x = a[i] + (a[j] - a[i]) * double(k - i) / double (j - i);
-		r += abs(x - a[k]);
+		r += fabs(x - a[k]);
 	}
 	return r;
 }
