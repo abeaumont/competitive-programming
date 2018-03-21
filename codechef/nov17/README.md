@@ -1,0 +1,12 @@
+## Solutions for Codechef's [November Challenge 2017](https://www.codechef.com/NOV17)
+
+- [ ] Villanges and Tribes ([contest site](https://www.codechef.com/NOV17/problems/VILTRIBE))
+- [ ] Chef goes Left Right Left ([contest site](https://www.codechef.com/NOV17/problems/CLRL))
+- [ ] Periodic Palindrome Construction ([contest site](https://www.codechef.com/NOV17/problems/PERPALIN))
+- [ ] Chef Hates Palindromes ([contest site](https://www.codechef.com/NOV17/problems/CHEFHPAL))
+- [ ] Chef and Intersection Line ([contest site](https://www.codechef.com/NOV17/problems/CHEFNIL))
+- [ ] Chef and Subarray Queries ([contest site](https://www.codechef.com/NOV17/problems/CSUBQ))
+- [ ] [Product on the segment by modulo](segprod.cc) _Subtask #1_ ([contest site](https://www.codechef.com/NOV17/problems/SEGPROD))
+- [ ] Lovers Gift ([contest site](https://www.codechef.com/NOV17/problems/LVGFT))
+- [ ] Polynomials ([contest site](https://www.codechef.com/NOV17/problems/POLY))
+- [ ] Day Schedule ([contest site](https://www.codechef.com/NOV17/problems/BINOMSUM))
