@@ -258,10 +258,6 @@ def check_code(solutions):
             name = code + '.' + lang
             if os.path.exists(name):
                 names.append((lang, name))
-            else:
-                name = code.replace('-', '_') + '.' + lang
-                if os.path.exists(name):
-                    names.append((lang, name))
         if len(names) == 0:
             fmt = 'No solution file exists for the following test files: {}.'
             print_fail(fmt.format(', '.join(tests)))
