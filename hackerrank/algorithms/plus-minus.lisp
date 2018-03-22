@@ -1,0 +1,11 @@
+;; https://www.hackerrank.com/challenges/plus-minus
+(let ((n (read))
+      (positive 0)
+      (negative 0)
+      (zero 0))
+  (dotimes (_ n)
+    (let ((k (read)))
+      (cond ((> k 0) (incf positive))
+            ((< k 0) (incf negative))
+            (t (incf zero)))))
+  (format t "~f~%~f~%~f~%" (/ positive n) (/ negative n) (/ zero n)))
