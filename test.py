@@ -6,7 +6,7 @@ import shutil
 import subprocess
 import sys
 
-languages = ['cc', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs']
+languages = ['c', 'cc', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs']
 
 
 class ansicolors:
@@ -67,6 +67,31 @@ class solution(object):
                 ok = False
         if not ok:
             raise
+
+
+class c(solution):
+    @property
+    def target(self):
+        return self._target() + '-c'
+
+    def build(self):
+        try:
+            print 'Building {}... '.format(self.target),
+            cmd = 'cc {} -o {} -O2 -std=c11'.format(self.code, self.target)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
 
 
 class cc(solution):
