@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 import re
 import os
 import os.path
@@ -5,7 +6,7 @@ import shutil
 import subprocess
 import sys
 
-languages = ['cc', 'lisp', 'nim', 'pi', 'py', 'rb', 'rs']
+languages = ['cc', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs']
 
 
 class ansicolors:
@@ -77,8 +78,7 @@ class cc(solution):
         try:
             print 'Building {}... '.format(self.target),
             cmd = 'c++ {} -o {} -O2 -std=c++14'.format(self.code, self.target)
-            output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
-                                             shell=True)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
             print_fail(e.output)
@@ -105,6 +105,34 @@ class lisp(solution):
         pass
 
 
+class ml(solution):
+    @property
+    def target(self):
+        return self._target() + '-ml'
+
+    def build(self):
+        try:
+            print 'Building {}... '.format(self.target),
+            cmd = 'ocamlopt str.cmxa {} -o {} -O3'.format(self.code, self.target)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
+        os.remove(self._target() + '.cmi')
+        os.remove(self._target() + '.cmx')
+        os.remove(self._target() + '.o')
+
+
 class nim(solution):
     @property
     def target(self):
@@ -114,8 +142,7 @@ class nim(solution):
         try:
             print 'Building {}... '.format(self.target),
             cmd = 'nim c -o:{} -d:release {} '.format(self.target, self.code)
-            output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
-                                             shell=True)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
             print_fail(e.output)
@@ -173,8 +200,7 @@ class rs(solution):
         try:
             print 'Building {}... '.format(self.target),
             cmd = 'rustc {} -o {} -O'.format(self.code, self.target)
-            output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
-                                             shell=True)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
             print_fail(e.output)
@@ -199,6 +225,10 @@ def check_code(solutions):
             name = code + '.' + lang
             if os.path.exists(name):
                 names.append((lang, name))
+            else:
+                name = code.replace('-', '_') + '.' + lang
+                if os.path.exists(name):
+                    names.append((lang, name))
         if len(names) == 0:
             fmt = 'No solution file exists for the following test files: {}.'
             print_fail(fmt.format(', '.join(tests)))
