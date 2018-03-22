@@ -43,22 +43,30 @@ class solution(object):
     def clean(self):
         raise NotImplementedError
 
-    def run(self):
+    def run(self, generate=False):
         ok = True
         for test in self.tests:
             try:
-                print 'Checking {} for {}... '.format(self.code, test),
+                if generate:
+                    print 'Generating answer for {} with {}...'.format(test, self.code),
+                else:
+                    print 'Checking {} for {}... '.format(self.code, test),
                 cmd = self.run_command(test)
                 output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
                                                  shell=True)
                 ans = os.path.splitext(test)[0] + '.ans'
-                with open(ans) as f:
-                    output2 = f.read()
-                    if output == output2:
-                        print_ok()
-                    else:
-                        print_fail()
-                        ok = False
+                if generate:
+                    with open(ans, 'w') as f:
+                        f.write(output)
+                    print_ok()
+                else:
+                    with open(ans) as f:
+                        output2 = f.read()
+                        if output == output2:
+                            print_ok()
+                        else:
+                            print_fail()
+                            ok = False
             except subprocess.CalledProcessError as e:
                 print_fail(e.output)
                 ok = False
@@ -276,11 +284,11 @@ def build_solutions(solutions):
     return solutions, ok
 
 
-def run_solutions(solutions):
+def run_solutions(solutions, generate):
     ok = True
     for solution in solutions:
         try:
-            solution.run()
+            solution.run(generate)
         except:
             ok = False
     return ok
@@ -297,13 +305,14 @@ def clean_solutions(solutions):
     return ok
 
 
-def check_solutions(solutions):
+def check_solutions(solutions, generate):
+    """If generate is true, generate the answers instead of cheking them"""
     ok = True
     solutions, ok2 = check_code(solutions)
     ok = ok and ok2
     solutions, ok2 = build_solutions(solutions)
     ok = ok and ok2
-    ok2 = run_solutions(solutions)
+    ok2 = run_solutions(solutions, generate)
     ok = ok and ok2
     ok2 = clean_solutions(solutions)
     return ok and ok2, len(solutions)
@@ -326,12 +335,15 @@ def get_solutions(root='.'):
     return solutions
 
 
-def main():
+def main(generate):
     """Test that all the solutions build and provide proper outputs"""
     solutions = get_solutions()
-    ok, l = check_solutions(solutions)
-    print 'Checked {} solutions for {} problems...'.format(l, len(solutions))
+    ok, l = check_solutions(solutions, generate)
+    if generate:
+        print 'Generated {} solutions for {} problems...'.format(l, len(solutions))
+    else:
+        print 'Checked {} solutions for {} problems...'.format(l, len(solutions))
     return 0 if ok else 1
 
 if __name__ == '__main__':
-    sys.exit(main())
+    sys.exit(main(len(sys.argv) > 1))
