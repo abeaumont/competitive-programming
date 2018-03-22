@@ -146,7 +146,7 @@ class ml(solution):
     def build(self):
         try:
             print 'Building {}... '.format(self.target),
-            cmd = 'ocamlopt str.cmxa {} -o {} -O3'.format(self.code, self.target)
+            cmd = 'ocamlopt str.cmxa {} -o {}'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
