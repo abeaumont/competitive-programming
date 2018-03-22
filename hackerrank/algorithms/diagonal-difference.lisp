@@ -1,0 +1,12 @@
+;; https://www.hackerrank.com/challenges/diagonal-difference
+(let* ((n (read))
+       (a (make-array (list n n)))
+       (sum 0))
+  (dotimes (i n)
+    (dotimes (j n)
+      (setf (aref a i j) (read))))
+  (dotimes (i n)
+    (incf sum (aref a i i)))
+  (dotimes (i n)
+    (decf sum (aref a i (- n (1+ i)))))
+  (write (abs sum)))
