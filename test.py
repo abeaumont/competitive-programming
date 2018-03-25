@@ -141,12 +141,12 @@ class lisp(solution):
 class ml(solution):
     @property
     def target(self):
-        return self._target() + '-ml'
+        return self._target() + '.native'
 
     def build(self):
         try:
             print 'Building {}... '.format(self.target),
-            cmd = 'ocamlopt str.cmxa {} -o {}'.format(self.code, self.target)
+            cmd = 'corebuild {}'.format(self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
@@ -157,13 +157,11 @@ class ml(solution):
             raise e
 
     def run_command(self, test):
-        return '{} < {}'.format(self.target, test)
+        return './{} < {}'.format(os.path.basename(self.target), test)
 
     def clean(self):
-        os.remove(self.target)
-        os.remove(self._target() + '.cmi')
-        os.remove(self._target() + '.cmx')
-        os.remove(self._target() + '.o')
+        os.remove(os.path.basename(self.target))
+        shutil.rmtree('_build', True)
 
 
 class nim(solution):
