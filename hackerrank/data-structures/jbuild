@@ -1,0 +1,3 @@
+(executables
+ ((names (largest_rectangle_gen))
+  (libraries (core_kernel))))
