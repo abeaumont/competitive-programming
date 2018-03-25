@@ -9,6 +9,7 @@ There are solutions for the following [HackerRank](https://www.hackerrank.com) t
 * [Cracking the Coding Interview](cracking-the-coding-interview) ([track site](https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview))
 * [Python](python) ([track site](https://www.hackerrank.com/domains/python))
 * [Artificial Inteligence](ai) ([track site](https://www.hackerrank.com/domains/ai))
+* [SQL](sql) ([track site](https://www.hackerrank.com/domains/sql))
 
 ### Contests
 
