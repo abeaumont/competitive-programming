@@ -8,11 +8,18 @@ int main() {
 	string s;
 	cin >> n >> s;
 	int l = n / 2;
-	int m = 1;
-	for (int i = l; i < n; i++) {
-		int j = 0;
-		while (j < l && s[i+j] == s[j]) j++;
-		m = max(m, j);
+	for (int i = l; i >= 2; i--) {
+		bool ok = true;
+		for (int z = 0; z < i; z++) {
+			if (s[z] != s[i + z]) {
+				ok = false;
+				break;
+			}
+		}
+		if (ok) {
+			cout << n - i + 1 << endl;
+			return 0;
+		}
 	}
-	cout << n - m + 1 << endl;
+	cout << n << endl;
 }
