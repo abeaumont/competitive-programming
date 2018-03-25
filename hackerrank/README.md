@@ -10,6 +10,7 @@ There are solutions for the following [HackerRank](https://www.hackerrank.com) t
 * [Python](python) ([track site](https://www.hackerrank.com/domains/python))
 * [Artificial Inteligence](ai) ([track site](https://www.hackerrank.com/domains/ai))
 * [SQL](sql) ([track site](https://www.hackerrank.com/domains/sql))
+* [Security](security) ([track site](https://www.hackerrank.com/domains/security))
 
 ### Contests
 
