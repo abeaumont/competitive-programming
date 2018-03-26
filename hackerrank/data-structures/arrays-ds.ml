@@ -1,8 +1,10 @@
 (* https://www.hackerrank.com/challenges/arrays-ds *)
+open Core_kernel
+
 let () =
-  read_int () |> ignore;
-  read_line ()
-  |> Str.split (Str.regexp " ")
+  In_channel.input_line_exn In_channel.stdin |> ignore;
+  In_channel.input_line_exn In_channel.stdin
+  |> String.split ~on:' '
   |> List.rev
-  |> String.concat " "
+  |> String.concat ~sep:" "
   |> print_endline
