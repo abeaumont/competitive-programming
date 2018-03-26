@@ -146,7 +146,7 @@ class ml(solution):
     def build(self):
         try:
             print 'Building {}... '.format(self.target),
-            cmd = 'corebuild {}'.format(self.target)
+            cmd = 'corebuild {}'.format(self.target[2:])
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
