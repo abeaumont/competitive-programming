@@ -2,9 +2,9 @@
 open Core_kernel
 
 let () =
-  In_channel.input_line_exn In_channel.stdin |> ignore;
-  In_channel.input_line_exn In_channel.stdin
+  read_int () |> ignore;
+  read_line ()
   |> String.split ~on:' '
   |> List.rev
-  |> String.concat ~sep:" "
+  |> String.concat
   |> print_endline

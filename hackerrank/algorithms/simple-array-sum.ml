@@ -2,9 +2,9 @@
 open Core_kernel
 
 let () =
-  In_channel.input_line_exn In_channel.stdin |> ignore;
-  In_channel.input_line_exn In_channel.stdin
+  read_int () |> ignore;
+  read_line ()
   |> String.split ~on:' '
-  |> List.map ~f:Int.of_string
-  |> List.fold_left ~f:(+) ~init:0
+  |> List.map Int.of_string
+  |> List.fold_left (+) 0
   |> Printf.printf "%d\n"
