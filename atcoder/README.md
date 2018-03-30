@@ -22,6 +22,7 @@ There are solutions for the following [atcoder](https://atcoder.jp/) contests:
 * [AtCoder Beginner Contest 059](abc059) ([contest site](https://abc059.contest.atcoder.jp/))
 * [AtCoder Beginner Contest 060](abc060) ([contest site](https://abc060.contest.atcoder.jp/))
 * [AtCoder Beginner Contest 061](abc061) ([contest site](https://abc061.contest.atcoder.jp/))
+* [AtCoder Beginner Contest 062](abc062) ([contest site](https://abc062.contest.atcoder.jp/))
 * [AtCoder Beginner Contest 078](abc078) ([contest site](https://abc078.contest.atcoder.jp/))
 * [AtCoder Beginner Contest 080](abc080) ([contest site](https://abc080.contest.atcoder.jp/))
 * [AtCoder Beginner Contest 081](abc081) ([contest site](https://abc081.contest.atcoder.jp/))
