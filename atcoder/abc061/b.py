@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# https://beta.atcoder.jp/contests/abc061/tasks/abc061_b
+# https://abc061.contest.atcoder.jp/tasks/abc061_b
 n, m = map(int, input().split())
 a = [0] * n
 for _ in range(m):

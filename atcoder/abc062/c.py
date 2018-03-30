@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# https://beta.atcoder.jp/contests/abc062/tasks/arc074_a
+# https://abc062.contest.atcoder.jp/tasks/arc074_a
 def s(a1, a2, a3): return max([a1, a2, a3]) - min([a1, a2, a3])
 
 h, w = map(int, input().split())
