@@ -15,6 +15,7 @@ There are solutions for the following [HackerRank](https://www.hackerrank.com) t
 
 * [C++](cpp) ([track site](https://www.hackerrank.com/domains/cpp/cpp-introduction))
 * [Python](python) ([track site](https://www.hackerrank.com/domains/python))
+* [Ruby](ruby) ([track site](https://www.hackerrank.com/domains/ruby))
 
 ### Contests
 
