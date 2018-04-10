@@ -4,12 +4,12 @@ There are solutions for the following [codechef](https://www.codechef.com/) cont
 
 ### Long Challenge
 
-* [November Challenge 2017](nov17) ([contest site](https://www.codechef.com/NOV17))
-* [January Challenge 2018](jan18) ([contest site](https://www.codechef.com/JAN18))
-* [February Challenge 2018](feb18) ([contest site](https://www.codechef.com/FEB18))
 * [March Challenge 2018 DIV 1](march18a) ([contest site](https://www.codechef.com/MARCH18A/))
+* [February Challenge 2018](feb18) ([contest site](https://www.codechef.com/FEB18))
+* [January Challenge 2018](jan18) ([contest site](https://www.codechef.com/JAN18))
+* [November Challenge 2017](nov17) ([contest site](https://www.codechef.com/NOV17))
 
 ### Cook Off
 
-* [October Cook-Off 2017](cook87) ([contest site](https://www.codechef.com/COOK87))
 * [December Cook-Off 2017](cook89) ([contest site](https://www.codechef.com/COOK89))
+* [October Cook-Off 2017](cook87) ([contest site](https://www.codechef.com/COOK87))
