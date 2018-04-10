@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# https://arc094.contest.atcoder.jp/tasks/arc094_c
 m = None
 s = 0
 for _ in range(int(input())):
