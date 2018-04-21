@@ -4,6 +4,7 @@ There are solutions for the following [atcoder](https://atcoder.jp/) contests:
 
 ### Atcoder Grand Contests
 
+* [Atcoder Grand Contest 004](agc004) ([contest site](https://agc004.contest.atcoder.jp/))
 * [Atcoder Grand Contest 001](agc001) ([contest site](https://agc001.contest.atcoder.jp/))
 
 ### Atcoder Regular Contests
