@@ -2,6 +2,10 @@
 
 There are solutions for the following [atcoder](https://atcoder.jp/) contests:
 
+### Atcoder Grand Contests
+
+* [Atcoder Grand Contest 001](agc001) ([contest site](https://agc001.contest.atcoder.jp/))
+
 ### Atcoder Regular Contests
 
 * [Atcoder Regular Contest 096](arc096) ([contest site](https://arc096.contest.atcoder.jp/))
