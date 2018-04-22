@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env pypy3
 # https://agc004.contest.atcoder.jp/tasks/agc004_b
 n, x = map(int, input().split())
 a = [int(x) for x in input().split()]
