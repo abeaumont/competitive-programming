@@ -1,0 +1,51 @@
+Case #1: MA# MC MF MG mA mD mE mG
+Case #2: None
+Case #3: ME mC#
+Case #4: MA MB MC MD ME MF MG mA mB mC# mD mE mF# mG#
+Case #5: MA MB MC MD ME MF MG mA mB mC# mD mE mF# mG#
+Case #6: MA MA# MB MC MC# MD MD# ME MF MF# MG MG# mA mA# mB mC mC# mD mD# mE mF mF# mG mG#
+Case #7: None
+Case #8: MB ME mC# mG#
+Case #9: MA# MF mD mG
+Case #10: MG mE
+Case #11: MA MB MD ME mB mC# mF# mG#
+Case #12: MD mB
+Case #13: MC MD MF MG mA mB mD mE
+Case #14: MA MD ME mB mC# mF#
+Case #15: MA MD mB mF#
+Case #16: MB ME MF# mC# mD# mG#
+Case #17: MG mE
+Case #18: MD MG mB mE
+Case #19: None
+Case #20: MG mE
+Case #21: MD# mC
+Case #22: MD mB
+Case #23: MB ME mC# mG#
+Case #24: MG mE
+Case #25: MA ME mC# mF#
+Case #26: MA mF#
+Case #27: MF# mD#
+Case #28: MB ME mC# mG#
+Case #29: MC mA
+Case #30: MD mB
+Case #31: MA ME mC# mF#
+Case #32: MC# MG# mA# mF
+Case #33: MG# mF
+Case #34: MA# mG
+Case #35: MC# mA#
+Case #36: MC MF mA mD
+Case #37: MA MB MD ME mB mC# mF# mG#
+Case #38: MA MC MD ME MF MG mA mB mC# mD mE mF#
+Case #39: MC# MF# mA# mD#
+Case #40: MA MB MD ME MG mB mC# mE mF# mG#
+Case #41: MA# MD# MF MG# mC mD mF mG
+Case #42: MA MB ME MF# mC# mD# mF# mG#
+Case #43: MC MG mA mE
+Case #44: MA MC MD ME MF MG mA mB mC# mD mE mF#
+Case #45: MC# MF# mA# mD#
+Case #46: MB MC# MF# mA# mD# mG#
+Case #47: MC MF MG mA mD mE
+Case #48: None
+Case #49: MD MG# mB mF
+Case #50: MB MC# ME MF# mA# mC# mD# mG#
+Case #51: MA# MD# MG# mC mF mG
