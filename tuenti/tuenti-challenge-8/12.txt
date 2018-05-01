@@ -1,0 +1,2 @@
+Use USB/IP protocol to share the keyboard then follow the instructions.
+Either capture keys or use a VM to prevent the keyboard from doing crappy things.
