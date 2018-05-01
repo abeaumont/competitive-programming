@@ -1,0 +1,2 @@
+Reconstruct the image with https://www.nayuki.io/page/image-unshredder-by-annealing
+then reconstruct the QR code and get the text encoded in it.
