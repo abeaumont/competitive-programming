@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: abeaumont/competitive-programming:1.4.0
+      - image: abeaumont/competitive-programming:1.5.0
     working_directory: ~/repo
     steps:
       - checkout
@@ -10,4 +10,5 @@ jobs:
           name: run tests
           command: |
             eval `opam config env`
+						alias glpsol='/usr/bin/glpsol $* > /dev/null'
             python test.py
