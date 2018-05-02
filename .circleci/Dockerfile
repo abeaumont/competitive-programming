@@ -1,5 +1,5 @@
 FROM circleci/python:2.7.14-stretch
-RUN sudo apt-get update && sudo apt-get install nim sbcl rustc ruby ocaml opam sagemath glpk-utils python-numpy python-scipy
+RUN sudo apt-get update && sudo apt-get install nim sbcl rustc ruby ocaml opam sagemath sagemath-common glpk-utils python-numpy python-scipy
 RUN opam init -a
 RUN opam install core
 RUN wget http://picat-lang.org/download/picat24_linux64.tar.gz -O /tmp/picat24_linux64.tar.gz \
