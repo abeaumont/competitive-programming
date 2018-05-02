@@ -11,7 +11,7 @@ go(T, N, M, Ps) =>
   end,
   S #= sum(X) + sum(Y),
   solve($[max(S),glpk], [S, X, Y]),
-  printf(stderr, "Case #%d: %d\n", T, S).
+  printf("Case #%d: %d\n", T, S).
 
 main() =>
   [T] = [X.to_number() : X in readln().split()],
