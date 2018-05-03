@@ -10,6 +10,6 @@ jobs:
           name: run tests
           command: |
             eval `opam config env`
-            echo "/usr/bin/glpsol $* > /dev/null" > glpsol
+            echo "/usr/bin/glpsol \$* > /dev/null" > glpsol
             chmod a+x glpsol
             PATH=.:$PATH python test.py
