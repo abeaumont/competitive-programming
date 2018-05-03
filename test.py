@@ -247,6 +247,17 @@ class rs(solution):
         os.remove(self.target)
 
 
+class sage(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return 'python {}.py < {}'.format(self.code, test)
+
+    def clean(self):
+        pass
+
+
 class sh(solution):
     def build(self):
         pass
@@ -256,10 +267,6 @@ class sh(solution):
 
     def clean(self):
         pass
-
-
-class sage(sh):
-    pass
 
 
 def check_code(solutions):
