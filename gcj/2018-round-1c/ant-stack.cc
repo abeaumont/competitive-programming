@@ -1,4 +1,5 @@
 // https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e0a8
+// This solution only works with small input
 #include <iostream>
 #include <unordered_map>
 

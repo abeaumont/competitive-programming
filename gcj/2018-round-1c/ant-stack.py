@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard/000000000003e0a8
+# This solution is too slow even for the small input. Check the C++ solution instead
 import sys
 sys.setrecursionlimit(10000)
 
