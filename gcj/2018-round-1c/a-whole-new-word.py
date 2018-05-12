@@ -15,10 +15,12 @@ for T in range(int(input())):
     n, l = map(int, input().split())
     a = [input() for _ in range(n)]
     b = [set() for _ in range(l)]
+    c = [None] * l
     for i in range(l):
         for j in range(n):
             b[i].add(a[j][i])
+        c[i] = sorted(b[i])
     p = 1
     for i in range(l): p *= len(b[i])
     if p == n: print('Case #{}: {}'.format(T + 1, '-'))
-    else: print('Case #{}: {}'.format(T + 1, f(a, b, l, [], 0)))
+    else: print('Case #{}: {}'.format(T + 1, f(a, c, l, [], 0)))
