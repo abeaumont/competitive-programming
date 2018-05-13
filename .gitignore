@@ -1,0 +1,17 @@
+# Python typecheckers
+.pyre
+.pyre_configuration
+.mypy_cache
+
+# IDEs
+.vscode
+
+# Output files
+_build
+a.out
+*.native
+
+# Misc
+*.md
+*.org
+*.txt
