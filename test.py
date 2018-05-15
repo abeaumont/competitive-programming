@@ -6,7 +6,7 @@ import shutil
 import subprocess
 import sys
 
-languages = ['c', 'cc', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage', 'sh']
+languages = ['c', 'cc', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage', 'sh']
 
 
 class ansicolors:
@@ -125,6 +125,29 @@ class cc(solution):
 
     def clean(self):
         os.remove(self.target)
+
+
+class lid(solution):
+    """OpenDylan solutions"""
+
+    def build(self):
+        try:
+            print 'Building {}...'.format(self._target() + '-dylan')
+            cmd = 'dylan-compiler -build {}'.format(self.code)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(os.path.join('_build/bin', self._target()), test)
+
+    def clean(self):
+        shutils.rmtree('_build', True)
 
 
 class lisp(solution):
