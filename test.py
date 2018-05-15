@@ -132,7 +132,7 @@ class lid(solution):
 
     def build(self):
         try:
-            print 'Building {}...'.format(self._target() + '-dylan')
+            print 'Building {}...'.format(self._target() + '-dylan'),
             cmd = 'dylan-compiler -build {}'.format(self.code)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
@@ -144,10 +144,13 @@ class lid(solution):
             raise e
 
     def run_command(self, test):
-        return '{} < {}'.format(os.path.join('_build/bin', self._target()), test)
+        root = os.getenv('OPEN_DYLAN_USER_ROOT', '_build')
+        return '{} < {}'.format(os.path.join(root, 'bin', self._target()), test)
 
     def clean(self):
-        shutils.rmtree('_build', True)
+        root = os.getenv('OPEN_DYLAN_USER_ROOT',
+                         os.path.join(os.path.dirname(self.code), '_build'))
+        shutils.rmtree(root, True)
 
 
 class lisp(solution):
