@@ -1,7 +1,7 @@
 FROM circleci/python:2.7.14-stretch
 
 # Common Lisp, OCaml, Ruby, Rust and some additional libraries
-RUN sudo apt-get update && sudo apt-get install nim sbcl rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy
+RUN sudo apt-get update && sudo apt-get install nim sbcl rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
 
 # OCaml's Core
 RUN opam init -a
