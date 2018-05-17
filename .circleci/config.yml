@@ -12,4 +12,5 @@ jobs:
             eval `opam config env`
             echo "/usr/bin/glpsol \$* > /dev/null" > glpsol
             chmod a+x glpsol
+            mkdir -p .od
             PATH=.:$PATH OPEN_DYLAN_USER_ROOT=.od python test.py
