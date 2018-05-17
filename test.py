@@ -145,8 +145,8 @@ class lid(solution):
 
     def run_command(self, test):
         root = os.getenv('OPEN_DYLAN_USER_ROOT', '_build')
-        target = os.path.basename(self._target()
-        return '{} < {}'.format(os.path.join(root, 'bin', target)), test)
+        target = os.path.basename(self._target())
+        return '{} < {}'.format(os.path.join(root, 'bin', target), test)
 
     def clean(self):
         root = os.getenv('OPEN_DYLAN_USER_ROOT',
