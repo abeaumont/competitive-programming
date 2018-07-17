@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # https://www.codechef.com/JULY18A/problems/JERRYTOM
 def max_clique(g):
     n = 0
