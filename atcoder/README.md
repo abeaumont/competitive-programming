@@ -70,3 +70,7 @@ There are solutions for the following [atcoder](https://atcoder.jp/) contests:
 * [AtCoder Beginner Contest 044](abc044) ([contest site](https://abc044.contest.atcoder.jp/))
 * [AtCoder Beginner Contest 043](abc043) ([contest site](https://abc043.contest.atcoder.jp/))
 * [AtCoder Beginner Contest 042](abc042) ([contest site](https://abc042.contest.atcoder.jp/))
+
+### Other Atcoder contests
+* [SoundHound Inc. Programming Contest 2018 -Masters Tournament-](soundhound2018-summer-qual)
+  ([contest site](https://soundhound2018-summer-qual.contest.atcoder.jp/))
