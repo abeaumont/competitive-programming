@@ -4,6 +4,7 @@ There are solutions for the following [codechef](https://www.codechef.com/) cont
 
 ### Long Challenge
 
+* [July Challenge 2018 DIV 1](july18a) ([contest site](https://www.codechef.com/JULY18A))
 * [March Challenge 2018 DIV 1](march18a) ([contest site](https://www.codechef.com/MARCH18A/))
 * [February Challenge 2018](feb18) ([contest site](https://www.codechef.com/FEB18))
 * [January Challenge 2018](jan18) ([contest site](https://www.codechef.com/JAN18))
