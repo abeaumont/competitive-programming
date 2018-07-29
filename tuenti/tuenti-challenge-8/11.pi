@@ -5,18 +5,17 @@ go(T, N, M, Ps) =>
   X :: 0..1,
   Y = new_array(M),
   Y :: 0..1,
-  foreach(I in Ps)
-    [A, B] = I,
-    X[A + 1] + Y[B + 1] #<= 1,
+  foreach([I, J] in Ps)
+    X[I] + Y[J] #<= 1,
   end,
   S #= sum(X) + sum(Y),
-  solve($[max(S),glpk], [S, X, Y]),
-  printf("Case #%d: %d\n", T, S).
+  solve($[max(S)], [S, X, Y]),
+  printf(stderr, "Case #%d: %d\n", T, S).
 
 main() =>
   [T] = [X.to_number() : X in readln().split()],
   foreach(I in 1..T)
     [N, M, K] = [X.to_number() : X in readln().split()],
-    Ps = [[X.to_number() : X in readln().split()] : J in 1..K],
+    Ps = [[X.to_number() + 1: X in readln().split()] : J in 1..K],
     go(I, N, M, Ps)
   end.
