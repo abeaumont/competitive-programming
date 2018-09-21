@@ -10,6 +10,7 @@ There are solutions for the following [codechef](https://www.codechef.com/) cont
 * [January Challenge 2018](jan18) ([contest site](https://www.codechef.com/JAN18))
 * [November Challenge 2017](nov17) ([contest site](https://www.codechef.com/NOV17))
 * [October Challenge 2017](oct17) ([contest site](https://www.codechef.com/OCT17))
+* [September Challenge 2017](sept17) ([contest site](https://www.codechef.com/SEPT17))
 * [August Long Challeng 2017](aug17) ([contest site](https://www.codechef.com/AUG17))
 * [March 2009 (Contest I)](march09) ([contest site](https://www.codechef.com/MARCH09))
 
