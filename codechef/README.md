@@ -16,3 +16,4 @@ There are solutions for the following [codechef](https://www.codechef.com/) cont
 
 * [December Cook-Off 2017](cook89) ([contest site](https://www.codechef.com/COOK89))
 * [October Cook-Off 2017](cook87) ([contest site](https://www.codechef.com/COOK87))
+* [December Cook-Off 2011](cook17) ([contest site](https://www.codechef.com/COOK17))
