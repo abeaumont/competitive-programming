@@ -6,7 +6,7 @@
 - [ ] TABGAME - Table Game ([contest site](https://www.codechef.com/SEPT18A/problems/TABGAME))
 - [ ] CHEFZERO - Chef and Condition Zero (Challenge) ([contest site](https://www.codechef.com/SEPT18A/problems/CHEFZERO))
 - [ ] ANDSQR - AND Square Subsegments ([contest site](https://www.codechef.com/SEPT18A/problems/ANDSQR))
-- [ ] PHOTOCOM - Sasha and Photos ([contest site](https://www.codechef.com/SEPT18A/problems/PHOTOCOM))
+- [X] [PHOTOCOM - Sasha and Photos](photocom.cc) ([contest site](https://www.codechef.com/SEPT18A/problems/PHOTOCOM))
 - [ ] STCFOTT - Selinas the Chefs Falling on the Tree ([contest site](https://www.codechef.com/SEPT18A/problems/STCFOTT))
 - [ ] FCTR - Factorize ([contest site](https://www.codechef.com/SEPT18A/problems/FCTR))
 - [ ] CHEFLST - Chef and Lost Story ([contest site](https://www.codechef.com/SEPT18A/problems/CHEFLST))
