@@ -3,7 +3,7 @@
 ### Scorable Problems for Divison 1
 
 - [X] [BSHUFFLE - Bad Shuffle](bshuffle.cc) ([contest site](https://www.codechef.com/SEPT18A/problems/BSHUFFLE))
-- [ ] TABGAME - Table Game ([contest site](https://www.codechef.com/SEPT18A/problems/TABGAME))
+- [X] [TABGAME - Table Game](tabgame.py) _Subtask #1_ ([contest site](https://www.codechef.com/SEPT18A/problems/TABGAME))
 - [ ] CHEFZERO - Chef and Condition Zero (Challenge) ([contest site](https://www.codechef.com/SEPT18A/problems/CHEFZERO))
 - [ ] ANDSQR - AND Square Subsegments ([contest site](https://www.codechef.com/SEPT18A/problems/ANDSQR))
 - [X] [PHOTOCOM - Sasha and Photos](photocom.cc) ([contest site](https://www.codechef.com/SEPT18A/problems/PHOTOCOM))
