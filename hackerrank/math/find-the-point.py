@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/env python3
 # https://www.hackerrank.com/challenges/find-point
 for _ in range(int(input())):
     px,py,qx,qy = map(int, input().split())
