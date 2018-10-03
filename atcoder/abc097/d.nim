@@ -4,13 +4,13 @@ let
   l = stdin.readLine.split.mapIt(it.parseInt)
   n = l[0]
   m = l[1]
-  p = stdin.readLine.split.mapIt(it.parseInt)
+  p = stdin.readLine.split.mapIt(it.parseInt-1)
 var g = newSeq[seq[int]](n)
 fill(g, newSeq[int]())
 for i in 1..m:
-  let l = stdin.readLine.split.mapIt(it.parseInt)
-  g[l[0]-1].add(l[1]-1)
-  g[l[1]-1].add(l[0]-1)
+  let l = stdin.readLine.split.mapIt(it.parseInt-1)
+  g[l[0]].add(l[1])
+  g[l[1]].add(l[0])
 var
   c = newSeq[int](n)
   k = 1
@@ -27,5 +27,5 @@ for i in 0..<n:
     dfs(i, k)
     k.inc
 for i in 0..<n:
-  if c[i] == c[p[i]-1]: s.inc
+  if c[i] == c[p[i]]: s.inc
 echo s
