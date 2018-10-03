@@ -1,19 +1,21 @@
 // https://arc097.contest.atcoder.jp/tasks/arc097_b
 #include <iostream>
 #include <vector>
-#include <unordered_set>
 
 using namespace std;
 
 typedef vector<int> vi;
 typedef vector<vi> vvi;
-typedef unordered_set<int> si;
 
-void dfs(const vvi& g, si &s, vi &v, int i) {
-	if (v[i]) return;
-	v[i] = 1;
-	s.insert(i);
-	for (auto z:g[i]) dfs(g, s, v, z);
+vvi g;
+vi v;
+
+void dfs(int u, int k) {
+	v[u] = k;
+	for (auto z:g[u]) {
+    if (v[z]) continue;
+    dfs(z, k);
+  }
 }
 
 int main() {
@@ -24,7 +26,7 @@ int main() {
 		cin >> a[i];
 		a[i]--;
 	}
-	vvi g(n);
+	g = vvi(n);
 	for (int i = 0; i < m; i++) {
 		int u, v;
 		cin >> u >> v;
@@ -33,14 +35,14 @@ int main() {
 		g[u].push_back(v);
 		g[v].push_back(u);
 	}
-	vi v(n);
-	int c = 0;
+	v = vi(n);
+  int k = 1;
 	for (int i = 0; i < n; i++) {
 		if (v[i]) continue;
-		si s;
-		dfs(g, s, v, i);
-		for (auto z:s)
-			if (s.count(a[z])) c++;
+		dfs(i, k);
+    k++;
 	}
+	int c = 0;
+  for (int i = 0; i < n; i++) c += v[i] == v[a[i]];
 	cout << c << endl;
 }
