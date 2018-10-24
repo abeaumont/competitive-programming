@@ -2,6 +2,7 @@
 
 There are solutions for the following [codeforces](http://codeforces.com/) contests:
 
+* [Codeforces Round #518 (Div. 2)](1068) ([contest site](https://codeforces.com/contest/1068))
 * [Codeforces Round #510 (Div. 2)](1042) ([contest site](https://codeforces.com/contest/1042))
 * [Codeforces Round #508 (Div. 2)](1038) ([contest site](https://codeforces.com/contest/1040))
 * [Codeforces Round #507 (Div. 2, based on Olympiad of Metropolises)](1040) ([contest site](https://codeforces.com/contest/1040))
