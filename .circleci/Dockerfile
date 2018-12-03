@@ -21,3 +21,6 @@ RUN wget https://bitbucket.org/squeaky/portable-pypy/downloads/pypy3.5-5.10.1-li
 RUN wget http://opendylan.org/downloads/opendylan/2014.1/opendylan-2014.1-x86_64-linux.tar.bz2 -O /tmp/opendylan-2014.1-x86_64-linux.tar.bz2 \
   && tar jxvf /tmp/opendylan-2014.1-x86_64-linux.tar.bz2 -C /tmp --no-same-owner \
   && sudo ln -s /tmp/opendylan-2014.1/bin/dylan-compiler /usr/bin/dylan-compiler
+
+# Wren
+RUN cd /tmp/ && git clone https://github.com/munificent/wren.git && cd wren && make && sudo ln -s /tmp/wren/wren /usr/bin/wren
