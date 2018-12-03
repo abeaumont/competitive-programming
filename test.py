@@ -6,7 +6,7 @@ import shutil
 import subprocess
 import sys
 
-languages = ['c', 'cc', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage', 'sh']
+languages = ['c', 'cc', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage', 'sh', 'wren']
 
 
 class ansicolors:
@@ -295,6 +295,15 @@ class sh(solution):
     def clean(self):
         pass
 
+class wren(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return 'cat {}|./{}'.format(test, self.code)
+
+    def clean(self):
+        pass
 
 def check_code(solutions):
     filtered = []
