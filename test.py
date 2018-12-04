@@ -7,7 +7,7 @@ import subprocess
 import sys
 
 languages = [
-    'c', 'cc', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage',
+    'c', 'cc', 'd', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage',
     'sh', 'wren'
 ]
 
@@ -115,6 +115,31 @@ class cc(solution):
         try:
             print 'Building {}... '.format(self.target),
             cmd = 'c++ {} -o {} -O2 -std=c++14'.format(self.code, self.target)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
+
+
+class d(solution):
+    @property
+    def target(self):
+        return self._target() + '-d'
+
+    def build(self):
+        try:
+            print 'Building {}... '.format(self.target),
+            cmd = 'dmd {} -of={} -O'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
