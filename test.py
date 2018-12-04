@@ -6,7 +6,10 @@ import shutil
 import subprocess
 import sys
 
-languages = ['c', 'cc', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage', 'sh', 'wren']
+languages = [
+    'c', 'cc', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage',
+    'sh', 'wren'
+]
 
 
 class ansicolors:
@@ -48,7 +51,8 @@ class solution(object):
         for test in self.tests:
             try:
                 if generate:
-                    print 'Generating answer for {} with {}...'.format(test, self.code),
+                    print 'Generating answer for {} with {}...'\
+                        .format(test, self.code),
                 else:
                     print 'Checking {} for {}... '.format(self.code, test),
                 cmd = self.run_command(test)
@@ -214,7 +218,8 @@ class nim(solution):
 
     def clean(self):
         os.remove(self.target)
-        shutil.rmtree(os.path.join(os.path.dirname(self.code), 'nimcache'), True)
+        dirname = os.path.dirname(self.code)
+        shutil.rmtree(os.path.join(dirname, 'nimcache'), True)
 
 
 class pi(solution):
@@ -237,6 +242,7 @@ class py(solution):
 
     def clean(self):
         pass
+
 
 class rb(solution):
     def build(self):
@@ -295,6 +301,7 @@ class sh(solution):
     def clean(self):
         pass
 
+
 class wren(solution):
     def build(self):
         pass
@@ -304,6 +311,7 @@ class wren(solution):
 
     def clean(self):
         pass
+
 
 def check_code(solutions):
     filtered = []
@@ -331,7 +339,7 @@ def build_solutions(solutions):
         try:
             solution.build()
             filtered.append(solution)
-        except:
+        except Exception:
             ok = False
     return solutions, ok
 
@@ -341,7 +349,7 @@ def run_solutions(solutions, generate):
     for solution in solutions:
         try:
             solution.run(generate)
-        except:
+        except Exception:
             ok = False
     return ok
 
@@ -352,7 +360,7 @@ def clean_solutions(solutions):
     for solution in solutions:
         try:
             solution.clean()
-        except:
+        except Exception:
             ok = False
     return ok
 
@@ -390,12 +398,15 @@ def get_solutions(root='.'):
 def main(generate):
     """Test that all the solutions build and provide proper outputs"""
     solutions = get_solutions()
-    ok, l = check_solutions(solutions, generate)
+    ok, s = check_solutions(solutions, generate)
     if generate:
-        print 'Generated {} solutions for {} problems...'.format(l, len(solutions))
+        print 'Generated {} solutions for {} problems...'\
+            .format(s, len(solutions))
     else:
-        print 'Checked {} solutions for {} problems...'.format(l, len(solutions))
+        print 'Checked {} solutions for {} problems...'\
+            .format(s, len(solutions))
     return 0 if ok else 1
+
 
 if __name__ == '__main__':
     sys.exit(main(len(sys.argv) > 1))
