@@ -8,7 +8,7 @@ import sys
 
 languages = [
     'c', 'cc', 'd', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage',
-    'sh', 'wren'
+    'sh', 'wren', 'zig'
 ]
 
 
@@ -228,7 +228,7 @@ class nim(solution):
     def build(self):
         try:
             print 'Building {}... '.format(self.target),
-            cmd = 'nim c -o:{} -d:release {} '.format(self.target, self.code)
+            cmd = 'nim c -o:{} -d:release {}'.format(self.target, self.code)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
@@ -336,6 +336,33 @@ class wren(solution):
 
     def clean(self):
         pass
+
+
+class zig(solution):
+    @property
+    def target(self):
+        return self._target() + '-zig'
+
+    def build(self):
+        try:
+            print 'Building {}... '.format(self.target),
+            cmd = 'zig build-exe {} --output {}'.format(self.code, self.target)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {} 2>&1'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
+        dirname = os.path.dirname(self.code)
+        shutil.rmtree(os.path.join(dirname, 'zig-cache'), True)
 
 
 def check_code(solutions):
