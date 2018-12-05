@@ -34,4 +34,4 @@ RUN cd /tmp/ && git clone https://github.com/munificent/wren.git && cd wren && m
 # Zig
 RUN wget https://ziglang.org/builds/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz -O /tmp/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz \
   && tar Jxvf /tmp/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz -C /tmp --no-same-owner \
-  && sudo cp /tmp/zig-linux-x86_64-0.3.0+a9eab69b/zig /usr/bin/zig
+  && sudo ln -s /tmp/zig-linux-x86_64-0.3.0+a9eab69b/zig /usr/bin/zig
