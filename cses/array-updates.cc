@@ -30,8 +30,8 @@ void update(int i, ll x) {
 }
 
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+  ios::sync_with_stdio(0);
+  cin.tie(0);
   cin >> n >> m;
   for (nn = 1; nn < n; nn*=2);
   for (int i = 0; i < n; i++) {

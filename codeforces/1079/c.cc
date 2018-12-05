@@ -5,8 +5,8 @@ using ll=long long;
 using vi=vector<int>;
 using vvi=vector<vi>;
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+  ios::sync_with_stdio(0);
+  cin.tie(0);
   int n;
   cin>>n;
   vi a(n);

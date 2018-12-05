@@ -4,8 +4,8 @@ using namespace std;
 using vi=vector<int>;
 
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+  ios::sync_with_stdio(0);
+  cin.tie(0);
   int n;
   cin>>n;
   vi p(n),s(n),a(n,-1);

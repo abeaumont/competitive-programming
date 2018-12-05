@@ -16,8 +16,8 @@ typedef priority_queue<iii,viii,greater<iii>> pq;
 typedef unordered_set<ll> si;
 
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+  ios::sync_with_stdio(0);
+  cin.tie(0);
   ll n,m,u,v,w,x,y;
   cin>>n>>m;
   vvii g(n);

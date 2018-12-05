@@ -6,8 +6,8 @@ using ii=tuple<ll,ll>;
 using vi=vector<ll>;
 using vii=vector<ii>;
 int main(){
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+  ios::sync_with_stdio(0);
+  cin.tie(0);
   ll n,m,M=10000000000000000LL;
   cin>>n>>m;
   vii a;

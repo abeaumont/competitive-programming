@@ -11,8 +11,8 @@ typedef vector<vii> vvii;
 typedef priority_queue<ii,vii,greater<ii>> pq;
 
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+  ios::sync_with_stdio(0);
+  cin.tie(0);
   int n,m,k;
   cin>>n>>m>>k;
   vvii g(n);

@@ -4,8 +4,8 @@ using namespace std;
 using ss=unordered_set<string>;
 using msi=unordered_map<string,int>;
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+  ios::sync_with_stdio(0);
+  cin.tie(0);
   int n;
   ss s;
   msi m;

@@ -3,8 +3,8 @@
 using namespace std;
 using vi=vector<int>;
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+  ios::sync_with_stdio(0);
+  cin.tie(0);
   int d,s,s1=0,s2=0;
   cin>>d>>s;
   vi t1(d),t2(d);

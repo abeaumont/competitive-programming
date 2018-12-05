@@ -4,8 +4,8 @@ using namespace std;
 using vi=vector<int>;
 int a[101];
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
+  ios::sync_with_stdio(0);
+  cin.tie(0);
   int n,k;
   cin>>n>>k;
   for(int i=0;i<n;i++){
