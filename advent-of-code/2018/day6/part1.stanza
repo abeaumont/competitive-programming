@@ -1,0 +1,65 @@
+defpackage part1 :
+   import collections
+   import core
+
+defn get-lines () -> Vector<String> :
+     var line = Vector<Char>();
+     var lines = Vector<String>();
+     label break :
+       while true :
+         val ch = get-char(STANDARD-INPUT-STREAM)
+         match(ch) :
+           (b:False) : break()
+           (ch:Char) :
+             if ch == '\n' :
+               add(lines, string-join(line))
+               line = Vector<Char>()
+             else :
+               add(line, ch)
+     lines
+
+defn get-int (s:String) -> Int :
+   match(to-int(s)) :
+      (x:False) : 0
+      (x:Int) : x
+
+var xs = Vector<Int>()
+var ys = Vector<Int>()
+for line in get-lines() do :
+   var s = split(line, ", ")
+   add(xs, get-int(next(s)))
+   add(ys, get-int(next(s)))
+val n = length(xs)
+val mx = maximum(xs)+1
+val my = maximum(ys)+1
+var m = Vector<Vector<Int>>(mx)
+   for i in 0 to mx do :
+      m[i] = Vector<Int>(my)
+      for j in 0 to my do :
+         m[i][j] = -1
+         var l = 0
+         var M = mx * my + 1
+         var p = -1
+         for (k in 0 to n, x in xs, y in ys) do :
+            val o = abs(x - i) + abs(y - j)
+            if o == M :
+               l = l + 1
+            else if o < M :
+               M = o
+               l = 1
+               p = k
+         if l == 1 :
+            m[i][j] = p
+var x = Vector<True|False>()
+set-length(x, n, true)
+var s = Vector<Int>()
+set-length(s, n, 0)
+for i in 0 to mx do :
+   for j in 0 to my do :
+      val k = m[i][j]
+      if k != -1 :
+         s[k] = s[k] + 1
+      if i == 0 or i == mx - 1 or j == 0 or j == my - 1 :
+         x[k] = false
+val M = maximum(map<Int>({s[_]}, to-vector<Int>(filter({x[_]}, 0 to n))))
+println("%_" % [M])

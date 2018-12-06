@@ -7,3 +7,4 @@ A new solution in a different language every day!
 - [Day 3](./day3) ([Ruby](https://www.ruby-lang.org/)): [Part I](./day3/part1.rb), [Part II](./day3/part2.rb)
 - [Day 4](./day4) ([D](https://dlang.org/)): [Part I](./day4/part1.d), [Part II](./day4/part2.d)
 - [Day 5](./day5) ([Zig](https://ziglang.org/)): [Part I](./day5/part1.zig), [Part II](./day5/part2.zig)
+- [Day 6](./day6) ([Stanza](http://lbstanza.org/)): [Part I](./day6/part1.stanza), [Part II](./day6/part2.stanza)

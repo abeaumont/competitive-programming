@@ -1,0 +1,43 @@
+defpackage part1 :
+   import collections
+   import core
+
+defn get-lines () -> Vector<String> :
+   var line = Vector<Char>();
+   var lines = Vector<String>();
+   label break :
+      while true :
+         val ch = get-char(STANDARD-INPUT-STREAM)
+         match(ch) :
+            (b:False) : break()
+            (ch:Char) :
+               if ch == '\n' :
+                  add(lines, string-join(line))
+                  line = Vector<Char>()
+               else :
+                  add(line, ch)
+   lines
+
+defn get-int (s:String) -> Int :
+   match(to-int(s)) :
+      (x:False) : 0
+      (x:Int) : x
+
+var xs = Vector<Int>()
+var ys = Vector<Int>()
+for line in get-lines() do :
+   var s = split(line, ", ")
+   add(xs, get-int(next(s)))
+   add(ys, get-int(next(s)))
+val n = length(xs)
+val mx = maximum(xs)+1
+val my = maximum(ys)+1
+var s = 0
+for i in 0 to mx do :
+   for j in 0 to my do :
+      var k = 0
+      for (x in xs, y in ys) do :
+         k = k + abs(x - i) + abs(y - j)
+      if k < 10000 :
+         s = s + 1
+println("%_" % [s])
