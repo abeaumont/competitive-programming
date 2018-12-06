@@ -28,6 +28,12 @@ RUN wget https://bitbucket.org/squeaky/portable-pypy/downloads/pypy3.5-5.10.1-li
   && tar jxvf /tmp/pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2 -C /tmp --no-same-owner \
   && sudo ln -s /tmp/pypy3.5-5.10.1-linux_x86_64-portable/bin/pypy3 /usr/bin/pypy3
 
+# Stanza
+RUN mkdir -p /tmp/stanza \
+  && wget http://lbstanza.org/resources/stanza/lstanza_0_12_14.zip -O /tmp/stanza/lstanza_0_12_14.zip \
+  && cd /tmp/stanza/ && unzip lstanza_0_12_14.zip && ./stanza install -platform linux \
+  && sudo ln -s /tmp/stanza/stanza /usr/bin/stanza
+
 # Wren
 RUN cd /tmp/ && git clone https://github.com/munificent/wren.git && cd wren && make && sudo ln -s /tmp/wren/wren /usr/bin/wren
 
