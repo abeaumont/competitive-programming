@@ -3,11 +3,11 @@ use std::io;
 use std::io::prelude::*;
 use std::vec::Vec;
 
-fn main() -> io::Result<()> {
+fn main() {
     let stdin = io::stdin();
     let mut g: Vec<HashSet<_>> = vec![HashSet::new(); 26];
     for line in stdin.lock().lines() {
-        let b = line?.into_bytes();
+        let b = line.unwrap().into_bytes();
         let u = (b[5] - 65) as usize;
         let v = (b[36] - 65) as usize;
         g[v].insert(u);
@@ -31,5 +31,4 @@ fn main() -> io::Result<()> {
         t[i] = g[i].iter().map(|&j| t[j]).max().unwrap_or(0) + 61 + i;
     }
     println!("{}", t.iter().max().unwrap());
-    Ok(())
 }
