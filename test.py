@@ -8,7 +8,7 @@ import sys
 
 languages = [
     'c', 'cc', 'd', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage',
-    'stanza', 'sh', 'wren', 'zig'
+    'sml', 'stanza', 'sh', 'wren', 'zig'
 ]
 
 
@@ -314,6 +314,31 @@ class sage(solution):
 
     def clean(self):
         pass
+
+
+class sml(solution):
+    @property
+    def target(self):
+        return self._target() + '-sml'
+
+    def build(self):
+        try:
+            print 'Building {}... '.format(self.target),
+            cmd = 'mlton -output {} {}'.format(self.target, self.code)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
 
 
 class stanza(solution):
