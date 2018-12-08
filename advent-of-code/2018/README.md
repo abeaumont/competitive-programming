@@ -9,3 +9,4 @@ A new solution in a different language every day!
 - [Day 5](./day5) ([Zig](https://ziglang.org/)): [Part I](./day5/part1.zig), [Part II](./day5/part2.zig)
 - [Day 6](./day6) ([Stanza](http://lbstanza.org/)): [Part I](./day6/part1.stanza), [Part II](./day6/part2.stanza)
 - [Day 7](./day7) ([Rust](https://www.rust-lang.org/)): [Part I](./day7/part1.rs), [Part II](./day7/part2.rs)
+- [Day 8](./day8) ([Standard ML](http://sml-family.org/)): [Part I](./day8/part1.sml), [Part II](./day8/part2.sml)
