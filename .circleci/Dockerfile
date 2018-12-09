@@ -12,8 +12,8 @@ RUN sudo apt-get install apt-transport-https \
 # Haxe
 RUN wget https://github.com/HaxeFoundation/haxe/releases/download/3.4.7/haxe-3.4.7-linux64.tar.gz -O /tmp/haxe-3.4.7-linux64.tar.gz \
   && tar zxvf /tmp/haxe-3.4.7-linux64.tar.gz -C /tmp --no-same-owner \
-  && sudo ln -s /tmp/haxe_20180221160843_bb7b827/bin/haxe /usr/bin/haxe \
-  && sudo ln -s /tmp/haxe_20180221160843_bb7b827/bin/haxelib /usr/bin/haxelib
+  && sudo ln -s /tmp/haxe_20180221160843_bb7b827/haxe /usr/bin/haxe \
+  && sudo ln -s /tmp/haxe_20180221160843_bb7b827/haxelib /usr/bin/haxelib
 
 # OCaml's Core
 RUN opam init -a
