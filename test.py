@@ -164,9 +164,11 @@ class hx(solution):
     def build(self):
         try:
             print 'Building {}... '.format(self.target),
+            target = os.path.basename(self.target)
             klass = os.path.basename(self._target())
-            code = os.path.basename(self.code)
-            cmd = 'haxe -python {} -main {} {}'.format(self.target, klass, code)
+            dir, code = os.path.split(self.code)
+            cmd = 'cd {} && haxe -python {} -main {} {}'\
+                oo.format(dir, target, klass, code)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:

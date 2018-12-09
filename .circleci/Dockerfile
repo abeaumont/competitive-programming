@@ -1,19 +1,13 @@
 FROM circleci/python:2.7.14-stretch
 
-# Common Lisp, Nim, OCaml, Ruby, Rust, SML and some additional libraries
-RUN sudo apt-get update && sudo apt-get install mlton nim sbcl rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
+# Common Lisp, Haxe, Nim, OCaml, Ruby, Rust, SML and some additional libraries
+RUN sudo apt-get update && sudo apt-get install haxe mlton nim sbcl rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
 
 # D
 RUN sudo apt-get install apt-transport-https \
   && sudo wget http://master.dl.sourceforge.net/project/d-apt/files/d-apt.list -O /etc/apt/sources.list.d/d-apt.list \
   && sudo apt-get update && sudo apt-get -y --allow-unauthenticated install --reinstall d-apt-keyring \
   && sudo apt-get update && sudo apt-get install dmd-compiler
-
-# Haxe
-RUN wget https://github.com/HaxeFoundation/haxe/releases/download/3.4.7/haxe-3.4.7-linux64.tar.gz -O /tmp/haxe-3.4.7-linux64.tar.gz \
-  && tar zxvf /tmp/haxe-3.4.7-linux64.tar.gz -C /tmp --no-same-owner \
-  && sudo ln -s /tmp/haxe_20180221160843_bb7b827/haxe /usr/bin/haxe \
-  && sudo ln -s /tmp/haxe_20180221160843_bb7b827/haxelib /usr/bin/haxelib
 
 # OCaml's Core
 RUN opam init -a
