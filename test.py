@@ -7,8 +7,8 @@ import subprocess
 import sys
 
 languages = [
-    'c', 'cc', 'd', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs', 'sage',
-    'sml', 'stanza', 'sh', 'wren', 'zig'
+    'c', 'cc', 'd', 'hx', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs',
+    'sage', 'sml', 'stanza', 'sh', 'wren', 'zig'
 ]
 
 
@@ -151,6 +151,33 @@ class d(solution):
 
     def run_command(self, test):
         return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
+
+
+class hx(solution):
+    @property
+    def target(self):
+        return self._target() + '-hx'
+
+    def build(self):
+        try:
+            print 'Building {}... '.format(self.target),
+            klass = os.path.basename(self._target())
+            code = os.path.basename(self.code)
+            cmd = 'haxe -python {} -main {} {}'.format(self.target, klass, code)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return 'pypy3 {} < {}'.format(self.target, test)
 
     def clean(self):
         os.remove(self.target)
