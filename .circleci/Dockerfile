@@ -1,7 +1,7 @@
 FROM circleci/python:2.7.14-stretch
 
-# Common Lisp, Nim, OCaml, Ruby, Rust, SML and some additional libraries
-RUN sudo apt-get update && sudo apt-get install mlton nim sbcl rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
+# Common Lisp, Haxe, Nim, OCaml, Ruby, Rust, SML and some additional libraries
+RUN sudo apt-get update && sudo apt-get install haxe mlton nim sbcl rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
 
 # D
 RUN sudo apt-get install apt-transport-https \
