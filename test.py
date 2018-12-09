@@ -168,7 +168,7 @@ class hx(solution):
             klass = os.path.basename(self._target())
             dir, code = os.path.split(self.code)
             cmd = 'cd {} && haxe -python {} -main {} {}'\
-                oo.format(dir, target, klass, code)
+                .format(dir, target, klass, code)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
