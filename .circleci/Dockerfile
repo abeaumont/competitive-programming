@@ -1,13 +1,16 @@
 FROM circleci/python:2.7.14-stretch
 
-# Common Lisp, Haxe, Nim, OCaml, Ruby, Rust, SML and some additional libraries
-RUN sudo apt-get update && sudo apt-get install haxe mlton nim sbcl rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
+# Common Lisp, Haxe, Lua, LuaRocks, Nim, OCaml, Ruby, Rust, SML and some additional libraries
+RUN sudo apt-get update && sudo apt-get install haxe liblua5.3-dev lua5.3 luarocks mlton nim sbcl rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
 
 # D
 RUN sudo apt-get install apt-transport-https \
   && sudo wget http://master.dl.sourceforge.net/project/d-apt/files/d-apt.list -O /etc/apt/sources.list.d/d-apt.list \
   && sudo apt-get update && sudo apt-get -y --allow-unauthenticated install --reinstall d-apt-keyring \
   && sudo apt-get update && sudo apt-get install dmd-compiler
+
+# MoonScript
+RUN sudo luarocks install moonscript
 
 # OCaml's Core
 RUN opam init -a
