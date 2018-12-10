@@ -7,8 +7,8 @@ import subprocess
 import sys
 
 languages = [
-    'c', 'cc', 'd', 'hx', 'lid', 'lisp', 'ml', 'nim', 'pi', 'py', 'rb', 'rs',
-    'sage', 'sml', 'stanza', 'sh', 'wren', 'zig'
+    'c', 'cc', 'd', 'hx', 'lid', 'lisp', 'ml', 'moon', 'nim', 'pi', 'py', 'rb',
+    'rs', 'sage', 'sml', 'stanza', 'sh', 'wren', 'zig'
 ]
 
 
@@ -247,6 +247,17 @@ class ml(solution):
     def clean(self):
         os.remove(os.path.basename(self.target))
         shutil.rmtree('_build', True)
+
+
+class moon(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return 'moon {} < {}'.format(self.code, test)
+
+    def clean(self):
+        pass
 
 
 class nim(solution):
