@@ -11,3 +11,4 @@ A new solution in a different language every day!
 - [Day 7](./day7) ([Rust](https://www.rust-lang.org/)): [Part I](./day7/part1.rs), [Part II](./day7/part2.rs)
 - [Day 8](./day8) ([Standard ML](http://sml-family.org/)): [Part I](./day8/part1.sml), [Part II](./day8/part2.sml)
 - [Day 9](./day9) ([Haxe](https://haxe.org/)): [Part I](./day9/Part1.hx), [Part II](./day9/Part2.hx)
+- [Day 10](./day10) ([MoonScript](https://moonscript.org/)): [Part I](./day10/part1.moon), [Part II](./day10/part2.moon)
