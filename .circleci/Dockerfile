@@ -26,6 +26,13 @@ RUN wget http://picat-lang.org/download/picat24_linux64.tar.gz -O /tmp/picat24_l
   && tar zxvf /tmp/picat24_linux64.tar.gz -C /tmp --no-same-owner \
   && sudo mv /tmp/Picat/picat /usr/bin
 
+# Pony
+RUN sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common \
+  && sudo  apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E04F0923 B3B48BDA \
+  && sudo add-apt-repository "deb https://dl.bintray.com/pony-language/ponylang-debian  $(lsb_release -cs) main" \
+  && sudo apt-get update \
+  && sudo apt-get -V install ponyc
+
 # PyPy3
 RUN wget https://bitbucket.org/squeaky/portable-pypy/downloads/pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2 -O /tmp/pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2 \
   && tar jxvf /tmp/pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2 -C /tmp --no-same-owner \
