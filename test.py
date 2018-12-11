@@ -306,7 +306,8 @@ class pony(solution):
     def build(self):
         try:
             print 'Building {}... '.format(self.target),
-            subprocess.check_output('ponyc', stderr=subprocess.STDOUT, shell=True)
+            cmd = 'cd {} && ponyc'.format(os.path.dirname(self.code))
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
             print_fail(e.output)
