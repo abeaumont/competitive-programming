@@ -12,3 +12,4 @@ A new solution in a different language every day!
 - [Day 8](./day8) ([Standard ML](http://sml-family.org/)): [Part I](./day8/part1.sml), [Part II](./day8/part2.sml)
 - [Day 9](./day9) ([Haxe](https://haxe.org/)): [Part I](./day9/Part1.hx), [Part II](./day9/Part2.hx)
 - [Day 10](./day10) ([MoonScript](https://moonscript.org/)): [Part I](./day10/part1.moon), [Part II](./day10/part2.moon)
+- [Day 11](./day11) ([Pony](https://ponylang.io/)): [Part I](./day11/part1/part1.pony), [Part II](./day11/part2/part2.pony)
