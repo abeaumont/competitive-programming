@@ -7,8 +7,8 @@ import subprocess
 import sys
 
 languages = [
-    'c', 'cc', 'd', 'hx', 'lid', 'lisp', 'ml', 'moon', 'nim', 'pi', 'py', 'rb',
-    'rs', 'sage', 'sml', 'stanza', 'sh', 'wren', 'zig'
+    'c', 'cc', 'd', 'hx', 'lid', 'lisp', 'ml', 'moon', 'nim', 'pi', 'pony',
+    'py', 'rb', 'rs', 'sage', 'sml', 'stanza', 'sh', 'wren', 'zig'
 ]
 
 
@@ -296,6 +296,30 @@ class pi(solution):
 
     def clean(self):
         pass
+
+
+class pony(solution):
+    @property
+    def target(self):
+        return self._target()
+
+    def build(self):
+        try:
+            print 'Building {}... '.format(self.target),
+            subprocess.check_output('ponyc', stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output)
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
 
 
 class py(solution):
