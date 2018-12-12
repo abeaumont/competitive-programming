@@ -8,7 +8,7 @@ import sys
 
 languages = [
     'c', 'cc', 'd', 'hx', 'lid', 'lisp', 'ml', 'moon', 'nim', 'pi', 'pony',
-    'py', 'rb', 'rs', 'sage', 'sml', 'stanza', 'sh', 'wren', 'zig'
+    'py', 'rb', 'rkt', 'rs', 'sage', 'sml', 'stanza', 'sh', 'wren', 'zig'
 ]
 
 
@@ -340,6 +340,17 @@ class rb(solution):
 
     def run_command(self, test):
         return 'ruby {} < {}'.format(self.code, test)
+
+    def clean(self):
+        pass
+
+
+class rkt(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return './{} < {}'.format(self.code, test)
 
     def clean(self):
         pass
