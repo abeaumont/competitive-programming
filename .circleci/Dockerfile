@@ -1,13 +1,18 @@
 FROM circleci/python:2.7.14-stretch
 
-# Common Lisp, Haxe, Julia, Lua, LuaRocks, Nim, OCaml, Racket, Ruby, Rust, SML and some additional libraries
-RUN sudo apt-get update && sudo apt-get install haxe julia liblua5.3-dev lua5.3 luarocks mlton nim racket sbcl racket rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
+# Common Lisp, Haxe, Lua, LuaRocks, Nim, OCaml, Racket, Ruby, Rust, SML and some additional libraries
+RUN sudo apt-get update && sudo apt-get install haxe liblua5.3-dev lua5.3 luarocks mlton nim racket sbcl racket rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
 
 # D
 RUN sudo apt-get install apt-transport-https \
   && sudo wget http://master.dl.sourceforge.net/project/d-apt/files/d-apt.list -O /etc/apt/sources.list.d/d-apt.list \
   && sudo apt-get update && sudo apt-get -y --allow-unauthenticated install --reinstall d-apt-keyring \
   && sudo apt-get update && sudo apt-get install dmd-compiler
+
+# Julia
+RUN wget https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.2-linux-x86_64.tar.gz -O /tmp/julia-1.0.2-linux-x86_64.tar.gz \
+  && tar zxvf /tmp/julia-1.0.2-linux-x86_64.tar.gz -C /tmp --no-same-owner \
+  && sudo ln -s /tmp/julia-1.0.2/bin/julia /usr/bin/julia
 
 # MoonScript
 RUN sudo luarocks install moonscript
