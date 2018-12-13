@@ -1,7 +1,7 @@
 FROM circleci/python:2.7.14-stretch
 
-# Common Lisp, Haxe, Lua, LuaRocks, Nim, OCaml, Racket, Ruby, Rust, SML and some additional libraries
-RUN sudo apt-get update && sudo apt-get install haxe liblua5.3-dev lua5.3 luarocks mlton nim racket sbcl racket rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
+# Common Lisp, Haxe, Julia, Lua, LuaRocks, Nim, OCaml, Racket, Ruby, Rust, SML and some additional libraries
+RUN sudo apt-get update && sudo apt-get install haxe julia liblua5.3-dev lua5.3 luarocks mlton nim racket sbcl racket rustc ruby ocaml opam glpk-utils python3-numpy python3-scipy libgc-dev
 
 # D
 RUN sudo apt-get install apt-transport-https \
