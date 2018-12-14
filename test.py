@@ -7,9 +7,9 @@ import subprocess
 import sys
 
 languages = [
-    'c', 'cc', 'd', 'hx', 'jl', 'lid', 'lisp', 'ml', 'moon', 'nim', 'pi',
-    'pony', 'py', 'rb', 'rkt', 'rs', 'sage', 'sml', 'stanza', 'sh', 'wren',
-    'zig'
+    'c', 'cc', 'd', 'hx', 'factor', 'jl', 'lid', 'lisp', 'ml', 'moon', 'nim',
+    'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage', 'sml', 'stanza', 'sh',
+    'wren', 'zig'
 ]
 
 
@@ -184,6 +184,17 @@ class hx(solution):
 
     def clean(self):
         os.remove(self.target)
+
+
+class factor(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return './{} < {}'.format(self.code, test)
+
+    def clean(self):
+        pass
 
 
 class jl(solution):
