@@ -1,10 +1,11 @@
 #!/usr/bin/env python2
-import re
+import collections
 import os
 import os.path
 import shutil
 import subprocess
 import sys
+import re
 
 languages = [
     'c', 'cc', 'd', 'hx', 'factor', 'jl', 'lid', 'lisp', 'ml', 'moon', 'nim',
@@ -593,7 +594,8 @@ def get_solutions(root='.'):
                 solutions[code].append(test)
             else:
                 solutions[code] = [test]
-    return solutions
+    s = [(k, solutions[k]) for k in sorted(solutions.keys())]
+    return collections.OrderedDict(s)
 
 
 def main(generate):
