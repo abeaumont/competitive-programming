@@ -13,4 +13,4 @@ jobs:
             echo "/usr/bin/glpsol \$* > /dev/null" > glpsol
             chmod a+x glpsol
             mkdir -p .od
-            PATH=.:$PATH OPEN_DYLAN_USER_ROOT=.od python test.py
+            PATH=.:$PATH OPEN_DYLAN_USER_ROOT=.od python3 test.py
