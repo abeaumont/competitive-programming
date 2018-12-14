@@ -9,6 +9,11 @@ RUN sudo apt-get install apt-transport-https \
   && sudo apt-get update && sudo apt-get -y --allow-unauthenticated install --reinstall d-apt-keyring \
   && sudo apt-get update && sudo apt-get install dmd-compiler
 
+# Factor
+RUN wget http://downloads.factorcode.org/releases/0.98/factor-linux-x86-64-0.98.tar.gz -O /tmp/factor-linux-x86-64-0.98.tar.gz \
+  && tar zxvf /tmp/factor-linux-x86-64-0.98.tar.gz -C /tmp --no-same-owner \
+  && sudo ln -s /tmp/factor/factor /usr/bin/factor-vm
+
 # Julia
 RUN wget https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.2-linux-x86_64.tar.gz -O /tmp/julia-1.0.2-linux-x86_64.tar.gz \
   && tar zxvf /tmp/julia-1.0.2-linux-x86_64.tar.gz -C /tmp --no-same-owner \
