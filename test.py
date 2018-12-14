@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import collections
 import os
 import os.path
@@ -21,11 +21,11 @@ class ansicolors:
 
 
 def print_fail(message=''):
-    print ansicolors.FAIL + '[FAIL] ' + ansicolors.ENDC + message
+    print(ansicolors.FAIL + '[FAIL] ' + ansicolors.ENDC + message)
 
 
 def print_ok(message=''):
-    print ansicolors.OK + '[OK] ' + ansicolors.ENDC + message
+    print(ansicolors.OK + '[OK] ' + ansicolors.ENDC + message)
 
 
 class solution(object):
@@ -53,13 +53,14 @@ class solution(object):
         for test in self.tests:
             try:
                 if generate:
-                    print 'Generating answer for {} with {}...'\
-                        .format(test, self.code),
+                    print('Generating answer for {} with {}...'
+                          .format(test, self.code), end='')
                 else:
-                    print 'Checking {} for {}... '.format(self.code, test),
+                    print('Checking {} for {}... '.format(self.code, test),
+                          end='')
                 cmd = self.run_command(test)
                 output = subprocess.check_output(cmd, stderr=subprocess.STDOUT,
-                                                 shell=True)
+                                                 shell=True).decode('utf-8')
                 ans = os.path.splitext(test)[0] + '.ans'
                 if generate:
                     with open(ans, 'w') as f:
@@ -74,7 +75,7 @@ class solution(object):
                             print_fail()
                             ok = False
             except subprocess.CalledProcessError as e:
-                print_fail(e.output)
+                print_fail(e.output.decode('utf-8'))
                 ok = False
             except Exception as e:
                 print_fail(str(e))
@@ -90,12 +91,12 @@ class c(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'cc {} -o {} -O2 -std=c11'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -115,12 +116,12 @@ class cc(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'c++ {} -o {} -O2 -std=c++14'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -140,12 +141,12 @@ class d(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'dmd {} -of={} -O'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -165,7 +166,7 @@ class hx(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             target = os.path.basename(self.target)
             klass = os.path.basename(self._target())
             dir, code = os.path.split(self.code)
@@ -174,7 +175,7 @@ class hx(solution):
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -214,12 +215,12 @@ class lid(solution):
 
     def build(self):
         try:
-            print 'Building {}...'.format(self._target() + '-dylan'),
+            print('Building {}...'.format(self._target() + '-dylan'), end='')
             cmd = 'dylan-compiler -build {}'.format(self.code)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -254,12 +255,12 @@ class ml(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'corebuild {}'.format(self.target[2:])
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -291,12 +292,12 @@ class nim(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'nim c -o:{} -d:release {}'.format(self.target, self.code)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -329,12 +330,12 @@ class pony(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'cd {} && ponyc'.format(os.path.dirname(self.code))
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -387,12 +388,12 @@ class rs(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'rustc {} -o {} -O'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -423,12 +424,12 @@ class sml(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'mlton -output {} {}'.format(self.target, self.code)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -448,12 +449,12 @@ class stanza(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'stanza {} -o {} -optimize'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -495,12 +496,12 @@ class zig(solution):
 
     def build(self):
         try:
-            print 'Building {}... '.format(self.target),
+            print('Building {}... '.format(self.target), end='')
             cmd = 'zig build-exe {} --output {}'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
-            print_fail(e.output)
+            print_fail(e.output.decode('utf-8'))
             raise e
         except Exception as e:
             print_fail(str(e))
@@ -518,7 +519,7 @@ class zig(solution):
 def check_code(solutions):
     filtered = []
     ok = True
-    for code, tests in solutions.iteritems():
+    for code, tests in solutions.items():
         names = []
         for lang in languages:
             name = code + '.' + lang
@@ -557,7 +558,7 @@ def run_solutions(solutions, generate):
 
 
 def clean_solutions(solutions):
-    print 'Cleaning solutions...'
+    print('Cleaning solutions...')
     ok = True
     for solution in solutions:
         try:
@@ -603,11 +604,11 @@ def main(generate):
     solutions = get_solutions()
     ok, s = check_solutions(solutions, generate)
     if generate:
-        print 'Generated {} solutions for {} problems...'\
-            .format(s, len(solutions))
+        print('Generated {} solutions for {} problems...'
+              .format(s, len(solutions)))
     else:
-        print 'Checked {} solutions for {} problems...'\
-            .format(s, len(solutions))
+        print('Checked {} solutions for {} problems...'
+              .format(s, len(solutions)))
     return 0 if ok else 1
 
 
