@@ -8,9 +8,9 @@ import sys
 import re
 
 languages = [
-    'c', 'cc', 'd', 'hx', 'factor', 'jl', 'lid', 'lisp', 'ml', 'moon', 'nim',
-    'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage', 'sml', 'stanza', 'sh',
-    'wren', 'zig'
+    'c', 'cc', 'd', 'hx', 'factor', 'go', 'jl', 'lid', 'lisp', 'ml', 'moon',
+    'nim', 'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage', 'sml', 'stanza',
+    'sh', 'wren', 'zig'
 ]
 
 
@@ -194,6 +194,17 @@ class factor(solution):
 
     def run_command(self, test):
         return './{} < {}'.format(self.code, test)
+
+    def clean(self):
+        pass
+
+
+class go(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return 'go run {} < {}'.format(self.code, test)
 
     def clean(self):
         pass
