@@ -9,8 +9,8 @@ import re
 
 languages = [
     'c', 'cc', 'd', 'hx', 'factor', 'go', 'jl', 'lid', 'lisp', 'ml', 'moon',
-    'nim', 'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage', 'sml', 'stanza',
-    'sh', 'wren', 'zig'
+    'nim', 'ooc', 'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage', 'sml',
+    'stanza', 'sh', 'wren', 'zig'
 ]
 
 
@@ -321,6 +321,37 @@ class nim(solution):
         os.remove(self.target)
         dirname = os.path.dirname(self.code)
         shutil.rmtree(os.path.join(dirname, 'nimcache'), True)
+
+
+class ooc(solution):
+    @property
+    def target(self):
+        return self._target() + '-ooc'
+
+    def build(self):
+        try:
+            print('Building {}... '.format(self.target), end='')
+            target = os.path.basename(self.target)
+            dir, code = os.path.split(self.code)
+            cmd = 'cd {} && rock {} -O3 -o={}'\
+                .format(dir, code, target)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output.decode('utf-8'))
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
+        dirname = os.path.dirname(self.code)
+        shutil.rmtree(os.path.join(dirname, 'rock_tmp'), True)
+        shutil.rmtree(os.path.join(dirname, '.libs'), True)
 
 
 class pi(solution):

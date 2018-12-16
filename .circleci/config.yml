@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: abeaumont/competitive-programming:1.19.0
+      - image: abeaumont/competitive-programming:1.20.0
     working_directory: ~/repo
     steps:
       - checkout
@@ -13,4 +13,4 @@ jobs:
             echo "/usr/bin/glpsol \$* > /dev/null" > glpsol
             chmod a+x glpsol
             mkdir -p .od
-            PATH=.:$PATH OPEN_DYLAN_USER_ROOT=.od python3 test.py
+            PATH=.:$PATH:/tmp/rock/bin OPEN_DYLAN_USER_ROOT=.od OOC_LIBS="/tmp/rock/" python3 test.py
