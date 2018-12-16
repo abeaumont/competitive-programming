@@ -17,3 +17,4 @@ A new solution in a different language every day!
 - [Day 13](./day13) ([Julia](https://julialang.org/)): [Part I](./day13/part1.jl), [Part II](./day13/part2.jl)
 - [Day 14](./day14) ([Factor](https://factorcode.org/)): [Part I](./day14/part1.factor), [Part II](./day14/part2.factor)
 - [Day 15](./day15) ([Go](https://golang.org/)): [Part I](./day15/part1.go), [Part II](./day15/part2.go)
+- [Day 16](./day16) ([ooc](https://ooc-lang.org/)): [Part I](./day16/part1.ooc), [Part II](./day16/part2.ooc)
