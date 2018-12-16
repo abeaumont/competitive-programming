@@ -31,6 +31,9 @@ RUN sudo luarocks install moonscript
 RUN opam init -a
 RUN opam install core
 
+# ooc
+RUN cd /tmp/ && git clone https://github.com/ooc-lang/rock.git && cd rock && make rescue
+
 # OpenDylan
 RUN wget http://opendylan.org/downloads/opendylan/2014.1/opendylan-2014.1-x86_64-linux.tar.bz2 -O /tmp/opendylan-2014.1-x86_64-linux.tar.bz2 \
   && tar jxvf /tmp/opendylan-2014.1-x86_64-linux.tar.bz2 -C /tmp --no-same-owner \
