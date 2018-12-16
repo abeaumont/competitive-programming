@@ -14,6 +14,11 @@ RUN wget http://downloads.factorcode.org/releases/0.98/factor-linux-x86-64-0.98.
   && tar zxvf /tmp/factor-linux-x86-64-0.98.tar.gz -C /tmp --no-same-owner \
   && sudo ln -s /tmp/factor/factor /usr/bin/factor-vm
 
+# Go
+RUN wget https://dl.google.com/go/go1.11.4.linux-amd64.tar.gz -O /tmp/go1.11.4.linux-amd64.tar.gz \
+  && tar zxvf /tmp/go1.11.4.linux-amd64.tar.gz -C /tmp --no-same-owner \
+  && sudo ln -s /tmp/go/bin/go /usr/bin/go
+
 # Julia
 RUN wget https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.2-linux-x86_64.tar.gz -O /tmp/julia-1.0.2-linux-x86_64.tar.gz \
   && tar zxvf /tmp/julia-1.0.2-linux-x86_64.tar.gz -C /tmp --no-same-owner \
