@@ -8,8 +8,8 @@ import sys
 import re
 
 languages = [
-    'c', 'cc', 'd', 'hx', 'factor', 'go', 'jl', 'lid', 'lisp', 'ml', 'moon',
-    'nim', 'ooc', 'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage', 'sml',
+    'c', 'cc', 'd', 'hx', 'factor', 'go', 'jl', 'js', 'lid', 'lisp', 'ml',
+    'moon', 'nim', 'ooc', 'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage', 'sml',
     'stanza', 'sh', 'wren', 'zig'
 ]
 
@@ -211,6 +211,17 @@ class go(solution):
 
 
 class jl(solution):
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        return './{} < {}'.format(self.code, test)
+
+    def clean(self):
+        pass
+
+
+class js(solution):
     def build(self):
         pass
 
