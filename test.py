@@ -8,9 +8,9 @@ import sys
 import re
 
 languages = [
-    'c', 'cc', 'd', 'hx', 'factor', 'go', 'jl', 'js', 'lid', 'lisp', 'ml',
-    'moon', 'nim', 'ooc', 'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage', 'sml',
-    'stanza', 'sh', 'wren', 'zig'
+    'c', 'cc', 'cr', 'd', 'hx', 'factor', 'go', 'jl', 'js', 'lid', 'lisp',
+    'ml', 'moon', 'nim', 'ooc', 'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage',
+    'sml', 'stanza', 'sh', 'wren', 'zig'
 ]
 
 
@@ -118,6 +118,31 @@ class cc(solution):
         try:
             print('Building {}... '.format(self.target), end='')
             cmd = 'c++ {} -o {} -O2 -std=c++14'.format(self.code, self.target)
+            subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
+            print_ok()
+        except subprocess.CalledProcessError as e:
+            print_fail(e.output.decode('utf-8'))
+            raise e
+        except Exception as e:
+            print_fail(str(e))
+            raise e
+
+    def run_command(self, test):
+        return '{} < {}'.format(self.target, test)
+
+    def clean(self):
+        os.remove(self.target)
+
+
+class cr(solution):
+    @property
+    def target(self):
+        return self._target() + '-cr'
+
+    def build(self):
+        try:
+            print('Building {}... '.format(self.target), end='')
+            cmd = 'crystal build {} -o {}'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
