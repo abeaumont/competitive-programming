@@ -69,3 +69,8 @@ RUN cd /tmp/ && git clone https://github.com/munificent/wren.git && cd wren && m
 RUN wget https://ziglang.org/builds/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz -O /tmp/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz \
   && tar Jxvf /tmp/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz -C /tmp --no-same-owner \
   && sudo ln -s /tmp/zig-linux-x86_64-0.3.0+a9eab69b/zig /usr/bin/zig
+
+# JavaScript
+RUN wget https://nodejs.org/dist/v10.14.2/node-v10.14.2-linux-x64.tar.xz -O /tmp/node-v10.14.2-linux-x64.tar.xz \
+  && tar Jxvf /tmp/node-v10.14.2-linux-x64.tar.xz -C /tmp --no-same-owner \
+  && sudo ln -s /tmp/node-v10.14.2-linux-x64/bin/node /usr/bin/node
