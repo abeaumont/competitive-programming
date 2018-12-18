@@ -74,3 +74,8 @@ RUN wget https://ziglang.org/builds/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz -O /t
 RUN wget https://nodejs.org/dist/v10.14.2/node-v10.14.2-linux-x64.tar.xz -O /tmp/node-v10.14.2-linux-x64.tar.xz \
   && tar Jxvf /tmp/node-v10.14.2-linux-x64.tar.xz -C /tmp --no-same-owner \
   && sudo ln -s /tmp/node-v10.14.2-linux-x64/bin/node /usr/bin/node
+
+# Crystal
+RUN curl -sL "https://keybase.io/crystal/pgp_keys.asc" | sudo apt-key add - \
+  && echo "deb https://dist.crystal-lang.org/apt crystal main" | sudo tee /etc/apt/sources.list.d/crystal.list \
+  && sudo apt-get update && sudo apt-get install crystal
