@@ -20,3 +20,4 @@ A new solution in a different language every day!
 - [Day 16](./day16) ([ooc](https://ooc-lang.org/)): [Part I](./day16/part1.ooc), [Part II](./day16/part2.ooc)
 - [Day 17](./day17) ([JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/)): [Part I](./day17/part1.js), [Part II](./day17/part2.js)
 - [Day 18](./day18) ([Crystal](https://crystal-lang.org/)): [Part I](./day18/part1.cr), [Part II](./day18/part2.cr)
+- [Day 19](./day19) ([Picat](http://picat-lang.org/)): [Part I](./day19/part1.pi), [Part II](./day19/part2.pi)

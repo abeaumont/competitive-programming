@@ -1,0 +1,11 @@
+factors(Ps, 1, R) = R.
+factors([], X, R) = [X|R].
+factors(Ps@[P|_], X, R) = R1, X mod P == 0 => R1 = factors(Ps, X div P, [P|R]).
+factors([P|Ps], X, R) = factors(Ps, X, R).
+factors(N) = factors(N.sqrt.ceiling.primes, N, []).
+
+divisors([], X) = [X].
+divisors([F|Fs], X) = divisors(Fs, X*F) ++ divisors(Fs, X).
+divisors(Fs) = divisors(Fs, 1).
+
+main() => 10551282.factors.divisors.sum.println().

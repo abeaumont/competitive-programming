@@ -1,0 +1,44 @@
+import util.
+
+decode(Is, Rs, Ip), Rs[Ip] > Is.length => true.
+decode(Is, Rs, Ip) =>
+  [Op, A, B, C] = Is[Rs[Ip] + 1],
+  Rs[C + 1] := run(Op, Is, Rs, Ip, A, B),
+  Rs[Ip] := Rs[Ip] + 1,
+  decode(Is, Rs, Ip).
+
+run("addi", Is, Rs, Ip, A, B) = Rs[A + 1] + B.
+run("addr", Is, Rs, Ip, A, B) = Rs[A + 1] + Rs[B + 1].
+run("mulr", Is, Rs, Ip, A, B) = Rs[A + 1] * Rs[B + 1].
+run("muli", Is, Rs, Ip, A, B) = Rs[A + 1] * B.
+run("banr", Is, Rs, Ip, A, B) = Rs[A + 1] /\ Rs[B + 1].
+run("bani", Is, Rs, Ip, A, B) = Rs[A + 1] /\ B.
+run("borr", Is, Rs, Ip, A, B) = Rs[A + 1] \/ Rs[B + 1].
+run("bori", Is, Rs, Ip, A, B) = Rs[A + 1] \/ B.
+run("setr", Is, Rs, Ip, A, B) = Rs[A + 1].
+run("seti", Is, Rs, Ip, A, B) = A.
+run("gtir", Is, Rs, Ip, A, B) = R, A > Rs[B + 1] => R = 1.
+run("gtir", Is, Rs, Ip, A, B) = 0.
+run("gtri", Is, Rs, Ip, A, B) = R, Rs[A + 1] > B => R = 1.
+run("gtri", Is, Rs, Ip, A, B) = 0.
+run("gtrr", Is, Rs, Ip, A, B) = R, Rs[A + 1] > Rs[B + 1] => R = 1.
+run("gtrr", Is, Rs, Ip, A, B) = 0.
+run("eqir", Is, Rs, Ip, A, B) = R, A == R[B + 1] => R = 1.
+run("eqir", Is, Rs, Ip, A, B) = 0.
+run("eqri", Is, Rs, Ip, A, B) = R, Rs[A + 1] == B => R = 1.
+run("eqri", Is, Rs, Ip, A, B) = 0.
+run("eqrr", Is, Rs, Ip, A, B) = R, Rs[A + 1] == Rs[B + 1] => R = 1.
+run("eqrr", Is, Rs, Ip, A, B) = 0.
+
+read(Ops, []) = Ops.reverse.to_array.
+read(Ops, [H|Ls]) = R =>
+  [Op, A, B, C] = H.split(),
+  R = read([[Op|[X.to_int : X in [A, B, C]]]|Ops], Ls).
+
+main() =>
+  L = readln().split,
+  Ip = L[2].to_int + 1,
+  Is = read([], read_file_lines()),
+  Rs = {0, 0, 0, 0, 0, 0},
+  decode(Is, Rs, Ip),
+  Rs[1].println().
