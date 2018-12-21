@@ -8,9 +8,9 @@ import sys
 import re
 
 languages = [
-    'c', 'cc', 'cr', 'd', 'hx', 'factor', 'go', 'jl', 'js', 'lid', 'lisp',
-    'ml', 'moon', 'nim', 'ooc', 'pi', 'pony', 'py', 'rb', 'rkt', 'rs', 'sage',
-    'sml', 'stanza', 'sh', 'wren', 'zig'
+    'arr', 'c', 'cc', 'cr', 'd', 'hx', 'factor', 'go', 'jl', 'js', 'lid',
+    'lisp', 'ml', 'moon', 'nim', 'ooc', 'pi', 'pony', 'py', 'rb', 'rkt', 'rs',
+    'sage', 'sml', 'stanza', 'sh', 'wren', 'zig'
 ]
 
 
@@ -112,6 +112,21 @@ class c(solution):
 
     def clean(self):
         os.remove(self.target)
+
+
+class arr(solution):
+    # FIXME: Pyret solutions are not checked
+    def run(self, generate=False):
+        print_warn('Pyret solutions are disabled')
+
+    def build(self):
+        pass
+
+    def run_command(self, test):
+        pass
+
+    def clean(self):
+        pass
 
 
 class cc(solution):
