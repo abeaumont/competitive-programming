@@ -22,3 +22,4 @@ A new solution in a different language every day!
 - [Day 18](./day18) ([Crystal](https://crystal-lang.org/)): [Part I](./day18/part1.cr), [Part II](./day18/part2.cr)
 - [Day 19](./day19) ([Picat](http://picat-lang.org/)): [Part I](./day19/part1.pi), [Part II](./day19/part2.pi)
 - [Day 20](./day20) ([Dylan](https://opendylan.org/)): [Part I](./day20/part1.dylan), [Part II](./day20/part2.dylan)
+- [Day 21](./day21) ([Pyret](https://www.pyret.org/)): [Part I](./day21/part1.arr), [Part II](./day21/part2.arr)
