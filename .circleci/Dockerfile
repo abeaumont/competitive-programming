@@ -80,8 +80,10 @@ RUN sudo apt-get install mlton
 # MoonScript
 RUN sudo luarocks install moonscript
 
-# OCaml and Core
+# OCaml 4.07.0 and Core
 RUN opam init -a
+RUN opam switch 4.04.0 # Direct switch to 4.07.0 fails
+RUN opam switch 4.07.0
 RUN opam install core
 
 
