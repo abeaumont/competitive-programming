@@ -26,3 +26,4 @@ A new solution in a different language every day!
 - [Day 22](./day22) ([OCaml](https://ocaml.org/)): [Part I](./day22/part1.ml), [Part II](./day22/part2.ml)
 - [Day 23](./day23) ([C++](https://isocpp.org/)): [Part I](./day23/part1.cc), [Part II](./day23/part2.cc)
 - [Day 24](./day24) ([Common Lisp](https://common-lisp.net/)): [Part I](./day24/part1.lisp), [Part II](./day24/part2.lisp)
+- [Day 25](./day25) ([Nim](https://nim-lang.org/)): [Part I](./day25/part1.nim), there's no Part II.
