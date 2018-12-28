@@ -158,6 +158,7 @@ class cr(solution):
     # FIXME: Crystal solutions are not checked
     def run(self, generate=False):
         print_warn('Crystal solutions are disabled')
+        return True
 
     @property
     def target(self):
@@ -181,7 +182,7 @@ class cr(solution):
         return '{} < {}'.format(self.target, test)
 
     def clean(self):
-        return
+        return True
         os.remove(self.target)
 
 
