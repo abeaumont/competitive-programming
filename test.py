@@ -155,11 +155,16 @@ class cc(solution):
 
 
 class cr(solution):
+    # FIXME: Crystal solutions are not checked
+    def run(self, generate=False):
+        print_warn('Crystal solutions are disabled')
+
     @property
     def target(self):
         return self._target() + '-cr'
 
     def build(self):
+        return
         try:
             print('Building {}... '.format(self.target), end='')
             cmd = 'crystal build {} -o {}'.format(self.code, self.target)
