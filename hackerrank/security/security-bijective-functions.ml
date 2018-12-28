@@ -1,10 +1,10 @@
 (* https://www.hackerrank.com/challenges/security-bijective-functions *)
-open Core.Std
+open Core
 
 let () =
-  let _ = read_int () in
+  let _ = In_channel.(input_line_exn stdin) in
   let dup =
-    read_line ()
+    In_channel.(input_line_exn stdin)
     |> String.split ~on:' '
-    |> List.contains_dup in
+    |> List.contains_dup ~compare in
   print_endline (if dup then "NO" else "YES")
