@@ -1,157 +1,132 @@
-FROM circleci/python:2.7.14-stretch
+FROM archlinux/base
 
+## Pacman config customization
+# Use /tmp for package cache dir
+RUN sed -i s/#CacheDir/CacheDir/ /etc/pacman.conf
+RUN sed -i s/var\\/cache/tmp/ /etc/pacman.conf
 
-## Install dependencies to add new package sources
-RUN sudo apt-get update
-RUN sudo apt-get install apt-transport-https ca-certificates curl gnupg2
-RUN sudo apt-get install software-properties-common
+## Upgrade system
+RUN pacman -Suy --noconfirm
 
+## Install CircleCI dependencies
+RUN pacman -S --noconfirm awk binutils diffutils fakeroot file gcc git make
+RUN pacman -S --noconfirm pkg-config sudo tar yajl
 
-## Add additional package sources
-# Crystal
-RUN curl -sL "https://keybase.io/crystal/pgp_keys.asc" | sudo apt-key add -
-RUN echo "deb https://dist.crystal-lang.org/apt crystal main" \
-  | sudo tee /etc/apt/sources.list.d/crystal.list
+## Setup circleci user and group
+RUN groupadd -g 3434 circleci
+RUN useradd -u 3434 -g circleci -s /bin/bash --create-home circleci
+RUN echo 'circleci ALL=NOPASSWD: ALL' > /etc/sudoers.d/50-circleci
 
-# D
-RUN sudo wget http://master.dl.sourceforge.net/project/d-apt/files/d-apt.list \
-    -O /etc/apt/sources.list.d/d-apt.list
-RUN sudo apt-get update
-RUN sudo apt-get -y --allow-unauthenticated install --reinstall d-apt-keyring
+USER circleci
+WORKDIR /home/circleci
+RUN mkdir -p /home/circleci/.local/bin
+ENV PATH=/home/circleci/.local/bin:$PATH
 
-# Pony
-RUN sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E04F0923 B3B48BDA
-RUN sudo add-apt-repository "deb https://dl.bintray.com/pony-language/ponylang-debian $(lsb_release -cs) main"
+## Install yaourt for easy access to AUR repos
+RUN git clone https://aur.archlinux.org/package-query.git
+RUN cd package-query && makepkg -si --noconfirm
+RUN git clone https://aur.archlinux.org/yaourt.git
+RUN cd yaourt && makepkg -si --noconfirm
+ENV TERM vt100
 
+## Install common language dependencies
+RUN yaourt -S --noconfirm glpk lua patch z3
+RUN echo "/usr/bin/glpsol \$* > /dev/null" > /home/circleci/.local/bin/glpsol
+RUN chmod a+x /home/circleci/.local/bin/glpsol
 
-## Add debian packages
-RUN sudo apt-get update
-
+## Install languages
 # Common Lisp
-RUN sudo apt-get install sbcl
+RUN yaourt -S --noconfirm sbcl
 
 # Crystal
-RUN sudo apt-get install crystal
+RUN yaourt -S --noconfirm crystal
 
 # D
-RUN sudo apt-get install dmd-compiler
+RUN yaourt -S --noconfirm dmd
 
-# Haxe
-RUN sudo apt-get install haxe
-
-# Lua
-RUN sudo apt-get install lua5.3
-
-# MoonScript dependencies
-RUN sudo apt-get install liblua5.3-dev luarocks
-
-# OCaml
-RUN sudo apt-get install ocaml
-
-# OCaml packages
-RUN sudo apt-get install opam
-
-# OpenDylan dependencies
-RUN sudo apt-get install libgc-dev
-
-# Picat dependencies
-RUN sudo apt-get install glpk-utils
-
-# Pony
-RUN sudo apt-get install ponyc
-
-# Python libraries
-RUN sudo apt-get install python3-numpy python3-scipy
-
-# Racket
-RUN sudo apt-get install racket
-
-# Ruby
-RUN sudo apt-get install ruby
-
-# Rust
-RUN sudo apt-get install rustc
-
-# Standard ML
-RUN sudo apt-get install mlton
-
-
-## Installation of tools / libraries
-# MoonScript
-RUN sudo luarocks install moonscript
-
-# OCaml 4.07.0 and Core
-RUN opam init -a
-RUN opam switch 4.04.0 # Direct switch to 4.07.0 fails
-RUN opam switch 4.07.0
-RUN opam install core
-
-
-## Custom binary installations
 # Factor
-RUN wget http://downloads.factorcode.org/releases/0.98/factor-linux-x86-64-0.98.tar.gz \
-  -O /tmp/factor-linux-x86-64-0.98.tar.gz
-RUN tar zxvf /tmp/factor-linux-x86-64-0.98.tar.gz -C /tmp --no-same-owner
-RUN sudo ln -s /tmp/factor/factor /usr/bin/factor-vm
-
-# Go
-RUN wget https://dl.google.com/go/go1.11.4.linux-amd64.tar.gz \
-  -O /tmp/go1.11.4.linux-amd64.tar.gz
-RUN tar zxvf /tmp/go1.11.4.linux-amd64.tar.gz -C /tmp --no-same-owner
-RUN sudo ln -s /tmp/go/bin/go /usr/bin/go
+RUN yaourt -S --noconfirm factor
 
 # JavaScript
-RUN wget https://nodejs.org/dist/v10.14.2/node-v10.14.2-linux-x64.tar.xz \
-  -O /tmp/node-v10.14.2-linux-x64.tar.xz
-RUN tar Jxvf /tmp/node-v10.14.2-linux-x64.tar.xz -C /tmp --no-same-owner
-RUN sudo ln -s /tmp/node-v10.14.2-linux-x64/bin/node /usr/bin/node
+RUN yaourt -S --noconfirm nodejs
 
 # Julia
-RUN wget https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.2-linux-x86_64.tar.gz \
-  -O /tmp/julia-1.0.2-linux-x86_64.tar.gz
-RUN tar zxvf /tmp/julia-1.0.2-linux-x86_64.tar.gz -C /tmp --no-same-owner
-RUN sudo ln -s /tmp/julia-1.0.2/bin/julia /usr/bin/julia
+RUN yaourt -S --noconfirm julia
+
+# Haxe
+RUN yaourt -S --noconfirm haxe
+
+# Go
+RUN yaourt -S --noconfirm go
+
+# MoonScript
+RUN yaourt -S --noconfirm moonscript
+
+# Nim
+# Package doesn't work properly, use choosenim instead
+RUN curl https://nim-lang.org/choosenim/init.sh -sSf > choosenim-init.sh
+RUN sh choosenim-init.sh -y
+ENV PATH=/home/circleci/.nimble/bin:$PATH
+
+# OCaml
+RUN yaourt -S --noconfirm ocaml
+RUN yaourt -S --noconfirm ocaml-base ocaml-bin_prot ocaml-configurator
+RUN yaourt -S --noconfirm ocaml-fieldslib ocaml-jane-street-headers
+RUN yaourt -S --noconfirm ocaml-ppx_assert ocaml-ppx_base ocaml-ppx_hash
+RUN yaourt -S --noconfirm ocaml-ppx_inline_test ocaml-ppx_jane
+RUN yaourt -S --noconfirm ocaml-ppx_sexp_conv ocaml-ppx_sexp_message
+RUN yaourt -S --noconfirm ocaml-sexplib ocaml-splittable_random ocaml-stdio
+RUN yaourt -S --noconfirm ocaml-typerep ocaml-variantslib
+RUN yaourt -S --noconfirm ocaml-migrate-parsetree ocaml-ppxlib ocaml-spawn
+RUN git clone https://github.com/abeaumont/aur-ocaml-core_kernel.git
+RUN cd aur-ocaml-core_kernel && makepkg -si --noconfirm
+RUN git clone https://github.com/abeaumont/aur-ocaml-core.git
+RUN cd aur-ocaml-core && makepkg -si --noconfirm
+
+# ooc
+RUN yaourt -S --noconfirm rock
 
 # OpenDylan
-RUN wget http://opendylan.org/downloads/opendylan/2014.1/opendylan-2014.1-x86_64-linux.tar.bz2 \
-  -O /tmp/opendylan-2014.1-x86_64-linux.tar.bz2
-RUN tar jxvf /tmp/opendylan-2014.1-x86_64-linux.tar.bz2 -C /tmp --no-same-owner
-RUN sudo ln -s /tmp/opendylan-2014.1/bin/dylan-compiler /usr/bin/dylan-compiler
+RUN yaourt -S --noconfirm opendylan
+ENV OPEN_DYLAN_USER_ROOT=/home/circleci/.od
+RUN make-dylan-app dylan-prebuild
+RUN dylan-compiler -build dylan-prebuild/dylan-prebuild.lid
 
 # Picat
-RUN wget http://picat-lang.org/download/picat24_linux64.tar.gz \
-  -O /tmp/picat24_linux64.tar.gz
-RUN tar zxvf /tmp/picat24_linux64.tar.gz -C /tmp --no-same-owner
-RUN sudo mv /tmp/Picat/picat /usr/bin
+RUN git clone https://github.com/abeaumont/aur-picat.git
+RUN cd aur-picat && makepkg -si --noconfirm
 
-# PyPy3
-RUN wget https://bitbucket.org/squeaky/portable-pypy/downloads/pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2 \
-  -O /tmp/pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2
-RUN tar jxvf /tmp/pypy3.5-5.10.1-linux_x86_64-portable.tar.bz2 -C /tmp --no-same-owner
-RUN sudo ln -s /tmp/pypy3.5-5.10.1-linux_x86_64-portable/bin/pypy3 /usr/bin/pypy3
+# Pony
+RUN yaourt -S --noconfirm ponyc
+
+# Python2
+RUN yaourt -S --noconfirm python2
+
+# Python3
+RUN yaourt -S --noconfirm --needed python python-numpy python-scipy
+
+# PyPy 3
+RUN yaourt -S --noconfirm pypy3
+
+# Racket
+RUN yaourt -S --noconfirm racket
+
+# Ruby
+RUN yaourt -S --noconfirm ruby
+
+# Rust
+RUN yaourt -S --noconfirm rust
+
+# Standard ML
+RUN yaourt -S --noconfirm mlton
 
 # Stanza
-RUN mkdir -p /tmp/stanza
-RUN wget http://lbstanza.org/resources/stanza/lstanza_0_12_14.zip \
-  -O /tmp/stanza/lstanza_0_12_14.zip
-RUN cd /tmp/stanza/ \
-  && unzip lstanza_0_12_14.zip && ./stanza install -platform linux
-RUN sudo ln -s /tmp/stanza/stanza /usr/bin/stanza
-
-# Zig
-RUN wget https://ziglang.org/builds/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz \
-  -O /tmp/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz
-RUN tar Jxvf /tmp/zig-linux-x86_64-0.3.0+a9eab69b.tar.xz -C /tmp --no-same-owner
-RUN sudo ln -s /tmp/zig-linux-x86_64-0.3.0+a9eab69b/zig /usr/bin/zig
-
-## Custom source installations
-# ooc
-RUN cd /tmp/ \
-  && git clone https://github.com/ooc-lang/rock.git \
-  && cd rock && make rescue
+RUN git clone https://github.com/abeaumont/aur-stanza.git
+RUN cd aur-stanza && makepkg -si --noconfirm
+RUN cd /opt/stanza/ && ./stanza install -platform linux
 
 # Wren
-RUN cd /tmp/ \
-  && git clone https://github.com/munificent/wren.git \
-  && cd wren && make
-RUN sudo ln -s /tmp/wren/wren /usr/bin/wren
+RUN yaourt -S --noconfirm wren
+
+# Zig
+RUN yaourt -S --noconfirm zig-git
