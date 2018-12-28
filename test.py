@@ -307,7 +307,7 @@ class lid(solution):
     def clean(self):
         root = os.getenv('OPEN_DYLAN_USER_ROOT',
                          os.path.join(os.path.dirname(self.code), '_build'))
-        shutils.rmtree(root, True)
+        shutil.rmtree(root, True)
 
 
 class lisp(solution):
