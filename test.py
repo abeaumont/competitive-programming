@@ -181,6 +181,7 @@ class cr(solution):
         return '{} < {}'.format(self.target, test)
 
     def clean(self):
+        return
         os.remove(self.target)
 
 
