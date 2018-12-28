@@ -279,12 +279,8 @@ class js(solution):
 
 class lid(solution):
     """OpenDylan solutions"""
-    # FIXME: OpenDylan solutions are not checked
-    def run(self, generate=False):
-        print_warn('OpenDylan solutions are disabled')
 
     def build(self):
-        return
         try:
             print('Building {}...'.format(self._target() + '-dylan'), end='')
             cmd = 'dylan-compiler -build {}'.format(self.code)
@@ -303,7 +299,6 @@ class lid(solution):
         return '{} < {}'.format(os.path.join(root, 'bin', target), test)
 
     def clean(self):
-        return
         root = os.getenv('OPEN_DYLAN_USER_ROOT',
                          os.path.join(os.path.dirname(self.code), '_build'))
         shutils.rmtree(root, True)
