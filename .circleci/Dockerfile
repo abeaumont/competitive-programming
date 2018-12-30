@@ -93,8 +93,7 @@ RUN make-dylan-app dylan-prebuild
 RUN dylan-compiler -build dylan-prebuild/dylan-prebuild.lid
 
 # Picat
-RUN git clone https://github.com/abeaumont/aur-picat.git
-RUN cd aur-picat && makepkg -si --noconfirm
+RUN yaourt -S --noconfirm picat
 
 # Pony
 RUN yaourt -S --noconfirm ponyc
