@@ -2,4 +2,7 @@
 
 There are solutions for the following [Qualification Round 2013](https://code.google.com/codejam/contest/2270488/dashboard/) problems:
 
-* [A. Tick-Tac-Toe-Tomek](tic-tac-toe-tomek.dylan) ([problem site](https://code.google.com/codejam/contest/2270488/dashboard#s=p0))
+* [A. Tick-Tac-Toe-Tomek](tic-tac-toe-tomek.dylan)
+  ([problem site](https://code.google.com/codejam/contest/2270488/dashboard#s=p0))
+* [C. Fair and Square (small)](fair-and-square.lisp)
+  ([problem site](https://code.google.com/codejam/contest/2270488/dashboard#s=p2))
