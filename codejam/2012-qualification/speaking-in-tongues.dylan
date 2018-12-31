@@ -1,5 +1,5 @@
-// https://code.google.com/codejam/contest/1460488/dashboard#s=p0
 module: speaking-in-tongues
+url: https://code.google.com/codejam/contest/1460488/dashboard#s=p0
 
 define function line() => (line :: <string>) read-line(*standard-input*) end;
 define function number() => (number :: <integer>) string-to-integer(line()) end;
