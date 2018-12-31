@@ -12,5 +12,7 @@ It includes both practice and contest problems solutions from:
 - [HackerEarth](https://www.hackerearth.com/) ([solutions](hackerearth))
 - [HackerRank](https://www.hackerrank.com/) ([solutions](hackerrank))
 - [Kattis](https://open.kattis.com/) ([solutions](kattis))
+- [ICPC Live Archive](https://icpcarchive.ecs.baylor.edu/)
+  ([solutions](live-archive))
 - [Tuenti Challenge](https://contest.tuenti.net) ([solutions](tuenti))
 - [UVA Online Judge](https://uva.onlinejudge.org/) ([solutions](uva))
