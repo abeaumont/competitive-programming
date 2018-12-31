@@ -8,3 +8,7 @@ There are solutions for the following [Google Code Jam](https://codejam.withgoog
 * [Round 1C](2018-round-1c) ([contest site](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard))
 * [Qualification Round](2018-qualification) ([contest site](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard))
 * [Practice Session](2018-practice) ([contest site](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard))
+
+### 2012
+
+* [Qualification Round](2012-qualification) ([contest site](https://code.google.com/codejam/contest/1460488/dashboard))
