@@ -11,6 +11,8 @@ There are solutions for the following
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=166))
 * [394 - Mapmaker](00394.cc)
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=330))
+* [424 - Integer Inquiry](00424.cc)
+  ([contest site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=365))
 * [579 - Clock Hands](00579.cc)
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=520))
 * [10038 - Jolly Jumpers](10038.cc)
