@@ -480,7 +480,7 @@ class rkt(solution):
         pass
 
     def run_command(self, test):
-        return './{} < {}'.format(self.code, test)
+        return 'racket {} < {}'.format(self.code, test)
 
     def clean(self):
         pass
