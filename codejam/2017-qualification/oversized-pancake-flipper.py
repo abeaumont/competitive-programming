@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+# https://code.google.com/codejam/contest/3264486/dashboard#s=p0
 swap = lambda s: ''.join(('+' if i == ord('-') else '-') for i in s)
 
 for z in range(input()):

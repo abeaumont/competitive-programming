@@ -1,3 +1,4 @@
+% https://code.google.com/codejam/contest/3264486/dashboard#s=p3
 import util, mip.
 
 go(N, T, X1, X2, X3) =>
