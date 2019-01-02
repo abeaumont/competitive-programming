@@ -1,0 +1,77 @@
+import util, mip.
+
+go(N, T, X1, X2, X3) =>
+  Board0 = new_array(N, N),
+  Board1 = new_array(N, N),
+  Board2 = new_array(N, N),
+  Board3 = new_array(N, N),
+  Board0 :: 0..1,
+  Board1 :: 0..1,
+  Board2 :: 0..1,
+  Board3 :: 0..1,
+  foreach((I, J) in X1)
+    Board0[I, J] #= 0,
+    Board2[I, J] #= 0
+  end,
+  foreach((I, J) in X2)
+    Board0[I, J] #= 0,
+    Board1[I, J] #= 0
+  end,
+  foreach((I, J) in X3)
+    Board0[I, J] #= 0,
+    Board1[I, J] #= 0,
+    Board2[I, J] #= 0,
+    Board3[I, J] #= 1
+  end,
+  foreach(I in 1..N, J in 1..N)
+    Board0[I, J] + Board1[I, J] + Board2[I, J] + Board3[I, J] #= 1
+  end,
+  foreach(I in 1..N)
+    sum([Board2[I, J] + Board3[I, J] : J in 1..N]) #<= 1,
+    sum([Board2[J, I] + Board3[J, I] : J in 1..N]) #<= 1,
+  end,
+  foreach(K in 2..2*N)
+    sum([Board1[I, J] + Board3[I, J] : I in 1..N, J in 1..N, I + J = K]) #<= 1
+  end,
+  foreach(K in -(N-1)..N-1)
+    sum([Board1[I, J] + Board3[I, J] : I in 1..N, J in 1..N, I - J = K]) #<= 1
+  end,
+  Sum #= sum([Board1[I, J] + Board2[I, J] + Board3[I, J] * 2 : I in 1..N, J in 1..N]),
+  solve([$max(Sum)], [Board0, Board1, Board2, Board3]),
+  X = [],
+  [S1, S2, S3] = [new_set(X1), new_set(X2), new_set(X3)],
+  foreach(I in 1..N, J in 1..N)
+    if Board1[I, J] == 1, not S1.has_key((I, J)) then
+      X := [to_fstring("+ %d %d", I, J)| X]
+    elseif Board2[I, J] == 1, not S2.has_key((I, J)) then
+      X := [to_fstring("x %d %d", I, J)| X]
+    elseif Board3[I, J] == 1, not S3.has_key((I, J)) then
+      X := [to_fstring("o %d %d", I, J)| X]
+    end,
+  end,
+  printf(stderr, "Case #%d: %d %d\n", T, Sum, X.length),
+  foreach (S in X)
+    println(stderr, S)
+  end.
+
+main() =>
+  T = read_number(),
+  foreach(I in 1..T)
+    X1 = [],
+    X2 = [],
+    X3 = [],
+    [N, M] = [read_number() : J in 1..2],
+    foreach(J in 1..M)
+      [A, Y, X] = readln().split(),
+      Y := Y.to_number(),
+      X := X.to_number(),
+      if A == "+" then
+        X1 := [(Y, X)|X1]
+      elseif A == "x" then
+        X2 := [(Y, X)|X2]
+      else
+        X3 := [(Y, X)|X3]
+      end,
+    end,
+    go(N, I, X1, X2, X3)
+  end.

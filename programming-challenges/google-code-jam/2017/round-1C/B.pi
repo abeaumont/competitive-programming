@@ -1,0 +1,35 @@
+import util, mip.
+
+go(T, Ac, Aj, Acs, Ajs) =>
+	X = new_array(1440),
+	X :: 0..1,
+	if Ac >= 1 then
+		foreach(I in 1..Ac)
+			[S, E] = Acs[I],
+			foreach(J in S+1..E)
+				X[J] #= 0
+			end,
+		end,
+	end,
+	if Aj >= 1 then
+		foreach(I in 1..Aj)
+			[S, E] = Ajs[I],
+			foreach(J in S+1..E)
+					X[J] #= 1
+			end,
+		end,
+	end,
+	sum(X) #= 720,
+	S #= sum([X[I] #!= X[I+1]: I in 1..1439]) + (X[1] #!= X[1440]),
+	solve($[min(S), split], [S, X]),
+	printf(stderr, "Case #%d: %d\n", T, S).
+
+
+main() =>
+	[T] = [X.to_number() : X in readln().split()],
+	foreach(I in 1..T)
+		[Ac, Aj] = [X.to_number() : X in readln().split()],
+		Acs = [[X.to_number() : X in readln().split()] : J in 1..Ac],
+		Ajs = [[X.to_number() : X in readln().split()] : J in 1..Aj],
+		go(I, Ac, Aj, Acs, Ajs)
+	end.
