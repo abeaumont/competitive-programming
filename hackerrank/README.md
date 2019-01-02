@@ -19,4 +19,7 @@ There are solutions for the following [HackerRank](https://www.hackerrank.com) t
 
 ### Contests
 
-* [Women's Cup](womenscup) ([contest site](https://www.hackerrank.com/womenscup))
+* [Women's Cup](womenscup)
+  ([contest site](https://www.hackerrank.com/womenscup))
+* [Lambda Calculi - March 2016](lambda-calculi-march-2016)
+  ([contest site](https://www.hackerrank.com/lambda-calculi-march-2016))
