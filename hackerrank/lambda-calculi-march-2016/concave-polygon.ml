@@ -1,3 +1,4 @@
+(* https://www.hackerrank.com/contests/lambda-calculi-march-2016/challenges/lambda-march-concave-polygon *)
 (* Graham Convex Hull algorithm from http://www.cs.cmu.edu/afs/cs/academic/class/15451-s15/LectureNotes/lecture15/geometry.pdf *)
 let (--) (x1,y1) (x2,y2) = (x1-x2, y1-y2)
 let (++) (x1,y1) (x2,y2) = (x1+x2, y1+y2)

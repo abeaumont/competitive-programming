@@ -1,0 +1,12 @@
+11
+change 1
+print
+insert child 2
+visit child 1
+insert right 3
+visit right
+print
+insert right 4
+delete
+visit child 2
+print

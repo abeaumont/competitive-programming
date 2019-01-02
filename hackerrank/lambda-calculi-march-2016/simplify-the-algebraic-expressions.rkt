@@ -1,3 +1,4 @@
+;; https://www.hackerrank.com/contests/lambda-calculi-march-2016/challenges/simplify-the-algebraic-expressions
 #lang racket
 (require parser-tools/lex
          (prefix-in re- parser-tools/lex-sre)

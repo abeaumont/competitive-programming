@@ -1,3 +1,4 @@
+;; https://www.hackerrank.com/contests/lambda-calculi-march-2016/challenges/tree-manager
 (defstruct (node (:constructor new-node (&optional (value 0))))
   (value 0)
   (children (make-array 15 :initial-element nil)))

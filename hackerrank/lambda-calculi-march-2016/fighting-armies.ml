@@ -1,3 +1,4 @@
+(* https://www.hackerrank.com/contests/lambda-calculi-march-2016/challenges/fighting-armies *)
 (* Pairing heap with merge support *)
 type heap = Empty | Node of int * heap list
 exception EmptyHeap
