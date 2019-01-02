@@ -9,15 +9,22 @@ There are solutions for the following [Google Code Jam](https://codejam.withgoog
 * [Qualification Round](2018-qualification) ([contest site](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard))
 * [Practice Session](2018-practice) ([contest site](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard))
 
+### 2017
+
+* [Qualification Round](2017-qualification)
+  ([contest site](https://code.google.com/codejam/contest/3264486/dashboard))
+
 ### 2014
 
 * [Qualification Round](2014-qualification)
-  ([contes site](https://code.google.com/codejam/contest/2974486/dashboard))
+  ([contest site](https://code.google.com/codejam/contest/2974486/dashboard))
 
 ### 2013
 
-* [Qualification Round](2013-qualification) ([contest site](https://code.google.com/codejam/contest/2270488/dashboard))
+* [Qualification Round](2013-qualification)
+  ([contest site](https://code.google.com/codejam/contest/2270488/dashboard))
 
 ### 2012
 
-* [Qualification Round](2012-qualification) ([contest site](https://code.google.com/codejam/contest/1460488/dashboard))
+* [Qualification Round](2012-qualification)
+  ([contest site](https://code.google.com/codejam/contest/1460488/dashboard))
