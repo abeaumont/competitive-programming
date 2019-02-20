@@ -1,6 +1,8 @@
 ## Solutions to Codeforces contests
 
-There are solutions for the following [codeforces](http://codeforces.com/) contests:
+There are solutions for the following [codeforces](http://codeforces.com/) contests and problemsets:
+
+### Contests
 
 * [Codeforces Round #518 (Div. 2)](1068) ([contest site](https://codeforces.com/contest/1068))
 * [Codeforces Round #510 (Div. 2)](1042) ([contest site](https://codeforces.com/contest/1042))
@@ -13,3 +15,6 @@ There are solutions for the following [codeforces](http://codeforces.com/) conte
 * [Codeforces Round #465 (Div. 2)](935) ([contest site](http://codeforces.com/contest/935))
 * [Codeforces Round #408 (Div. 2)](796) ([contest site](http://codeforces.com/contest/796))
 
+### Problemsets
+
+* [acm.sgu.ru](acmsguru) ([problemset site](https://codeforces.com/problemsets/acmsguru))
