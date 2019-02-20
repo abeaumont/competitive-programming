@@ -5,6 +5,7 @@
 * [105 - Div 3](105.cc) ([problem site](https://codeforces.com/problemsets/acmsguru/problem/99999/105))
 * [112 - a^b - b^a](112.py) ([problem site](https://codeforces.com/problemsets/acmsguru/problem/99999/112))
 * [116 - Index of super-prime](116.cc) ([problem site](https://codeforces.com/problemsets/acmsguru/problem/99999/116))
+* [117 - Counting](117.cc) ([problem site](https://codeforces.com/problemsets/acmsguru/problem/99999/117))
 * [123 - The sum](123.cc) ([problem site](https://codeforces.com/problemsets/acmsguru/problem/99999/123))
 * [174 - Walls](174.cc) ([problem site](https://codeforces.com/problemsets/acmsguru/problem/99999/174))
 * [275 - To xor or not to xor](275.cc) ([problem site](https://codeforces.com/problemsets/acmsguru/problem/99999/275))
