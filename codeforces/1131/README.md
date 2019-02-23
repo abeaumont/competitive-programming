@@ -4,3 +4,5 @@ There are solutions for the following [Codeforces Round #541 (Div. 2)](https://c
 
 - [A. Sea Battle](a.cc)
   ([problem site](https://codeforces.com/contest/1131/problem/A))
+- [B. Draw!](b.cc)
+  ([problem site](https://codeforces.com/contest/1131/problem/B))
