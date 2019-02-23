@@ -17,6 +17,8 @@ There are solutions for the following
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=330))
 * [424 - Integer Inquiry](00424.cc)
   ([contest site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=365))
+* [458 - The Decoder](00458.cc)
+  ([contest site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=399))
 * [459 - Graph Connectivity](00459.cc)
   ([contest site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=6&problem=400))
 * [579 - Clock Hands](00579.cc)
