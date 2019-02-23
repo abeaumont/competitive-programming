@@ -7,6 +7,8 @@ There are solutions for the following
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=36))
 * [108 - Maximum Sum](00108.cc)
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=44))
+* [118 - Mutant Flatworld Explorers](00118.cc)
+  ([contest site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=54))
 * [230 - Borrowers](00230.cc)
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=166))
 * [394 - Mapmaker](00394.cc)
