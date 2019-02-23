@@ -4,6 +4,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) conte
 
 ### Contests
 
+* [Codeforces Round #541 (Div. 2)](1131) ([contest site](https://codeforces.com/contest/1131))
 * [Codeforces Round #518 (Div. 2)](1068) ([contest site](https://codeforces.com/contest/1068))
 * [Codeforces Round #510 (Div. 2)](1042) ([contest site](https://codeforces.com/contest/1042))
 * [Codeforces Round #508 (Div. 2)](1038) ([contest site](https://codeforces.com/contest/1040))
