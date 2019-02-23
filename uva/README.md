@@ -21,3 +21,5 @@ There are solutions for the following
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1055))
 * [11679 - Sub-prime](11679.cc)
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2726))
+* [11838 - Come and Go](11838.cc)
+  ([contest site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2938))
