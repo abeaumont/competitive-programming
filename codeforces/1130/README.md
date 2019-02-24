@@ -10,3 +10,5 @@ There are solutions for the following [Codeforces Round #542 (Alex Lopashev Than
   ([problem site](https://codeforces.com/contest/1130/problem/B))
 - [C. Connect](c.cc)
   ([problem site](https://codeforces.com/contest/1130/problem/C))
+- [D1. Toy Train (Simplified)](d1.cc)
+  ([problem site](https://codeforces.com/contest/1130/problem/D1))
