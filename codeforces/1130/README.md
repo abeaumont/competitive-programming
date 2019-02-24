@@ -6,3 +6,5 @@ There are solutions for the following [Codeforces Round #542 (Alex Lopashev Than
 
 - [A. Be Positive](a.cc)
   ([problem site](https://codeforces.com/contest/1130/problem/A))
+- [B. Two Cakes](b.cc)
+  ([problem site](https://codeforces.com/contest/1130/problem/B))
