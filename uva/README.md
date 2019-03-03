@@ -13,6 +13,8 @@ There are solutions for the following
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=166))
 * [280 - Vertex](00280.cc)
   ([contest site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=216))
+* [291 - The House Of Santa Claus](00291.cc)
+  ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=227))
 * [394 - Mapmaker](00394.cc)
   ([contest site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=330))
 * [424 - Integer Inquiry](00424.cc)
