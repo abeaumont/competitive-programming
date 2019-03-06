@@ -25,6 +25,8 @@ There are solutions for the following
   ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=6&problem=400))
 * [579 - Clock Hands](00579.cc)
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=520))
+* [10004 - Bicoloring](10004.cc)
+  ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=945))
 * [10038 - Jolly Jumpers](10038.cc)
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=979))
 * [10114 - Loansome Car Buyer](10114.py)
