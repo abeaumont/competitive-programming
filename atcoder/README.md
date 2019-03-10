@@ -13,6 +13,7 @@ There are solutions for the following [atcoder](https://atcoder.jp/) contests:
 
 * [Atcoder Regular Contest 103](arc103) ([contest site](https://arc103.contest.atcoder.jp/))
 * [Atcoder Regular Contest 102](arc102) ([contest site](https://arc102.contest.atcoder.jp/))
+* [Atcoder Regular Contest 100](arc100) ([contest site](https://arc100.contest.atcoder.jp/))
 * [Atcoder Regular Contest 098](arc098) ([contest site](https://arc098.contest.atcoder.jp/))
 * [Atcoder Regular Contest 097](arc097) ([contest site](https://arc097.contest.atcoder.jp/))
 * [Atcoder Regular Contest 096](arc096) ([contest site](https://arc096.contest.atcoder.jp/))
