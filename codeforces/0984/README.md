@@ -6,3 +6,5 @@ There are solutions for the following [Codeforces Round #483 (Div. 2)](https://c
   ([problem site](https://codeforces.com/contest/984/problem/A))
 - [B. Minesweeper](b.cc)
   ([problem site](https://codeforces.com/contest/984/problem/B))
+- [C. Finite or not?](c.cc)
+  ([problem site](https://codeforces.com/contest/984/problem/C))
