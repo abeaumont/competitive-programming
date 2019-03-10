@@ -16,6 +16,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) conte
 * [Educational Codeforces Round 40 (Rated for Div. 2)](0954) ([contest site](http://codeforces.com/contest/954))
 * [Codeforces Round #465 (Div. 2)](0935) ([contest site](http://codeforces.com/contest/935))
 * [Codeforces Round #408 (Div. 2)](0796) ([contest site](http://codeforces.com/contest/796))
+* [Codeforces Beta Round #4 (Div. 2 Only)](0004) ([contest site](https://codeforces.com/contests/4))
 
 ### Problemsets
 
