@@ -6,3 +6,5 @@ There are solutions for the following [Solutions for AtCoder Beginner Contest 10
   ([problem site](https://abc102.contest.atcoder.jp/tasks/abc102_a))
 - [B. Maximum Difference](b.py)
   ([problem site](https://abc102.contest.atcoder.jp/tasks/abc102_b))
+- [C. Linear Approximation](c.py)
+  ([problem site](https://abc102.contest.atcoder.jp/tasks/arc100_a))
