@@ -43,6 +43,8 @@ There are solutions for the following
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1724))
 * [10928 - My Dear Neighbours](10928.cc)
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1869))
+* [11503 - Virtual Friends](11503.cc)
+  ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2498))
 * [11679 - Sub-prime](11679.cc)
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2726))
 * [11838 - Come and Go](11838.cc)
