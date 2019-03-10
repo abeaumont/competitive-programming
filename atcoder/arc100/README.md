@@ -4,3 +4,5 @@ There are solutions for the following [Solutions for AtCoder Regular Contest 100
 
 - [C. Linear Approximation](c.py)
   ([problem site](https://atcoder.jp/contests/arc100/tasks/arc100_a))
+- [D. Equal Cut](d.cc)
+  ([problem site](https://atcoder.jp/contests/arc100/tasks/arc100_b))
