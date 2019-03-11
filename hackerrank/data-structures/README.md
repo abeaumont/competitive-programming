@@ -5,3 +5,5 @@ There are solutions for the following [HackerRank Data Structures Track](https:/
 ## Disjoint Set
 - [Merging Communities](merging-communities.cc)
   ([problem site](https://www.hackerrank.com/challenges/merging-communities))
+- [Components in a graph](components-in-graph.cc)
+  ([problem site](https://www.hackerrank.com/challenges/components-in-graph))
