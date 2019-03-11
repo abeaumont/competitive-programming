@@ -35,6 +35,8 @@ There are solutions for the following
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1055))
 * [10369 - Arctic Network](10369.cc)
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1310))
+* [10301 - Rings and Glue](10301.cc)
+  ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1242))
 * [10583 - Ubiquitous Religions](10583.cc)
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1524))
 * [10608 - Friends](10608.cc)
