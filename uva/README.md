@@ -23,6 +23,8 @@ There are solutions for the following
   ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=399))
 * [459 - Graph Connectivity](00459.cc)
   ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=6&problem=400))
+* [483 - Word Scramble](00483.py)
+  ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=424))
 * [579 - Clock Hands](00579.cc)
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=520))
 * [623 - 500!](00623.py)
