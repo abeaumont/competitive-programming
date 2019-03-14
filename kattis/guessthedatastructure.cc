@@ -1,3 +1,4 @@
+// https://open.kattis.com/problems/guessthedatastructure
 #include <iostream>
 #include <queue>
 #include <stack>

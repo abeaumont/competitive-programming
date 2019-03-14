@@ -1,3 +1,4 @@
+// https://open.kattis.com/problems/coast
 #include<bits/stdc++.h>
 using namespace std;
 using vb=vector<bool>;

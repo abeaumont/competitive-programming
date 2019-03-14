@@ -1,4 +1,5 @@
 #!/usr/bin/env python2
+# https://open.kattis.com/problems/zoo
 i = 1
 while True:
     n = input()
