@@ -245,6 +245,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/iboard))
 1. [ICPC Awards](icpcawards.cc)
   ([problem site](https://open.kattis.com/problems/icpcawards))
+1. [Jolly Jumpers](jollyjumpers.cc)
+  ([problem site](https://open.kattis.com/problems/jollyjumpers))
 1. [Judging Troubles](judging.cc)
   ([problem site](https://open.kattis.com/problems/judging))
 1. [Judging Moose](judgingmoose.cc)
