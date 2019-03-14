@@ -205,6 +205,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/fizzbuzz))
 1. [Flexible Spaces](flexible.py)
   ([problem site](https://open.kattis.com/problems/flexible))
+1. [Forests](forests.py)
+  ([problem site](https://open.kattis.com/problems/forests))
 1. [Friday the 13th](friday.cc)
   ([problem site](https://open.kattis.com/problems/friday))
 1. [Fridge](fridge.cc)
