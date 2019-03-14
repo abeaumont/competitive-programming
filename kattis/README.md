@@ -47,6 +47,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/aprizenoonecanwin))
 1. [Arbitrage?](arbitrage.cc)
   ([problem site](https://open.kattis.com/problems/arbitrage))
+1. [Arctic Network](arcticnetwork.cc)
+  ([problem site](https://open.kattis.com/problems/arcticnetwork))
 1. [A Real Challenge](areal.cc)
   ([problem site](https://open.kattis.com/problems/areal))
 1. [Army Strength (Easy)](armystrengtheasy.cc)
