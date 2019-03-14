@@ -37,6 +37,8 @@ There are solutions for the following
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=979))
 * [10114 - Loansome Car Buyer](10114.py)
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1055))
+* [10137 - The Trip](10137.py)
+  ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1078))
 * [10227 - Forests](10227.py)
   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1168))
 * [10369 - Arctic Network](10369.cc)
