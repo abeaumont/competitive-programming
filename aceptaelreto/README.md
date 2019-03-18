@@ -15,3 +15,5 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=372))
 1. [373 - Cubos visibles](373.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=373))
+1. [374 - Criogenización](374.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=374))
