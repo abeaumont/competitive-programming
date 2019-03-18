@@ -21,3 +21,5 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=375))
 1. [376 - Siete picos](376.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=376))
+1. [377 - Cuadrados imperfectos](377.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=377))
