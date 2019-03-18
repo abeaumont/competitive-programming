@@ -25,3 +25,5 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=377))
 1. [378 - La justicia de la lotería](378.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=378))
+1. [379 - Creciente por los pelos](379.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=379))
