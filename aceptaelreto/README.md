@@ -23,3 +23,5 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=376))
 1. [377 - Cuadrados imperfectos](377.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=377))
+1. [378 - La justicia de la lotería](378.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=378))
