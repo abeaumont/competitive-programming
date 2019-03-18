@@ -9,3 +9,5 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=369))
 1. [370 - La 13-14](370.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=370))
+1. [371 - Aburrimiento en las sobremesas](371.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=371))
