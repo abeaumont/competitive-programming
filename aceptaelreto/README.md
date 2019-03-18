@@ -11,3 +11,5 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=370))
 1. [371 - Aburrimiento en las sobremesas](371.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=371))
+1. [372 - La farsante de Mary Poppins](372.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=372))
