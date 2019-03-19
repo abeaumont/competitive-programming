@@ -28,3 +28,8 @@ There are solutions for the following [Google Code Jam](https://codejam.withgoog
 
 * [Qualification Round](2012-qualification)
   ([contest site](https://code.google.com/codejam/contest/1460488/dashboard))
+
+### 2008
+
+* [Qualification Round](2008-qualification)
+  ([contest site](https://code.google.com/codejam/contest/32013/dashboard))
