@@ -53,6 +53,8 @@ There are solutions for the following
    ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1549))
 1. [10783 - Odd Sum](10783.cc)
    ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1724))
+1. [10895 - Matrix Transpose](10895.cc)
+   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1836))
 1. [10928 - My Dear Neighbours](10928.cc)
    ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1869))
 1. [11503 - Virtual Friends](11503.cc)
