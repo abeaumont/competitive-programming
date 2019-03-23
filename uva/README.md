@@ -51,6 +51,8 @@ There are solutions for the following
    ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1524))
 1. [10608 - Friends](10608.cc)
    ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1549))
+1. [10720 - Graph Construction](10720.cc)
+   ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1661))
 1. [10783 - Odd Sum](10783.cc)
    ([problem site](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1724))
 1. [10895 - Matrix Transpose](10895.cc)
