@@ -51,6 +51,8 @@ There are solutions for the following
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1310))
 1. [10301 - Rings and Glue](10301.cc)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1242))
+1. [10507 - Waking up brain](10507.cc)
+   ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1448))
 1. [10583 - Ubiquitous Religions](10583.cc)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1524))
 1. [10608 - Friends](10608.cc)
