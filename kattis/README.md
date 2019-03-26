@@ -291,6 +291,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/mixedfractions))
 1. [Modulo](modulo.cc)
   ([problem site](https://open.kattis.com/problems/modulo))
+1. [Money Matters](moneymatters.cc)
+  ([problem site](https://open.kattis.com/problems/moneymatters))
 1. [Moogle](moogle.cc)
   ([problem site](https://open.kattis.com/problems/moogle))
 1. [Movie Collection](moviecollection.cc)
