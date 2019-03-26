@@ -11,6 +11,8 @@ There are solutions for the following
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=54))
 1. [230 - Borrowers](00230.cc)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=166))
+1. [260 - Il Gioco dell'X](00260.cc)
+   ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=196))
 1. [280 - Vertex](00280.cc)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=216))
 1. [291 - The House Of Santa Claus](00291.cc)

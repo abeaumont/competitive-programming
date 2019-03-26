@@ -1,0 +1,11 @@
+4
+bbwb
+wwbw
+bbwb
+bwww
+4
+bbwb
+wwbw
+bwwb
+wwbb
+0
