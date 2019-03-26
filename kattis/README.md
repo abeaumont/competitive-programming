@@ -391,6 +391,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/rockpaperscissors))
 1. [Santa Klas](santaklas.cc)
   ([problem site](https://open.kattis.com/problems/santaklas))
+1. [Saving the Universe](savinguniverse.cc)
+  ([problem site](https://open.kattis.com/problems/savinguniverse))
 1. [Scrolling Sign](scrollingsign.cc)
   ([problem site](https://open.kattis.com/problems/scrollingsign))
 1. [Secret Chamber at Mount Rushmore](secretchamber.cc)
