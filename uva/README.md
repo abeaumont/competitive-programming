@@ -45,6 +45,8 @@ There are solutions for the following
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=598))
 1. [793 - Network Connections](00793.cc)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=734))
+1. [872 - Ordering](00872.cc)
+   ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=813))
 1. [1197 - The Suspects](01197.cc)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3638))
 1. [10004 - Bicoloring](10004.cc)
