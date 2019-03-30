@@ -167,6 +167,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/differentdistances))
 1. [Dominoes 2](dominoes2.cc)
   ([problem site](https://open.kattis.com/problems/dominoes2))
+1. [Dominos](dominos.cc)
+  ([problem site](https://open.kattis.com/problems/dominos))
 1. [Doorman](doorman.cc)
   ([problem site](https://open.kattis.com/problems/doorman))
 1. [Disastrous Downtime](downtime.cc)
