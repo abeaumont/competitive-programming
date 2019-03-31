@@ -14,7 +14,7 @@ int main(){
       a.push_back(s);
       if(s[0]=='_')break;
     }
-     function<void(int,int,int)>dfs=[&](int y,int x, int k){
+    function<void(int,int,int)>dfs=[&](int y,int x, int k){
       a[y][x]=k;
       int r[]={-1,0,1,0};
       int c[]={0,1,0,-1};
