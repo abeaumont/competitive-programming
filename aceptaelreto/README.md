@@ -27,3 +27,5 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=378))
 1. [379 - Creciente por los pelos](379.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=379))
+1. [435 - El Pijote](435.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=435))
