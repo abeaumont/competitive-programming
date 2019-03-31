@@ -41,3 +41,5 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=439))
 1. [440 - Escalando el Everest](440.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=440))
+1. [443 - Abanico de naipes](443.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=443))
