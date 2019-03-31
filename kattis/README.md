@@ -453,6 +453,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/timebomb))
 1. [Stuck In A Time Loop](timeloop.py)
   ([problem site](https://open.kattis.com/problems/timeloop))
+1. [Test](test2.cc)
+  ([problem site](https://open.kattis.com/problems/test2))
 1. [Toilet Seat](toilet.cc)
   ([problem site](https://open.kattis.com/problems/toilet))
 1. [Train Passengers](trainpassengers.cc)
