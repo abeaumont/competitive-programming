@@ -385,6 +385,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/reversebinary))
 1. [Reverse Rot](reverserot.cc)
   ([problem site](https://open.kattis.com/problems/reverserot))
+1. [Reversing Roads](reversingroads.cc)
+  ([problem site](https://open.kattis.com/problems/reversingroads))
 1. [Riječi](rijeci.cc)
   ([problem site](https://open.kattis.com/problems/rijeci))
 1. [Robert Hood](roberthood.cc)
