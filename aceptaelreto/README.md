@@ -27,6 +27,8 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=378))
 1. [379 - Creciente por los pelos](379.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=379))
+1. [433 - Racimos de uvas](433.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=433))
 1. [435 - El Pijote](435.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=435))
 1. [436 - ¡Reto superado!](436.cc)
