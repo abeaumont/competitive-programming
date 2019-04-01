@@ -35,6 +35,8 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=435))
 1. [436 - ¡Reto superado!](436.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=436))
+1. [437 - El anuncio más caro del año](437.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=437))
 1. [438 - Esgritura](438.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=438))
 1. [439 - Velocidad = desplazamiento/tiempo](439.cc)
