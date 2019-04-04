@@ -31,5 +31,5 @@ There are solutions for the following [Google Code Jam](https://codejam.withgoog
 
 ### 2008
 
-* [Qualification Round](2008-qualification)
+* [Qualification Round](2008-qualification/README.md)
   ([contest site](https://code.google.com/codejam/contest/32013/dashboard))
