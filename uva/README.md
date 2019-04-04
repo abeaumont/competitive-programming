@@ -49,6 +49,8 @@ There are solutions for the following
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=520))
 1. [610 - Street Directions](00610.cc)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=551))
+1. [614 - Mapping the Route](00614.cc)
+   ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=555))
 1. [623 - 500!](00623.py)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=564))
 1. [657 - The die is cast](00657.cc)
