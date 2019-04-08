@@ -93,6 +93,8 @@ There are solutions for the following
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1099))
 1. [10178 - Count the Faces](10178.cc)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1119))
+1. [10189 - Minesweeper](10189.py)
+   ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130))
 1. [10199 - Tourist Guide](10199.cc)
    ([problem site](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1140))
 1. [10226 - Hardwood Species](10226.cc)
