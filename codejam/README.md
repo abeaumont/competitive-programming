@@ -2,6 +2,11 @@
 
 There are solutions for the following [Google Code Jam](https://codejam.withgoogle.com/codejam/) contests:
 
+### 2019
+
+- [Qualification Round](2019-qualification/README.md)
+  ([contest site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705))
+
 ### 2018
 
 * [Round 2](2018-round-2) ([contest site](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard))
