@@ -4,3 +4,5 @@ There are solutions for the following [Educational DP Contest](https://atcoder.j
 
 - [A. Frog 1](a.nim)
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_a))
+- [B. Frog 2](b.nim)
+  ([problem site](https://atcoder.jp/contests/dp/tasks/dp_b))
