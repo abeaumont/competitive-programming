@@ -6,3 +6,5 @@ There are solutions for the following [Educational DP Contest](https://atcoder.j
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_a))
 - [B. Frog 2](b.nim)
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_b))
+- [C. Vacation](c.nim)
+  ([problem site](https://atcoder.jp/contests/dp/tasks/dp_c))
