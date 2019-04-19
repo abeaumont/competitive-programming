@@ -10,3 +10,5 @@ There are solutions for the following [Educational DP Contest](https://atcoder.j
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_c))
 - [D. Knapsack 1](d.nim)
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_d))
+- [E. Knapsack 2](e.nim)
+  ([problem site](https://atcoder.jp/contests/dp/tasks/dp_e))
