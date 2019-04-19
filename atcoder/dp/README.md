@@ -18,3 +18,5 @@ There are solutions for the following [Educational DP Contest](https://atcoder.j
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_g))
 - [H. Grid 1](h.nim)
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_h))
+- [I. Coins](i.nim)
+  ([problem site](https://atcoder.jp/contests/dp/tasks/dp_i))
