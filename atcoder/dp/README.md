@@ -16,3 +16,5 @@ There are solutions for the following [Educational DP Contest](https://atcoder.j
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_f))
 - [G. Longest Path](g.cc)
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_g))
+- [H. Grid 1](h.nim)
+  ([problem site](https://atcoder.jp/contests/dp/tasks/dp_h))
