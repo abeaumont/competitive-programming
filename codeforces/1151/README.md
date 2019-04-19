@@ -4,3 +4,5 @@ There are solutions for the following [Codeforces Round #553 (Div. 2)](https://c
 
 - [A. Maxim and Biology](a.cc)
   ([problem site](https://codeforces.com/contest/1151/problem/A))
+- [B. Dima and a Bad XOR](b.cc)
+  ([problem site](https://codeforces.com/contest/1151/problem/B))
