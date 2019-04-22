@@ -20,3 +20,5 @@ There are solutions for the following [Educational DP Contest](https://atcoder.j
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_h))
 - [I. Coins](i.nim)
   ([problem site](https://atcoder.jp/contests/dp/tasks/dp_i))
+- [K. Stones](k.nim)
+  ([problem site](https://atcoder.jp/contests/dp/tasks/dp_k))
