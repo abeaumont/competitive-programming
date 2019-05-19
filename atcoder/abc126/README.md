@@ -12,3 +12,5 @@ There are solutions for the following [AtCoder Grand Contest 126](https://atcode
   ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_d))
 - [E. 1 or 2](e.cc)
   ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_e))
+- [F. XOR Matching](f.cc)
+  ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_f))
