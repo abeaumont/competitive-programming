@@ -1,0 +1,6 @@
+# Solutions for AtCoder Grand Contest 126
+
+There are solutions for the following [AtCoder Grand Contest 126](https://atcoder.jp/contests/abc126) problems:
+
+- [A. Changing a Character](a.cc)
+  ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_a))
