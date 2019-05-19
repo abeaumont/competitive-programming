@@ -8,3 +8,5 @@ There are solutions for the following [AtCoder Grand Contest 126](https://atcode
   ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_b))
 - [C. Dice and Coin](c.cc)
   ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_c))
+- [D. Even Relation](d.cc)
+  ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_d))
