@@ -5,6 +5,7 @@
 
 # IDEs
 .vscode
+.ccls-cache
 
 # Output files
 _build
