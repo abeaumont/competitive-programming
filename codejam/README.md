@@ -4,6 +4,8 @@ There are solutions for the following [Google Code Jam](https://codejam.withgoog
 
 ### 2019
 
+- [Round 2](2019-round-2/README.md)
+  ([contest site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679))
 - [Round 1A](2019-round-1A/README.md)
   ([contest site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635))
 - [Qualification Round](2019-qualification/README.md)
