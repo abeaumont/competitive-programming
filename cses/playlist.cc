@@ -1,12 +1,14 @@
 // https://cses.fi/problemset/task/1141/
 #include <algorithm>
 #include <iostream>
-#include <unordered_set>
+#include <set>
 #include <vector>
 
 using namespace std;
 
 int main() {
+  ios::sync_with_stdio(0);
+  cin.tie(0);
 	int n;
 	cin >> n;
 	vector<int> a(n);
@@ -14,7 +16,7 @@ int main() {
 	int i = 0;
 	int j = 0;
 	int m = 1;
-	unordered_set<int> s;
+	set<int> s;
 	while (j < n) {
 		if (s.count(a[j])) {
 			m = max(m, j - i);
