@@ -35,13 +35,13 @@ int main() {
   vb s(n);
   q q;
   q.push({0, 0, 0});
-  while (true) {
-    assert(!q.empty());
+  ll b = INF;
+  while (!q.empty()) {
     ll c, u, m;
     tie(c, u, m) = q.top(); q.pop();
     if (u == n - 1) {
-      cout << c - (m - m/2) << endl;
-      break;
+      b = min(b, c - (m - m/2));
+      continue;
     }
     s[u] = true;
     for (auto z:g[u]) {
@@ -55,4 +55,5 @@ int main() {
       }
     }
   }
+  cout << b << "\n";
 }
