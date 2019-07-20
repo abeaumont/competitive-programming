@@ -29,7 +29,7 @@ int main() {
 	si s;
 	q.push({0, 0});
 	s.insert(0);
-	int a, b, k;
+	int a, k;
 	while (!q.empty()) {
 		tie(a, k) = q.front();
 		q.pop();
@@ -39,8 +39,9 @@ int main() {
 			q.push({z, k + 1});
 		}
 	}
-	q.push({a, 0});
 	s.clear();
+	q.push({a, 0});
+	s.insert(a);
 	while (!q.empty()) {
 		tie(a, k) = q.front();
 		q.pop();
