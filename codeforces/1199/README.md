@@ -8,3 +8,5 @@ There are solutions for the following [Codeforces Round #576 (Div. 2)](https://c
   ([problem site](https://codeforces.com/contest/1199/problem/B))
 - [C. MP3](c.cc)
   ([problem site](https://codeforces.com/contest/1199/problem/C))
+- [D. Welfare State](d.cc)
+  ([problem site](https://codeforces.com/contest/1199/problem/D))
