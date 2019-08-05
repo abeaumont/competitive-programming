@@ -4,4 +4,5 @@ There are solutions for the following [Codeforces Round #577 (Div. 2)](https://c
 
 - [A. Important Exam](a.cc)
   ([problem site](https://codeforces.com/contest/1201/problem/A))
-
+- [B. Zero Array](b.cc)
+  ([problem site](https://codeforces.com/contest/1201/problem/B))
