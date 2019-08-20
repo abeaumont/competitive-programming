@@ -10,3 +10,5 @@ There are solutions for the following [Codeforces Round #581 (Div. 2)](https://c
   ([problem site](https://codeforces.com/contest/1204/problem/C))
 - [D1. Kirk and a Binary String (easy version)](d1.cc)
   ([problem site](https://codeforces.com/contest/1204/problem/D1))
+- [D2. Kirk and a Binary String (easy version)](d2.cc)
+  ([problem site](https://codeforces.com/contest/1204/problem/D2))
