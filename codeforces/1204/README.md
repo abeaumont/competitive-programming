@@ -4,3 +4,5 @@ There are solutions for the following [Codeforces Round #581 (Div. 2)](https://c
 
 - [A. BowWow and the Timetable](a.cc)
   ([problem site](https://codeforces.com/contest/1204/problem/A))
+- [B. Mislove Has Lost an Array](b.cc)
+  ([problem site](https://codeforces.com/contest/1204/problem/B))
