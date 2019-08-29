@@ -6,7 +6,7 @@ using ll = long long;
 using vi = vector<ll>;
 using vvi = vector<vi>;
 
-ll INF = 1000000000000000000LL;
+ll INF = 1e18;
 
 int main() {
   ios::sync_with_stdio(0);
@@ -15,19 +15,18 @@ int main() {
   cin >> n >> m >> q;
   vvi d(n, vi(n, INF));
   for (int i = 0; i < m; i++) {
-    cin >> u >> v >> w;
-    u--, v--;
-    d[u][v] = d[v][u] = min(d[u][v], w);
+    cin >> u >> v >> w, u--, v--;
+    if (w < d[u][v]) d[u][v] = d[v][u] = w;
   }
   for (int k = 0; k < n; k++)
     for (int i = 0; i < n; i++)
-      for (int j = 0; j < n; j++)
-        d[i][j] = min(d[i][j], d[i][k] + d[k][j]);
-  for (int i = 0; i < q; i++) {
-    cin >> u >> v;
-    u--, v--;
+       for (int j = i + 1; j < n; j++)
+         if (d[i][k] + d[k][j] < d[i][j])
+           d[i][j] = d[j][i] = d[i][k] + d[k][j];
+  while (q--) {
+    cin >> u >> v, u--, v--;
     if (u == v) d[u][v] = 0;
-    else if (d[u][v] == INF) d[u][v] = -1;
+    if (d[u][v] == INF) d[u][v] = -1;
     cout << d[u][v] << "\n";
   }
 }
