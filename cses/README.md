@@ -64,6 +64,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1164 - Room Allocation](1164.cc) ([problem site](https://cses.fi/problemset/task/1164))
 1. [1188 - Bit Inversions](1188.cc) ([problem site](https://cses.fi/problemset/task/1188))
 1. [1190 - Subarray Sum Queries](1190.cc) ([problem site](https://cses.fi/problemset/task/1190))
+1. [1191 - Cyclic Array](1191.cc) ([problem site](https://cses.fi/problemset/task/1191))
 1. [1192 - Counting Rooms](1192.cc) ([problem site](https://cses.fi/problemset/task/1192))
 1. [1193 - Labyrinth](1193.cc) ([problem site](https://cses.fi/problemset/task/1193))
 1. [1194 - Monsters](1194.cc) ([problem site](https://cses.fi/problemset/task/1194))
