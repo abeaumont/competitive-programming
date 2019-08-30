@@ -95,6 +95,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1640 - Sum of Two Values](1640.cc) ([problem site](https://cses.fi/problemset/task/1640))
 1. [1641 - Sum of Three Values](1641.cc) ([problem site](https://cses.fi/problemset/task/1641))
 1. [1642 - Sum of Four Values](1642.cc) ([problem site](https://cses.fi/problemset/task/1642))
+1. [1643 - Maximum Subarray Sum](1643.cc) ([Python](1643.py)) ([problem site](https://cses.fi/problemset/task/1643))
 1. [1645 - Nearest Smaller Values](1645.cc) ([problem site](https://cses.fi/problemset/task/1645))
 1. [1646 - Range Sum Queries I](1646.cc) ([problem site](https://cses.fi/problemset/task/1646))
 1. [1647 - Range Minimum Queries I](1647.cc) ([problem site](https://cses.fi/problemset/task/1647))
