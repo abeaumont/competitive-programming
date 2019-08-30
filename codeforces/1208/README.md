@@ -8,3 +8,5 @@ There are solutions for the following [Manthan, Codefest 19 (open for everyone, 
   ([problem site](https://codeforces.com/contest/1208/problem/B))
 - [C. Magic Grid](c.cc)
   ([problem site](https://codeforces.com/contest/1208/problem/C))
+- [D. Restore Permutation](d.cc)
+  ([problem site](https://codeforces.com/contest/1208/problem/D))
