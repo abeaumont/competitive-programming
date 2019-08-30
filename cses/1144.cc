@@ -14,17 +14,17 @@ indexed_set s;
 int main() {
 	cin >> n >> q;
 	for (int i = 0; i < n; i++) {
-		cin >> a[i];
-		s.insert(a[i]);
-	}
-	while (q--) {
-		cin >> c >> x >> y;
-		if (c == '?') cout << s.order_of_key(y + 1) - s.order_of_key(x)<< endl;
-		else {
-			x--;
-			s.erase(s.find_by_order(s.order_of_key(a[x])));
-			a[x] = y;
-			s.insert(y);
-		}
-	}
+    cin >> a[i];
+    s.insert(a[i]);
+  }
+  while (q--) {
+    cin >> c >> x >> y;
+    if (c == '?') cout << s.order_of_key(y + 1) - s.order_of_key(x)<< endl;
+    else {
+      x--;
+      s.erase(s.find_by_order(s.order_of_key(a[x])));
+      a[x] = y;
+      s.insert(y);
+    }
+  }
 }

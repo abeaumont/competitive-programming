@@ -8,21 +8,21 @@ typedef long long ll;
 const int M = 1000000007;
 
 int pow(ll a, ll b, int m) {
-	ll r = 1, e = a;
-	while (b) {
-		if (b & 1) r = (r * e) % m;
-		e = (e * e) % m;
-		b >>= 1;
-	}
-	return r;
+  ll r = 1, e = a;
+  while (b) {
+    if (b & 1) r = (r * e) % m;
+    e = (e * e) % m;
+    b >>= 1;
+  }
+  return r;
 }
 
 int main() {
-	int n;
-	cin >> n;
-	while (n--) {
-		int a, b;
-		cin >> a >> b;
-		cout << pow(a, b, M) << endl;
-	}
+  int n;
+  cin >> n;
+  while (n--) {
+    int a, b;
+    cin >> a >> b;
+    cout << pow(a, b, M) << endl;
+  }
 }
