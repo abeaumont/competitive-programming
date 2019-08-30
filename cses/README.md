@@ -2,11 +2,11 @@
 
 There are solutions for the following [CSES Problem Set](https://cses.fi/problemset/list/) problems:
 
-1. [1068 - Weird Algorithm](1068.cc) ([problem site](https://cses.fi/problemset/task/1068))
+1. [1068 - Weird Algorithm](1068.cc) ([Python](1068.py)) ([problem site](https://cses.fi/problemset/task/1068))
 1. [1069 - Repetitions](1069.cc) ([problem site](https://cses.fi/problemset/task/1069))
 1. [1070 - Permutations](1070.cc) ([problem site](https://cses.fi/problemset/task/1070))
 1. [1071 - Number Spiral](1071.cc) ([problem site](https://cses.fi/problemset/task/1071))
-1. [1072 - Two Knights](1072.cc) ([problem site](https://cses.fi/problemset/task/1072))
+1. [1072 - Two Knights](1072.cc) ([Common Lisp](1072.lisp)) ([problem site](https://cses.fi/problemset/task/1072))
 1. [1073 - Towers](1073.cc) ([problem site](https://cses.fi/problemset/task/1073))
 1. [1074 - Stick Lengths](1074.cc) ([problem site](https://cses.fi/problemset/task/1074))
 1. [1075 - Permutations II](1075.cc) ([problem site](https://cses.fi/problemset/task/1075))
@@ -16,7 +16,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1079 - Binomial Coefficients](1079.cc) ([problem site](https://cses.fi/problemset/task/1079))
 1. [1081 - Common Divisors](1081.cc) ([problem site](https://cses.fi/problemset/task/1081))
 1. [1082 - Sum of Divisors](1082.cc) ([problem site](https://cses.fi/problemset/task/1082))
-1. [1083 - Missing Number](1083.cc) ([problem site](https://cses.fi/problemset/task/1083))
+1. [1083 - Missing Number](1083.cc) ([Python](1083.py), [Ruby](1083.rb)) ([problem site](https://cses.fi/problemset/task/1083))
 1. [1084 - Apartments](1084.cc) ([problem site](https://cses.fi/problemset/task/1084))
 1. [1085 - Array Division](1085.cc) ([problem site](https://cses.fi/problemset/task/1085))
 1. [1086 - Writing Numbers](1086.cc) ([problem site](https://cses.fi/problemset/task/1086))
