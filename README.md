@@ -9,7 +9,7 @@ It includes solutions to both practice and contest problems from:
 - [CodeChef](codechef/README.md) ([site](https://www.codechef.com/))
 - [Codeforces](codeforces/README.md) ([site](https://codeforces.com/))
 - [Google Code Jam](codejam/README.md) ([site](https://code.google.com/codejam/))
-- [CSES Problem Set](cses) ([site](https://cses.fi/problemset/))
+- [CSES Problem Set](cses/README.md) ([site](https://cses.fi/problemset/))
 - [HackerEarth](hackerearth) ([site](https://www.hackerearth.com/))
 - [HackerRank](hackerrank/README.md) ([site](https://www.hackerrank.com/))
 - [Kattis](kattis/README.md) ([site](https://open.kattis.com/))
