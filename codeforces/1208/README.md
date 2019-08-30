@@ -12,3 +12,5 @@ There are solutions for the following [Manthan, Codefest 19 (open for everyone, 
   ([problem site](https://codeforces.com/contest/1208/problem/D))
 - [E. Let Them Slide](e.cc)
   ([problem site](https://codeforces.com/contest/1208/problem/E))
+- [F. Bits And Pieces](f.cc)
+  ([problem site](https://codeforces.com/contest/1208/problem/F))
