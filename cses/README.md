@@ -17,7 +17,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1081 - Common Divisors](1081.cc) ([problem site](https://cses.fi/problemset/task/1081))
 1. [1082 - Sum of Divisors](1082.cc) ([problem site](https://cses.fi/problemset/task/1082))
 1. [1083 - Missing Number](1083.cc) ([Python](1083.py), [Ruby](1083.rb)) ([problem site](https://cses.fi/problemset/task/1083))
-1. [1084 - Apartments](1084.cc) ([problem site](https://cses.fi/problemset/task/1084))
+1. [1084 - Apartments](1084.cc) ([Python](1084.py)) ([problem site](https://cses.fi/problemset/task/1084))
 1. [1085 - Array Division](1085.cc) ([problem site](https://cses.fi/problemset/task/1085))
 1. [1086 - Writing Numbers](1086.cc) ([problem site](https://cses.fi/problemset/task/1086))
 1. [1087 - Shortest Subsequence](1087.cc) ([problem site](https://cses.fi/problemset/task/1087))
