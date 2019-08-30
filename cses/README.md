@@ -31,7 +31,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1097 - Removal Game](1097.cc) ([problem site](https://cses.fi/problemset/task/1097))
 1. [1098 - Nim Game II](1098.cc) ([problem site](https://cses.fi/problemset/task/1098))
 1. [1099 - Stair Game](1099.cc) ([problem site](https://cses.fi/problemset/task/1099) (hacked))
-1. [1109 - Longest Border](1109.cc) ([problem site](https://cses.fi/problemset/task/1109) (removed))
+1. [1109 - Longest Border](1109.cc) ([problem site](https://web.archive.org/web/20181030143432/https://cses.fi/problemset/task/1109) (removed))
 1. [1110 - Minimal Rotation](1110.cc) ([problem site](https://cses.fi/problemset/task/1110) (hacked))
 1. [1111 - Longest Palindrome](1111.cc) ([problem site](https://cses.fi/problemset/task/1111))
 1. [1113 - String Transform](1113.cc) ([problem site](https://cses.fi/problemset/task/1113))
