@@ -107,6 +107,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1662 - Subarray Divisibility](1661.cc) ([problem site](https://cses.fi/problemset/task/1662))
 1. [1666 - Building Roads](1666.cc) ([problem site](https://cses.fi/problemset/task/1666))
 1. [1667 - Message Route](1667.cc) ([problem site](https://cses.fi/problemset/task/1667))
+1. [1668 - Building Teams](1668.cc) ([problem site](https://cses.fi/problemset/task/1668))
 1. [1669 - Round Trip](1669.cc) ([problem site](https://cses.fi/problemset/task/1669))
 1. [1671 - Shortest Routes I](1671.cc) ([problem site](https://cses.fi/problemset/task/1671))
 1. [1672 - Shortest Routes II](1672.cc) ([problem site](https://cses.fi/problemset/task/1672))
