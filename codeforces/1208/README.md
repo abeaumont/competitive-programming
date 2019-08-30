@@ -4,3 +4,5 @@ There are solutions for the following [Manthan, Codefest 19 (open for everyone, 
 
 - [A. XORinacci](a.cc)
   ([problem site](https://codeforces.com/contest/1208/problem/A))
+- [B. Uniqueness](b.cc)
+  ([problem site](https://codeforces.com/contest/1208/problem/B))
