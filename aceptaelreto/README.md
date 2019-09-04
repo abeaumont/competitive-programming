@@ -47,5 +47,7 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=440))
 1. [441 - Contar hasta el final](441.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=441))
+1. [442 - Camellos, serpientes y kebabs](442.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=442))
 1. [443 - Abanico de naipes](443.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=443))
