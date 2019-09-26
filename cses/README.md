@@ -113,6 +113,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1667 - Message Route](1667.cc) ([problem site](https://cses.fi/problemset/task/1667))
 1. [1668 - Building Teams](1668.cc) ([problem site](https://cses.fi/problemset/task/1668))
 1. [1669 - Round Trip](1669.cc) ([problem site](https://cses.fi/problemset/task/1669))
+1. [1670 - Swap Game](1670.cc) ([problem site](https://cses.fi/problemset/task/1670))
 1. [1671 - Shortest Routes I](1671.cc) ([problem site](https://cses.fi/problemset/task/1671))
 1. [1672 - Shortest Routes II](1672.cc) ([problem site](https://cses.fi/problemset/task/1672))
 1. [1674 - Subordinates](1674.cc) ([problem site](https://cses.fi/problemset/task/1674))
