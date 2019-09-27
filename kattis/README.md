@@ -133,6 +133,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/compass))
 1. [Cryptographer's Conundrum](conundrum.cc)
   ([problem site](https://open.kattis.com/problems/conundrum))
+1. [Convex Polygon Area](convexpolygonarea.cc)
+  ([problem site](https://open.kattis.com/problems/convexpolygonarea))
 1. [Cookie Selection](cookieselection.cc)
   ([problem site](https://open.kattis.com/problems/cookieselection))
 1. [Counting Stars](countingstars.cc)
