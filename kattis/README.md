@@ -289,6 +289,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/loowater))
 1. [In Or Out](mandelbrot.py)
   ([problem site](https://open.kattis.com/problems/mandelbrot))
+1. [Maximum Number of Colinear Points](maxcolinear.cc)
+  ([problem site](https://open.kattis.com/problems/maxcolinear))
 1. [Minimum Scalar Product](minimumscalar.cc)
   ([problem site](https://open.kattis.com/problems/minimumscalar))
 1. [Mirror Images](mirror.cc)
