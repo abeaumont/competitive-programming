@@ -351,6 +351,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/planina))
 1. [Planting Trees](plantingtrees.cc)
   ([problem site](https://open.kattis.com/problems/plantingtrees))
+1. [Polygon Area](polygonarea.cc)
+  ([problem site](https://open.kattis.com/problems/polygonarea))
 1. [Pot](pot.cc)
   ([problem site](https://open.kattis.com/problems/pot))
 1. [Pripreme](pripreme.cc)
