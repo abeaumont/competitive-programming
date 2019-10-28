@@ -32,7 +32,7 @@ int main() {
   cin >> n;
   while (n--) {
     int x; cin >> x;
-    if (x < m) continue;
+    if (x <= m) continue;
     vi f;
     while (a[x]) {
       f.push_back(a[x]);
