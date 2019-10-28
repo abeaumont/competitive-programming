@@ -175,6 +175,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/doorman))
 1. [Disastrous Downtime](downtime.cc)
   ([problem site](https://open.kattis.com/problems/downtime))
+1. [All Just A Dream](dream.cc)
+  ([problem site](https://open.kattis.com/problems/dream))
 1. [DRM Messages](drmmessages.cc)
   ([problem site](https://open.kattis.com/problems/drmmessages))
 1. [Daylight Saving Time](dst.cc)
