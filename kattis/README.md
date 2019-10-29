@@ -467,6 +467,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/toilet))
 1. [Train Passengers](trainpassengers.cc)
   ([problem site](https://open.kattis.com/problems/trainpassengers))
+1. [Trending Topic](trendingtopic.cc)
+  ([problem site](https://open.kattis.com/problems/trendingtopic))
 1. [Tri](tri.cc)
   ([problem site](https://open.kattis.com/problems/tri))
 1. [Trik](trik.cc)

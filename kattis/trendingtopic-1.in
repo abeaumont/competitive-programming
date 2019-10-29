@@ -1,0 +1,47 @@
+<text>
+imagine you are in the hiring process of a company whose
+main business is analyzing the information that appears
+in the web
+</text>
+
+<text>
+a simple test consists in writing a program for
+maintaining up to date a set of trending topics
+</text>
+
+<text>
+you will be hired depending on the efficiency of your solution
+</text>
+
+<top 5 />
+
+<text>
+they provide you with a file containing the text
+corresponding to a highly active blog
+</text>
+
+<text>
+the text is organized daily and you have to provide the
+sorted list of the n most frequent words during last week
+when asked
+</text>
+
+
+<text>
+each input file contains one test case the text corresponding
+to a day is delimited by tag text
+</text>
+
+<text>
+the query of top n words can appear between texts corresponding
+to two different days
+</text>
+
+<top 3 />
+
+<text>
+blah blah blah blah blah blah blah blah blah
+please please please
+</text>
+
+<top 3 />
