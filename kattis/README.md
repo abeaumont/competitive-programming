@@ -445,6 +445,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/stararrangements))
 1. [Statistics](statistics.cc)
   ([problem site](https://open.kattis.com/problems/statistics))
+1. [Stogovi](stogovi.cc)
+  ([problem site](https://open.kattis.com/problems/stogovi))
 1. [Sum Kind of Problem](sumkindofproblem.cc)
   ([problem site](https://open.kattis.com/problems/sumkindofproblem))
 1. [Sum Squared Digits Function](sumsquareddigits.cc)
