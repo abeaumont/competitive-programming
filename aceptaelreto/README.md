@@ -51,3 +51,5 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=442))
 1. [443 - Abanico de naipes](443.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=443))
+1. [444 - La digestión de las serpientes](444.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=444))
