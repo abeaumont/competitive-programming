@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # https://codeforces.com/contest/1058/problem/D
-from fractions import gcd
+from math import gcd
 
 n, m, k = map(int, input().split())
 if k == 2:
