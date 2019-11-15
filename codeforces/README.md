@@ -23,7 +23,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) conte
 - [Codeforces Round #518 (Div. 2)](1068) ([contest site](https://codeforces.com/contest/1068)):
   [A](1068/a.py), [B](1068/b.cc), [C](1068/c.cc), D, E, [F](1068/f.cc)
 - [Codeforces Round #512 (Div. 2, based on Technocup 2019 Elimination Round 1)](1058) ([contest site](https://codeforces.com/contest/1058)):
-  [A](1058/a.py), [B](b.py), [C](c.py), D, E, F, G
+  [A](1058/a.py), [B](b.py), [C](c.py), [D](d.py), E, F, G
 - [Codeforces Round #511 (Div. 2)](1047) ([contest site](https://codeforces.com/contest/1047)):
   [A](1047/a.py), [B](1047/b.cc), [C](1047/c.cc), D, E
 - [Codeforces Round #510 (Div. 2)](1042) ([contest site](https://codeforces.com/contest/1042)):
