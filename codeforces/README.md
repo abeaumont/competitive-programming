@@ -50,6 +50,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1068A - Birthday](1068/a.py) ([problem site](https://codeforces.com/contest/1068/problem/A))
 1. [1047B - Cover Points](1047/b.cc) ([problem site](https://codeforces.com/contest/1047/problem/B))
 1. [1047A - Little C Loves 3 I](1047/a.py) ([problem site](https://codeforces.com/contest/1047/problem/A))
+1. [1043A - Elections](1043/a.cc) ([problem site](https://codeforces.com/contest/1043/problem/A))
 1. [1042C - Array Product](1042/c.cc) ([problem site](https://codeforces.com/contest/1042/problem/C))
 1. [1042B - Vitamins](1042/b.cc) ([problem site](https://codeforces.com/contest/1042/problem/B))
 1. [1042A - Benches](1042/a.cc) ([problem site](https://codeforces.com/contest/1042/problem/A))
