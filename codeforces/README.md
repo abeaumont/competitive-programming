@@ -44,6 +44,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1130C - Connect](1130/c.cc) ([problem site](https://codeforces.com/contest/1130/problem/C))
 1. [1130B - Two Cakes](1130/b.cc) ([problem site](https://codeforces.com/contest/1130/problem/B))
 1. [1130A - Be Positive](1130/a.cc) ([problem site](https://codeforces.com/contest/1130/problem/A))
+1. [1082A - Vasya and Book](1082/a.cc) ([problem site](https://codeforces.com/contest/1082/problem/A))
 1. [1080C - Masha and two friends](1080/c.cc) ([problem site](https://codeforces.com/contest/1080/problem/C))
 1. [1080B - Margarite and the best present](1080/b.cc) ([problem site](https://codeforces.com/contest/1080/problem/B))
 1. [1080A - Petya and Origami](1080/a.cc) ([problem site](https://codeforces.com/contest/1080/problem/A))
