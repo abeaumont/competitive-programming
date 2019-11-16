@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1253B - Silly Mistake](1253/b.cc) ([problem site](https://codeforces.com/contest/1253/problem/B))
 1. [1253A - Single Push](1253/a.cc) ([problem site](https://codeforces.com/contest/1253/problem/A))
 1. [1208F - Bits and Pieces](1208/f.cc) ([problem site](https://codeforces.com/contest/1208/problem/F))
 1. [1208E - Let Them Slide](1208/e.cc) ([problem site](https://codeforces.com/contest/1208/problem/E))
