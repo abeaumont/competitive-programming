@@ -44,6 +44,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1130C - Connect](1130/c.cc) ([problem site](https://codeforces.com/contest/1130/problem/C))
 1. [1130B - Two Cakes](1130/b.cc) ([problem site](https://codeforces.com/contest/1130/problem/B))
 1. [1130A - Be Positive](1130/a.cc) ([problem site](https://codeforces.com/contest/1130/problem/A))
+1. [1080A - Petya and Origami](1080/a.cc) ([problem site](https://codeforces.com/contest/1080/problem/A))
 1. [1068C - Colored Rooks](1068/c.cc) ([problem site](https://codeforces.com/contest/1068/problem/C))
 1. [1068B - LCM](1068/b.cc) ([problem site](https://codeforces.com/contest/1068/problem/B))
 1. [1068A - Birthday](1068/a.py) ([problem site](https://codeforces.com/contest/1068/problem/A))
