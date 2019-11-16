@@ -89,6 +89,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [935A - Fafa and his Company](0935/a.cc) ([problem site](https://codeforces.com/contest/935/problem/A))
 1. [897B - Chtholly's request](0897/b.py) ([problem site](https://codeforces.com/contest/897/problem/B))
 1. [897A - Scarborough Fair](0897/a.cc) ([problem site](https://codeforces.com/contest/897/problem/A))
+1. [805B - 3-palindrome](0805/b.py) ([problem site](https://codeforces.com/contest/805/problem/B))
 1. [805A - Fake NP](0805/a.py) ([problem site](https://codeforces.com/contest/805/problem/A))
 1. [798B - Mike and strings](0798/b.cc) ([problem site](https://codeforces.com/contest/798/problem/B))
 1. [798A - Buying A House](0798/a.py) ([problem site](https://codeforces.com/contest/798/problem/A))
