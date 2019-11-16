@@ -48,6 +48,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1068C - Colored Rooks](1068/c.cc) ([problem site](https://codeforces.com/contest/1068/problem/C))
 1. [1068B - LCM](1068/b.cc) ([problem site](https://codeforces.com/contest/1068/problem/B))
 1. [1068A - Birthday](1068/a.py) ([problem site](https://codeforces.com/contest/1068/problem/A))
+1. [1061B - Views Matter](1061/b.cc) ([problem site](https://codeforces.com/contest/1061/problem/B))
 1. [1061A - Coins](1061/a.cc) ([problem site](https://codeforces.com/contest/1061/problem/A))
 1. [1056D - Decorate Apple Tree](1056/d.cc) ([problem site](https://codeforces.com/contest/1056/problem/D))
 1. [1056C - Pick Heroes](1056/c.py) ([problem site](https://codeforces.com/contest/1056/problem/C))
