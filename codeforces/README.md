@@ -7,6 +7,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1253C - Sweets Eating](1253/c.cc) ([problem site](https://codeforces.com/contest/1253/problem/C))
 1. [1253B - Silly Mistake](1253/b.cc) ([problem site](https://codeforces.com/contest/1253/problem/B))
 1. [1253A - Single Push](1253/a.cc) ([problem site](https://codeforces.com/contest/1253/problem/A))
+1. [1228A - Distinct Digits](1228/a.cc) ([problem site](https://codeforces.com/contest/1228/problem/A))
 1. [1223C - Save the Nature](1241/c.cc) ([problem site](https://codeforces.com/contest/1223/problem/C))
 1. [1223B - Strings Equalization](1241/b.cc) ([problem site](https://codeforces.com/contest/1223/problem/B))
 1. [1223A - CME](1241/a.cc) ([problem site](https://codeforces.com/contest/1223/problem/A))
