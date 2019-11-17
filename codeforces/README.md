@@ -35,6 +35,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1151C - Problem for Nazar](1151/c.py) ([problem site](https://codeforces.com/contest/1151/problem/C))
 1. [1151B - Dima and a Bad XOR](1151/b.cc) ([problem site](https://codeforces.com/contest/1151/problem/B))
 1. [1151A - Maxim and Biology](1151/a.cc) ([problem site](https://codeforces.com/contest/1151/problem/A))
+1. [1148A - Another One Bites The Dust](1148/a.cc) ([problem site](https://codeforces.com/contest/1148/problem/A))
 1. [1131D - Gourmet choice](1131/d.cc) ([problem site](https://codeforces.com/contest/1131/problem/D))
 1. [1131C - Birthday](1131/c.cc) ([problem site](https://codeforces.com/contest/1131/problem/C))
 1. [1131B - Draw!](1131/b.cc) ([problem site](https://codeforces.com/contest/1131/problem/B))
