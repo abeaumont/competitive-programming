@@ -31,6 +31,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1195C - Basketball Exercise](1195/c.cc) ([problem site](https://codeforces.com/contest/1195/problem/C))
 1. [1195B - Sport Mafia](1195/b.cc) ([problem site](https://codeforces.com/contest/1195/problem/B))
 1. [1195A - Drinks Choosing](1195/a.cc) ([problem site](https://codeforces.com/contest/1195/problem/A))
+1. [1186D - Vus the Cossack and Numbers](1186/d.cc) ([problem site](https://codeforces.com/contest/1186/problem/D))
 1. [1186A - Vus the Cossack and a Contest](1186/a.cc) ([problem site](https://codeforces.com/contest/1186/problem/A))
 1. [1169B - Pairs](1169/b.cc) ([problem site](https://codeforces.com/contest/1169/problem/B))
 1. [1169A - Circle Metro](1169/a.cc) ([problem site](https://codeforces.com/contest/1169/problem/A))
