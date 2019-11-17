@@ -133,6 +133,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [798A - Buying A House](0798/a.py) ([problem site](https://codeforces.com/contest/798/problem/A))
 1. [796B - Find The Bone](0796/b.py) ([problem site](https://codeforces.com/contest/796/problem/B))
 1. [796A - Buying A House](0796/a.py) ([problem site](https://codeforces.com/contest/796/problem/A))
+1. [455A - Boredom](0455/a.cc) ([problem site](https://codeforces.com/contest/455/problem/A))
 1. [4D - Mysterious Present](0004/d.cc) ([problem site](https://codeforces.com/contest/4/problem/D))
 1. [4C - Registration System](0004/c.cc) ([problem site](https://codeforces.com/contest/4/problem/C))
 1. [4B - Before an Exam](0004/b.cc) ([problem site](https://codeforces.com/contest/4/problem/B))
