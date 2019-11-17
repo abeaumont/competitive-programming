@@ -7,6 +7,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1253C - Sweets Eating](1253/c.cc) ([problem site](https://codeforces.com/contest/1253/problem/C))
 1. [1253B - Silly Mistake](1253/b.cc) ([problem site](https://codeforces.com/contest/1253/problem/B))
 1. [1253A - Single Push](1253/a.cc) ([problem site](https://codeforces.com/contest/1253/problem/A))
+1. [1223A - CME](1241/a.cc) ([problem site](https://codeforces.com/contest/1223/problem/A))
 1. [1208F - Bits and Pieces](1208/f.cc) ([problem site](https://codeforces.com/contest/1208/problem/F))
 1. [1208E - Let Them Slide](1208/e.cc) ([problem site](https://codeforces.com/contest/1208/problem/E))
 1. [1208D - Restore Permutation](1208/d.cc) ([problem site](https://codeforces.com/contest/1208/problem/D))
