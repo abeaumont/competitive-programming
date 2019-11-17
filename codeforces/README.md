@@ -31,6 +31,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1195C - Basketball Exercise](1195/c.cc) ([problem site](https://codeforces.com/contest/1195/problem/C))
 1. [1195B - Sport Mafia](1195/b.cc) ([problem site](https://codeforces.com/contest/1195/problem/B))
 1. [1195A - Drinks Choosing](1195/a.cc) ([problem site](https://codeforces.com/contest/1195/problem/A))
+1. [1169A - Circle Metro](1189/a.cc) ([problem site](https://codeforces.com/contest/1169/problem/A))
 1. [1151D - Stas and the Queue at the Buffet](1151/d.cc) ([problem site](https://codeforces.com/contest/1151/problem/D))
 1. [1151C - Problem for Nazar](1151/c.py) ([problem site](https://codeforces.com/contest/1151/problem/C))
 1. [1151B - Dima and a Bad XOR](1151/b.cc) ([problem site](https://codeforces.com/contest/1151/problem/B))
