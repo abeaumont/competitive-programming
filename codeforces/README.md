@@ -138,6 +138,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [4C - Registration System](0004/c.cc) ([problem site](https://codeforces.com/contest/4/problem/C))
 1. [4B - Before an Exam](0004/b.cc) ([problem site](https://codeforces.com/contest/4/problem/B))
 1. [4A - Watermelon](0004/a.cc) ([problem site](https://codeforces.com/contest/4/problem/A))
+1. [2A - Winner](0002/a.cc) ([problem site](https://codeforces.com/contest/2/problem/A))
 1. [1A - Theatre Square](0001/a.py) ([problem site](https://codeforces.com/contest/1/problem/A))
 
 ### [acm.sgu.ru](acmsguru) ([problemset site](https://codeforces.com/problemsets/acmsguru))
