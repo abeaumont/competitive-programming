@@ -54,6 +54,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1148C - Crazy Diamond](1148/c.cc) ([problem site](https://codeforces.com/contest/1148/problem/C))
 1. [1148B - Born This Way](1148/b.cc) ([problem site](https://codeforces.com/contest/1148/problem/B))
 1. [1148A - Another One Bites The Dust](1148/a.cc) ([problem site](https://codeforces.com/contest/1148/problem/A))
+1. [1131F - Asya And Kittens](1131/f.cc) ([problem site](https://codeforces.com/contest/1131/problem/F))
 1. [1131D - Gourmet choice](1131/d.cc) ([problem site](https://codeforces.com/contest/1131/problem/D))
 1. [1131C - Birthday](1131/c.cc) ([problem site](https://codeforces.com/contest/1131/problem/C))
 1. [1131B - Draw!](1131/b.cc) ([problem site](https://codeforces.com/contest/1131/problem/B))
