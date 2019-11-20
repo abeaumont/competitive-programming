@@ -123,6 +123,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [935C - Fifa and Fafa](0935/c.cc) ([problem site](https://codeforces.com/contest/935/problem/C))
 1. [935B - Fafa and the Gates](0935/b.cc) ([problem site](https://codeforces.com/contest/935/problem/B))
 1. [935A - Fafa and his Company](0935/a.cc) ([problem site](https://codeforces.com/contest/935/problem/A))
+1. [906A - Shockers](0906/a.cc) ([problem site](https://codeforces.com/contest/906/problem/A))
 1. [897B - Chtholly's request](0897/b.py) ([problem site](https://codeforces.com/contest/897/problem/B))
 1. [897A - Scarborough Fair](0897/a.cc) ([problem site](https://codeforces.com/contest/897/problem/A))
 1. [805B - 3-palindrome](0805/b.py) ([problem site](https://codeforces.com/contest/805/problem/B))
