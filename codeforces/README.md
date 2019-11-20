@@ -128,6 +128,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [906A - Shockers](0906/a.cc) ([problem site](https://codeforces.com/contest/906/problem/A))
 1. [897B - Chtholly's request](0897/b.py) ([problem site](https://codeforces.com/contest/897/problem/B))
 1. [897A - Scarborough Fair](0897/a.cc) ([problem site](https://codeforces.com/contest/897/problem/A))
+1. [896A - Nephren gives a riddle](0897/c.cc) ([problem site](https://codeforces.com/contest/896/problem/A))
 1. [805B - 3-palindrome](0805/b.py) ([problem site](https://codeforces.com/contest/805/problem/B))
 1. [805A - Fake NP](0805/a.py) ([problem site](https://codeforces.com/contest/805/problem/A))
 1. [804B - Minimum number of steps](0805/d.py) ([problem site](https://codeforces.com/contest/804/problem/B))
