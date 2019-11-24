@@ -13,6 +13,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1228C - Primes and Multiplication](1228/c.cc) ([problem site](https://codeforces.com/contest/1228/problem/C))
 1. [1228B - Filling the Grid](1228/b.cc) ([problem site](https://codeforces.com/contest/1228/problem/B))
 1. [1228A - Distinct Digits](1228/a.cc) ([problem site](https://codeforces.com/contest/1228/problem/A))
+1. [1227C - Messy](1227/c.cc) ([problem site](https://codeforces.com/contest/1227/problem/C))
 1. [1223C - Save the Nature](1241/c.cc) ([problem site](https://codeforces.com/contest/1223/problem/C))
 1. [1223B - Strings Equalization](1241/b.cc) ([problem site](https://codeforces.com/contest/1223/problem/B))
 1. [1223A - CME](1241/a.cc) ([problem site](https://codeforces.com/contest/1223/problem/A))
