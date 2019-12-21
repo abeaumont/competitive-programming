@@ -94,6 +94,8 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 
 ### [ABC Class contests](https://atcoder.jp/contests/archive?ratedType=1&category=0&keyword=)
 
+
+1. [ABC139A - Tenki](abc139/a.cc) ([problem site](https://atcoder.jp/contests/abc139/tasks/abc139_a))
 1. [ABC126F - XOR Matching](abc126/f.cc) ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_f))
 1. [ABC126E - 1 or 2](abc126/e.cc) ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_e))
 1. [ABC126D - Even Relation](abc126/d.cc) ([problem site](https://atcoder.jp/contests/abc126/tasks/abc126_d))
