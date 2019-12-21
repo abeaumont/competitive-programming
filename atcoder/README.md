@@ -1,6 +1,6 @@
-## Solutions to AtCoder contests
+## Solutions to AtCoder problems
 
-There are solutions for the following [AtCoder](https://atcoder.jp/) contests:
+There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 
 ### [AGC Class contests](https://atcoder.jp/contests/archive?ratedType=3&category=0&keyword=)
 
