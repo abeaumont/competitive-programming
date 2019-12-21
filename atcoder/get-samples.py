@@ -37,8 +37,8 @@ async def process_task(client: aiohttp.ClientSession, name: str, url: str) -> No
     print('Got samples for task {}'.format(name))
 
 
-async def main(loop: asyncio.BaseEventLoop, contest: str) -> None:
-    async with aiohttp.ClientSession(loop=loop) as client:
+async def main(contest: str) -> None:
+    async with aiohttp.ClientSession() as client:
         print('Getting samples for contest {}...'.format(contest))
         prefix = 'https://' + contest + '.contest.atcoder.jp'
         url = prefix + '/assignments'
@@ -63,5 +63,4 @@ if __name__ == '__main__':
         contest = sys.argv[1]
     else:
         contest = os.path.basename(os.path.abspath(os.curdir))
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(main(loop, contest))
+    asyncio.get_event_loop().run_until_complete(main(contest))
