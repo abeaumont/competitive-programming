@@ -333,6 +333,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 1. [DPC - Vacation](dp/c.nim) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_c))
 1. [DPB - Frog 2](dp/b.nim) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_b))
 1. [DPA - Frog 1](dp/a.nim) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_a))
+1. [JSC2019B - Kleene Inversion](jsc2019-qual/b.cc) ([problem site](https://atcoder.jp/contests/jsc2019-qual/tasks/jsc2019_qual_b))
 1. [JSC2019A - Takahashi Calendar](jsc2019-qual/a.cc) ([problem site](https://atcoder.jp/contests/jsc2019-qual/tasks/jsc2019_qual_a))
 1. [SH2018D - Saving Snuuk](soundhound2018-summer-qual/d.cc) ([problem site](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_d))
 1. [SH2018C - Ordinary Beauty](soundhound2018-summer-qual/c.py) ([problem site](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_c))
