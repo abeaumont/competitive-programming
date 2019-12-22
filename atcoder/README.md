@@ -4,6 +4,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 
 ### [AGC Class contests](https://atcoder.jp/contests/archive?ratedType=3&category=0&keyword=)
 
+1. [AGC032A - Limited Insertion](agc032/a.cc) ([problem site](https://atcoder.jp/contests/agc032/tasks/agc032_a))
 1. [AGC019B - Reverse and Compare](agc019/b.py) ([problem site](https://atcoder.jp/contests/agc019/tasks/agc019_b))
 1. [AGC004B - Colorful Slimes](agc004/b.py) ([problem site](https://atcoder.jp/contests/agc004/tasks/agc004_b))
 1. [AGC004A - Divide a Cuboid](agc004/a.nim) ([problem site](https://atcoder.jp/contests/agc004/tasks/agc004_a))
