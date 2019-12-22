@@ -335,6 +335,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 1. [DPA - Frog 1](dp/a.nim) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_a))
 1. [JSC2019B - Kleene Inversion](jsc2019-qual/b.cc) ([problem site](https://atcoder.jp/contests/jsc2019-qual/tasks/jsc2019_qual_b))
 1. [JSC2019A - Takahashi Calendar](jsc2019-qual/a.cc) ([problem site](https://atcoder.jp/contests/jsc2019-qual/tasks/jsc2019_qual_a))
+1. [N20192B - Counting of Trees](nikkei2019-2-qual/b.cc) ([problem site](https://atcoder.jp/contests/nikkei2019-2-qual/tasks/nikkei2019_2_qual_b))
 1. [N20192A - Sum of Two Integers](nikkei2019-2-qual/a.cc) ([problem site](https://atcoder.jp/contests/nikkei2019-2-qual/tasks/nikkei2019_2_qual_a))
 1. [SH2018D - Saving Snuuk](soundhound2018-summer-qual/d.cc) ([problem site](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_d))
 1. [SH2018C - Ordinary Beauty](soundhound2018-summer-qual/c.py) ([problem site](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_c))
