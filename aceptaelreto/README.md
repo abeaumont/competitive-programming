@@ -9,6 +9,8 @@ There are solutions for the following
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=114))
 1. [116 - ¡Hola mundo!](116.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=116))
+1. [192 - Por 3 o más 5](192.cc)
+   ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=192))
 1. [326 - La ardilla viajera](326.cc)
    ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=326))
 1. [368 - Cociendo huevos](368.cc)
