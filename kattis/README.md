@@ -485,6 +485,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/twostones))
 1. [Union-Find](unionfind.cc)
   ([problem site](https://open.kattis.com/problems/unionfind))
+1. [Vacuumba](vacuumba.cc)
+  ([problem site](https://open.kattis.com/problems/vacuumba))
 1. [Vauvau](vauvau.cc)
   ([problem site](https://open.kattis.com/problems/vauvau))
 1. Virtual Friends: [C++](virtualfriends.cc), [Python](virtualfriends.py)
