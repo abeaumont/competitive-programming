@@ -499,6 +499,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/walls))
 1. [What does the fox say?](whatdoesthefoxsay.cc)
   ([problem site](https://open.kattis.com/problems/whatdoesthefoxsay))
+1. [Where's My Internet??](wheresmyinternet.cc)
+  ([problem site](https://open.kattis.com/problems/wheresmyinternet))
 1. [Wizard of Odds](wizardofodds.py)
   ([problem site](https://open.kattis.com/problems/wizardofodds))
 1. [Wood Cutting](woodcutting.cc)
