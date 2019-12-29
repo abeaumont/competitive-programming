@@ -89,6 +89,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/bossbattle))
 1. [Boxes](boxes.cc)
   ([problem site](https://open.kattis.com/problems/boxes))
+1. [Breaking Bad](breakingbad.cc)
+  ([problem site](https://open.kattis.com/problems/breakingbad))
 1. [Brexit](brexit.cc)
   ([problem site](https://open.kattis.com/problems/brexit))
 1. [Build Dependencies](builddeps.cc)
