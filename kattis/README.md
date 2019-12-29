@@ -361,6 +361,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/polygonarea))
 1. [Pot](pot.cc)
   ([problem site](https://open.kattis.com/problems/pot))
+1. [Prime Sieve](primesieve.cc)
+  ([problem site](https://open.kattis.com/problems/priemesieve))
 1. [Pripreme](pripreme.cc)
   ([problem site](https://open.kattis.com/problems/pripreme))
 1. Problem Classification: [C++](problemclassification.cc), [Python](problemclassification.py)
