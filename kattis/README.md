@@ -511,5 +511,7 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/zamka))
 1. [Stand on Zanzibar](zanzibar.cc)
   ([problem site](https://open.kattis.com/problems/zanzibar))
+1. [Zipf's Song](zipfsong.cc)
+  ([problem site](https://open.kattis.com/problems/zipfsong))
 1. [Un-bear-able Zoo](zoo.py)
   ([problem site](https://open.kattis.com/problems/zoo))
