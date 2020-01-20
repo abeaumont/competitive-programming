@@ -4,7 +4,7 @@
 using namespace std;
 using ll = long long;
 using vi = vector<ll>;
-using mii = unordered_map<int, vi>;
+using mii = map<int, vi>;
 
 int main() {
   ios::sync_with_stdio(0);
