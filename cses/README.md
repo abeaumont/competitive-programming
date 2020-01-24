@@ -125,6 +125,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1713 - Counting Divisors](1713.cc) ([problem site](https://cses.fi/problemset/task/1713))
 1. [1722 - Fibonacci Numbers](1722.cc) ([problem site](https://cses.fi/problemset/task/1722))
 1. [1734 - Distinct Values Queries](1734.cc) ([problem site](https://cses.fi/problemset/task/1734))
+1. [1739 - Forest Queries II](1739.cc) ([problem site](https://cses.fi/problemset/task/1739))
 1. [1745 - Money Sums](1745.cc) ([problem site](https://cses.fi/problemset/task/1745))
 1. [1746 - Array Description](1746.cc) ([problem site](https://cses.fi/problemset/task/1746))
 1. [1754 - Coin Piles](1754.cc) ([problem site](https://cses.fi/problemset/task/1754))
