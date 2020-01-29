@@ -119,6 +119,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1672 - Shortest Routes II](1672.cc) ([problem site](https://cses.fi/problemset/task/1672))
 1. [1673 - High Score](1673.cc) ([problem site](https://cses.fi/problemset/task/1673))
 1. [1674 - Subordinates](1674.cc) ([problem site](https://cses.fi/problemset/task/1674))
+1. [1678 - Round Trip II](1678.cc) ([problem site](https://cses.fi/problemset/task/1678))
 1. [1679 - Course Schedule](1679.cc) ([problem site](https://cses.fi/problemset/task/1679))
 1. [1711 - Distinct Routes](1711.cc) ([problem site](https://cses.fi/problemset/task/1711))
 1. [1712 - Exponentiation II](1712.cc) ([problem site](https://cses.fi/problemset/task/1712))
