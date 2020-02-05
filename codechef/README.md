@@ -10,6 +10,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/B5)
 1. [BIAS - (Challenge) Biased Committee](feb18/bias.cc)
   ([problem site](https://www.codechef.com/problems/BIAS)
+1. [BINADD - Addition](dec19a/binadd.cc)
+  ([problem site](https://www.codechef.com/problems/BINADD)
 1. [BINXOR - Binary XOR](dec19a/binxor.cc)
   ([problem site](https://www.codechef.com/problems/BINXOR)
 1. [BROCLK - Broken Clock](feb18/broclk.cc)
