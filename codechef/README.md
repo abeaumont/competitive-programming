@@ -104,6 +104,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/SEGPROD))
 1. [SONGIF - Sonya and Gifts](may19a/songif.cc)
   ([problem site](https://www.codechef.com/problems/SONGIF))
+1. [STICNOT - Sticky Notes](dec19a/sticnot.cc)
+  ([problem site](https://www.codechef.com/problems/STICNOT))
 1. [STRMRG - String Merging (subtask #1)](jan18/strmrg.cc)
   ([problem site](https://www.codechef.com/problems/STRMRG))
 1. [TABGAME - Table Game](sept18a/tabgame.py)
