@@ -22,6 +22,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/BTAR)
 1. [CARPTUN - Car-pal Tunnel](feb18/carptun.cc)
   ([problem site](https://www.codechef.com/problems/CARPTUN)
+1. [CHFRAN - Chefina and Ranges](dec19a/chfran.cc)
+  ([problem site](https://www.codechef.com/problems/CHFRAN)
 1. [CIELAB - Ciel and A-B Problem](cook17/cielab.cc)
   ([problem site](https://www.codechef.com/problems/CIELAB)
 1. [CLANDLBL - Chef And Land Labeling](feb18/clandlbl.py)
