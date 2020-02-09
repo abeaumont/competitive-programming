@@ -3,8 +3,9 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
-1. [1300A - Non-zero](1300/a.cc) ([problem site](ohttps://codeforces.com/contest/1300/problem/A))
-1. [1291B - Array Sharpening](1291/b.cc) ([problem site](ohttps://codeforces.com/contest/1291/problem/B))
+1. [1300B - Assigning to Classes](1300/b.cc) ([problem site](https://codeforces.com/contest/1300/problem/B))
+1. [1300A - Non-zero](1300/a.cc) ([problem site](https://codeforces.com/contest/1300/problem/A))
+1. [1291B - Array Sharpening](1291/b.cc) ([problem site](https://codeforces.com/contest/1291/problem/B))
 1. [1291A - Even But Not Even](1291/a.cc) ([problem site](https://codeforces.com/contest/1291/problem/A))
 1. [1253E - Antenna Coverage](1253/e.cc) ([problem site](https://codeforces.com/contest/1253/problem/E))
 1. [1253D - Harmonious Graph](1253/d.cc) ([problem site](https://codeforces.com/contest/1253/problem/D))
