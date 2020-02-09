@@ -5,6 +5,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 ### Contests ([problemset site](https://codeforces.com/problemset))
 1. [1300B - Assigning to Classes](1300/b.cc) ([problem site](https://codeforces.com/contest/1300/problem/B))
 1. [1300A - Non-zero](1300/a.cc) ([problem site](https://codeforces.com/contest/1300/problem/A))
+1. [1299B - Aerodynamic](1300/d.cc) ([problem site](https://codeforces.com/contest/1299/problem/B))
 1. [1299A - Anu Has a Function](1300/c.cc) ([problem site](https://codeforces.com/contest/1299/problem/A))
 1. [1291B - Array Sharpening](1291/b.cc) ([problem site](https://codeforces.com/contest/1291/problem/B))
 1. [1291A - Even But Not Even](1291/a.cc) ([problem site](https://codeforces.com/contest/1291/problem/A))
