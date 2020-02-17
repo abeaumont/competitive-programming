@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1304A - Two Rabbits](1304/a.cc) ([problem site](https://codeforces.com/contest/1304/problem/A))
 1. [1300B - Assigning to Classes](1300/b.cc) ([problem site](https://codeforces.com/contest/1300/problem/B))
 1. [1300A - Non-zero](1300/a.cc) ([problem site](https://codeforces.com/contest/1300/problem/A))
 1. [1299C - Water Balance](1300/e.cc) ([problem site](https://codeforces.com/contest/1299/problem/C))
