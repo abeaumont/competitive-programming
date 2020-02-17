@@ -117,6 +117,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/cetvrta))
 1. [Chess](chess.cc)
   ([problem site](https://open.kattis.com/problems/chess))
+1. [Closest Sums](closestsums.cc)
+  ([problem site](https://open.kattis.com/problems/closetsums))
 1. [One Chicken Per Person!](chicken.cc)
   ([problem site](https://open.kattis.com/problems/onechicken))
 1. [A Classy Problem](classy.py)
