@@ -291,6 +291,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/listgame))
 1. [The Dragon of Loowater](loowater.cc)
   ([problem site](https://open.kattis.com/problems/loowater))
+1. [Lucky Numbers](luckynumber.py)
+  ([problem site](https://open.kattis.com/problems/luckynumber))
 1. [In Or Out](mandelbrot.py)
   ([problem site](https://open.kattis.com/problems/mandelbrot))
 1. [Maximum Number of Colinear Points](maxcolinear.cc)
