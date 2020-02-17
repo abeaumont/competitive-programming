@@ -69,6 +69,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/ballotboxes))
 1. [Bank Queue](bank.cc)
   ([problem site](https://open.kattis.com/problems/bank))
+1. [Batmanacci](batmanacci.cc)
+  ([problem site](https://open.kattis.com/problems/batmanacci))
 1. [Bela](bela.cc)
   ([problem site](https://open.kattis.com/problems/bela))
 1. [Bijele](bijele.cc)
