@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1304E - 1-Trees and Queries](1304/e.cc) ([problem site](https://codeforces.com/contest/1304/problem/E))
 1. [1304D - Shortest and Longest LIS](1304/d.cc) ([problem site](https://codeforces.com/contest/1304/problem/D))
 1. [1304C - Air Conditioner](1304/c.cc) ([problem site](https://codeforces.com/contest/1304/problem/C))
 1. [1304B - Longest Palindrome](1304/b.cc) ([problem site](https://codeforces.com/contest/1304/problem/B))
