@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1304F1 - F1. Animal Observation (easy version)](1304/f1.cc) ([problem site](https://codeforces.com/contest/1304/problem/F1))
 1. [1304E - 1-Trees and Queries](1304/e.cc) ([problem site](https://codeforces.com/contest/1304/problem/E))
 1. [1304D - Shortest and Longest LIS](1304/d.cc) ([problem site](https://codeforces.com/contest/1304/problem/D))
 1. [1304C - Air Conditioner](1304/c.cc) ([problem site](https://codeforces.com/contest/1304/problem/C))
