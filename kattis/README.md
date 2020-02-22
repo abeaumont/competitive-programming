@@ -369,6 +369,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/polygonarea))
 1. [Pot](pot.cc)
   ([problem site](https://open.kattis.com/problems/pot))
+1. [Power Strings](powerstrings.cc)
+  ([problem site](https://open.kattis.com/problems/powerstrings))
 1. [Prime Sieve](primesieve.cc)
   ([problem site](https://open.kattis.com/problems/priemesieve))
 1. [Pripreme](pripreme.cc)
