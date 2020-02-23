@@ -9,6 +9,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1313C1 - Skyscrapers (easy version)](1313/c1.cc) ([problem site](https://codeforces.com/contest/1313/problem/C1))
 1. [1313B - Different Rules](1313/b.cc) ([problem site](https://codeforces.com/contest/1313/problem/B))
 1. [1313A - Fast Food Restaurant](1313/a.cc) ([problem site](https://codeforces.com/contest/1313/problem/A))
+1. [1310A - Recommendations](1315/d.cc) ([problem site](https://codeforces.com/contest/1310/problem/A))
 1. [1304F1 - F1. Animal Observation (easy version)](1304/f1.cc) ([problem site](https://codeforces.com/contest/1304/problem/F1))
 1. [1304E - 1-Trees and Queries](1304/e.cc) ([problem site](https://codeforces.com/contest/1304/problem/E))
 1. [1304D - Shortest and Longest LIS](1304/d.cc) ([problem site](https://codeforces.com/contest/1304/problem/D))
