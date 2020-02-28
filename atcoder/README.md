@@ -75,6 +75,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 1. [ARC068C - X: Yet Another Die Game](abc053/c.py) ([problem site](https://atcoder.jp/contests/arc068/tasks/arc068_a))
 1. [ARC067D - Walk and Teleport](abc052/d.py) ([problem site](https://atcoder.jp/contests/arc067/tasks/arc067_b))
 1. [ARC067C - Factors of Factorial](abc052/c.py) ([problem site](https://atcoder.jp/contests/arc067/tasks/arc067_a))
+1. [ABC050D - Xor Sum](abc050/d.py) ([problem site](https://atcoder.jp/contests/abc050/tasks/arc066_b))
 1. [ARC066C - Lining Up](abc050/c.py) ([problem site](https://atcoder.jp/contests/arc066/tasks/arc066_a))
 1. [ARC065D - Connectivity](abc049/d.py) ([problem site](https://atcoder.jp/contests/arc065/tasks/arc065_b))
 1. [ARC065C - Daydream](abc049/c.py) ([problem site](https://atcoder.jp/contests/arc065/tasks/arc065_a))
@@ -94,7 +95,6 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 1. [ARC058C - Iroha's Obsession](arc058/c.cc) ([problem site](https://atcoder.jp/contests/arc058/tasks/arc058_a))
 
 ### [ABC Class contests](https://atcoder.jp/contests/archive?ratedType=1&category=0&keyword=)
-
 
 1. [ABC139F - Engines](abc139/f.nim) ([problem site](https://atcoder.jp/contests/abc139/tasks/abc139_f))
 1. [ABC139E - League](abc139/e.cc) ([problem site](https://atcoder.jp/contests/abc139/tasks/abc139_e))
@@ -288,6 +288,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 1. [ABC051C - Back and Forth](abc051/c.py) ([problem site](https://atcoder.jp/contests/abc051/tasks/abc051_c))
 1. [ABC051B - Sum of Three Integers](abc051/b.py) ([problem site](https://atcoder.jp/contests/abc051/tasks/abc051_b))
 1. [ABC051A - Haiku](abc051/a.py) ([problem site](https://atcoder.jp/contests/abc051/tasks/abc051_a))
+1. [ABC050D - Xor Sum](abc050/d.py) ([problem site](https://atcoder.jp/contests/abc050/tasks/arc066_b))
 1. [ABC050C - Lining Up](abc050/c.py) ([problem site](https://atcoder.jp/contests/abc050/tasks/arc066_a))
 1. [ABC050B - Contest with Drinks Easy](abc050/b.py) ([problem site](https://atcoder.jp/contests/abc050/tasks/abc050_b))
 1. [ABC050A - Addition and Subtraction Easy](abc050/a.py) ([problem site](https://atcoder.jp/contests/abc050/tasks/abc050_a))
