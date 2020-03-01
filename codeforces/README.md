@@ -136,6 +136,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1020B - Badge](1020/b.cc) ([problem site](https://codeforces.com/contest/1020/problem/B))
 1. [1020A - New Building for SIS](1020/a.cc) ([problem site](https://codeforces.com/contest/1020/problem/A))
 1. [1019A - Elections](1020/c.cc) ([problem site](https://codeforces.com/contest/1019/problem/A))
+1. [989C - A Mist of Florescence](0989/c.cc) ([problem site](https://codeforces.com/problemset/problem/989/C))
 1. [984B - Minesweeper](0984/b.cc) ([problem site](https://codeforces.com/contest/984/problem/B))
 1. [984A - Game](0984/a.py) ([problem site](https://codeforces.com/contest/984/problem/A))
 1. [983A - Finite or not?](0984/c.cc) ([problem site](https://codeforces.com/contest/983/problem/A))
