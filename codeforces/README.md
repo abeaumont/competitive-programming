@@ -13,6 +13,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1310A - Recommendations](1315/d.cc) ([problem site](https://codeforces.com/contest/1310/problem/A))
 1. [1307D - Cow and Fields](1307/d.cc) ([problem site](https://codeforces.com/contest/1307/problem/D))
 1. [1307A - Cow and Fields](1307/a.cc) ([problem site](https://codeforces.com/contest/1307/problem/A))
+1. [1305A - Kuroni and the Gifts](1305/a.cc) ([problem site](https://codeforces.com/contest/1305/problem/A))
 1. [1304F1 - F1. Animal Observation (easy version)](1304/f1.cc) ([problem site](https://codeforces.com/contest/1304/problem/F1))
 1. [1304E - 1-Trees and Queries](1304/e.cc) ([problem site](https://codeforces.com/contest/1304/problem/E))
 1. [1304D - Shortest and Longest LIS](1304/d.cc) ([problem site](https://codeforces.com/contest/1304/problem/D))
