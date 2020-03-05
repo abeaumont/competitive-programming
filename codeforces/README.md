@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1316A - Grade Allocation](1316/a.cc) ([problem site](https://codeforces.com/contest/1316/problem/A))
 1. [1315C - Restoring Permutation](1315/c.cc) ([problem site](https://codeforces.com/contest/1315/problem/C))
 1. [1315B - Homecoming](1315/b.cc) ([problem site](https://codeforces.com/contest/1315/problem/B))
 1. [1315A - Dead Pixel](1315/a.cc) ([problem site](https://codeforces.com/contest/1315/problem/A))
