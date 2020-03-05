@@ -13,6 +13,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1310A - Recommendations](1315/d.cc) ([problem site](https://codeforces.com/contest/1310/problem/A))
 1. [1307D - Cow and Fields](1307/d.cc) ([problem site](https://codeforces.com/contest/1307/problem/D))
 1. [1307A - Cow and Fields](1307/a.cc) ([problem site](https://codeforces.com/contest/1307/problem/A))
+1. [1305D - Kuroni and the Celebration](1305/d.cc) ([problem site](https://codeforces.com/contest/1305/problem/D))
 1. [1305C - Kuroni and Impossible Calculation](1305/c.cc) ([problem site](https://codeforces.com/contest/1305/problem/C))
 1. [1305B - Kuroni and Simple Strings](1305/b.cc) ([problem site](https://codeforces.com/contest/1305/problem/B))
 1. [1305A - Kuroni and the Gifts](1305/a.cc) ([problem site](https://codeforces.com/contest/1305/problem/A))
