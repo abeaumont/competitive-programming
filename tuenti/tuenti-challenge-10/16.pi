@@ -1,0 +1,33 @@
+import util, mip.
+
+go(T) =>
+  [F, G] = [X.to_number() : X in readln().split()],
+  X = new_array(G, F),
+  W #= max([sum([X[I, J] : I in 1..G]) : J in 1..F]),
+  W :: 1..max(G*F, 10),
+  foreach (I in 1..G)
+    [E, N] = [Y.to_number() : Y in readln().split()],
+    sum(X[I]) #= E,
+    Floors = new_array(F),
+    foreach (J in 1..F)
+      Floors[J] := 0,
+    end,
+    foreach (Y in readln().split())
+      J = Y.to_number() + 1,
+      Floors[J] := 1,
+    end,
+    foreach (J in 1..F)
+      X[I, J] #>= 0,
+      X[I, J] #<= W*Floors[J],
+    end,
+  end,
+  % Fname = join(["model-", T.to_string(), ".lp"], ''),
+  % solve([$min(W), $dump(Fname)], [X, W]).
+  solve([$min(W)], [X, W]),
+  printf(stderr, "Case #%d: %d\n", T, W).
+
+main() =>
+  [C] = [X.to_number() : X in readln().split()],
+  foreach (I in 1..C)
+    go(I),
+  end.
