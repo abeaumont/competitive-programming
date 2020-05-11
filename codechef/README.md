@@ -22,6 +22,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/BSHUFFLE))
 1. [BTAR - Beautiful Array](cook89/btar.cc)
   ([problem site](https://www.codechef.com/problems/BTAR)
+1. [CARDMGK - Chef and Card Trick](snck1a19/cardmgk.py)
+  ([problem site](https://www.codechef.com/problems/CARDMGK))
 1. [CARPTUN - Car-pal Tunnel](feb18/carptun.cc)
   ([problem site](https://www.codechef.com/problems/CARPTUN)
 1. [CHFRAN - Chefina and Ranges](dec19a/chfran.cc)
