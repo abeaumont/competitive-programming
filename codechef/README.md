@@ -92,6 +92,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/MIXCOLOR))
 1. [MONSTER - Killing Monsters (subtask #1)](jan18/monster.cc)
   ([problem site](https://www.codechef.com/problems/MONSTER))
+1. [NBOTS - (Challenge) Nanobots](may20a/nbots.cc)
+  ([problem site](https://www.codechef.com/problems/NBOTS))
 1. [NMNMX - No Minimum No Maximum](july18a/nmnmx.cc)
   ([problem site](https://www.codechef.com/problems/NMNMX))
 1. [PERFCONT - A Balanced Contest](oct17/perfcont.cc)
