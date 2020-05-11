@@ -78,7 +78,7 @@ while True:
         break
     n = int(n)
     xs = []
-    sz = os.path.getsize(f'animals/{f}')
+    sz = os.path.getsize(f'{os.getcwd()}/animals/{f}')
     crc = crc32_combine(0xffffffff, 0, sz) ^ 0xffffffff
     print(f'{f} 0: {hex(crc)[2:].zfill(8)}')
     for i in range(n):
