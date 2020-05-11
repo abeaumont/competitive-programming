@@ -6,6 +6,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/A1))
 1. [A2 - Johnny and the Beanstalk](march09/a2.cc)
   ([problem site](https://www.codechef.com/problems/A2))
+1. [ARRGRAPH - Graph on an Array](snck1a19/arrgraph.py)
+  ([problem site](https://www.codechef.com/problems/ARRGRAPH))
 1. [B5 - Squash the Bugs](april09/b5.cc)
   ([problem site](https://www.codechef.com/problems/B5)
 1. [BBRICS - Beautiful Bricks](oct18a/bbricks.cc)
