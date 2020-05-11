@@ -52,6 +52,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/CK87MEDI)
 1. [CK87QUER - Chef and Weird Queries](cook87/ck87quer.cc)
   ([problem site](https://www.codechef.com/problems/CK87QUER)
+1. [DLDAG - (Challenge) Delete DAG](dec18a/dldag.cc)
+  ([problem site](https://www.codechef.com/problems/DLDAG))
 1. [EQUILIBR - Reach Equilibrium](july18a/equilibr.cc)
   ([problem site](https://www.codechef.com/problems/EQUILIBR))
 1. [FBMT - Football Match](cook89/fbmt.cc)
