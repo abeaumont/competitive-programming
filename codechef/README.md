@@ -70,6 +70,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/KCOMPRES))
 1. [KCON - K-Concatenation](jan18/kcon.cc)
   ([problem site](https://www.codechef.com/problems/KCON))
+1. [LONGCOOK - Long Contest and Cook Off Overlaps](feb20a/longcook.cc)
+  ([problem site](https://www.codechef.com/problems/LONGCOOK))
 1. [LUCASTH - Lucas Theorem (subtask #1)](feb18/lucasth.cc)
   ([problem site](https://www.codechef.com/problems/LUCASTH)
 1. [MAGICHF - Magician versus Chef](sept18a/magichf.cc)
