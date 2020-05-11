@@ -8,6 +8,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/A2))
 1. [B5 - Squash the Bugs](april09/b5.cc)
   ([problem site](https://www.codechef.com/problems/B5)
+1. [BBRICS - Beautiful Bricks](oct18a/bbricks.cc)
+  ([problem site](https://www.codechef.com/problems/BBRICS)
 1. [BIAS - (Challenge) Biased Committee](feb18/bias.cc)
   ([problem site](https://www.codechef.com/problems/BIAS)
 1. [BINADD - Addition](dec19a/binadd.cc)
