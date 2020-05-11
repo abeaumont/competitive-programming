@@ -122,6 +122,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/PRTITION))
 1. [PSHTRG - Pishty and Triangles](march18a/pshtrg.cc)
   ([problem site](https://www.codechef.com/problems/PSHTRG))
+1. [QUALPREL - Qualifying to Pre-Elimination](snckql19/qualprel.py)
+  ([problem site](https://www.codechef.com/problems/QUALPREL))
 1. [RAINBOWA - Chef and Rainbow Array](aug17/rainbowa.cc)
   ([problem site](https://www.codechef.com/problems/RAINBOWA)
 1. [RECTANGL - Rectangle](jan18/rectangl.cc)
