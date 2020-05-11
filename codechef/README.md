@@ -72,6 +72,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/INMAT))
 1. [JERRYTOM - Tom and Jerry](july18a/jerrytom.py)
   ([problem site](https://www.codechef.com/problems/JERRYTOM))
+1. [JIIT - Queries on Matrix](oct19a/jiit.cc)
+  ([problem site](https://www.codechef.com/problems/JIIT))
 1. [KCOMPRES - Coordinate Compression](aug18a/kcompres.cc)
   ([problem site](https://www.codechef.com/problems/KCOMPRES))
 1. [KCON - K-Concatenation](jan18/kcon.cc)
