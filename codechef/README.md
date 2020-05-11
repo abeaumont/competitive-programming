@@ -84,6 +84,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/LUCASTH)
 1. [MAGICHF - Magician versus Chef](sept18a/magichf.cc)
   ([problem site](https://www.codechef.com/problems/MAGICHF))
+1. [MARM - Array Modification](oct19a/marm.cc)
+  ([problem site](https://www.codechef.com/problems/MARM))
 1. [MAXSC - Maximum Score](jan18/maxsc.cc)
   ([problem site](https://www.codechef.com/problems/MAXSC))
 1. [MEX - Max Mex](oct17/mex.cc)
