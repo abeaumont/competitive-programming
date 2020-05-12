@@ -44,6 +44,8 @@ There are solutions for the following [Google Code Jam](https://codejam.withgoog
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/00000000000004c0))
 1. [2018 Practice Session - A. Number Guessing](2018-practice/a.cc)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523))
+1. [2017 Round 2 - B. Roller Coaster Scheduling](2017-round-2/b.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/0000000000201845))
 1. [2017 Round 2 - A. Fresh Chocolate](2017-round-2/a.cc)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/00000000002017f4))
 1. [2017 Round 1C - B. Parenting Partnering](2017-round-1c/b.pi)
