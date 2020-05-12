@@ -52,6 +52,8 @@ There are solutions for the following [Google Code Jam](https://codejam.withgoog
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201878))
 1. [2017 Qualification Round - A. Oversized Pancake Flipper](2017-qualification/a.py)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201847))
+1. [2016 Qualification Round - D. Fractiles (small)](2016-qualification/d.lisp)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee/0000000000201bf1))
 1. [2016 Qualification Round - C. Coin Jam](2016-qualification/c.rkt)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee/0000000000201b6d))
 1. [2016 Qualification Round - B. Revenge of the Pancakes](2016-qualification/b.ml)
