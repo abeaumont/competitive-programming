@@ -1,4 +1,4 @@
-% https://code.google.com/codejam/contest/3264486/dashboard#s=p3
+% https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/00000000002017f8
 import util, mip.
 
 go(N, T, X1, X2, X3) =>

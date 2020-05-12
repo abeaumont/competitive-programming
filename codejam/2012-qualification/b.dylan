@@ -1,4 +1,4 @@
-module: dancing-with-the-googlers
+module: b
 url: https://code.google.com/codejam/contest/1460488/dashboard#s=p1
 
 define function line() => (line :: <string>) read-line(*standard-input*) end;

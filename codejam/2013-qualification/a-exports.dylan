@@ -1,13 +1,11 @@
 module: dylan-user
 
-define library speaking-in-tongues
-  use collections;
+define library a
   use common-dylan;
   use io;
 end library;
 
-define module speaking-in-tongues
-  use table-extensions;
+define module a
   use common-dylan;
   use standard-io;
   use streams;

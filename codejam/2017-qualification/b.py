@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# https://code.google.com/codejam/contest/3264486/dashboard#s=p1
+# https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201878
 def next(x):
     digits = map(int, str(x))
     for i in range(len(digits) - 1):

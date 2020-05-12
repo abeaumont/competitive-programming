@@ -1,4 +1,4 @@
-module: tic-tac-toe-tomek
+module: a
 url: https://code.google.com/codejam/contest/2270488/dashboard#s=p0
 
 define library tic-tac-toe-tomek

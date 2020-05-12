@@ -1,11 +1,13 @@
 module: dylan-user
 
-define library tic-tac-toe-tomek
+define library b
+  use collections;
   use common-dylan;
   use io;
 end library;
 
-define module tic-tac-toe-tomek
+define module b
+  use table-extensions;
   use common-dylan;
   use standard-io;
   use streams;

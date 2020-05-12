@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# https://code.google.com/codejam/contest/3264486/dashboard#s=p2
+# https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201905
 def next(n, k):
     if k == 1:
         return (n / 2, (n - 1) / 2)
