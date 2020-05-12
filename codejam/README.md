@@ -1,44 +1,70 @@
 ## Solutions to Google Code Jam contests
 
-There are solutions for the following [Google Code Jam](https://codejam.withgoogle.com/codejam/) contests:
+There are solutions for the following [Google Code Jam](https://codejam.withgoogle.com/codejam/) problems:
 
-### 2019
-
-- [Round 2](2019-round-2/README.md)
-  ([contest site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679))
-- [Round 1A](2019-round-1A/README.md)
-  ([contest site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635))
-- [Qualification Round](2019-qualification/README.md)
-  ([contest site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705))
-
-### 2018
-
-* [Round 2](2018-round-2) ([contest site](https://codejam.withgoogle.com/2018/challenges/0000000000007706/dashboard))
-* [Round 1C](2018-round-1c) ([contest site](https://codejam.withgoogle.com/2018/challenges/0000000000007765/dashboard))
-* [Qualification Round](2018-qualification) ([contest site](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard))
-* [Practice Session](2018-practice) ([contest site](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard))
-
-### 2017
-
-* [Qualification Round](2017-qualification)
-  ([contest site](https://code.google.com/codejam/contest/3264486/dashboard))
-
-### 2014
-
-* [Qualification Round](2014-qualification)
-  ([contest site](https://code.google.com/codejam/contest/2974486/dashboard))
-
-### 2013
-
-* [Qualification Round](2013-qualification)
-  ([contest site](https://code.google.com/codejam/contest/2270488/dashboard))
-
-### 2012
-
-* [Qualification Round](2012-qualification)
-  ([contest site](https://code.google.com/codejam/contest/1460488/dashboard))
-
-### 2008
-
-* [Qualification Round](2008-qualification/README.md)
-  ([contest site](https://code.google.com/codejam/contest/32013/dashboard))
+1. [2019 Round 2 - C. New Elements: Part 2](2019-round-2/c.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146184))
+1. [2019 Round 2 - B. Pottery Lottery](2019-round-2/b.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/00000000001461c8))
+1. [2019 Round 2 - A. New Elements: Part 1](2019-round-2/a.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146183))
+1. [2019 Round 1A - C. Alien Rhyme](2019-round-1a/c.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05))
+1. [2019 Round 1A - B. Golf Gophers](2019-round-1a/b.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a))
+1. [2019 Round 1A - A. Pylons](2019-round-1a/a.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03))
+1. [2019 Qualification Round - D. Dat Bae](2019-qualification/d.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881de))
+1. [2019 Qualification Round - C. Cryptopangrams](2019-qualification/c.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/000000000008830b))
+1. [2019 Qualification Round - B. You Can Go Your Own Way](2019-qualification/b.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881da))
+1. [2019 Qualification Round - A. Foregone Solution](2019-qualification/a.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/0000000000088231))
+1. [2018 Round 2 - A. Falling Balls](2018-round-2/falling-balls.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/00000000000459f2))
+1. [2018 Round 1C - C. Ant Stack](2018-round-1c/ant-stack.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e0a8))
+1. [2018 Round 1C - B. Lollipop Shop](2018-round-1c/lollipop-shop.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e068))
+1. [2018 Round 1C - A. A Whole New Word](2018-round-1c/a-whole-new-word.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e064))
+1. [2018 Qualification Round - C. Go, Gopher!](2018-qualification/go-gopher.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007a30))
+1. [2018 Qualification Round - B. Trouble Sort](2018-qualification/trouble-sort.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cb))
+1. [2018 Qualification Round - A. Saving The Universe Again](2018-qualification/saving-the-universe-again.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007966))
+1. [2018 Practice Session - D. Bathroom Stalls](2018-practice/bathroom-stalls.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000652))
+1. [2018 Practice Session - C. Steed 2: Cruise Control](2018-practice/steed-2-cruise-control.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000524))
+1. [2018 Practice Session - B. Senate Evacuation](2018-practice/senate-evacuation.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/00000000000004c0))
+1. [2018 Practice Session - A. Number Guessing](2018-practice/number-guessing.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523))
+1. [2017 Qualification Round - D. Fashion Show](2017-qualification/fashion-show.pi)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/00000000002017f8))
+1. [2017 Qualification Round - C. Bathroom Stalls](2017-qualification/bathroom-stalls.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201905))
+1. [2017 Qualification Round - B. Tidy Numbers](2017-qualification/tidy-numbers.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201878))
+1. [2017 Qualification Round - A. Oversized Pancake Flipper](2017-qualification/oversized-pancake-flipper.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201847))
+1. [2014 Qualification Round - B. Cookie Clicker Alpha](2014-qualification/cookie-clicker-alpha.lisp)
+  ([problem site](https://code.google.com/codejam/contest/2974486/dashboard#s=p1))
+1. [2014 Qualification Round - A. Magic Trick](2014-qualification/magit-trick.lisp)
+  ([problem site](https://code.google.com/codejam/contest/2974486/dashboard#s=p0))
+1. [2013 Qualification Round - C. Fair and Square (small)](2013-qualification/fair-and-square.lisp)
+  ([problem site](https://code.google.com/codejam/contest/2270488/dashboard#s=p2))
+1. [2013 Qualification Round - A. Tick-Tac-Toe-Tomek](2013-qualification/tic-tac-toe-tomek.dylan)
+  ([problem site](https://code.google.com/codejam/contest/2270488/dashboard#s=p0))
+1. [2012 Qualification Round - B. Dancing With The Googlers](2012-qualification/dancing-with-the-googlers.dylan)
+  ([problem site](https://code.google.com/codejam/contest/1460488/dashboard#s=p1))
+1. [2012 Qualification Round - A. Speaking In Tongues](2012-qualification/speaking-in-tongues.dylan)
+  ([problem site](https://code.google.com/codejam/contest/1460488/dashboard#s=p0))
+1. [2008 Qualification Round - B. Train Timetable](2008-qualification/b.cc)
+  ([problem site](https://code.google.com/codejam/contest/32013/dashboard#s=p1))
+1. [2008 Qualification Round - A. Saving the Universe](2008-qualification/a.cc)
+  ([problem site](https://code.google.com/codejam/contest/32013/dashboard#s=p0))
