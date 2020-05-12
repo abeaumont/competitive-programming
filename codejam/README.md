@@ -52,6 +52,8 @@ There are solutions for the following [Google Code Jam](https://codejam.withgoog
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201878))
 1. [2017 Qualification Round - A. Oversized Pancake Flipper](2017-qualification/a.py)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201847))
+1. [2016 Qualification Round - A. Counting Sheep](2016-qualification/a.rkt)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee/0000000000201c8a))
 1. [2014 Qualification Round - B. Cookie Clicker Alpha](2014-qualification/b.lisp)
   ([problem site](https://code.google.com/codejam/contest/2974486/dashboard#s=p1))
 1. [2014 Qualification Round - A. Magic Trick](2014-qualification/a.lisp)
