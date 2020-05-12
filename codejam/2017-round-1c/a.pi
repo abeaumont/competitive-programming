@@ -1,0 +1,28 @@
+% https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/0000000000201874
+import util, mip.
+
+go(T, N, K, Xs) =>
+	S1 = [P[1] * P[1] * pi : P in Xs],
+	S2 = [P[1] * P[2] * 2 * pi : P in Xs],
+	X = new_array(N),
+	X :: 0..1,
+	sum(X) #= K,
+	Y = new_array(N),
+	Y :: 0..1,
+	sum(Y) #= 1,
+	%sum([(X[I] * Y[I]) : I in 1..N]) #= 1,
+	foreach(I in 1..N)
+		(Y[I] #= 1) #=> (X[I] #= 1)
+	end,
+	S #= sum([(S2[I] * X[I] + S1[I] * Y[I]) : I in 1..N]),
+	solve($[max(S)], [S, X, Y]),
+	printf(stderr, "Case #%d: %f\n", T, S).
+
+
+main() =>
+	[T] = [X.to_number() : X in readln().split()],
+	foreach(I in 1..T)
+		[N, K] = [X.to_number() : X in readln().split()],
+		Xs = [[X.to_number() : X in readln().split()] : J in 1..N],
+		go(I, N, K, Xs)
+	end.

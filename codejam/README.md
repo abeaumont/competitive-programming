@@ -44,6 +44,8 @@ There are solutions for the following [Google Code Jam](https://codejam.withgoog
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/00000000000004c0))
 1. [2018 Practice Session - A. Number Guessing](2018-practice/a.cc)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523))
+1. [2017 Round 1C - A. Ample Syrup](2017-round-1c/a.pi)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/0000000000201874))
 1. [2017 Round 1B - A. Steed 2: Cruise Control](2017-round-1b/a.py)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f/000000000020190e))
 1. [2017 Qualification Round - D. Fashion Show](2017-qualification/d.pi)
