@@ -2,6 +2,8 @@
 
 There are solutions for the following [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/) problems:
 
+1. [2020 Qualification Round - A. Vestigium](2020-qualification/a.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020993c))
 1. [2019 Round 2 - C. New Elements: Part 2](2019-round-2/c.cc)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146184))
 1. [2019 Round 2 - B. Pottery Lottery](2019-round-2/b.py)
