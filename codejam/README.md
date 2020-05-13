@@ -2,6 +2,8 @@
 
 There are solutions for the following [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/) problems:
 
+1. [2020 Qualification Round - B. Nesting Depth](2020-qualification/b.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209a9f))
 1. [2020 Qualification Round - A. Vestigium](2020-qualification/a.cc)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020993c))
 1. [2019 Round 2 - C. New Elements: Part 2](2019-round-2/c.cc)
