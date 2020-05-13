@@ -1,6 +1,6 @@
 ## Solutions to Google Code Jam contests
 
-There are solutions for the following [Google Code Jam](https://codejam.withgoogle.com/codejam/) problems:
+There are solutions for the following [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/) problems:
 
 1. [2019 Round 2 - C. New Elements: Part 2](2019-round-2/c.cc)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146184))
