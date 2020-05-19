@@ -12,9 +12,7 @@ int main() {
   else {
     for (int i = 1; i <= n; i += 2) cout << i << " ";
     for (int i = 2; i <= n; i += 2) {
-      cout << i;
-      if (i < n - 1) cout << " ";
-      else cout << endl;
+      cout << i <<" ";
     }
   }
 }
