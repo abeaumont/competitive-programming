@@ -1,40 +1,32 @@
 // https://open.kattis.com/problems/heritage
-#include <iostream>
-#include <unordered_map>
+#include <bits/stdc++.h>
 
 using namespace std;
+using ll = long long;
+using vi = vector<ll>;
+using msi = unordered_map<string, ll>;
 
-typedef unordered_map<string, int> map;
-typedef long long ll;
-
-const int P = 1000000007;
-static ll cache[33];
-
-ll c(const string &w, const map &m, int k) {
-	if (cache[k]) return cache[k];
-	auto s = w.substr(k);
-	auto it = m.find(s);
-	ll sum = 0;
-	if (it != m.end()) sum += it->second;
-	for (int i = 1; k + i < w.size(); i++) {
-		s = w.substr(k, i);
-		it = m.find(s);
-		if (it != m.end()) sum = (sum + (it->second * c(w, m, k + i)) % P) % P;
-	}
-	cache[k] = sum;
-	return sum;
-}
+ll M = 1000000007;
 
 int main() {
-	int n;
-	string w;
-	cin >> n >> w;
-	map m;
-	for (int i = 0; i < n; i++) {
-		string si;
-		int ii;
-		cin >> si >> ii;
-		m[si] = ii;
-	}
-	cout << c(w, m, 0) << endl;
+  int n, k, l;
+  string w, s;
+  cin >> n >> w;
+  l = w.size();
+  msi m;
+  for (int i = 0; i < n; i++) {
+    cin >> s >> k;
+    m[s] = k;
+  }
+  vi dp(l + 1);
+  dp[0] = 1;
+  for (int i = 0; i < l; i++) {
+    for (auto it : m) {
+      s = it.first;
+      int j = s.size();
+      if (i + j <= l && w.substr(i, j) == s)
+        (dp[i+j] += dp[i] * it.second % M) %= M;
+    }
+  }
+  cout << dp[l] << '\n';
 }
