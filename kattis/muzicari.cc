@@ -1,61 +1,37 @@
 // https://open.kattis.com/problems/muzicari
-#include <iostream>
-#include <unordered_set>
-#include <vector>
+#include <bits/stdc++.h>
 
 using namespace std;
-
-typedef vector<int> vi;
-typedef unordered_set<int> si;
-
-const int T = 5000;
-
-int inline key(int i, int sa) { return i * (T + 1) + sa; }
-si cache;
-
-bool search(const vi &v, vi &a, vi &b, int i, int sa, int sb, int t) {
-	if (i == v.size()) return true;
-	int k = key(i, sa);
-	if (cache.count(k)) return false;
-	if (sa + v[i] <= t) {
-		a.push_back(i);
-		if (search(v, a, b, i + 1, sa + v[i], sb, t)) return true;
-		a.pop_back();
-	}
-	if (sb + v[i] <= t) {
-		b.push_back(i);
-		if (search(v, a, b, i + 1, sa, sb + v[i], t)) return true;
-		b.pop_back();
-	}
-	cache.insert(k);
-	return false;
-}
+using vi = vector<int>;
+using vvi = vector<vi>;
 
 int main() {
-	int t, n;
-	cin >> t >> n;
-	if (n == 1) {
-		cout << 0 << endl;
-		return 0;
-	}
-	vi v(n), a, b;
-	for (int i = 0; i < n; i++) cin >> v[i];
-	search(v, a, b, 0, 0, 0, t);
-	int suma = 0;
-	int sumb = 0;
-	int j = 0;
-	int k = 0;
-	for (int i = 0; i < n; i++) {
-		if (j < a.size() && i == a[j]) {
-			cout << suma;
-			suma += v[i];
-			j++;
-		} else {
-			cout << sumb;
-			sumb += v[i];
-			k++;
-		}
-		if (i < n - 1) cout << " ";
-	}
-	cout << endl;
+  int t, n;
+  cin >> t >> n;
+  vi a(n), r(n);
+  for (int i = 0; i < n; i++) cin >> a[i];
+  vvi dp(t+1, vi(n+1));
+  for (int i = 1; i <= t; i++) {
+    for (int j = 1; j <= n; j++) {
+      dp[i][j] = dp[i][j-1];
+      int w = a[j-1];
+      if (i >= w) dp[i][j] = max(dp[i][j], w+dp[i-w][j-1]);
+    }
+  }
+  int w = t;
+  for (int i = n; i>= 1; i--) 
+    if (dp[w][i-1] != dp[w][i]) {
+      w -= a[i-1];
+      r[i-1] = 1;
+    }
+  int t1 = 0, t2 = 0;
+  for (int i = 0; i < n; i++) {
+    if (r[i]) {
+      cout << t1 << " \n"[i==n-1];
+      t1 += a[i];
+    } else {
+      cout << t2 << " \n"[i==n-1];
+      t2 += a[i];
+    }
+  }
 }
