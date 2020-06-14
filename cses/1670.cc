@@ -1,5 +1,109 @@
 // https://cses.fi/problemset/task/1670
-#include <bits/stdc++.h>
+// A better way to do task 1670.
+
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long int ll;
+set<ll> perm;
+void permute(string s,ll curr)
+{
+    if(curr==s.length()-1)
+    perm.insert(stoll(s));
+   ll i,j,k,l;
+   for(i=curr;i<s.length();i++)
+   {
+       swap(s[curr],s[i]);
+       permute(s,curr+1);
+       swap(s[curr],s[i]);
+   }
+}
+int dp[400001],vis[400001];
+vector<pair<ll,ll>> path={{0,1},{0,3},{1,4},{1,2},{2,5},{3,6},{3,4},{4,7},{4,5},{6,7},{7,8},{5,8}};
+ll arr[400001];
+ll mip(ll val)
+{
+    ll start=1,end=362880,mid;
+    while(start<=end)
+    {
+        mid=(start+end)/2;
+        if(arr[mid]>val)
+        end=mid-1;
+        else if(arr[mid]<val)
+        {
+            start=mid+1;
+        }
+        else 
+        {
+            return mid;
+        }
+    }
+    return mid;
+}
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    ll i,j,k,l,m,n,o,p,q,r,t,b[10];
+    b[0]=1;
+    for(i=1;i<=9;i++)
+    {
+        b[i]=b[i-1]*11;
+    }
+    string a="123456789";
+    for(i=0;i<=400000;i++)
+    {
+        dp[i]=INT_MAX;
+        vis[i]=0;
+    }
+    for(i=0;i<9;i++)
+    {
+        cin>>a[i];
+    }
+    string s="123456789";
+    permute(s,0);
+    l=1;
+    for(auto it:perm)
+    {
+        arr[l]=it;
+        l++;
+    }
+    dp[1]=0;
+    queue<string> pq;
+    pq.push(s);
+    vis[1]=1;
+    r=mip(stoll(a));
+    while(!pq.empty())
+    {
+        string aa=pq.front();
+        pq.pop();
+        ll u=mip(stoll(aa));
+                 if(u==r)
+                 {
+                     cout<<dp[u]<<endl;
+                     return 0;
+                 }
+        for(auto it:path)
+        {
+             swap(aa[it.first],aa[it.second]);
+             p=mip(stoll(aa));
+             if(!vis[p])
+             {
+                 vis[p]=1;
+                 dp[p]=min(dp[p],dp[u]+1);
+                 pq.push(aa);
+                 if(p==r)
+                 {
+                     cout<<dp[p]<<endl;
+                     return 0;
+                 }
+             }
+             swap(aa[it.first],aa[it.second]);
+        }
+    }
+    return 0;
+}
+
+/*#include <bits/stdc++.h>
 
 using namespace std;
 using ii = tuple<int, int>;
@@ -69,3 +173,4 @@ int main() {
     }
   }
 }
+*/
