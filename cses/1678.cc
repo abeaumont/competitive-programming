@@ -44,6 +44,7 @@ int main() {
       if (dfs(i)) {
         reverse(r.begin(), r.end());
         while (r.back() != r.front()) r.pop_back();
+        if (r.size() <= 2) continue;
         reverse(r.begin(), r.end());
         cout << r.size() << '\n';
         for (int j = 0; j < r.size(); j++)
