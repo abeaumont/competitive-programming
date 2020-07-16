@@ -122,6 +122,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1678 - Round Trip II](1678.cc) ([problem site](https://cses.fi/problemset/task/1678))
 1. [1679 - Course Schedule](1679.cc) ([problem site](https://cses.fi/problemset/task/1679))
 1. [1680 - Longest Flight Route](1680.cc) ([problem site](https://cses.fi/problemset/task/1680))
+1. [1681 - Game Routes](1681.cc) ([problem site](https://cses.fi/problemset/task/1681))
 1. [1711 - Distinct Routes](1711.cc) ([problem site](https://cses.fi/problemset/task/1711))
 1. [1712 - Exponentiation II](1712.cc) ([problem site](https://cses.fi/problemset/task/1712))
 1. [1713 - Counting Divisors](1713.cc) ([problem site](https://cses.fi/problemset/task/1713))
