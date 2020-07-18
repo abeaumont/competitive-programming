@@ -136,6 +136,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1745 - Money Sums](1745.cc) ([problem site](https://cses.fi/problemset/task/1745))
 1. [1746 - Array Description](1746.cc) ([problem site](https://cses.fi/problemset/task/1746))
 1. [1750 - Planet Queries I](1750.cc) ([problem site](https://cses.fi/problemset/task/1750))
+1. [1751 - Planet Cycles](1751.cc) ([problem site](https://cses.fi/problemset/task/1751))
 1. [1753 - String Matching](1753.cc) ([problem site](https://cses.fi/problemset/task/1753))
 1. [1754 - Coin Piles](1754.cc) ([problem site](https://cses.fi/problemset/task/1754))
 1. [1755 - Palindrome Reorder](1755.cc) ([problem site](https://cses.fi/problemset/task/1755))
