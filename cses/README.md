@@ -119,6 +119,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1672 - Shortest Routes II](1672.cc) ([problem site](https://cses.fi/problemset/task/1672))
 1. [1673 - High Score](1673.cc) ([problem site](https://cses.fi/problemset/task/1673))
 1. [1674 - Subordinates](1674.cc) ([problem site](https://cses.fi/problemset/task/1674))
+1. [1676 - Road Construction](1676.cc) ([problem site](https://cses.fi/problemset/task/1676))
 1. [1678 - Round Trip II](1678.cc) ([problem site](https://cses.fi/problemset/task/1678))
 1. [1679 - Course Schedule](1679.cc) ([problem site](https://cses.fi/problemset/task/1679))
 1. [1680 - Longest Flight Route](1680.cc) ([problem site](https://cses.fi/problemset/task/1680))
