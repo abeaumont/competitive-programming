@@ -127,6 +127,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1681 - Game Routes](1681.cc) ([problem site](https://cses.fi/problemset/task/1681))
 1. [1682 - Flight Routes Check](1682.cc) ([problem site](https://cses.fi/problemset/task/1682))
 1. [1683 - Planets and Kingdoms](1683.cc) ([problem site](https://cses.fi/problemset/task/1683))
+1. [1687 - Company Queries I](1687.cc) ([problem site](https://cses.fi/problemset/task/1687))
 1. [1711 - Distinct Routes](1711.cc) ([problem site](https://cses.fi/problemset/task/1711))
 1. [1712 - Exponentiation II](1712.cc) ([problem site](https://cses.fi/problemset/task/1712))
 1. [1713 - Counting Divisors](1713.cc) ([problem site](https://cses.fi/problemset/task/1713))
