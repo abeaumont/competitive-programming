@@ -127,6 +127,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1681 - Game Routes](1681.cc) ([problem site](https://cses.fi/problemset/task/1681))
 1. [1682 - Flight Routes Check](1682.cc) ([problem site](https://cses.fi/problemset/task/1682))
 1. [1683 - Planets and Kingdoms](1683.cc) ([problem site](https://cses.fi/problemset/task/1683))
+1. [1684 - Giant Pizza](1684.cc) ([problem site](https://cses.fi/problemset/task/1684))
 1. [1686 - Coin Collector](1686.cc) ([problem site](https://cses.fi/problemset/task/1686))
 1. [1687 - Company Queries I](1687.cc) ([problem site](https://cses.fi/problemset/task/1687))
 1. [1688 - Company Queries II](1688.cc) ([problem site](https://cses.fi/problemset/task/1688))
