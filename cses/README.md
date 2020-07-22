@@ -131,6 +131,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1686 - Coin Collector](1686.cc) ([problem site](https://cses.fi/problemset/task/1686))
 1. [1687 - Company Queries I](1687.cc) ([problem site](https://cses.fi/problemset/task/1687))
 1. [1688 - Company Queries II](1688.cc) ([problem site](https://cses.fi/problemset/task/1688))
+1. [1691 - Mail Delivery](1691.cc) ([problem site](https://cses.fi/problemset/task/1691))
 1. [1711 - Distinct Routes](1711.cc) ([problem site](https://cses.fi/problemset/task/1711))
 1. [1712 - Exponentiation II](1712.cc) ([problem site](https://cses.fi/problemset/task/1712))
 1. [1713 - Counting Divisors](1713.cc) ([problem site](https://cses.fi/problemset/task/1713))
