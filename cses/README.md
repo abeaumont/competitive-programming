@@ -121,6 +121,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1674 - Subordinates](1674.cc) ([problem site](https://cses.fi/problemset/task/1674))
 1. [1675 - Road Reparation](1675.cc) ([problem site](https://cses.fi/problemset/task/1675))
 1. [1676 - Road Construction](1676.cc) ([problem site](https://cses.fi/problemset/task/1676))
+1. [1677 - Network Breakdown](1677.cc) ([problem site](https://cses.fi/problemset/task/1677))
 1. [1678 - Round Trip II](1678.cc) ([problem site](https://cses.fi/problemset/task/1678))
 1. [1679 - Course Schedule](1679.cc) ([problem site](https://cses.fi/problemset/task/1679))
 1. [1680 - Longest Flight Route](1680.cc) ([problem site](https://cses.fi/problemset/task/1680))
