@@ -136,6 +136,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1712 - Exponentiation II](1712.cc) ([problem site](https://cses.fi/problemset/task/1712))
 1. [1713 - Counting Divisors](1713.cc) ([problem site](https://cses.fi/problemset/task/1713))
 1. [1715 - Creating Strings II](1715.cc) ([problem site](https://cses.fi/problemset/task/1715))
+1. [1716 - Distributing Apples](1716.cc) ([problem site](https://cses.fi/problemset/task/1716))
 1. [1722 - Fibonacci Numbers](1722.cc) ([problem site](https://cses.fi/problemset/task/1722))
 1. [1732 - Finding Borders](1732.cc) ([problem site](https://cses.fi/problemset/task/1732))
 1. [1734 - Distinct Values Queries](1734.cc) ([problem site](https://cses.fi/problemset/task/1734))
