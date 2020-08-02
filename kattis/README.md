@@ -261,6 +261,8 @@ There are solutions for the following
   ([problem site](https://open.kattis.com/problems/iboard))
 1. [ICPC Awards](icpcawards.cc)
   ([problem site](https://open.kattis.com/problems/icpcawards))
+1. [Integer Lists](integerlists.py)
+  ([problem site](https://open.kattis.com/problems/integerlists))
 1. [Jolly Jumpers](jollyjumpers.cc)
   ([problem site](https://open.kattis.com/problems/jollyjumpers))
 1. [Judging Troubles](judging.cc)
