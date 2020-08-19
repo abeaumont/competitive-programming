@@ -152,6 +152,7 @@ There are solutions for the following
 1. [Lucky Numbers](luckynumber.py) ([problem site](https://open.kattis.com/problems/luckynumber))
 1. [In Or Out](mandelbrot.py) ([problem site](https://open.kattis.com/problems/mandelbrot))
 1. [Maximum Number of Colinear Points](maxcolinear.cc) ([problem site](https://open.kattis.com/problems/maxcolinear))
+1. [Maximum Flow](maxflow.cc) ([problem site](https://open.kattis.com/problems/maxflow))
 1. [Minimum Scalar Product](minimumscalar.cc) ([problem site](https://open.kattis.com/problems/minimumscalar))
 1. [Mirror Images](mirror.cc) ([problem site](https://open.kattis.com/problems/mirror))
 1. [Mixed Fractions](mixedfractions.cc) ([problem site](https://open.kattis.com/problems/mixedfractions))
