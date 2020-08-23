@@ -42,6 +42,7 @@ There are solutions for the following
 1. [Bing It On](bing.cc) ([problem site](https://open.kattis.com/problems/bing))
 1. [Bishops](bishops.cc) ([problem site](https://open.kattis.com/problems/bishops))
 1. [Black Friday](blackfriday.cc) ([problem site](https://open.kattis.com/problems/blackfriday))
+1. [Block Crusher](blockcrusher.cc) ([problem site](https://open.kattis.com/problems/blockcrusher))
 1. [Block Game](blockgame2.cc) ([problem site](https://open.kattis.com/problems/blockgame2))
 1. [Booking](booking.cc) ([problem site](https://open.kattis.com/problems/booking))
 1. [Booking a Room](bookingaroom.cc) ([problem site](https://open.kattis.com/problems/bookingaroom))
