@@ -137,7 +137,7 @@ class cc(solution):
     def build(self):
         try:
             print('Building {}... '.format(self.target), end='')
-            cmd = 'c++ {} -o {} -O2 -std=c++14'.format(self.code, self.target)
+            cmd = 'c++ {} -o {} -O2 -std=c++17'.format(self.code, self.target)
             subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True)
             print_ok()
         except subprocess.CalledProcessError as e:
