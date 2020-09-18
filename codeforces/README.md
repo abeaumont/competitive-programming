@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1407C - Chocolate Bunny](1407/c.cc) ([problem site](https://codeforces.com/contest/1407/problem/C))
 1. [1407B - Big Vova](1407/b.cc) ([problem site](https://codeforces.com/contest/1407/problem/B))
 1. [1407A - Ahahahahahahahaha](1407/a.cc) ([problem site](https://codeforces.com/contest/1407/problem/A))
 1. [1316D - Nash Matrix](1316/d.cc) ([problem site](https://codeforces.com/contest/1316/problem/D))
