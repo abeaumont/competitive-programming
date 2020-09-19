@@ -1,5 +1,5 @@
-# https://open.kattis.com/problems/integerlists
 #!/usr/bin/env python3
+# https://open.kattis.com/problems/integerlists
 for _ in range(int(input())):
     p = input()
     n = int(input())
