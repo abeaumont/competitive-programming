@@ -1,6 +1,6 @@
 (* https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee/0000000000201d17 *)
 let reverse s =
-  Bytes.init (Bytes.length s) (fun i -> match s.[i] with '-' -> '+' | _ -> '-')
+  Bytes.init (Bytes.length s) (fun i -> match (Bytes.get s i) with '-' -> '+' | _ -> '-')
   
 let process () =
   let rec loop s count =
@@ -8,11 +8,11 @@ let process () =
       let pos = Bytes.rindex s '-' in
       let s' = Bytes.sub s 0 (pos + 1) in
       let l = Bytes.length s' in
-      if l >= 2 && Bytes.sub s (l - 2) 2 = "+-"
+      if l >= 2 && Bytes.sub s (l - 2) 2 = (Bytes.of_string "+-")
       then let s'' = (reverse s') in s''.[l - 1] <- '-'; loop s'' (count + 1)
       else loop (reverse s') (count + 1)
     with _ -> count in
-  loop (read_line ()) 0
+  loop (Bytes.of_string (read_line ())) 0
 
 let () =
   for i = 1 to read_int () do
