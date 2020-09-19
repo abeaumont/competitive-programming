@@ -8,6 +8,7 @@ There are solutions for the following [codeforces](http://codeforces.com/) probl
 1. [1407C - Chocolate Bunny](1407/c.cc) ([problem site](https://codeforces.com/contest/1407/problem/C))
 1. [1407B - Big Vova](1407/b.cc) ([problem site](https://codeforces.com/contest/1407/problem/B))
 1. [1407A - Ahahahahahahahaha](1407/a.cc) ([problem site](https://codeforces.com/contest/1407/problem/A))
+1. [1406D - Three Sequences](1406/d.cc) ([problem site](https://codeforces.com/contest/1406/problem/D))
 1. [1406C - Link Cut Centroids](1406/c.cc) ([problem site](https://codeforces.com/contest/1406/problem/C))
 1. [1406B - Maximum Product](1406/b.cc) ([problem site](https://codeforces.com/contest/1406/problem/B))
 1. [1406A - Subset Mex](1406/a.cc) ([problem site](https://codeforces.com/contest/1406/problem/A))
