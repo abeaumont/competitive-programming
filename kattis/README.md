@@ -5,6 +5,7 @@ There are solutions for the following
 
 1. 10 Kinds of People: [C++](10kindsofpeople.cc), [Python](10kindsofpeople.py) ([problem site](https://open.kattis.com/problems/10kindsofpeople))
 1. [2048](2048.cc) ([problem site](https://open.kattis.com/problems/2048))
+1. [3D Printed Statues](3dprinter.cc) ([problem site](https://open.kattis.com/problems/3dprinter))
 1. [4 thought](4thought.cc) ([problem site](https://open.kattis.com/problems/4thought))
 1. [Eight Queens](8queens.py) ([problem site](https://open.kattis.com/problems/8queens))
 1. [Aaah!](aaah.py) ([problem site](https://open.kattis.com/problems/aaah))
