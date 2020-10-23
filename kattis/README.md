@@ -232,6 +232,7 @@ There are solutions for the following
 1. [Secret Chamber at Mount Rushmore](secretchamber.cc) ([problem site](https://open.kattis.com/problems/secretchamber))
 1. [Secret Message](secretmessage.py) ([problem site](https://open.kattis.com/problems/secretmessage))
 1. [Secure Doors](securedoors.cc) ([problem site](https://open.kattis.com/problems/securedoors))
+1. [Line Segment Intersection](segmentintersection.cc) ([problem site](https://open.kattis.com/problems/segmentintersection))
 1. [Server](server.py) ([problem site](https://open.kattis.com/problems/server))
 1. [Settlers of Catan](settlers2.cc) ([problem site](https://open.kattis.com/problems/settlers2))
 1. [Seven Wonders](sevenwonders.cc) ([problem site](https://open.kattis.com/problems/sevenwonders))
