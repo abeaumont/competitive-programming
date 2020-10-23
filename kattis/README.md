@@ -211,6 +211,7 @@ There are solutions for the following
 1. [Quality-Adjusted Life-Year](qaly.cc) ([problem site](https://open.kattis.com/problems/qaly))
 1. [Quadrant Selection](quadrant.cc) ([problem site](https://open.kattis.com/problems/quadrant))
 1. [Verify This, Your Majesty](queens.cc) ([problem site](https://open.kattis.com/problems/queens))
+1. [Another Query on Array Problem](queryonarray.cc) ([problem site](https://open.kattis.com/problems/queryonarray))
 1. [Quick Brown Fox](quickbrownfox.cc) ([problem site](https://open.kattis.com/problems/quickbrownfox))
 1. [Quick Estimates](quickestimate.cc) ([problem site](https://open.kattis.com/problems/quickestimate))
 1. [R2](r2.cc) ([problem site](https://open.kattis.com/problems/r2))
