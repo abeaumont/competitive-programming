@@ -118,6 +118,7 @@ There are solutions for the following
 1. [Forests](forests.py) ([problem site](https://open.kattis.com/problems/forests))
 1. [Friday the 13th](friday.cc) ([problem site](https://open.kattis.com/problems/friday))
 1. [Fridge](fridge.cc) ([problem site](https://open.kattis.com/problems/fridge))
+1. [Frosh Week](froshweek.cc) ([problem site](https://open.kattis.com/problems/frosweek))
 1. [Fruit Baskets](fruitbaskets.cc) ([problem site](https://open.kattis.com/problems/fruitbaskets))
 1. [Goldbach's Conjecture](goldbach2.cc) ([problem site](https://open.kattis.com/problems/goldbach2))
 1. [Grandpa Bernie](grandpabernie.cc) ([problem site](https://open.kattis.com/problems/grandpabernie))
