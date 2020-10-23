@@ -52,6 +52,7 @@ There are solutions for the following
 1. [Boxes](boxes.cc) ([problem site](https://open.kattis.com/problems/boxes))
 1. [Breaking Bad](breakingbad.cc) ([problem site](https://open.kattis.com/problems/breakingbad))
 1. [Brexit](brexit.cc) ([problem site](https://open.kattis.com/problems/brexit))
+1. [Delicious Bubble Tea](bubbletea.cc) ([problem site](https://open.kattis.com/problems/bubbletea))
 1. [Build Dependencies](builddeps.cc) ([problem site](https://open.kattis.com/problems/builddeps))
 1. [Bus](bus.cc) ([problem site](https://open.kattis.com/problems/bus))
 1. [Bus Numbers](busnumbers.py) ([problem site](https://open.kattis.com/problems/busnumbers))
