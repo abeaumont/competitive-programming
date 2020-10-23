@@ -142,6 +142,7 @@ There are solutions for the following
 1. [Integer Lists](integerlists.py) ([problem site](https://open.kattis.com/problems/integerlists))
 1. [Inverse Factorial](inversefactorial.cc) ([problem site](https://open.kattis.com/problems/inversefactorial))
 1. [IsItHalloween.com](isithallowen.cc) ([problem site](https://open.kattis.com/problems/isithalloween))
+1. [Jabuke](jabuke.cc) ([problem site](https://open.kattis.com/problems/jabuke))
 1. [Jolly Jumpers](jollyjumpers.cc) ([problem site](https://open.kattis.com/problems/jollyjumpers))
 1. [Judging Troubles](judging.cc) ([problem site](https://open.kattis.com/problems/judging))
 1. [Judging Moose](judgingmoose.cc) ([problem site](https://open.kattis.com/problems/judgingmoose))
