@@ -135,6 +135,7 @@ There are solutions for the following
 1. [What Does It Mean?](heritage.cc) ([problem site](https://open.kattis.com/problems/heritage))
 1. [Hidden Password](hidden.cc) ([problem site](https://open.kattis.com/problems/hidden))
 1. [Hissing Microphone](hissingmicrophone.cc) ([problem site](https://open.kattis.com/problems/hissingmicrophone))
+1. [How Many Digits?](howmanydigits.cc) ([problem site](https://open.kattis.com/problems/howmanydigits))
 1. [The Amazing Human Cannonball](humancannonball2.cc) ([problem site](https://open.kattis.com/problems/humancannonball2))
 1. [iBoard](iboard.cc) ([problem site](https://open.kattis.com/problems/iboard))
 1. [ICPC Awards](icpcawards.cc) ([problem site](https://open.kattis.com/problems/icpcawards))
