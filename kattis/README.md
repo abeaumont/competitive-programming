@@ -264,6 +264,7 @@ There are solutions for the following
 1. [Trending Topic](trendingtopic.cc) ([problem site](https://open.kattis.com/problems/trendingtopic))
 1. [Tri](tri.cc) ([problem site](https://open.kattis.com/problems/tri))
 1. [Trik](trik.cc) ([problem site](https://open.kattis.com/problems/trik))
+1. [Trip](trip.py) ([problem site](https://open.kattis.com/problems/trip))
 1. [Tri Tiling](tritiling.cc) ([problem site](https://open.kattis.com/problems/tritiling))
 1. [Turbo](turbo.cc) ([problem site](https://open.kattis.com/problems/turbo))
 1. [ICPC Tutorial](tutorial.cc) ([problem site](https://open.kattis.com/problems/tutorial))
