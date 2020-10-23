@@ -125,6 +125,7 @@ There are solutions for the following
 1. [Watering Grass](grass.cc) ([problem site](https://open.kattis.com/problems/grass))
 1. [Grass Seed Inc.](grassseed.cc) ([problem site](https://open.kattis.com/problems/grassseed))
 1. [Greeting Card](greetingcard.cc) ([problem site](https://open.kattis.com/problems/greetingcard))
+1. [Growling Gears](growlingears.cc) ([problem site](https://open.kattis.com/problems/growlinggears))
 1. [Guess the Number](guess.cc) ([problem site](https://open.kattis.com/problems/guess))
 1. [Guessing Game](guessinggame.cc) ([problem site](https://open.kattis.com/problems/guessinggame))
 1. [I Can Guess the Data Structure!](guessthedatastructure.cc) ([problem site](https://open.kattis.com/problems/guessthedatastructure))
