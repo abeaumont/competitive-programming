@@ -165,6 +165,7 @@ There are solutions for the following
 1. [Maximum Number of Colinear Points](maxcolinear.cc) ([problem site](https://open.kattis.com/problems/maxcolinear))
 1. [Maximum Flow](maxflow.cc) ([problem site](https://open.kattis.com/problems/maxflow))
 1. [Minimum Scalar Product](minimumscalar.cc) ([problem site](https://open.kattis.com/problems/minimumscalar))
+1. [Minimum Spanning Tree](minspantree.cc) ([problem site](https://open.kattis.com/problems/minspantree))
 1. [Mirror Images](mirror.cc) ([problem site](https://open.kattis.com/problems/mirror))
 1. [Mixed Fractions](mixedfractions.cc) ([problem site](https://open.kattis.com/problems/mixedfractions))
 1. [Modulo](modulo.cc) ([problem site](https://open.kattis.com/problems/modulo))
