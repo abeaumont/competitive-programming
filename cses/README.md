@@ -93,6 +93,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1636 - Coin Combinations II](1636.cc) ([problem site](https://cses.fi/problemset/task/1636))
 1. [1637 - Removing Digits](1637.cc) ([problem site](https://cses.fi/problemset/task/1637))
 1. [1638 - Grid Paths](1638.cc) ([problem site](https://cses.fi/problemset/task/1638))
+1. [1639 - Edit Distance](1639.cc) ([problem site](https://cses.fi/problemset/task/1639))
 1. [1640 - Sum of Two Values](1640.cc) ([problem site](https://cses.fi/problemset/task/1640))
 1. [1641 - Sum of Three Values](1641.cc) ([problem site](https://cses.fi/problemset/task/1641))
 1. [1642 - Sum of Four Values](1642.cc) ([problem site](https://cses.fi/problemset/task/1642))
