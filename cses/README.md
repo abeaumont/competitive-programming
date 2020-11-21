@@ -149,6 +149,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1736 - Polynomial Queries](1736.cc) ([problem site](https://cses.fi/problemset/task/1736))
 1. [1737 - Range Queries and Copies](1737.cc) ([problem site](https://cses.fi/problemset/task/1737))
 1. [1739 - Forest Queries II](1739.cc) ([problem site](https://cses.fi/problemset/task/1739))
+1. [1744 - Rectangle Cutting](1744.cc) ([problem site](https://cses.fi/problemset/task/1744))
 1. [1745 - Money Sums](1745.cc) ([problem site](https://cses.fi/problemset/task/1745))
 1. [1746 - Array Description](1746.cc) ([problem site](https://cses.fi/problemset/task/1746))
 1. [1750 - Planet Queries I](1750.cc) ([problem site](https://cses.fi/problemset/task/1750))
