@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	//code
+	int n,a;cin>>n;
+	while(n--){
+	    cin>>a;
+	    int arr[a],f=1;
+	    for(int i=0;i<a;i++) cin>>arr[i];
+	    for(int i=0;i<(a-1);i++){
+	        if(arr[i]>=arr[i+1]){f=0;break;}
+	    }
+	    cout<<f<<endl;
+	}
+	return 0;
+}
