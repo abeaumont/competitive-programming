@@ -1,0 +1,7 @@
+class Solution{
+public:
+    int fibExpression(int N){
+        // code here
+        return (N%2==0) ? +1 : -1;
+    }
+};
