@@ -1,0 +1,48 @@
+// { Driver Code Starts
+//Initial Template for C++
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+ // } Driver Code Ends
+
+
+//User function Template for C++
+
+/*  Function to calculate the largest consecutive ones
+*   x: given input to calculate the largest consecutive ones
+*/
+int maxConsecutiveOnes(int x)
+{
+   int k=0,m=0;
+   while(x){
+       if(x&1){k++;}
+       else{
+           m=max(k,m);
+           k=0;
+       }
+       x=x>>1;
+   }
+   m=max(k,m);
+   return m;
+}
+
+
+
+// { Driver Code Starts.
+
+// Driver Code
+int main() {
+	int t;
+	cin>>t;//testcases
+	while(t--)
+	{
+		int n;
+		cin>>n;//input n
+		
+		//calling maxConsecutiveOnes() function
+		cout<<maxConsecutiveOnes(n)<<endl;
+	}
+	return 0;
+}  // } Driver Code Ends
