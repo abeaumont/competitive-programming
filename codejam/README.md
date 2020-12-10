@@ -90,6 +90,8 @@ There are solutions for the following [Google Code Jam](https://codingcompetitio
   ([problem site](https://code.google.com/codejam/contest/1460488/dashboard#s=p1))
 1. [2012 Qualification Round - A. Speaking In Tongues](2012-qualification/a.dylan)
   ([problem site](https://code.google.com/codejam/contest/1460488/dashboard#s=p0))
+1. [2008 Round 2 - A. Cheating a Boolean Tree](2008-round-2/a.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc0/000000000043314e))
 1. [2008 Qualification Round - B. Train Timetable](2008-qualification/b.cc)
   ([problem site](https://code.google.com/codejam/contest/32013/dashboard#s=p1))
 1. [2008 Qualification Round - A. Saving the Universe](2008-qualification/a.cc)
