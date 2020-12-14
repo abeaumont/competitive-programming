@@ -66,6 +66,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/EGGFREE))
 1. [EQUILIBR - Reach Equilibrium](july18a/equilibr.cc)
   ([problem site](https://www.codechef.com/problems/EQUILIBR))
+1. [EVENPSUM - Even Pair Sum](dec20a/evenpsum.cc)
+  ([problem site](https://www.codechef.com/DEC20A/problems/EVENPSUM)
 1. [FBMT - Football Match](cook89/fbmt.cc)
   ([problem site](https://www.codechef.com/problems/FBMT)
 1. [GCDCNT - Chef and Gcd Queries](march18a/gcdcnt.cc)
