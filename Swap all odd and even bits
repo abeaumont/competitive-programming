@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	//code
+	int n,a;cin>>n;
+	while(n--){
+	    cin>>a;
+	   cout<<((a&0xAAAAAAAA)>>1 | (a&0x55555555)<<1)<<endl; 
+	}
+	return 0;
+}
