@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){;
+    int a;
+    cin>>a;
+    a++;
+    while(true){
+        string h =to_string(a);
+        sort(h.begin(),h.end());
+        bool gu=true;
+        for(int i=1;i<h.length();i++){
+            if(h[i]==h[i-1]){gu=false;break;}
+        }
+        if(gu){cout<<a<<endl;break;}
+        a++;
+    }
+    return 0;
+}
