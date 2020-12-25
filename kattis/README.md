@@ -125,6 +125,7 @@ There are solutions for the following
 1. [Grandpa Bernie](grandpabernie.cc) ([problem site](https://open.kattis.com/problems/grandpabernie))
 1. [Watering Grass](grass.cc) ([problem site](https://open.kattis.com/problems/grass))
 1. [Grass Seed Inc.](grassseed.cc) ([problem site](https://open.kattis.com/problems/grassseed))
+1. [Greedily Increasing Subsequence](greedilyincreasing.cc) ([problem site](https://open.kattis.com/problems/greedilyincreasing))
 1. [Greeting Card](greetingcard.cc) ([problem site](https://open.kattis.com/problems/greetingcard))
 1. [Growling Gears](growlingears.cc) ([problem site](https://open.kattis.com/problems/growlinggears))
 1. [Guess the Number](guess.cc) ([problem site](https://open.kattis.com/problems/guess))
