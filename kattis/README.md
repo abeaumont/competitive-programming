@@ -130,6 +130,7 @@ There are solutions for the following
 1. [Guessing Game](guessinggame.cc) ([problem site](https://open.kattis.com/problems/guessinggame))
 1. [I Can Guess the Data Structure!](guessthedatastructure.cc) ([problem site](https://open.kattis.com/problems/guessthedatastructure))
 1. [Hay Points](haypoints.cc) ([problem site](https://open.kattis.com/problems/haypoints))
+1. [Heart Rate](heartrate.cc) ([problem site](https://open.kattis.com/problems/heartrate))
 1. [Heliocentric](heliocentric.cc) ([problem site](https://open.kattis.com/problems/heliocentric))
 1. [Hello World!](hello.py) ([problem site](https://open.kattis.com/problems/hello))
 1. [What Does It Mean?](heritage.cc) ([problem site](https://open.kattis.com/problems/heritage))
