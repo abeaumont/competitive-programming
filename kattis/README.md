@@ -129,6 +129,7 @@ There are solutions for the following
 1. [Guess the Number](guess.cc) ([problem site](https://open.kattis.com/problems/guess))
 1. [Guessing Game](guessinggame.cc) ([problem site](https://open.kattis.com/problems/guessinggame))
 1. [I Can Guess the Data Structure!](guessthedatastructure.cc) ([problem site](https://open.kattis.com/problems/guessthedatastructure))
+1. [Hanging Out on the Terrace](hangingout.cc) ([problem site](https://open.kattis.com/problems/hangingout))
 1. [Hay Points](haypoints.cc) ([problem site](https://open.kattis.com/problems/haypoints))
 1. [Heart Rate](heartrate.cc) ([problem site](https://open.kattis.com/problems/heartrate))
 1. [Heliocentric](heliocentric.cc) ([problem site](https://open.kattis.com/problems/heliocentric))
