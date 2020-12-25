@@ -116,6 +116,7 @@ There are solutions for the following
 1. [Flexible Spaces](flexible.py) ([problem site](https://open.kattis.com/problems/flexible))
 1. [Flip Five](flipfive.cc) ([problem site](https://open.kattis.com/problems/flipfive))
 1. [Forests](forests.py) ([problem site](https://open.kattis.com/problems/forests))
+1. [Free Food](freefood.cc) ([problem site](https://open.kattis.com/problems/freefood))
 1. [Friday the 13th](friday.cc) ([problem site](https://open.kattis.com/problems/friday))
 1. [Fridge](fridge.cc) ([problem site](https://open.kattis.com/problems/fridge))
 1. [Frosh Week](froshweek.cc) ([problem site](https://open.kattis.com/problems/frosweek))
