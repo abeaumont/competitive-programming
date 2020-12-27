@@ -243,6 +243,7 @@ There are solutions for the following
 1. [Server](server.py) ([problem site](https://open.kattis.com/problems/server))
 1. [Settlers of Catan](settlers2.cc) ([problem site](https://open.kattis.com/problems/settlers2))
 1. [Seven Wonders](sevenwonders.cc) ([problem site](https://open.kattis.com/problems/sevenwonders))
+1. [Single source shortest path, non-negative weights](shortestpath1.cc) ([problem site](https://open.kattis.com/problems/shortestpath1))
 1. [Sibice](sibice.cc) ([problem site](https://open.kattis.com/problems/sibice))
 1. [Simon Says](simon.cc) ([problem site](https://open.kattis.com/problems/simon))
 1. [Simon Says](simonsays.cc) ([problem site](https://open.kattis.com/problems/simonsays))
