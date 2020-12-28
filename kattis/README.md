@@ -189,6 +189,7 @@ There are solutions for the following
 1. [Oddities](oddities.py) ([problem site](https://open.kattis.com/problems/oddities))
 1. [Odd Man Out](oddmanout.cc) ([problem site](https://open.kattis.com/problems/oddmanout))
 1. [One Chicken Per Person!](chicken.cc) ([problem site](https://open.kattis.com/problems/onechicken))
+1. [Open-Pit Mining](openpitmining.cc) ([problem site](https://open.kattis.com/problems/openpitmining))
 1. [Open Source](opensource.cc) ([problem site](https://open.kattis.com/problems/opensource))
 1. [Paintball](paintball.cc) ([problem site](https://open.kattis.com/problems/paintball))
 1. [Parking](parking.cc) ([problem site](https://open.kattis.com/problems/parking))
