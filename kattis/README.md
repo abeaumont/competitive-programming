@@ -111,6 +111,7 @@ There are solutions for the following
 1. [Faktor](faktor.cc) ([problem site](https://open.kattis.com/problems/faktor))
 1. [Falling Mugs](falling.cc) ([problem site](https://open.kattis.com/problems/falling))
 1. [A Favourable Ending](favourable.cc) ([problem site](https://open.kattis.com/problems/favourable))
+1. [Building Fences](fence2.cc) ([problem site](https://open.kattis.com/problems/fence2))
 1. [Filip](filip.cc) ([problem site](https://open.kattis.com/problems/filip))
 1. [FizzBuzz](fizzbuzz.cc) ([problem site](https://open.kattis.com/problems/fizzbuzz))
 1. [Flexible Spaces](flexible.py) ([problem site](https://open.kattis.com/problems/flexible))
