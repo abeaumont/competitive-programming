@@ -103,6 +103,7 @@ There are solutions for the following
 1. [Encoded Message](encodedmessage.cc) ([problem site](https://open.kattis.com/problems/encodedmessage))
 1. [Engineering English](engineeringenglish.cc) ([problem site](https://open.kattis.com/problems/engineeringenglish))
 1. [Equal Sums (Easy)](equalsumseasy.cc) ([problem site](https://open.kattis.com/problems/equalsumseasy))
+1. [Proving Equivalences](equivalences.cc) ([problem site](https://open.kattis.com/problems/equivalences))
 1. [Erase Securely](erase.cc) ([problem site](https://open.kattis.com/problems/erase))
 1. [Erratic Ants](erraticants.cc) ([problem site](https://open.kattis.com/problems/erraticants))
 1. [Estimating the Area of a Circle](estimatingtheareaofacircle.cc) ([problem site](https://open.kattis.com/problems/estimatingtheareaofacircle))
