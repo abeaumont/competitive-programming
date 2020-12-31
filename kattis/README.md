@@ -31,6 +31,7 @@ There are solutions for the following
 1. [Army Strength (Easy)](armystrengtheasy.cc) ([problem site](https://open.kattis.com/problems/armystrengtheasy))
 1. [Amalgamated Artichokes](artichoke.cc) ([problem site](https://open.kattis.com/problems/artichoke))
 1. [Autori](autori.cc) ([problem site](https://open.kattis.com/problems/autori))
+1. [Paradox With Averages (Hard)](averageshard.cc) ([problem site](https://open.kattis.com/problems/averageshard))
 1. [Average Speed](averagespeed.cc) ([problem site](https://open.kattis.com/problems/averagespeed))
 1. [Babelfish](babelfish.cc) ([problem site](https://open.kattis.com/problems/babelfish))
 1. [Bachet's Game](bachetsgame.cc) ([problem site](https://open.kattis.com/problems/bachetsgame))
