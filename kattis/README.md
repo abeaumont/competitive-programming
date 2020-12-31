@@ -164,6 +164,7 @@ There are solutions for the following
 1. [Kutevi](kutevi.cc) ([problem site](https://open.kattis.com/problems/kutevi))
 1. [Ladder](ladder.cc) ([problem site](https://open.kattis.com/problems/ladder))
 1. [Last Factorial Digit](lastfactorialdigit.cc) ([problem site](https://open.kattis.com/problems/lastfactorialdigit))
+1. [Lawn Mower](lawnmower.cc) ([problem site](https://open.kattis.com/problems/lawnmower))
 1. [Left Beehind](leftbeehind.cc) ([problem site](https://open.kattis.com/problems/leftbeehind))
 1. [Line Them Up](lineup.cc) ([problem site](https://open.kattis.com/problems/lineup))
 1. [A List Game](listgame.cc) ([problem site](https://open.kattis.com/problems/listgame))
