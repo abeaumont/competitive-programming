@@ -231,6 +231,7 @@ There are solutions for the following
 1. [Ragged Right](raggedright.cc) ([problem site](https://open.kattis.com/problems/raggedright))
 1. [Railroad](railroad2.cc) ([problem site](https://open.kattis.com/problems/railroad2))
 1. [Reactivity Series](reactivity.cc) ([problem site](https://open.kattis.com/problems/reactivity))
+1. [Primary Register](register.cc) ([problem site](https://open.kattis.com/problems/register))
 1. [Working at the Restaurant](restaurant.cc) ([problem site](https://open.kattis.com/problems/restaurant))
 1. [Reversed Binary Numbers](reversebinary.py) ([problem site](https://open.kattis.com/problems/reversebinary))
 1. [Reverse Rot](reverserot.cc) ([problem site](https://open.kattis.com/problems/reverserot))
