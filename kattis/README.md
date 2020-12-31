@@ -109,6 +109,7 @@ There are solutions for the following
 1. [Estimating the Area of a Circle](estimatingtheareaofacircle.cc) ([problem site](https://open.kattis.com/problems/estimatingtheareaofacircle))
 1. [Even Up Solitaire](evenup.cc) ([problem site](https://open.kattis.com/problems/evenup))
 1. [I've Been Everywhere, Man](everywhere.cc) ([problem site](https://open.kattis.com/problems/everywhere))
+1. [Kindergarten Excursion](excursion.cc) ([problem site](https://open.kattis.com/problems/excursion))
 1. [Faktor](faktor.cc) ([problem site](https://open.kattis.com/problems/faktor))
 1. [Falling Mugs](falling.cc) ([problem site](https://open.kattis.com/problems/falling))
 1. [A Favourable Ending](favourable.cc) ([problem site](https://open.kattis.com/problems/favourable))
