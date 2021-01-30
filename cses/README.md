@@ -159,3 +159,4 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1754 - Coin Piles](1754.cc) ([problem site](https://cses.fi/problemset/task/1754))
 1. [1755 - Palindrome Reorder](1755.cc) ([problem site](https://cses.fi/problemset/task/1755))
 1. [1756 - Edge Directions](1756.cc) ([problem site](https://cses.fi/problemset/task/1756))
+1. [2106 - Repeating Substring](2016.cc) ([problem site](https://cses.fi/problemset/task/2106))
