@@ -101,6 +101,7 @@ There are solutions for the following
 1. [All Just A Dream](dream.cc) ([problem site](https://open.kattis.com/problems/dream))
 1. [DRM Messages](drmmessages.cc) ([problem site](https://open.kattis.com/problems/drmmessages))
 1. [Daylight Saving Time](dst.cc) ([problem site](https://open.kattis.com/problems/dst))
+1. [Dvaput](dvaput.cc) ([problem site](https://open.kattis.com/problems/dvaput))
 1. [The Easiest Problem Is This One](easiest.cc) ([problem site](https://open.kattis.com/problems/easiest))
 1. [Eligibility](eligibility.cc) ([problem site](https://open.kattis.com/problems/eligibility))
 1. [Encoded Message](encodedmessage.cc) ([problem site](https://open.kattis.com/problems/encodedmessage))
