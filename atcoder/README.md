@@ -264,6 +264,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 1. [ABC058C - Dubious Document](abc058/c.py) ([problem site](https://atcoder.jp/contests/abc058/tasks/arc071_a))
 1. [ABC058B -	∵∴∵](abc058/b.py) ([problem site](https://atcoder.jp/contests/abc058/tasks/abc058_b))
 1. [ABC058A - ι⊥l](abc058/a.py) ([problem site](https://atcoder.jp/contests/abc058/tasks/abc058_a))
+1. [ABC057D - Maximum Average Sets](abc057/d.nim) ([problem site](https://atcoder.jp/contests/abc057/tasks/abc057_d))
 1. [ABC057C - Digits in Multiplication](abc057/c.py) ([problem site](https://atcoder.jp/contests/abc057/tasks/abc057_c))
 1. [ABC057B - Checkpoints](abc057/b.py) ([problem site](https://atcoder.jp/contests/abc057/tasks/abc057_b))
 1. [ABC057A - Remaining Time](abc057/a.py) ([problem site](https://atcoder.jp/contests/abc057/tasks/abc057_a))
