@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1500B - Two chandeliers](1501/d.cc) ([problem site](https://codeforces.com/contest/1500/problem/B))
 1. [1407E - Egor in the Republic of Dagestan](1407/e.cc) ([problem site](https://codeforces.com/contest/1407/problem/E))
 1. [1407D - Discrete Centrifugal Jumps](1407/d.cc) ([problem site](https://codeforces.com/contest/1407/problem/D))
 1. [1407C - Chocolate Bunny](1407/c.cc) ([problem site](https://codeforces.com/contest/1407/problem/C))
