@@ -160,5 +160,6 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1755 - Palindrome Reorder](1755.cc) ([problem site](https://cses.fi/problemset/task/1755))
 1. [1756 - Edge Directions](1756.cc) ([problem site](https://cses.fi/problemset/task/1756))
 1. [2106 - Repeating Substring](2016.cc) ([problem site](https://cses.fi/problemset/task/2106))
+1. [2162 - Josephus Problem I](2162.cc) ([problem site](https://cses.fi/problemset/task/2162))
 1. [2183 - Missing Coin Sum](2183.cc) ([problem site](https://cses.fi/problemset/task/2183))
 1. [2216 - Collecting Numbers](2216.cc) ([problem site](https://cses.fi/problemset/task/2216))
