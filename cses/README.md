@@ -163,3 +163,4 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [2162 - Josephus Problem I](2162.cc) ([problem site](https://cses.fi/problemset/task/2162))
 1. [2183 - Missing Coin Sum](2183.cc) ([problem site](https://cses.fi/problemset/task/2183))
 1. [2216 - Collecting Numbers](2216.cc) ([problem site](https://cses.fi/problemset/task/2216))
+1. [2431 - Digit Queries](2431.cc) ([problem site](https://cses.fi/problemset/task/2431))
