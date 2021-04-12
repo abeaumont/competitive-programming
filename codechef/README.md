@@ -80,6 +80,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/JERRYTOM))
 1. [JIIT - Queries on Matrix](oct19a/jiit.cc)
   ([problem site](https://www.codechef.com/problems/JIIT))
+1. [KAVGMAT - Worthy Matrix](april21a/kavgmat.cc)
+  ([problem site](https://www.codechef.com/problems/KAVGMAT))
 1. [KCOMPRES - Coordinate Compression](aug18a/kcompres.cc)
   ([problem site](https://www.codechef.com/problems/KCOMPRES))
 1. [KCON - K-Concatenation](jan18/kcon.cc)
