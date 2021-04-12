@@ -100,6 +100,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/MAXSC))
 1. [MEX - Max Mex](oct17/mex.cc)
   ([problem site](https://www.codechef.com/problems/MEX))
+1. [MEXSTR - Binary String MEX](april21a/mexstr.cc)
+  ([problem site](https://www.codechef.com/problems/MEXSTR))
 1. [MINDSUM - Minimize Digitsum](oct18a/mindsum.cc)
   ([problem site](https://www.codechef.com/problems/MINDSUM))
 1. [MINVOTE - Minions and Voting](march18a/minvote.cc)
