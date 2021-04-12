@@ -130,6 +130,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/RAINBOWA)
 1. [RECTANGL - Rectangle](jan18/rectangl.cc)
   ([problem site](https://www.codechef.com/problems/RECTANGL))
+1. [SDICE](april21a/sdice.cc)
+  ([problem site](https://www.codechef.com/problems/SDICE))
 1. [SEGPROD - Product on the segment by modulo (subtask #1)](nov17/segprod.cc)
   ([problem site](https://www.codechef.com/problems/SEGPROD))
 1. [SONGIF - Sonya and Gifts](may19a/songif.cc)
