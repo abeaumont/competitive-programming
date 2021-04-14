@@ -120,6 +120,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/NBOTS))
 1. [NMNMX - No Minimum No Maximum](july18a/nmnmx.cc)
   ([problem site](https://www.codechef.com/problems/NMNMX))
+1. [PAIRFLIP - Chef and Pair Filps](april21a/pairflip.cc)
+  ([problem site](https://www.codechef.com/problems/PAIRFLIP))
 1. [PERFCONT - A Balanced Contest](oct17/perfcont.cc)
   ([problem site](https://www.codechef.com/problems/PERFCONT))
 1. [PERMPAL - Permutation and Palindrome](feb18/permpal.cc)
