@@ -30,6 +30,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/CARDMGK))
 1. [CARPTUN - Car-pal Tunnel](feb18/carptun.cc)
   ([problem site](https://www.codechef.com/problems/CARPTUN)
+1. [CHAOSEMP - Destroy the EMP Chip](april21a/chaosemp.py)
+  ([problem site](https://www.codechef.com/problems/CHAOSEMP))
 1. [CHFRAN - Chefina and Ranges](dec19a/chfran.cc)
   ([problem site](https://www.codechef.com/problems/CHFRAN)
 1. [CIELAB - Ciel and A-B Problem](cook17/cielab.cc)
