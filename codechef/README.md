@@ -148,6 +148,8 @@ There are solutions for the following [codechef](https://www.codechef.com/) prob
   ([problem site](https://www.codechef.com/problems/STRMRG))
 1. [TABGAME - Table Game](sept18a/tabgame.py)
   ([problem site](https://www.codechef.com/problems/TABGAME))
+1. [TREEPERM - Tree Permutations](april21a/treeperm.cc)
+  ([problem site](https://www.codechef.com/problems/TREEPERM))
 1. [TYPING - Chef and Typing](snck1a19/typing.py)
   ([problem site](https://www.codechef.com/problems/TYPING))
 1. [XORIER - War of XORs](sept18a/xorier.cc)
