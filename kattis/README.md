@@ -286,6 +286,7 @@ There are solutions for the following
 1. [Sum Kind of Problem](sumkindofproblem.cc) ([problem site](https://open.kattis.com/problems/sumkindofproblem))
 1. [Sum Squared Digits Function](sumsquareddigits.cc) ([problem site](https://open.kattis.com/problems/sumsquareddigits))
 1. [Supercomputer](supercomputer.cc) ([problem site](https://open.kattis.com/problems/supercomputer))
+1. [Sylvester Construction](sylvester.cc) ([problem site](https://open.kattis.com/problems/sylvester))
 1. [Symmetric Order](symmetricorder.cc) ([problem site](https://open.kattis.com/problems/symmetricorder))
 1. [Synchronizing Lists](synchronizinglists.cc) ([problem site](https://open.kattis.com/problems/synchronizinglists))
 1. [T9 Spelling](t9spelling.cc) ([problem site](https://open.kattis.com/problems/t9spelling))
