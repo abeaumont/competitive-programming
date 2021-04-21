@@ -241,6 +241,7 @@ There are solutions for the following
 1. [Another Query on Array Problem](queryonarray.cc) ([problem site](https://open.kattis.com/problems/queryonarray))
 1. [Quick Brown Fox](quickbrownfox.cc) ([problem site](https://open.kattis.com/problems/quickbrownfox))
 1. [Quick Estimates](quickestimate.cc) ([problem site](https://open.kattis.com/problems/quickestimate))
+1. [Quite a Problem](quiteaproblem.cc) ([problem site](https://open.kattis.com/problems/quiteaproblem))
 1. [R2](r2.cc) ([problem site](https://open.kattis.com/problems/r2))
 1. [Racing Around the Alphabet](racingalphabet.cc) ([problem site](https://open.kattis.com/problems/racingalphabet))
 1. [Ragged Right](raggedright.cc) ([problem site](https://open.kattis.com/problems/raggedright))
