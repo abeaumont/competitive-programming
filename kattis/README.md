@@ -30,6 +30,7 @@ There are solutions for the following
 1. [Arctic Network](arcticnetwork.cc) ([problem site](https://open.kattis.com/problems/arcticnetwork))
 1. [A Real Challenge](areal.cc) ([problem site](https://open.kattis.com/problems/areal))
 1. [Army Strength (Easy)](armystrengtheasy.cc) ([problem site](https://open.kattis.com/problems/armystrengtheasy))
+1. [Arriving on Time](arrivingontime.cc) ([problem site](https://open.kattis.com/problems/arrivingontime))
 1. [Amalgamated Artichokes](artichoke.cc) ([problem site](https://open.kattis.com/problems/artichoke))
 1. [Autori](autori.cc) ([problem site](https://open.kattis.com/problems/autori))
 1. [Paradox With Averages](averageseasy.cc) ([problem site](https://open.kattis.com/problems/averageseasy))
