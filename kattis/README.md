@@ -194,6 +194,7 @@ There are solutions for the following
 1. [Moogle](moogle.cc) ([problem site](https://open.kattis.com/problems/moogle))
 1. [Movie Collection](moviecollection.cc) ([problem site](https://open.kattis.com/problems/moviecollection))
 1. [Muzicari](muzicari.cc) ([problem site](https://open.kattis.com/problems/muzicari))
+1. [Narrow Art Gallery](narrowartgallery.cc) ([problem site](https://open.kattis.com/problems/narrowartgallery))
 1. [Nasty Hacks](nastyhacks.cc) ([problem site](https://open.kattis.com/problems/nastyhacks))
 1. [Natjecanje](natjecanje.cc) ([problem site](https://open.kattis.com/problems/natjecanje))
 1. [Natrij](natrij.py) ([problem site](https://open.kattis.com/problems/natrij))
