@@ -25,6 +25,7 @@ There are solutions for the following
 1. [Apaxiaaaaaaaaaaaans!](apaxiaaans.cc) ([problem site](https://open.kattis.com/problems/apaxiaaans))
 1. [Johnny Applesack](applesack.cc) ([problem site](https://open.kattis.com/problems/applesack))
 1. [A Prize No One Can Win](aprizenoonecanwin.cc) ([problem site](https://open.kattis.com/problems/aprizenoonecanwin))
+1. [Aqueduct Construction](aqueducts.cc) ([problem site](https://open.kattis.com/problems/aqueducts))
 1. [Arbitrage?](arbitrage.cc) ([problem site](https://open.kattis.com/problems/arbitrage))
 1. [Arctic Network](arcticnetwork.cc) ([problem site](https://open.kattis.com/problems/arcticnetwork))
 1. [A Real Challenge](areal.cc) ([problem site](https://open.kattis.com/problems/areal))
