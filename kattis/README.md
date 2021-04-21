@@ -317,6 +317,7 @@ There are solutions for the following
 1. [Where's My Internet??](wheresmyinternet.cc) ([problem site](https://open.kattis.com/problems/wheresmyinternet))
 1. [Wizard of Odds](wizardofodds.py) ([problem site](https://open.kattis.com/problems/wizardofodds))
 1. [Wood Cutting](woodcutting.cc) ([problem site](https://open.kattis.com/problems/woodcutting))
+1. [XYZZY](xyzzy.cc) ([problem site](https://open.kattis.com/problems/xyzzy))
 1. [Zamka](zamka.cc) ([problem site](https://open.kattis.com/problems/zamka))
 1. [Stand on Zanzibar](zanzibar.cc) ([problem site](https://open.kattis.com/problems/zanzibar))
 1. [Zipf's Song](zipfsong.cc) ([problem site](https://open.kattis.com/problems/zipfsong))
