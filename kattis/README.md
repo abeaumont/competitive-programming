@@ -287,6 +287,7 @@ There are solutions for the following
 1. [Test](test2.cc) ([problem site](https://open.kattis.com/problems/test2))
 1. [Three Powers](threepowers.py) ([problem site](https://open.kattis.com/problems/threepowers))
 1. [Toilet Seat](toilet.cc) ([problem site](https://open.kattis.com/problems/toilet))
+1. [Toll](toll.cc) ([problem site](https://open.kattis.com/problems/toll))
 1. [Torn To Pieces](torn2pieces.cc) ([problem site](https://open.kattis.com/problems/torn2pieces))
 1. [Train Passengers](trainpassengers.cc) ([problem site](https://open.kattis.com/problems/trainpassengers))
 1. [Trending Topic](trendingtopic.cc) ([problem site](https://open.kattis.com/problems/trendingtopic))
