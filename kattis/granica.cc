@@ -22,7 +22,6 @@ int main() {
   cin >> n;
   vector<ll> a(n);
   for (int i = 0; i < n; i++) cin >> a[i];
-  sort(a.begin(), a.end());
   ll g = a[1] - a[0];
   for (int i = 2; i < n; i++) g = gcd(g, a[i] - a[i - 1]);
   for (ll i = 2; i * i <= g; i++) {
