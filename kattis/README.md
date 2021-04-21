@@ -223,6 +223,7 @@ There are solutions for the following
 1. [Point in Polygon](pointinpolygon.cc) ([problem site](https://open.kattis.com/problems/pointinpolygon))
 1. [Poker Hand](pokerhand.cc) ([problem site](https://open.kattis.com/problems/pokerhand))
 1. [Polygon Area](polygonarea.cc) ([problem site](https://open.kattis.com/problems/polygonarea))
+1. [Polynomial Multiplication 2](polymul2.cc) ([problem site](https://open.kattis.com/problems/polymul2))
 1. [Pot](pot.cc) ([problem site](https://open.kattis.com/problems/pot))
 1. [Power Strings](powerstrings.cc) ([problem site](https://open.kattis.com/problems/powerstrings))
 1. [Prime Sieve](primesieve.cc) ([problem site](https://open.kattis.com/problems/priemesieve))
