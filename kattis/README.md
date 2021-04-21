@@ -178,6 +178,7 @@ There are solutions for the following
 1. [Maximum Number of Colinear Points](maxcolinear.cc) ([problem site](https://open.kattis.com/problems/maxcolinear))
 1. [Maximum Flow](maxflow.cc) ([problem site](https://open.kattis.com/problems/maxflow))
 1. [Minimum Cost Maximum Flow](mincostmaxflow.cc) ([problem site](https://open.kattis.com/problems/mincostmaxflow))
+1. [Minimum Cut](mincut.cc) ([problem site](https://open.kattis.com/problems/mincut))
 1. [Minimum Scalar Product](minimumscalar.cc) ([problem site](https://open.kattis.com/problems/minimumscalar))
 1. [Minimum Spanning Tree](minspantree.cc) ([problem site](https://open.kattis.com/problems/minspantree))
 1. [Mirror Images](mirror.cc) ([problem site](https://open.kattis.com/problems/mirror))
