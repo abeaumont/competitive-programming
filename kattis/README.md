@@ -74,6 +74,7 @@ There are solutions for the following
 1. [Closing the Loop](closingtheloop.cc) ([problem site](https://open.kattis.com/problems/closingtheloop))
 1. [Coast Length](coast.cc) ([problem site](https://open.kattis.com/problems/coast))
 1. [Cold-puter Science](cold.py) ([problem site](https://open.kattis.com/problems/cold))
+1. [Collapse](collapse.c) ([problem site](https://open.kattis.com/problems/collapse))
 1. [Collatz Conjecture](collatz.py) ([problem site](https://open.kattis.com/problems/collatz))
 1. [Coloring Socks](color.cc) ([problem site](https://open.kattis.com/problems/color))
 1. [Jumbled Compass](compass.cc) ([problem site](https://open.kattis.com/problems/compass))
