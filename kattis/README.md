@@ -213,6 +213,7 @@ There are solutions for the following
 1. [Paul Eigon](pauleigon.cc) ([problem site](https://open.kattis.com/problems/pauleigon))
 1. [Peragrams](peragrams.cc) ([problem site](https://open.kattis.com/problems/peragrams))
 1. [Perfect Pth Powers](perfectpowers.cc) ([problem site](https://open.kattis.com/problems/perfectpowers))
+1. [Periodic Strings](periodicstrings.cc) ([problem site](https://open.kattis.com/problems/periodicstrings))
 1. [Permutation Encryption](permutationencryption.py) ([problem site](https://open.kattis.com/problems/permutationencryption))
 1. [Pet](pet.cc) ([problem site](https://open.kattis.com/problems/pet))
 1. [Phone List](phonelist.cc) ([problem site](https://open.kattis.com/problems/phonelist))
