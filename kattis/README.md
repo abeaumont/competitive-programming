@@ -218,6 +218,7 @@ There are solutions for the following
 1. [Pizza Crust](pizza2.cc) ([problem site](https://open.kattis.com/problems/pizza2))
 1. [Planina](planina.cc) ([problem site](https://open.kattis.com/problems/planina))
 1. [Planting Trees](plantingtrees.cc) ([problem site](https://open.kattis.com/problems/plantingtrees))
+1. [Point in Polygon](pointinpolygon.cc) ([problem site](https://open.kattis.com/problems/pointinpolygon))
 1. [Poker Hand](pokerhand.cc) ([problem site](https://open.kattis.com/problems/pokerhand))
 1. [Polygon Area](polygonarea.cc) ([problem site](https://open.kattis.com/problems/polygonarea))
 1. [Pot](pot.cc) ([problem site](https://open.kattis.com/problems/pot))
