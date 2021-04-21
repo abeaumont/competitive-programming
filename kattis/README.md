@@ -131,6 +131,7 @@ There are solutions for the following
 1. [Fridge](fridge.cc) ([problem site](https://open.kattis.com/problems/fridge))
 1. [Frosh Week](froshweek.cc) ([problem site](https://open.kattis.com/problems/frosweek))
 1. [Fruit Baskets](fruitbaskets.cc) ([problem site](https://open.kattis.com/problems/fruitbaskets))
+1. [Get Shorty](getshorty.cc) ([problem site](https://open.kattis.com/problems/getshorty))
 1. [Goldbach's Conjecture](goldbach2.cc) ([problem site](https://open.kattis.com/problems/goldbach2))
 1. [Grandpa Bernie](grandpabernie.cc) ([problem site](https://open.kattis.com/problems/grandpabernie))
 1. [Granica](granica.cc) ([problem site](https://open.kattis.com/problems/granica))
