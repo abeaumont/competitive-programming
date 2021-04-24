@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1517C - Fillomino 2](1517/c.cc) ([problem site](https://codeforces.com/contest/1517/problem/C))
 1. [1517B - Morning Jogging](1517/b.cc) ([problem site](https://codeforces.com/contest/1517/problem/B))
 1. [1517A - Sum of 2050](1517/a.cc) ([problem site](https://codeforces.com/contest/1517/problem/A))
 1. [1500B - Two chandeliers](1501/d.cc) ([problem site](https://codeforces.com/contest/1500/problem/B))
