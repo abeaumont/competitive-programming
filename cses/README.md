@@ -107,6 +107,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1650 - Range Xor Queries](1650.cc) ([problem site](https://cses.fi/problemset/task/1650))
 1. [1651 - Range Update Queries](1651.cc) ([problem site](https://cses.fi/problemset/task/1651))
 1. [1652 - Forest Queries](1652.cc) ([problem site](https://cses.fi/problemset/task/1652))
+1. [1653 - Elevator Rides](1653.cc) ([problem site](https://cses.fi/problemset/task/1653))
 1. [1654 - Bit Problem](1654.cc) ([problem site](https://cses.fi/problemset/task/1654))
 1. [1660 - Subarray Sums I](1660.cc) ([problem site](https://cses.fi/problemset/task/1660))
 1. [1661 - Subarray Sums II](1661.cc) ([problem site](https://cses.fi/problemset/task/1661))
