@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1536B - Prinzessin der Verurteilung](1536/b.cc) ([problem site](https://codeforces.com/contest/1536/problem/B))
 1. [1536A - Omkar and Bad Story](1536/a.cc) ([problem site](https://codeforces.com/contest/1536/problem/A))
 1. [1517C - Fillomino 2](1517/c.cc) ([problem site](https://codeforces.com/contest/1517/problem/C))
 1. [1517B - Morning Jogging](1517/b.cc) ([problem site](https://codeforces.com/contest/1517/problem/B))
