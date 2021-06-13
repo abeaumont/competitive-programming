@@ -19,6 +19,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 
 ### [ARC Class contests](https://atcoder.jp/contests/archive?ratedType=2&category=0&keyword=)
 
+1. [ARC118A - Tax Included Price](arc118/a.cc) ([problem site](https://atcoder.jp/contests/arc118/tasks/arc118_a))
 1. [ARC103E - Tr/ee](arc103/e.py) ([problem site](https://atcoder.jp/contests/arc103/tasks/arc103_c))
 1. [ARC103D - Robot Arms](arc103/d.cc) ([problem site](https://atcoder.jp/contests/arc103/tasks/arc103_b))
 1. [ARC103C - /\/\/\/](arc103/c.cc) ([problem site](https://atcoder.jp/contests/arc103/tasks/arc103_a))
