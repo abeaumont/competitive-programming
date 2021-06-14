@@ -41,6 +41,7 @@ There are solutions for the following
 1. [Backspace](backspace.cc) ([problem site](https://open.kattis.com/problems/backspace))
 1. [Distributing Ballot Boxes](ballotboxes.cc) ([problem site](https://open.kattis.com/problems/ballotboxes))
 1. [Bank Queue](bank.cc) ([problem site](https://open.kattis.com/problems/bank))
+1. [Basketball One-on-One](basketballoneone.cc) ([problem site](https://open.kattis.com/problems/basketballoneonone))
 1. [Batter Up](batterup.cc) ([problem site](https://open.kattis.com/problems/batterup))
 1. [Batmanacci](batmanacci.cc) ([problem site](https://open.kattis.com/problems/batmanacci))
 1. [Bela](bela.cc) ([problem site](https://open.kattis.com/problems/bela))
