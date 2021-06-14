@@ -69,6 +69,7 @@ There are solutions for the following
 1. Catalan Square: [Common Lisp](catalansquare.lisp), [Python](catalansquare.py) ([problem site](https://open.kattis.com/problems/catalansquare))
 1. [Cat Coat Colors](catcoat.cc) ([problem site](https://open.kattis.com/problems/catcoat))
 1. [CD](cd.cc) ([problem site](https://open.kattis.com/problems/cd))
+1. [Opening Ceremony](ceremony.cc) ([problem site](https://open.kattis.com/problems/ceremony))
 1. [Cetvrta](cetvrta.cc) ([problem site](https://open.kattis.com/problems/cetvrta))
 1. [Chess](chess.cc) ([problem site](https://open.kattis.com/problems/chess))
 1. [A Classy Problem](classy.py) ([problem site](https://open.kattis.com/problems/classy))
