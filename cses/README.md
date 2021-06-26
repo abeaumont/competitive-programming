@@ -171,6 +171,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [2205 - Gray Code](2205.cc) ([problem site](https://cses.fi/problemset/task/2205))
 1. [2216 - Collecting Numbers](2216.cc) ([problem site](https://cses.fi/problemset/task/2216))
 1. [2217 - Collecting Numbers II](2217.cc) ([problem site](https://cses.fi/problemset/task/2217))
+1. [2220 - Couting Numbers](2220.cc) ([problem site](https://cses.fi/problemset/task/2220))
 1. [2413 - Counting Towers](2413.cc) ([problem site](https://cses.fi/problemset/task/2413))
 1. [2428 - Subarray Distinct Values](2428.cc) ([problem site](https://cses.fi/problemset/task/2428))
 1. [2431 - Digit Queries](2431.cc) ([problem site](https://cses.fi/problemset/task/2431))
