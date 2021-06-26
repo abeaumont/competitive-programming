@@ -136,6 +136,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1688 - Company Queries II](1688.cc) ([problem site](https://cses.fi/problemset/task/1688))
 1. [1691 - Mail Delivery](1691.cc) ([problem site](https://cses.fi/problemset/task/1691))
 1. [1692 - De Bruijn Sequence](1692.cc) ([problem site](https://cses.fi/problemset/task/1692))
+1. [1693 - Teleporters Path](1693.cc) ([problem site](https://cses.fi/problemset/task/1693))
 1. [1694 - Download Speed](1694.cc) ([problem site](https://cses.fi/problemset/task/1694))
 1. [1695 - Police Chase](1695.cc) ([problem site](https://cses.fi/problemset/task/1695))
 1. [1696 - School Dance](1696.cc) ([problem site](https://cses.fi/problemset/task/1696))
