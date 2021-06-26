@@ -166,6 +166,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [2165 - Tower of Hanoi](2165.cc) ([problem site](https://cses.fi/problemset/task/2165))
 1. [2168 - Nested Ranges Check](2168.cc) ([problem site](https://cses.fi/problemset/task/2168))
 1. [2169 - Nested Ranges Count](2169.cc) ([problem site](https://cses.fi/problemset/task/2169))
+1. [2181 - Counting Tilings](2181.cc) ([problem site](https://cses.fi/problemset/task/2181))
 1. [2183 - Missing Coin Sum](2183.cc) ([problem site](https://cses.fi/problemset/task/2183))
 1. [2205 - Gray Code](2205.cc) ([problem site](https://cses.fi/problemset/task/2205))
 1. [2216 - Collecting Numbers](2216.cc) ([problem site](https://cses.fi/problemset/task/2216))
