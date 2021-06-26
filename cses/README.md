@@ -134,6 +134,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1686 - Coin Collector](1686.cc) ([problem site](https://cses.fi/problemset/task/1686))
 1. [1687 - Company Queries I](1687.cc) ([problem site](https://cses.fi/problemset/task/1687))
 1. [1688 - Company Queries II](1688.cc) ([problem site](https://cses.fi/problemset/task/1688))
+1. [1689 - Knight's Tour](1689.cc) ([problem site](https://cses.fi/problemset/task/1689))
 1. [1690 - Hamiltonian Flights](1690.cc) ([problem site](https://cses.fi/problemset/task/1690))
 1. [1691 - Mail Delivery](1691.cc) ([problem site](https://cses.fi/problemset/task/1691))
 1. [1692 - De Bruijn Sequence](1692.cc) ([problem site](https://cses.fi/problemset/task/1692))
