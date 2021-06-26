@@ -163,6 +163,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [2106 - Repeating Substring](2016.cc) ([problem site](https://cses.fi/problemset/task/2106))
 1. [2162 - Josephus Problem I](2162.cc) ([problem site](https://cses.fi/problemset/task/2162))
 1. [2163 - Josephus Problem II](2163.cc) ([problem site](https://cses.fi/problemset/task/2163))
+1. [2165 - Tower of Hanoi](2165.cc) ([problem site](https://cses.fi/problemset/task/2165))
 1. [2168 - Nested Ranges Check](2168.cc) ([problem site](https://cses.fi/problemset/task/2168))
 1. [2169 - Nested Ranges Count](2169.cc) ([problem site](https://cses.fi/problemset/task/2169))
 1. [2183 - Missing Coin Sum](2183.cc) ([problem site](https://cses.fi/problemset/task/2183))
