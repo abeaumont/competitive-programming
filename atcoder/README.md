@@ -338,6 +338,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 
 ### Other Atcoder contests
 
+1. [DPS - Digit Sum](dp/s.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_s))
 1. [DPR - Walk](dp/r.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_r))
 1. [DPQ - Flowers](dp/q.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_q))
 1. [DPP - Independent Set](dp/p.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_p))
