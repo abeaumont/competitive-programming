@@ -339,6 +339,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 ### Other Atcoder contests
 
 1. [DPK - Stones](dp/k.nim) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_k))
+1. [DPJ - Sushi](dp/j.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_j))
 1. [DPI - Coins](dp/i.nim) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_i))
 1. [DPH - Grid 1](dp/h.nim) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_h))
 1. [DPG - Longest Path](dp/g.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_g))
