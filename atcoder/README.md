@@ -338,6 +338,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 
 ### Other Atcoder contests
 
+1. [DPO - Matching](dp/o.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_o))
 1. [DPN - Slimes](dp/n.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_n))
 1. [DPM - Candies](dp/m.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_m))
 1. [DPL - Deque](dp/l.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_l))
