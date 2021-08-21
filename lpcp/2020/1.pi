@@ -1,0 +1,51 @@
+%% https://github.com/alviano/lpcp-contest-2020/tree/master/problem-1
+import sat, util.
+
+read_input() = [S, Cols, Rows, Matrix] =>
+  S = readln().to_int(),
+  Cols = [X.to_int() : X in readln().split()],
+  Rows = [X.to_int() : X in readln().split()],
+  Matrix = new_list(S),
+  foreach (I in 1..S)
+    Matrix[I] = [X.to_int() : X in readln().split()]
+  end.
+
+blocks(S, Matrix) = Blocks =>
+  N = max([max(R) : R in Matrix]),
+  Blocks = new_list(N, []),
+  foreach (I in 1..S)
+    foreach (J in 1..S)
+      K = Matrix[I, J],
+      Blocks[K] := [[I, J] | Blocks[K]],
+    end,
+  end.
+
+constraints(S, Rows, Cols, Blocks) = X =>
+  X = new_array(S, S),
+  X :: 0..1,
+  foreach (I in 1..S)
+    sum([X[J, I] : J in 1..S]) #= Cols[I],
+    sum(X[I]) #= Rows[I],
+  end,
+  foreach (B in Blocks)
+    foreach ([R, C] in B)
+      foreach ([R2, C2] in B, R2 >= R)
+        (X[R, C] #= 1) #=> (X[R2, C2] #= 1),
+      end,
+    end,
+  end.
+
+print_output(X) =>
+  foreach (R in X)
+    foreach (C in R)
+      print(cond(C == 1, "*", "."))
+    end,
+    print("\n"),
+  end.
+
+main() => 
+  [S, Cols, Rows, Matrix] = read_input(),
+  Blocks = blocks(S, Matrix),
+  X = constraints(S, Rows, Cols, Blocks),
+  solve(X),
+  print_output(X).
