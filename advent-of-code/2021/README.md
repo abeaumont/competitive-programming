@@ -9,3 +9,4 @@ A new solution in a different language every day (without repeating languages fr
 - [Day 5](./day5) ([Octave](https://octave.org/)): [Part I](./day5/part1.m), [Part II](./day5/part2.m)
 - [Day 6](./day6) ([Assembly for x86-64](https://en.wikipedia.org/wiki/X86_assembly_language)/Linux): [Part I](./day6/part1.asm), [Part II](./day6/part2.asm)
 - [Day 7](./day7) ([Miranda](http://miranda.org.uk/): [Part I](./day7/part1.m), [Part II](./day7/part2.m)
+- [Day 8](./day8) ([ABS](https://www.abs-lang.org/): [Part I](./day8/part1.abs), [Part II](./day8/part2.abs)

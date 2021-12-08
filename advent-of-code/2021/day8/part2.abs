@@ -1,0 +1,39 @@
+#!/bin/abs
+mi = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6}
+total = 0
+for line in stdin {
+    m = (0..6).map(f(x){0})
+    left, right = line.split(' | ')
+    segs = left.split(' ').map(f(xs){ xs.split('').map(f(x){mi[x]}).sort() })
+    xs = right.split(' ').map(f(xs){ xs.split('').map(f(x){mi[x]}) })
+    for s in segs {
+        for x in s { m[x] += 1 }
+    }
+    seven = segs.find(f(x){ x.len() == 3 })
+    a = seven.diff(segs.find(f(x){ x.len() == 2 }))[0]
+    for i in 0..6 {
+        if m[i] == 6 { b = i }
+        else if m[i] == 4 { e = i }
+        else if m[i] == 8 && i != a { c = i }
+    }
+    xs = xs.map(f(x) {
+      if x.len() == 2 { 1 }
+      else if x.len() == 3 { 7 }
+      else if x.len() == 4 { 4 }
+      else if x.len() == 7 { 8 }
+      else if x.len() == 5 {
+        if e in x { 2 }
+        else if b in x { 5 }
+        else { 3 }
+      } else if c !in x { 6 }
+      else if e in x { 0 }
+      else { 9 }
+    })
+    ans = 0
+    for x in xs {
+        ans = ans * 10 + x
+    }
+    total += ans
+}
+echo(total)
+
