@@ -12,3 +12,4 @@ A new solution in a different language every day (without repeating languages fr
 - [Day 8](./day8) ([ABS](https://www.abs-lang.org/)): [Part I](./day8/part1.abs), [Part II](./day8/part2.abs)
 - [Day 9](./day9) ([Erlang](https://www.erlang.org/)): [Part I](./day9/part1.erl), [Part II](./day9/part2.erl)
 - [Day 10](./day10) ([Raku](https://raku.org/)): [Part I](./day10/part1.raku), [Part II](./day10/part2.raku)
+- [Day 11](./day11) ([newLISP](https://newlisp.org/)): [Part I](./day11/part1.lsp), [Part II](./day11/part2.lsp)
