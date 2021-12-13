@@ -14,3 +14,4 @@ A new solution in a different language every day (without repeating languages fr
 - [Day 10](./day10) ([Raku](https://raku.org/)): [Part I](./day10/part1.raku), [Part II](./day10/part2.raku)
 - [Day 11](./day11) ([newLISP](https://newlisp.org/)): [Part I](./day11/part1.lsp), [Part II](./day11/part2.lsp)
 - [Day 12](./day12) ([Pike](https://pike.lysator.liu.se/)): [Part I](./day12/part1.pike), [Part II](./day12/part2.pike)
+- [Day 13](./day13) ([Haskell](https://www.haskell.org/)): [Part I](./day13/part1.hs), [Part II](./day13/part2.hs)
