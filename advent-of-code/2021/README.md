@@ -15,3 +15,4 @@ A new solution in a different language every day (without repeating languages fr
 - [Day 11](./day11) ([newLISP](https://newlisp.org/)): [Part I](./day11/part1.lsp), [Part II](./day11/part2.lsp)
 - [Day 12](./day12) ([Pike](https://pike.lysator.liu.se/)): [Part I](./day12/part1.pike), [Part II](./day12/part2.pike)
 - [Day 13](./day13) ([Haskell](https://www.haskell.org/)): [Part I](./day13/part1.hs), [Part II](./day13/part2.hs)
+- [Day 14](./day14) ([Koka](https://koka-lang.org/)): [Part I](./day14/part1.kk), [Part II](./day14/part2.kk)
