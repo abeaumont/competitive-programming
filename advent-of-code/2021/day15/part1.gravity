@@ -1,0 +1,59 @@
+#!/bin/gravity -q
+class queue {
+  var _items = [];
+
+  func push(y, x, w) { _items.push([y, x, w]); }
+
+  func pop() {
+    var mn = _items[0][2], mni = 0;
+    for (var i in 0..<_items.count)
+      if (_items[i][2] < mn) {
+        mni = i;
+        mn = _items[i][2];
+      }
+    var x = _items[mni];
+    _items[mni] = _items[-1];
+    _items.pop();
+    return x;
+  }
+}
+
+func main() {
+  var line = System.input();
+  var g = [];
+  while (line) {
+    g.push(line.split('').map(func(x){ return x.number(); }));
+    line = System.input();
+  }
+  var m = g.count, n = g[0].count;
+  var s = [];
+  for (var i in 0..<m) {
+    s[i] = [];
+    for (var j in 0..<n)
+      s[i][j] = false;
+  }
+
+  var q = queue();
+  q.push(0, 0, 0);
+  s[0][0] = true;
+  while (true) {
+    var e = q.pop();
+    var y = e[0], x = e[1], w = e[2];
+    if (y == m-1 && x == n-1) {
+      System.print(w);
+      break;
+    }
+    var ys = [-1,0,1,0];
+    var xs = [0,-1,0,1];
+    for (var i in 0..<4) {
+      var dy = y + ys[i];
+      var dx = x + xs[i];
+      if (dy >= 0 && dy < m && dx >= 0 && dx < n)
+        if (!s[dy][dx]) { // No short-circuit evaluation !?
+          s[dy][dx] = true;
+          q.push(dy, dx, w + g[dy][dx]);
+        }
+    }
+  }
+  return 0;
+}
