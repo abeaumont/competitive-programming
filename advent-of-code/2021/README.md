@@ -18,3 +18,4 @@ A new solution in a different language every day (without repeating languages fr
 - [Day 14](./day14) ([Koka](https://koka-lang.github.io/)): [Part I](./day14/part1.kk), [Part II](./day14/part2.kk)
 - [Day 15](./day15) ([Gravity](https://marcobambini.github.io/gravity/)): [Part I](./day15/part1.gravity), [Part II](./day15/part2.gravity)
 - [Day 16](./day16) ([Lua](https://www.lua.org/)): [Part I](./day16/part1.lua), [Part II](./day16/part2.lua)
+- [Day 17](./day17) ([Min](https://min-lang.org/)): [Part I](./day17/part1.min), [Part II](./day17/part2.min)

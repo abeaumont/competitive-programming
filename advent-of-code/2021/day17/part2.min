@@ -1,0 +1,50 @@
+#!/bin/min
+(
+  getchr :ch
+  "" :in
+  (ch 10 !=)
+  (
+    in ch chr suffix @in getchr @ch
+  ) while
+  in
+) ^readln
+
+(
+  :k
+  k *
+  k pred k * 2 div -
+) ^y
+
+(
+  :k :v
+  (v k >=)
+  (v k y)
+  (v v succ * 2 div) if
+) ^x
+
+readln "[=\., ]+" split :fields
+(3 4 6 7) (fields swap get integer) map @fields
+0 :c 1 :i
+(i fields 1 get <=)
+(
+  fields 2 get :j
+  (j fields 2 get -1 * <=)
+  (
+    1 :k false :ans
+    (ans not j k y fields 2 get >= and)
+    (
+      (
+        i k x ((fields 0 get >=) (fields 1 get <=)) cleave and
+        j k y ((fields 2 get >=) (fields 3 get <=)) cleave and
+        and
+      )
+      (true @ans) when
+      k succ @k
+    ) while
+    (ans)
+    (c succ @c) when
+    j succ @j
+  ) while
+  i succ @i
+) while
+c print newline

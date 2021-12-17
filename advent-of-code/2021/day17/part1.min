@@ -1,0 +1,20 @@
+#!/bin/min
+(
+  getchr :ch
+  "" :in
+  (ch 10 !=)
+  (
+    in ch chr suffix @in getchr @ch
+  ) while
+  in
+) ^readln
+
+(
+  :k
+  k *
+  k pred k * 2 div -
+) ^y
+
+readln "[=\., ]+" split :fields
+(3 4 6 7) (fields swap get integer) map
+2 get dup -1 * pred dup y print newline
