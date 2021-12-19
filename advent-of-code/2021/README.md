@@ -20,3 +20,4 @@ A new solution in a different language every day (without repeating languages fr
 - [Day 16](./day16) ([Lua](https://www.lua.org/)): [Part I](./day16/part1.lua), [Part II](./day16/part2.lua)
 - [Day 17](./day17) ([Min](https://min-lang.org/)): [Part I](./day17/part1.min), [Part II](./day17/part2.min)
 - [Day 18](./day18) ([Elixir](https://elixir-lang.org/)): [Part I](./day18/part1.exs), [Part II](./day18/part2.exs)
+- [Day 19](./day19) ([V](https://vlang.io/)): [Part I](./day19/part1.v), [Part II](./day19/part2.v)
