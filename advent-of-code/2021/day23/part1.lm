@@ -1,0 +1,140 @@
+#!/bin/lemon
+var min = 100000000000000000;
+var targets = {'A': 3, 'B': 5, 'C': 7, 'D': 9};
+var costs = {'A': 1, 'B': 10, 'C': 100, 'D': 1000};
+var grid = [];
+
+while (true) {
+  var line = input();
+  if (line == '') {
+    break;
+  }
+  var cs = [];
+  for (var i = 0; i < line.__length__(); i += 1) {
+    cs.append(line[i]);
+  }
+  grid.append(cs);
+}
+
+def valid_path(var xs) {
+  var y0, x0, y1, x1;
+  y0, x0, y1, x1 = xs;
+  var y = y1;
+  var x = x0;
+  if (y0 < y1) {
+    y = y0;
+    x = x1;
+  }
+  if (x0 > x1) {
+    for (var i = x0 - 1; i >= x1; i -= 1) {
+      if (grid[y][i] != '.') {
+        return false;
+      }
+    }
+  } else {
+    for (var i = x0 + 1; i <= x1; i += 1) {
+      if (grid[y][i] != '.') {
+        return false;
+      }
+    }
+  }
+  if (y0 > y1) {
+    for (var i = y0 - 1; i >= y1; i -= 1) {
+      if (grid[i][x] != '.') {
+        return false;
+      }
+    }
+  } else {
+    for (var i = y0 + 1; i <= y1; i += 1) {
+      if (grid[i][x] != '.') {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+def moves() {
+  var xs = [];
+  # From hallway to endpoints
+  for (var i = 1; i < 12; i += 1) {
+    if (grid[1][i] != '.') {
+      var x = targets[grid[1][i]];
+      if (valid_path([1, i, 3, x])) {
+        xs.append([1, i, 3, x]);
+      } else if (grid[3][x] == grid[1][i] && valid_path([1, i, 2, x])) {
+        xs.append([1, i, 2, x]);
+      }
+    }
+  }
+  # From endpoints to hallway
+  for (var c in targets) {
+    var x0 = targets[c];    
+    if (grid[3][x0] == c) {
+      if (grid[2][x0] != c && grid[2][x0] != '.') {
+        for (var x1 in [1, 2, 4, 6, 8, 10, 11]) {
+          if (valid_path([2, x0, 1, x1])) {
+            xs.append([2, x0, 1, x1]);
+          }
+        }
+      }
+    } else if (grid[3][x0] != '.') {
+      var y0 = 2;
+      if (grid[2][x0] == '.') {
+        y0 = 3;
+      }
+      for (var x1 in [1, 2, 4, 6, 8, 10, 11]) {
+        if (valid_path([y0, x0, 1, x1])) {
+          xs.append([y0, x0, 1, x1]);
+        }
+      }
+    }
+  }
+  return xs;
+}
+
+def is_finished() {
+  for (var c in targets) {
+    var x0 = targets[c];
+    for (var i = 2; i <= 3; i += 1) {
+      if (grid[i][x0] != c) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+def iter(var cost) {
+  if (cost >= min) {
+    return;
+  }
+  if (is_finished()) {
+    min = cost;
+    return;
+  }
+  var xs = moves();
+  if (xs.__length__() == 0) {
+    return;
+  }
+  for (var p in xs) {
+    var y0, x0, y1, x1;
+    y0, x0, y1, x1 = p;
+    grid[y1][x1] = grid[y0][x0];
+    grid[y0][x0] = '.';
+    var dy = y1 - y0;
+    var dx = x1 - x0;
+    if (dy < 0) {
+      dy = -dy;
+    }
+    if (dx < 0) {
+      dx = -dx;
+    }
+    iter(cost + costs[grid[y1][x1]] * (dx + dy));
+    grid[y0][x0] = grid[y1][x1];
+    grid[y1][x1] = '.';
+  }
+}
+
+iter(0);
+print(min);

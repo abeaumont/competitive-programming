@@ -24,3 +24,4 @@ A new solution in a different language every day (without repeating languages fr
 - [Day 20](./day20) ([Scheme (R6RS)](http://www.r6rs.org/)): [Part I](./day20/part1.scm), [Part II](./day20/part2.scm)
 - [Day 21](./day21) ([Vala](https://wiki.gnome.org/Projects/Vala)): [Part I](./day21/part1.vala), [Part II](./day21/part2.vala)
 - [Day 22](./day22) ([Odin](https://odin-lang.org/)): [Part I](./day22/part1.odin), [Part II](./day22/part2.odin)
+- [Day 23](./day23) ([Lemon](https://www.lemon-lang.org/)): [Part I](./day23/part1.lm), [Part II](./day23/part2.lm)
