@@ -1,0 +1,21 @@
+Reversing the code we end up with the following constraints:
+
+x3 = x2 - 8
+x5 = x4 - 2
+x6 = x1 - 3
+x10 = x9 + 5
+x11 = x8 - 5
+x12 = x7 + 4
+x13 = x0 - 1
+
+To get the maximum:
+
+x2 = 9 => x3 = 1
+x4 = 9 => x5 = 7
+x1 = 9 => x6 => 6
+x10 = 9 => x9 = 4
+x8 = 9 => x11 = 4
+x12 = 9 => x7 = 5
+x0 = 9 => x13 = 8
+
+The answer is: 99919765949498

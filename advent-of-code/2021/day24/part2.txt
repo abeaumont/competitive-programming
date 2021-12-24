@@ -1,0 +1,21 @@
+Reversing the code we end up with the following constraints:
+
+x3 = x2 - 8
+x5 = x4 - 2
+x6 = x1 - 3
+x10 = x9 + 5
+x11 = x8 - 5
+x12 = x7 + 4
+x13 = x0 - 1
+
+To get the minimum:
+
+x3 = 1 => x2 = 9
+x5 = 1 => x4 = 3
+x6 => 1 => x1 = 4
+x9 = 1 => x10 = 6
+x11 = 1 => x8 = 6
+x7 = 1 => x12 = 5
+x13 = 1 => x0 = 2
+
+The answer is: 24913111616151
