@@ -1,0 +1,43 @@
+var g0 = [];
+while (true) {
+  var line = input();
+  if (line.len() == 0)
+    break;
+  g0.push(line.split(''));
+}
+var g1 = g0.deepCopy();
+for (var count = 1;; count += 1) {
+  for (var i = 0; i < g1.len(); i += 1)
+    for (var j = 0; j < g1[i].len(); j += 1)
+      g1[i][j] = '.';
+  var changed = false;
+  for (var i = 0; i < g0.len(); i += 1)
+    for (var j = 0; j < g0[i].len(); j += 1)
+      if (g0[i][j] == 'v')
+        g1[i][j] = 'v';
+      else if (g0[i][j] == '>') {
+        if (g0[i][(j+1) % g0[i].len()] == '.') {
+          changed = true;
+          g1[i][(j+1) % g1[i].len()] = '>';
+        } else
+          g1[i][j] = '>';
+      }
+  for (var i = 0; i < g0.len(); i += 1)
+    for (var j = 0; j < g0[i].len(); j += 1)
+      g0[i][j] = '.';
+  for (var i = 0; i < g1.len(); i += 1)
+    for (var j = 0; j < g1[i].len(); j += 1)
+      if (g1[i][j] == '>')
+        g0[i][j] = '>';
+      else if (g1[i][j] == 'v') {
+        if (g1[(i+1) % g1.len()][j] == '.') {
+          changed = true;
+          g0[(i+1) % g0.len()][j] = 'v';
+        } else
+          g0[i][j] = 'v';
+      }
+  if (!changed) {
+    print(count);
+    break;
+  }
+}

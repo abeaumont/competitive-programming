@@ -26,3 +26,4 @@ A new solution in a different language every day (without repeating languages fr
 - [Day 22](./day22) ([Odin](https://odin-lang.org/)): [Part I](./day22/part1.odin), [Part II](./day22/part2.odin)
 - [Day 23](./day23) ([Lemon](https://www.lemon-lang.org/)): [Part I](./day23/part1.lm), [Part II](./day23/part2.lm)
 - [Day 24](./day24) ([Algebra](https://en.wikipedia.org/wiki/Algebra)): [Part I](./day24/part1.txt), [Part II](./day24/part2.txt)
+- [Day 25](./day25) ([Dictu](https://dictu-lang.com)): [Part I](./day25/part1.du), there's no Part II.
