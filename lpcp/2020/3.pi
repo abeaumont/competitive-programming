@@ -1,0 +1,318 @@
+import sat, util.
+
+rotate(A) = R =>
+  R = [A],
+  foreach(I in 1..A.len)
+    R := [{R[1, A.len]} ++ slice(R[1], 1, A.len - 1) | R]
+  end.
+
+rotate1(A) = R =>
+  R = [A],
+  foreach(I in 1..A.len)
+    L = {R[1, A.len]} ++ slice(R[1], 1, A.len - 1),
+    if L[1] != 1; L[A.len] != 1 then
+        R := [L | R]
+    end,
+  end.
+clues(X, N, [K]) =>
+  A = new_array(N.len),
+  foreach (I in 1..K)
+    A[I] = 1,
+  end,
+  foreach (I in K+1..N.len)
+    A[I] = 0,
+  end,
+  T = rotate(A),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1]), N.len == 8 =>
+  As = [{1,0,1,0,0,0,0,0},
+        {1,0,0,1,0,0,0,0},
+        {1,0,0,0,1,0,0,0},
+        {1,0,0,0,0,1,0,0},
+        {1,0,0,0,0,0,1,0}],
+  T = flatten([rotate(A) : A in As]),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1]), N.len == 7 =>
+  As = [{1,0,1,0,0,0,0},
+        {1,0,0,1,0,0,0},
+        {1,0,0,0,1,0,0},
+        {1,0,0,0,0,1,0}],
+  T = [{1,0,0,0,0,0,1} | flatten([rotate1(A) : A in As])],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1]), N.len == 6 =>
+  As = [{1,0,1,0,0,0},
+        {1,0,0,1,0,0},
+        {1,0,0,0,1,0}],
+  T = [{1,0,0,0,0,0,1} | flatten([rotate1(A) : A in As])],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1]), N.len == 5 =>
+  As = [{1,0,1,0,0},
+        {1,0,0,1,0}],
+  T = [{1,0,0,0,1} | flatten([rotate1(A) : A in As])],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1]), N.len == 4 =>
+  T = [{1,0,0,1} | rotate1({1,0,1,0})],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1]), N.len == 3 =>
+  T = [{1,0,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,1]), N.len == 8 =>
+  As = [{1,1,0,1,0,0,0,0},
+        {1,1,0,0,1,0,0,0},
+        {1,1,0,0,0,1,0,0},
+        {1,1,0,0,0,0,1,0}],
+  T = flatten([rotate(A) : A in As]),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,1]), N.len == 7 =>
+  As = [{1,1,0,1,0,0,0},
+        {1,1,0,0,1,0,0},
+        {1,1,0,0,0,1,0}],
+  T = [{1,1,0,0,0,0,1}, {1,0,0,0,0,1,1} | flatten([rotate1(A) : A in As])],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,1]), N.len == 6 =>
+  As = [{1,1,0,1,0,0},
+        {1,1,0,0,1,0}],
+  T = [{1,1,0,0,0,1}, {1,0,0,0,1,1} | flatten([rotate1(A) : A in As])],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,1]), N.len == 5 =>
+  T = [{1,1,0,0,1}, {1,0,0,1,1} | rotate1({1,1,0,1,0})],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,1]), N.len == 4 =>
+  T = [{1,1,0,1}, {1,0,1,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,2]), N.len == 8 =>
+  As = [{1,1,0,1,1,0,0,0},
+        {1,1,0,0,1,1,0,0}],
+  T = flatten([rotate(A) : A in As]),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,2]), N.len == 7 =>
+  T = [{1,1,0,0,0,1,1} | rotate1({1,1,0,0,1,1,0})],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,2]), N.len == 6 =>
+  T = [{1,1,0,0,1,1} | rotate1({1,1,0,1,1,0})],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,2]), N.len == 5 =>
+  T = [{1,1,0,1,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,1]), N.len == 8 =>
+  As = [{1,1,1,0,1,0,0,0},
+        {1,1,1,0,0,1,0,0},
+        {1,1,1,0,0,0,1,0}],
+  T = flatten([rotate(A) : A in As]),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,1]), N.len == 7 =>
+  As = [{1,1,1,0,1,0,0},
+        {1,1,1,0,0,1,0}],
+  T = [{1,1,1,0,0,0,1}, {1,0,0,0,1,1,1} | flatten([rotate1(A) : A in As])],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,1]), N.len == 6 =>
+  T = [{1,1,1,0,0,1}, {1,0,0,1,1,1} | rotate1({1,1,1,0,1,0})],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,1]), N.len == 5 =>
+  T = [{1,1,1,0,1}, {1,0,1,1,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,2]), N.len == 8 =>
+  As = [{1,1,1,0,1,1,0,0},
+        {1,1,1,0,0,1,1,0}],
+  T = flatten([rotate(A) : A in As]),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,2]), N.len == 7 =>
+  T = [{1,1,1,0,0,1,1}, {1,1,0,0,1,1,1} | rotate1({1,1,1,0,1,1,0})],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,2]), N.len == 6 =>
+  T = [{1,1,1,0,1,1}, {1,1,0,1,1,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,3]), N.len == 8 =>
+  T = rotate({1,1,1,0,1,1,1,0}),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,3]), N.len == 7 =>
+  T = [{1,1,1,0,1,1,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [4,1]), N.len == 8 =>
+  As = [{1,1,1,1,0,1,0,0},
+        {1,1,1,1,0,0,1,0}],
+  T = flatten([rotate(A) : A in As]),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [4, 1]), N.len == 7 =>
+  T = [{1,1,1,1,0,0,1}, {1,0,0,1,1,1,1} | rotate1({1,1,1,1,0,1,0})],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [4, 1]), N.len == 6 =>
+  T = [{1,1,1,1,0,1}, {1,0,1,1,1,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [4,2]), N.len == 8 =>
+  T = rotate({1,1,1,1,0,1,1,0}),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [4,2]), N.len == 7 =>
+  T = [{1,1,1,1,0,1,1}, {1,1,0,1,1,1,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [5,1]), N.len == 8 =>
+  T = rotate({1,1,1,1,1,0,1,0}),
+  table_in([{X[I] : I in N}], T).
+  
+clues(X, N, [5,1]), N.len == 7 =>
+  T = [{1,1,1,1,1,0,1}, {1,0,1,1,1,1,1}],
+  table_in([{X[I] : I in N}], T).
+  
+clues(X, N, [1,1,1]), N.len == 8 =>
+  As = [{1,0,1,0,1,0,0,0},
+        {1,0,1,0,0,1,0,0},
+        {1,0,1,0,0,0,1,0},
+        {1,0,0,1,0,1,0,0},
+        {1,0,0,1,0,0,1,0},
+        {1,0,0,0,1,0,1,0}],
+  T = flatten([rotate(A) : A in As]),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1,1]), N.len == 7 =>
+  As = [{1,0,1,0,1,0,0},
+        {1,0,1,0,0,1,0},
+        {1,0,0,1,0,1,0}],
+  T = [{1,0,1,0,0,0,1}, {1,0,0,1,0,0,1}, {1,0,0,0,1,0,1} | flatten([rotate1(A) : A in As])],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1,1]), N.len == 6 =>
+  T = [{1,0,1,0,0,1}, {1,0,0,1,0,1} | rotate1({1,0,1,0,1,0})],
+  table_in([{X[I] : I in N}], T).
+  
+clues(X, N, [1,1,1]), N.len == 5 =>
+  T = [{1,0,1,0,1}],
+  table_in([{X[I] : I in N}], T).
+  
+clues(X, N, [2,1,1]), N.len == 8 =>
+  As = [{1,1,0,1,0,1,0,0},
+        {1,1,0,1,0,0,1,0},
+        {1,1,0,0,1,0,1,0}],
+  T = flatten([rotate(A) : A in As]),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,1,1]), N.len == 7 =>
+  T = [{1,1,0,1,0,0,1}, {1,1,0,0,1,0,1}, {1,0,1,1,0,0,1}, {1,0,0,1,1,0,1}, {1,0,1,0,0,1,1}, {1,0,0,1,0,1,1} | rotate1({1,1,0,1,0,1,0})],
+  table_in([{X[I] : I in N}], T).
+  
+clues(X, N, [2,1,1]), N.len == 6 =>
+  T = [{1,1,0,1,0,1}, {1,0,1,1,0,1}, {1,0,1,0,1,1}],
+  table_in([{X[I] : I in N}], T).
+  
+clues(X, N, [2,2,1]), N.len == 8 =>
+  T = rotate({1,1,0,1,1,0,1,0}),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [2,2,1]), N.len == 7 =>
+  T = [{1,1,0,1,1,0,1}, {1,1,0,1,0,1,1}, {1,0,1,1,0,1,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,1,1]), N.len == 8 =>
+  T = rotate({1,1,1,0,1,0,1,0}),
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [3,1,1]), N.len == 7 =>
+  T = [{1,1,1,0,1,0,1}, {1,0,1,1,1,0,1}, {1,0,1,0,1,1,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1,1,1]), N.len == 8 =>
+  T = [{1,0,1,0,1,0,1,0},
+       {0,1,0,1,0,1,0,1}],
+  table_in([{X[I] : I in N}], T).
+
+clues(X, N, [1,1,1,1]), N.len == 7 =>
+  T = [{1,0,1,0,1,0,1}],
+  table_in([{X[I] : I in N}], T).
+
+read_input(S, N, Clues) =>
+  [S, N] = [X.to_int : X in readln().split],
+  Clues = [[X.to_int : X in readln().split] : I in 1..N].
+
+neighbours4(S, I) = N =>
+  R = (I-1) div S,
+  C = (I-1) mod S,
+  M = [[-1, 0], [0, -1], [0, 1], [1, 0]],
+  N = [(R+Y, C+X) : [Y, X] in M, R + Y >= 0, R + Y < S, C + X >= 0, C + X < S].
+
+neighbours8(S, I) = N =>
+  R = (I-1) div S,
+  C = (I-1) mod S,
+  M = [[-1, -1], [0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, 1], [-1, 0]],
+  if R == 0, C == 0 then
+    M := [[1, 0], [1, 1], [0, 1]],
+  elseif R == 0, C == S - 1 then
+    M := [[0, -1], [1, -1], [1, 0]],
+  elseif R == S - 1, C == 0 then
+    M := [[0, 1], [-1, 1], [-1, 0]],
+  elseif R == S - 1, C == S - 1 then
+    M := [[-1, 0], [-1, -1], [0, -1]],
+  elseif R == 0 then
+    M := [[0, -1], [1, -1], [1, 0], [1, 1], [0, 1]],
+  elseif R == S - 1 then
+    M := [[0, 1], [-1, 1], [-1, 0], [-1, -1], [0, -1]]
+  elseif C == 0 then
+    M := [[1, 0], [1, 1], [0, 1], [-1, 1], [-1, 0]],
+  elseif C == S - 1 then
+    M := [[-1, 0], [-1, -1], [0, -1], [1, -1], [1, 0]],
+  end,
+  N = [(R + Y) * S + C + X + 1 : [Y, X] in M].
+
+constraints(S, N, Clues) = X =>
+  X = new_array(S * S),
+  X :: 0..1,
+  % Ortoghonal connectivity
+  Vs = [{(R,C), X[R*S+C+1]} : R in 0..S-1, C in 0..S-1],
+  Es = [{(R,C), (R1,C1), 1} : R in 0..S-1, C in 0..S-1, (R1, C1) in neighbours4(S, R*S+C+1)],
+  scc(Vs, Es),
+  % Ban 2x2 areas
+  foreach (R in 0..S-2)
+    foreach (C in 0..S-2)
+      sum([X[R*S+C+1], X[(R+1)*S+C+1], X[R*S+C+2], X[(R+1)*S+C+2]]) #< 4
+    end,
+  end,
+  % Clues
+  foreach (Clue in Clues)
+    [Row, Col, C | Cs] = Clue,
+    I = (Row-1)*S+Col,
+    X[I] #= 0,
+    Cs := sort_down(Cs),
+    clues(X, neighbours8(S, I), Cs),
+  end.
+
+print_output(S, X) =>
+  foreach (R in 0..S-1)
+    foreach (C in 0..S-1)
+      print(cond(X[R*S+C+1] == 1, "*", "."))
+    end,
+    print("\n"),
+  end.
+
+main =>
+  read_input(S, N, Clues),
+  X = constraints(S, N, Clues),
+  solve(X),
+  print_output(S, X).
