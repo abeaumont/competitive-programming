@@ -1,0 +1,80 @@
+import sat, util.
+
+read_input(S, N, R, C, M) =>
+  [S, N] = [X.to_int : X in readln().split],
+  C = [X.to_int : X in readln().split],
+  R = [X.to_int : X in readln().split],
+  M = [[X.to_int : X in readln().split] : I in 1..S].
+
+connections(S, M, Conns, Coords, Components) =>
+  CV = [[[I, J], [I+1, J]]: I in 1..S-1, J in 1..S, M[I, J] != M[I+1, J]],
+  CH = [[[I, J], [I, J+1]]: I in 1..S, J in 1..S-1, M[I, J] != M[I, J+1]],
+  Conns = CV ++ CH,
+  C1 = [],
+  C2 = [],
+  foreach (C in Conns)
+    C1 := [C[1] | [C[2] | C1]],
+    A = M[C[1,1], C[1,2]],
+    B = M[C[2,1], C[2,2]],
+    C2 := [[max(A, B), min(A, B)] | C2],
+  end,
+  Coords = sort_remove_dups(C1),
+  Components = sort_remove_dups(C2).
+
+iscomponent(M, [R1, C1], [R2, C2], [A, B]) =>
+  M[R1, C1] == A, M[R2, C2] == B;
+  M[R1, C1] == B, M[R2, C2] == A.
+
+constraints(S, N, Rows, Cols, M, Conns, Coords, Components) = X =>
+  K = Conns.length,
+  X = new_list(K),
+  X :: 0..1,
+  sum(X) #= Components.length * N,
+  foreach (C in Coords)
+    sum([X[I] : I in 1..K, (Conns[I,1] == C ; Conns[I,2] == C)]) #<= 1,
+  end,
+  foreach (C in Components)
+    sum([X[I] : I in 1..K, iscomponent(M, Conns[I, 1], Conns[I, 2], C)]) #= N,
+  end,
+  foreach (J in 1..S)
+    Rs = [],
+    Cs = [],
+    foreach (I in 1..K)
+      foreach (C in 1..(cond(Conns[I,1,1] == J, 1, 0) + cond(Conns[I,2,1] == J, 1, 0)))
+        Rs := [X[I] | Rs]
+      end,
+      foreach (C in 1..(cond(Conns[I,1,2] == J, 1, 0) + cond(Conns[I,2,2] == J, 1, 0)))
+        Cs := [X[I] | Cs]
+      end,
+    end,
+    sum(Rs) #= Rows[J],
+    sum(Cs) #= Cols[J],
+  end.
+
+print_output(X, Conns) =>
+  H = [],
+  V = [],
+  foreach (I in 1..Conns.length, X[I] == 1)
+    if Conns[I, 1, 1] == Conns[I, 2, 1] then
+      H := [Conns[I, 1] | H]
+    else
+      V := [Conns[I, 1] | V]
+    end,
+  end,
+  H := sort(H),
+  V := sort(V),
+  H.length.println,
+  foreach ([R, C] in H)
+    printf("%d %d%n", R, C),
+  end,
+  V.length.println,
+  foreach ([R, C] in V)
+    printf("%d %d%n", R, C),
+  end.
+
+main =>
+  read_input(S, N, R, C, M),
+  connections(S, M, Conns, Coords, Components),
+  X = constraints(S, N, R, C, M, Conns, Coords, Components),
+  solve(X),
+  print_output(X, Conns).
