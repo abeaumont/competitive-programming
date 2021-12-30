@@ -284,9 +284,20 @@ neighbours8(S, I) = N =>
 constraints(S, N, Clues) = X =>
   X = new_array(S * S),
   X :: 0..1,
+  Y = new_array(S * S * S * S),
+  Y :: 0..1,
   % Ortoghonal connectivity
   Vs = [{(R,C), X[R*S+C+1]} : R in 0..S-1, C in 0..S-1],
-  Es = [{(R,C), (R1,C1), 1} : R in 0..S-1, C in 0..S-1, (R1, C1) in neighbours4(S, R*S+C+1)],
+  Es = [{(R,C), (R1,C1), Y[R*S*S*S+C*S*S+R1*S+C1+1]} : R in 0..S-1, C in 0..S-1, (R1, C1) in neighbours4(S, R*S+C+1)],
+  foreach (R in 0..S-1)
+    foreach (C in 0..S-1)
+      foreach (R1 in 0..S-1)
+        foreach (C1 in 0..S-1)
+          Y[R*S*S*S+C*S*S+R1*S+C1+1] #<=> X[R*S+C+1] #/\ X[R1*S+C1+1]
+        end,
+      end,
+    end,
+  end,
   scc(Vs, Es),
   % Ban 2x2 areas
   foreach (R in 0..S-2)
