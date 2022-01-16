@@ -3,6 +3,7 @@
 There are solutions for the following [codeforces](http://codeforces.com/) problems:
 
 ### Contests ([problemset site](https://codeforces.com/problemset))
+1. [1627B - Not Sitting](1627/b.cc) ([problem site](https://codeforces.com/contest/1627/problem/B))
 1. [1627A - Not Shading](1627/a.cc) ([problem site](https://codeforces.com/contest/1627/problem/A))
 1. [1536D - Omkar and Medians](1536/d.cc) ([problem site](https://codeforces.com/contest/1536/problem/D))
 1. [1536C - Diluc and Kaeya](1536/c.cc) ([problem site](https://codeforces.com/contest/1536/problem/C))
