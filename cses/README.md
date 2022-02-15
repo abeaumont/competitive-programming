@@ -165,6 +165,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [1755 - Palindrome Reorder](1755.cc) ([problem site](https://cses.fi/problemset/task/1755))
 1. [1756 - Edge Directions](1756.cc) ([problem site](https://cses.fi/problemset/task/1756))
 1. [2106 - Repeating Substring](2106.cc) ([problem site](https://cses.fi/problemset/task/2106))
+1. [2136 - Hamming Distance](2136.cc) ([problem site](https://cses.fi/problemset/task/2136))
 1. [2162 - Josephus Problem I](2162.cc) ([problem site](https://cses.fi/problemset/task/2162))
 1. [2163 - Josephus Problem II](2163.cc) ([problem site](https://cses.fi/problemset/task/2163))
 1. [2165 - Tower of Hanoi](2165.cc) ([problem site](https://cses.fi/problemset/task/2165))
