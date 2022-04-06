@@ -2,6 +2,8 @@
 
 There are solutions for the following [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/) problems:
 
+1. [2022 Qualification Round - B. 3D Printing](2022-qualification/b.py)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000876ff1/0000000000a4672b))
 1. [2022 Qualification Round - A. Punched Cards](2022-qualification/a.py)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000876ff1/0000000000a4621b))
 1. [2020 Qualification Round - D. ESAb ATAd](2020-qualification/d.py)
