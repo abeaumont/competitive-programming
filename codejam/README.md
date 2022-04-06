@@ -2,6 +2,8 @@
 
 There are solutions for the following [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/) problems:
 
+1. [2022 Qualification Round - D. Chains Reactions](2022-qualification/d.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000876ff1/0000000000a45ef7))
 1. [2022 Qualification Round - C. d1000000](2022-qualification/c.cc)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000876ff1/0000000000a46471))
 1. [2022 Qualification Round - B. 3D Printing](2022-qualification/b.py)
