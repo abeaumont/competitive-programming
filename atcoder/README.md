@@ -369,3 +369,4 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 1. [SH2018C - Ordinary Beauty](soundhound2018-summer-qual/c.py) ([problem site](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_c))
 1. [SH2018B - Acrostic](soundhound2018-summer-qual/b.py) ([problem site](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_b))
 1. [SH2018A - F](soundhound2018-summer-qual/a.py) ([problem site](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_a))
+1. [CF2016QBC - Gr-idian MST](code-festival-2016-qualb/c.cc) ([problem site](https://atcoder.jp/contests/code-festival-2016-qualb/tasks/codefestival_2016_qualB_c))
