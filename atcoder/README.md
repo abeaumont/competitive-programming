@@ -340,6 +340,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 
 ### Other Atcoder contests
 
+1. [ACL1B - Sum is Multiple](acl1/b.cc) ([problem site](https://atcoder.jp/contests/acl1/tasks/acl1_b))
 1. [DPT - Permutation](dp/t.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_t))
 1. [DPS - Digit Sum](dp/s.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_s))
 1. [DPR - Walk](dp/r.cc) ([problem site](https://atcoder.jp/contests/dp/tasks/dp_r))
