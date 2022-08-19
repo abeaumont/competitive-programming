@@ -171,6 +171,7 @@ There are solutions for the following
 1. [Karte](karte.cc) ([problem site](https://open.kattis.com/problems/karte))
 1. [Kastenlauf](kastenlauf.cc) ([problem site](https://open.kattis.com/problems/kastenlauf))
 1. [Kemija](kemija08.cc) ([problem site](https://open.kattis.com/problems/kemija08))
+1. [K-Inversions](kinversions.cc) ([problem site](https://open.kattis.com/problems/kinversions))
 1. [Knapsack](knapsack.cc) ([problem site](https://open.kattis.com/problems/knapsack))
 1. [Kolone](kolone.cc) ([problem site](https://open.kattis.com/problems/kolone))
 1. [Kornislav](kornislav.cc) ([problem site](https://open.kattis.com/problems/kornislav))
