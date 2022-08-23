@@ -24,6 +24,7 @@ There are solutions for the following [AtCoder](https://atcoder.jp/) problems:
 1. [ARC118C - Coprime Set](arc118/c.cc) ([problem site](https://atcoder.jp/contests/arc118/tasks/arc118_c))
 1. [ARC118B - Village of M People](arc118/b.cc) ([problem site](https://atcoder.jp/contests/arc118/tasks/arc118_b))
 1. [ARC118A - Tax Included Price](arc118/a.cc) ([problem site](https://atcoder.jp/contests/arc118/tasks/arc118_a))
+1. [ARC105C - Camels and Bridge](arc105/c.cc) ([problem site](https://atcoder.jp/contests/arc105/tasks/arc105_c))
 1. [ARC103E - Tr/ee](arc103/e.py) ([problem site](https://atcoder.jp/contests/arc103/tasks/arc103_c))
 1. [ARC103D - Robot Arms](arc103/d.cc) ([problem site](https://atcoder.jp/contests/arc103/tasks/arc103_b))
 1. [ARC103C - /\/\/\/](arc103/c.cc) ([problem site](https://atcoder.jp/contests/arc103/tasks/arc103_a))
