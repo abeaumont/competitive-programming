@@ -87,6 +87,7 @@ There are solutions for the following
 1. [Counting Stars](countingstars.cc) ([problem site](https://open.kattis.com/problems/countingstars))
 1. [Cow Crane](cowcrane.cc) ([problem site](https://open.kattis.com/problems/cowcrane))
 1. [Cracking RSA](crackingrsa.py) ([problem site](https://open.kattis.com/problems/crackingrsa))
+1. [Cracking the Code](crackingthecode.py) ([problem site](https://open.kattis.com/problems/crackingthecode))
 1. [Cross](cross.py) ([problem site](https://open.kattis.com/problems/cross))
 1. [Stacking Cups](cups.cc) ([problem site](https://open.kattis.com/problems/cups))
 1. [Datum](datum.cc) ([problem site](https://open.kattis.com/problems/datum))
