@@ -162,6 +162,7 @@ There are solutions for the following
 1. [The Amazing Human Cannonball](humancannonball2.cc) ([problem site](https://open.kattis.com/problems/humancannonball2))
 1. [iBoard](iboard.cc) ([problem site](https://open.kattis.com/problems/iboard))
 1. [ICPC Awards](icpcawards.cc) ([problem site](https://open.kattis.com/problems/icpcawards))
+1. [Incognito](incognito.cc) ([problem site](https://open.kattis.com/problems/incognito))
 1. [Integer Lists](integerlists.py) ([problem site](https://open.kattis.com/problems/integerlists))
 1. [Inverse Factorial](inversefactorial.cc) ([problem site](https://open.kattis.com/problems/inversefactorial))
 1. [IsItHalloween.com](isithallowen.cc) ([problem site](https://open.kattis.com/problems/isithalloween))
