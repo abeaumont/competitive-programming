@@ -315,6 +315,7 @@ There are solutions for the following
 1. [Turbo](turbo.cc) ([problem site](https://open.kattis.com/problems/turbo))
 1. [ICPC Tutorial](tutorial.cc) ([problem site](https://open.kattis.com/problems/tutorial))
 1. [Take Two Stones](twostones.py) ([problem site](https://open.kattis.com/problems/twostones))
+1. [Two-sum](twosum.cc) ([problem site](https://open.kattis.com/problems/twosum))
 1. [(un)Fair Play](unfairplay.cc) ([problem site](https://open.kattis.com/problems/unfairplay))
 1. [Union-Find](unionfind.cc) ([problem site](https://open.kattis.com/problems/unionfind))
 1. [Vacuumba](vacuumba.cc) ([problem site](https://open.kattis.com/problems/vacuumba))
