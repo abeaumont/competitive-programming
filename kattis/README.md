@@ -210,6 +210,7 @@ There are solutions for the following
 1. [Number Fun](numberfun.cc) ([problem site](https://open.kattis.com/problems/numberfun))
 1. [Numbers On a Tree](numbertree.cc) ([problem site](https://open.kattis.com/problems/numbertree))
 1. [Ocean Currents](oceancurrents.cc) ([problem site](https://open.kattis.com/problems/oceancurrents))
+1. [Odd A's, Even B's](oddaevenb.cc) ([problem site](https://open.kattis.com/problems/oddaevenb))
 1. [Odd Gnome](oddgnome.cc) ([problem site](https://open.kattis.com/problems/oddgnome))
 1. [Oddities](oddities.py) ([problem site](https://open.kattis.com/problems/oddities))
 1. [Odd Man Out](oddmanout.cc) ([problem site](https://open.kattis.com/problems/oddmanout))
