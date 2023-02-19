@@ -102,6 +102,8 @@ There are solutions for the following [Google Code Jam](https://codingcompetitio
   ([problem site](https://code.google.com/codejam/contest/1460488/dashboard#s=p0))
 1. [2008 Round 2 - A. Cheating a Boolean Tree](2008-round-2/a.cc)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc0/000000000043314e))
+1. [2008 Round 1B - A. Crop Triangles](2008-round-1b/a.cc)
+  ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/0000000000432bd2/0000000000432a7e))
 1. [2008 Round 1A - B. Milkshakes](2008-round-1a/b.cc)
   ([problem site](https://codingcompetitions.withgoogle.com/codejam/round/00000000004330f6/00000000004329f4))
 1. [2008 Round 1A - A. Minimum Scalar Product](2008-round-1a/a.cc)
