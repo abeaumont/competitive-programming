@@ -228,6 +228,7 @@ There are solutions for the following
 1. [Permutation Encryption](permutationencryption.py) ([problem site](https://open.kattis.com/problems/permutationencryption))
 1. [Pet](pet.cc) ([problem site](https://open.kattis.com/problems/pet))
 1. [Phone List](phonelist.cc) ([problem site](https://open.kattis.com/problems/phonelist))
+1. [Pick up sticks](pickupsticks.cc) ([problem site](https://open.kattis.com/problems/pickupsticks))
 1. [Piece of Cake!](pieceofcake2.cc) ([problem site](https://open.kattis.com/problems/pieceofcake2))
 1. [Pig Latin](piglatin.cc) ([problem site](https://open.kattis.com/problems/piglatin))
 1. [A Vicious Pikeman (Easy)](pikemaneasy.cc) ([problem site](https://open.kattis.com/problems/pikemaneasy))
