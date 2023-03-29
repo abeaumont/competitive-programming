@@ -18,6 +18,7 @@ There are solutions for the following
 1. [Air Conditioned Minions](airconditioned.cc) ([problem site](https://open.kattis.com/problems/airconditioned))
 1. [Akcija](akcija.cc) ([problem site](https://open.kattis.com/problems/akcija))
 1. [Alice in the Digital World](alicedigital.cc) ([problem site](https://open.kattis.com/problems/alicedigital))
+1. [Alien Numbers](aliennumbers.cc) ([problem site](https://open.kattis.com/problems/aliennumbers))
 1. [Almost Perfect](almostperfect.cc) ([problem site](https://open.kattis.com/problems/almostperfect))
 1. [Alphabet Spam](alphabetspam.cc) ([problem site](https://open.kattis.com/problems/alphabetspam))
 1. [A New Alphabet](anewalphabet.cc) ([problem site](https://open.kattis.com/problems/anewalphabet))
