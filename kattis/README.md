@@ -63,6 +63,7 @@ There are solutions for the following
 1. [Build Dependencies](builddeps.cc) ([problem site](https://open.kattis.com/problems/builddeps))
 1. [Bus](bus.cc) ([problem site](https://open.kattis.com/problems/bus))
 1. [Bus Numbers](busnumbers.py) ([problem site](https://open.kattis.com/problems/busnumbers))
+1. [Bus Planning](busplanning.cc) ([problem site](https://open.kattis.com/problems/busplanning))
 1. [Busy Schedule](busyschedule.cc) ([problem site](https://open.kattis.com/problems/busyschedule))
 1. [Button Bashing](buttonbashing.cc) ([problem site](https://open.kattis.com/problems/buttonbashing))
 1. [Cakey McCakeFace](cakeymccakeface.cc) ([problem site](https://open.kattis.com/problems/cakeymccakeface))
