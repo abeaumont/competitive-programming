@@ -64,6 +64,7 @@ There are solutions for the following
 1. [Bus Numbers](busnumbers.py) ([problem site](https://open.kattis.com/problems/busnumbers))
 1. [Busy Schedule](busyschedule.cc) ([problem site](https://open.kattis.com/problems/busyschedule))
 1. [Button Bashing](buttonbashing.cc) ([problem site](https://open.kattis.com/problems/buttonbashing))
+1. [Cakey McCakeFace](cakeymccakeface.cc) ([problem site](https://open.kattis.com/problems/cakeymccakeface))
 1. [Calories From Fat](calories.cc) ([problem site](https://open.kattis.com/problems/calories))
 1. [Candy Division](candydivision.cc) ([problem site](https://open.kattis.com/problems/candydivision))
 1. [Solving for Carrots](carrots.py) ([problem site](https://open.kattis.com/problems/carrots))
