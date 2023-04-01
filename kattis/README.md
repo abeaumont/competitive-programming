@@ -307,6 +307,7 @@ There are solutions for the following
 1. [Tarifa](tarifa.cc) ([problem site](https://open.kattis.com/problems/tarifa))
 1. [Timebomb](timebomb.cc) ([problem site](https://open.kattis.com/problems/timebomb))
 1. [Stuck In A Time Loop](timeloop.py) ([problem site](https://open.kattis.com/problems/timeloop))
+1. [Temperature Confusion](temperatureconfusion.py) ([problem site](https://open.kattis.com/problems/temperatureconfusion))
 1. [Test](test2.cc) ([problem site](https://open.kattis.com/problems/test2))
 1. [Three Powers](threepowers.py) ([problem site](https://open.kattis.com/problems/threepowers))
 1. [Toilet Seat](toilet.cc) ([problem site](https://open.kattis.com/problems/toilet))
