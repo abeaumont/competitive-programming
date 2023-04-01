@@ -322,6 +322,7 @@ There are solutions for the following
 1. [Two-sum](twosum.cc) ([problem site](https://open.kattis.com/problems/twosum))
 1. [(un)Fair Play](unfairplay.cc) ([problem site](https://open.kattis.com/problems/unfairplay))
 1. [Union-Find](unionfind.cc) ([problem site](https://open.kattis.com/problems/unionfind))
+1. [Unreal Estate](unrealestate.cc) ([problem site](https://open.kattis.com/problems/unrealestate))
 1. [Vacuumba](vacuumba.cc) ([problem site](https://open.kattis.com/problems/vacuumba))
 1. [Vauvau](vauvau.cc) ([problem site](https://open.kattis.com/problems/vauvau))
 1. Virtual Friends: [C++](virtualfriends.cc), [Python](virtualfriends.py) ([problem site](https://open.kattis.com/problems/virtualfriends))
