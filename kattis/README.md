@@ -292,6 +292,7 @@ There are solutions for the following
 1. [Soylent](soylent.cc) ([problem site](https://open.kattis.com/problems/soylent))
 1. [Spavanac](spavanac.cc) ([problem site](https://open.kattis.com/problems/spavanac))
 1. [Speed Limit](speedlimit.cc) ([problem site](https://open.kattis.com/problems/speedlimit))
+1. [Biased Standings](standings.cc) ([problem site](https://open.kattis.com/problems/standings))
 1. [Star Arrangements](stararrangements.cc) ([problem site](https://open.kattis.com/problems/stararrangements))
 1. [Statistics](statistics.cc) ([problem site](https://open.kattis.com/problems/statistics))
 1. [Stogovi](stogovi.cc) ([problem site](https://open.kattis.com/problems/stogovi))
