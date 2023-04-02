@@ -194,6 +194,7 @@ There are solutions for the following
 1. [The Dragon of Loowater](loowater.cc) ([problem site](https://open.kattis.com/problems/loowater))
 1. [Lucky Numbers](luckynumber.py) ([problem site](https://open.kattis.com/problems/luckynumber))
 1. [In Or Out](mandelbrot.py) ([problem site](https://open.kattis.com/problems/mandelbrot))
+1. [Martian DNA](martiandna.cc) ([problem site](https://open.kattis.com/problems/martiandna))
 1. [Maximum Number of Colinear Points](maxcolinear.cc) ([problem site](https://open.kattis.com/problems/maxcolinear))
 1. [Maximum Flow](maxflow.cc) ([problem site](https://open.kattis.com/problems/maxflow))
 1. [Minimum Cost Maximum Flow](mincostmaxflow.cc) ([problem site](https://open.kattis.com/problems/mincostmaxflow))
