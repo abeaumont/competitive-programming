@@ -53,6 +53,7 @@ There are solutions for the following
 1. [Black Friday](blackfriday.cc) ([problem site](https://open.kattis.com/problems/blackfriday))
 1. [Block Crusher](blockcrusher.cc) ([problem site](https://open.kattis.com/problems/blockcrusher))
 1. [Block Game](blockgame2.cc) ([problem site](https://open.kattis.com/problems/blockgame2))
+1. [Boat Parts](boatparts.cc) ([problem site](https://open.kattis.com/problems/boatparts))
 1. [Booking](booking.cc) ([problem site](https://open.kattis.com/problems/booking))
 1. [Booking a Room](bookingaroom.cc) ([problem site](https://open.kattis.com/problems/bookingaroom))
 1. [Boss Battle](bossbattle.cc) ([problem site](https://open.kattis.com/problems/bossbattle))
