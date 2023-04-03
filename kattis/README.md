@@ -114,6 +114,7 @@ There are solutions for the following
 1. [Daylight Saving Time](dst.cc) ([problem site](https://open.kattis.com/problems/dst))
 1. [Dvaput](dvaput.cc) ([problem site](https://open.kattis.com/problems/dvaput))
 1. [The Easiest Problem Is This One](easiest.cc) ([problem site](https://open.kattis.com/problems/easiest))
+1. [e-Coins](ecoins.cc) ([problem site](https://open.kattis.com/problems/ecoins))
 1. [Election](election.cc) ([problem site](https://open.kattis.com/problems/election))
 1. [Eligibility](eligibility.cc) ([problem site](https://open.kattis.com/problems/eligibility))
 1. [Encoded Message](encodedmessage.cc) ([problem site](https://open.kattis.com/problems/encodedmessage))
