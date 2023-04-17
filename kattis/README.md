@@ -106,6 +106,7 @@ There are solutions for the following
 1. [Dice Game](dicegame.cc) ([problem site](https://open.kattis.com/problems/dicegame))
 1. [A Different Problem](different.py) ([problem site](https://open.kattis.com/problems/different))
 1. [Different Distances](differentdistances.cc) ([problem site](https://open.kattis.com/problems/differentdistances))
+1. [Digits](digits.cc) ([problem site](https://open.kattis.com/problems/digits))
 1. [Dominoes 2](dominoes2.cc) ([problem site](https://open.kattis.com/problems/dominoes2))
 1. [Dominos](dominos.cc) ([problem site](https://open.kattis.com/problems/dominos))
 1. [Doorman](doorman.cc) ([problem site](https://open.kattis.com/problems/doorman))
