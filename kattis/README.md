@@ -165,6 +165,7 @@ There are solutions for the following
 1. [Hello World!](hello.py) ([problem site](https://open.kattis.com/problems/hello))
 1. [Help a PhD candidate out!](helpaphd.py) ([problem site](https://open.kattis.com/problems/helpaphd))
 1. [What Does It Mean?](heritage.cc) ([problem site](https://open.kattis.com/problems/heritage))
+1. [Herman](herman.cc) ([problem site](https://open.kattis.com/problems/herman))
 1. [Hidden Password](hidden.cc) ([problem site](https://open.kattis.com/problems/hidden))
 1. [Hissing Microphone](hissingmicrophone.cc) ([problem site](https://open.kattis.com/problems/hissingmicrophone))
 1. [How Many Digits?](howmanydigits.cc) ([problem site](https://open.kattis.com/problems/howmanydigits))
