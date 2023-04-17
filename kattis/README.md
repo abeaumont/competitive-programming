@@ -174,6 +174,7 @@ There are solutions for the following
 1. [Inverse Factorial](inversefactorial.cc) ([problem site](https://open.kattis.com/problems/inversefactorial))
 1. [IsItHalloween.com](isithallowen.cc) ([problem site](https://open.kattis.com/problems/isithalloween))
 1. [Jabuke](jabuke.cc) ([problem site](https://open.kattis.com/problems/jabuke))
+1. [Jack-O'-Lantern Juxtaposition](jackolanternjuxtaposition.cc) ([problem site](https://open.kattis.com/problems/jackolanternjuxtaposition))
 1. [Jewelry Box](jewelrybox.cc) ([problem site](https://open.kattis.com/problems/jewelrybox))
 1. [Join Strings](joinstrings.cc) ([problem site](https://open.kattis.com/problems/joinstrings))
 1. [Jolly Jumpers](jollyjumpers.cc) ([problem site](https://open.kattis.com/problems/jollyjumpers))
