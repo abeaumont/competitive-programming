@@ -199,6 +199,7 @@ There are solutions for the following
 1. [Left Beehind](leftbeehind.cc) ([problem site](https://open.kattis.com/problems/leftbeehind))
 1. [Line Them Up](lineup.cc) ([problem site](https://open.kattis.com/problems/lineup))
 1. [A List Game](listgame.cc) ([problem site](https://open.kattis.com/problems/listgame))
+1. [Logic Functions](logicfunctions.cc) ([problem site](https://open.kattis.com/problems/logicfunctions))
 1. [The Dragon of Loowater](loowater.cc) ([problem site](https://open.kattis.com/problems/loowater))
 1. [Lucky Numbers](luckynumber.py) ([problem site](https://open.kattis.com/problems/luckynumber))
 1. [Keystrokes](lyklagangriti.cc) ([problem site](https://open.kattis.com/problems/lyklagangriti))
