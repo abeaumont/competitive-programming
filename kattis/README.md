@@ -297,6 +297,7 @@ There are solutions for the following
 1. [Simon Says](simonsays.cc) ([problem site](https://open.kattis.com/problems/simonsays))
 1. [Simple Addition](simpleaddition.py) ([problem site](https://open.kattis.com/problems/simpleaddition))
 1. [Simple Arithmetic](simplearithmetic.py) ([problem site](https://open.kattis.com/problems/simplearithmetic))
+1. [Skener](skener.cc) ([problem site](https://open.kattis.com/problems/skener))
 1. [Skocimis](skocimis.cc) ([problem site](https://open.kattis.com/problems/skocimis))
 1. [Sort of Sorting](sortofsorting.py) ([problem site](https://open.kattis.com/problems/sortofsorting))
 1. [Soylent](soylent.cc) ([problem site](https://open.kattis.com/problems/soylent))
