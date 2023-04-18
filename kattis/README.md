@@ -237,6 +237,7 @@ There are solutions for the following
 1. [Parking](parking.cc) ([problem site](https://open.kattis.com/problems/parking))
 1. [Parking](parking2.cc) ([problem site](https://open.kattis.com/problems/parking2))
 1. [Path Tracing](pathtracing.py) ([problem site](https://open.kattis.com/problems/pathtracing))
+1. [Patuljci](patuljci.cc) ([problem site](https://open.kattis.com/problems/patuljci))
 1. [Paul Eigon](pauleigon.cc) ([problem site](https://open.kattis.com/problems/pauleigon))
 1. [Peragrams](peragrams.cc) ([problem site](https://open.kattis.com/problems/peragrams))
 1. [Perfect Pth Powers](perfectpowers.cc) ([problem site](https://open.kattis.com/problems/perfectpowers))
