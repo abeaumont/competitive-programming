@@ -181,6 +181,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [2217 - Collecting Numbers II](2217.cc) ([problem site](https://cses.fi/problemset/task/2217))
 1. [2220 - Couting Numbers](2220.cc) ([problem site](https://cses.fi/problemset/task/2220))
 1. [2413 - Counting Towers](2413.cc) ([problem site](https://cses.fi/problemset/task/2413))
+1. [2416 - Increasing Array Queries](2416.cc) ([problem site](https://cses.fi/problemset/task/2416))
 1. [2419 - Xor Pyramid](2419.cc) ([problem site](https://cses.fi/problemset/task/2419))
 1. [2428 - Subarray Distinct Values](2428.cc) ([problem site](https://cses.fi/problemset/task/2428))
 1. [2431 - Digit Queries](2431.cc) ([problem site](https://cses.fi/problemset/task/2431))
