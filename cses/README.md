@@ -159,7 +159,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [Subtree Queries](1137.cc) ([problem site](https://cses.fi/problemset/task/1137))
 1. [Path Queries](1138.cc) ([problem site](https://cses.fi/problemset/task/1138))
 1. [Path Queries II](2134.cc) ([problem site](https://cses.fi/problemset/task/2134))
-1. [Distinct Colors](1139.cc) ([problem site](https://cses.fi/problemset/task/1139) (hacked))
+1. [Distinct Colors](1139.cc) ([problem site](https://cses.fi/problemset/task/1139))
 1. [Finding a Centroid](2079.cc) ([problem site](https://cses.fi/problemset/task/2079))
 1. [Fixed-Length Paths I](2080.cc) ([problem site](https://cses.fi/problemset/task/2080))
 1. [Fixed-Length Paths II](2081.cc) ([problem site](https://cses.fi/problemset/task/2081))
