@@ -176,6 +176,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [2181 - Counting Tilings](2181.cc) ([problem site](https://cses.fi/problemset/task/2181))
 1. [2183 - Missing Coin Sum](2183.cc) ([problem site](https://cses.fi/problemset/task/2183))
 1. [2205 - Gray Code](2205.cc) ([problem site](https://cses.fi/problemset/task/2205))
+1. [2206 - Pizzeria Queries](2206.cc) ([problem site](https://cses.fi/problemset/task/2206))
 1. [2216 - Collecting Numbers](2216.cc) ([problem site](https://cses.fi/problemset/task/2216))
 1. [2217 - Collecting Numbers II](2217.cc) ([problem site](https://cses.fi/problemset/task/2217))
 1. [2220 - Couting Numbers](2220.cc) ([problem site](https://cses.fi/problemset/task/2220))
