@@ -161,6 +161,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [Path Queries II](2134.cc) ([problem site](https://cses.fi/problemset/task/2134))
 1. [Distinct Colors](1139.cc) ([problem site](https://cses.fi/problemset/task/1139) (hacked))
 1. [Finding a Centroid](2079.cc) ([problem site](https://cses.fi/problemset/task/2079))
+1. [Fixed-Length Paths I](2080.cc) ([problem site](https://cses.fi/problemset/task/2080))
 
 ## Mathematics
 
