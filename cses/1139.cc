@@ -1,47 +1,34 @@
 // https://cses.fi/problemset/task/1139
-#include <iostream>
-#include <vector>
-#include <unordered_set>
+#include <bits/stdc++.h>
 
 using namespace std;
-
-typedef vector<int> vi;
-typedef vector<vi> vvi;
-typedef unordered_set<int> si;
-
-vvi g;
-vi c, d;
-si s;
+const int N = 2e5;
+int d[N];
+vector<int> g[N];
+set<int> s[N];
 
 void dfs(int u, int p) {
-  si t;
-  t.insert(c[u]);
-  for (int z:g[u]) {
-    if (z == p) continue;
-    dfs(z, u);
-    if (s.size() > t.size()) swap(s, t);
-    for (int x:s) t.insert(x);
-  }
-  d[u] = t.size();
-  swap(s, t);
+  for (int v : g[u])
+    if (v != p) {
+      dfs(v, u);
+      if (s[v].size() > s[u].size()) swap(s[u], s[v]);
+    }
+  for (int v : g[u])
+    if (v != p)
+      for (int x : s[v]) s[u].insert(x);
+  d[u] = s[u].size();
 }
 
 int main() {
-  int n, u, v;
+  cin.tie(0), ios::sync_with_stdio(0);
+  int n, u, v, x;
   cin >> n;
-  g = vvi(n);
-  c = vi(n); d = vi(n);
-  for (int i = 0; i < n; i++) cin >> c[i];
+  for (int i = 0; i < n; i++) cin >> x, s[i].insert(x);
   for (int i = 0; i < n - 1; i++) {
     cin >> u >> v;
-    u--; v--;
-    g[u].push_back(v);
-    g[v].push_back(u);
+    u--, v--;
+    g[u].push_back(v), g[v].push_back(u);
   }
   dfs(0, -1);
-  for (int i = 0; i < n; i++) {
-    cout << d[i];
-    if (i < n - 1) cout << " ";
-  }
-  cout << endl;
+  for (int i = 0; i < n; i++) cout << d[i] << " \n"[i == n - 1];
 }
