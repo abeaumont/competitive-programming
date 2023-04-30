@@ -1,121 +1,65 @@
 // https://cses.fi/problemset/task/1194/
-#include <algorithm>
-#include <cassert>
-#include <iostream>
-#include <queue>
-#include <tuple>
-#include <vector>
+#include <bits/stdc++.h>
 
 using namespace std;
-
-typedef tuple<int, int> ii;
-typedef tuple<int, int, int> iii;
-typedef vector<string> vs;
-typedef deque<iii> qiii;
-typedef vector<bool> vb;
-typedef vector<vb> vvb;
-typedef vector<ii> vii;
-typedef vector<vii> vvii;
-
-int n, m;
-vs map;
-
-bool valid(int y, int x, int distance) {
-  qiii q;
-  q.push_back({y, x, 0});
-  vvb visited(n, vb(m));
-  visited[y][x] = true;
-  while (true) {
-    if (q.empty()) return true;
-    int d;
-    tie(y, x, d) = q.front(); q.pop_front();
-    if (map[y][x] == 'M') return false;
-    if (d >= distance) continue;
-    if (y > 0 && !visited[y - 1][x] && (map[y - 1][x] == '.' || map[y - 1][x] == 'M')) {
-      visited[y - 1][x] = true;
-      q.push_back({y - 1, x, d + 1});
-    }
-    if (y < n - 1 && !visited[y + 1][x] && (map[y + 1][x] == '.' || map[y + 1][x] == 'M')) {
-      visited[y + 1][x] = true;
-      q.push_back({y + 1, x, d + 1});
-    }
-    if (x > 0 && !visited[y][x - 1] && (map[y][x - 1] == '.' || map[y][x - 1] == 'M')) {
-      visited[y][x - 1] = true;
-      q.push_back({y, x - 1, d + 1});
-    }
-    if (x < m - 1 && !visited[y][x + 1] && (map[y][x + 1] == '.' || map[y][x + 1] == 'M')) {
-      visited[y][x + 1] = true;
-      q.push_back({y, x + 1, d + 1});
-    }
-  }
-  return true;
-}
+const int INF = 1e9;
 
 int main() {
+  cin.tie(0), ios::sync_with_stdio(0);
+  int n, m;
   cin >> n >> m;
-  map = vs(n);
-  for (int i = 0; i < n; i++) cin >> map[i];
-  int y = -1, x = -1;
-  for (int i = 0; i < n; i++) {
-    for (int j = 0; j < m; j++) {
-      if (map[i][j] == 'A') {
-        y = i;
-        x = j;
-        break;
+  vector<string> a(n);
+  for (int i = 0; i < n; i++) cin >> a[i];
+  int ay, ax;
+  vector<pair<int, int>> ms;
+  for (int i = 0; i < n; i++)
+    for (int j = 0; j < m; j++)
+      if (a[i][j] == 'A') ay = i, ax = j;
+      else if (a[i][j] == 'M')
+        ms.emplace_back(i, j);
+  queue<tuple<int, int, bool>> q;
+  vector<vector<bool>> b(n, vector<bool>(m));
+  vector<vector<int>> d(n, vector<int>(m, INF));
+  for (auto [y, x] : ms) {
+    q.emplace(y, x, 0);
+    b[y][x] = 1;
+  }
+  q.emplace(ay, ax, 1);
+  b[ay][ax] = 1;
+  d[ay][ax] = 0;
+  int dy[4] = {-1, 0, 1, 0};
+  int dx[4] = {0, -1, 0, 1};
+  string ds = "DRUL";
+  int r, c, p;
+  while (!q.empty()) {
+    tie(r, c, p) = q.front();
+    if (p && (r == 0 || r == n - 1 || c == 0 || c == m - 1)) break;
+    q.pop();
+    for (int i = 0; i < 4; i++) {
+      int y = r + dy[i];
+      int x = c + dx[i];
+      if (y >= 0 && y < n && x >= 0 && x < m && a[y][x] != '#' && !b[y][x]) {
+        if (p) d[y][x] = d[r][c] + 1;
+        b[y][x] = 1;
+        q.emplace(y, x, p);
       }
     }
-    if (y != -1) break;
   }
-  qiii q;
-  q.push_back({y, x, 0});
-  vvb visited(n, vb(m));
-  visited[y][x] = true;
-  vvii p(n, vii(m));
-  string path;
-  int ay = y, ax = x;
-  bool found = false;
-  while (true) {
-    if (q.empty()) break;
-    int d;
-    tie(y, x, d) = q.front(); q.pop_front();
-    if (y == 0 || y == n - 1 || x == 0 || x == m - 1) {
-      if (valid(y, x, d)) {
-        found = true;
-        while (y != ay || x != ax) {
-          int py, px;
-          tie(py, px) = p[y][x];
-          if (y > py) path.push_back('D');
-          else if (y < py) path.push_back('U');
-          else if (x > px) path.push_back('R');
-          else if (x < px) path.push_back('L');
-          else assert(false);
-          y = py; x = px;
+  if (q.empty()) cout << "NO\n";
+  else {
+    string ans;
+    while (d[r][c]) {
+      for (int i = 0; i < 4; i++) {
+        int y = r + dy[i];
+        int x = c + dx[i];
+        if (y >= 0 && y < n && x >= 0 && x < m && d[y][x] < d[r][c]) {
+          ans.push_back(ds[i]);
+          r = y, c = x;
+          break;
         }
-        reverse(path.begin(), path.end());
-        break;
       }
     }
-    if (y > 0 && !visited[y - 1][x] && map[y - 1][x] == '.') {
-      p[y - 1][x] = {y, x};
-      visited[y - 1][x] = true;
-      q.push_back({y - 1, x, d + 1});
-    }
-    if (y < n - 1 && !visited[y + 1][x] && map[y + 1][x] == '.') {
-      p[y + 1][x] = {y, x};
-      visited[y + 1][x] = true;
-      q.push_back({y + 1, x, d + 1});
-    }
-    if (x > 0 && !visited[y][x - 1] && map[y][x - 1] == '.') {
-      p[y][x - 1] = {y, x};
-      visited[y][x - 1] = true;
-      q.push_back({y, x - 1, d + 1});
-    }
-    if (x < m - 1 && !visited[y][x + 1] && map[y][x + 1] == '.') {
-      p[y][x + 1] = {y, x};
-      visited[y][x + 1] = true;
-      q.push_back({y, x + 1, d + 1});
-    }
+    reverse(ans.begin(), ans.end());
+    cout << "YES\n" << ans.size() << '\n' << ans << '\n';
   }
-  if (found) cout << "YES\n" << path.size() << endl << path << endl;
-  else cout << "NO\n";
 }
