@@ -172,6 +172,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [Counting Divisors](1713.cc) ([problem site](https://cses.fi/problemset/task/1713))
 1. [Common Divisors](1081.cc) ([problem site](https://cses.fi/problemset/task/1081))
 1. [Sum of Divisors](1082.cc) ([problem site](https://cses.fi/problemset/task/1082))
+1. [Divisor Analysis](2182.cc) ([problem site](https://cses.fi/problemset/task/2182))
 1. [Binomial Coefficients](1079.cc) ([problem site](https://cses.fi/problemset/task/1079))
 1. [Creating Strings II](1715.cc) ([problem site](https://cses.fi/problemset/task/1715))
 1. [Distributing Apples](1716.cc) ([problem site](https://cses.fi/problemset/task/1716))
