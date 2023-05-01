@@ -166,6 +166,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 
 ## Mathematics
 
+1. [Josephus Queries](2164.cc) ([problem site](https://cses.fi/problemset/task/2164))
 1. [Exponentiation](1095.cc) ([problem site](https://cses.fi/problemset/task/1095))
 1. [Exponentiation II](1712.cc) ([problem site](https://cses.fi/problemset/task/1712))
 1. [Counting Divisors](1713.cc) ([problem site](https://cses.fi/problemset/task/1713))
