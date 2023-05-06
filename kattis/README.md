@@ -225,6 +225,7 @@ There are solutions for the following
 1. [Natjecanje](natjecanje.cc) ([problem site](https://open.kattis.com/problems/natjecanje))
 1. [Natrij](natrij.py) ([problem site](https://open.kattis.com/problems/natrij))
 1. [No Duplicates](nodup.cc) ([problem site](https://open.kattis.com/problems/nodup))
+1. [Nullary Computer](nullarycomputer.cc) ([problem site](https://open.kattis.com/problems/nullarycomputer))
 1. [Number Fun](numberfun.cc) ([problem site](https://open.kattis.com/problems/numberfun))
 1. [Numbers On a Tree](numbertree.cc) ([problem site](https://open.kattis.com/problems/numbertree))
 1. [Ocean Currents](oceancurrents.cc) ([problem site](https://open.kattis.com/problems/oceancurrents))
