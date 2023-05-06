@@ -178,6 +178,7 @@ There are solutions for the following [CSES Problem Set](https://cses.fi/problem
 1. [Binomial Coefficients](1079.cc) ([problem site](https://cses.fi/problemset/task/1079))
 1. [Creating Strings II](1715.cc) ([problem site](https://cses.fi/problemset/task/1715))
 1. [Distributing Apples](1716.cc) ([problem site](https://cses.fi/problemset/task/1716))
+1. [Christmas Party](1717.cc) ([problem site](https://cses.fi/problemset/task/1717))
 1. [Fibonacci Numbers](1722.cc) ([problem site](https://cses.fi/problemset/task/1722))
 1. [Throwing Dice](1096.cc) ([problem site](https://cses.fi/problemset/task/1096))
 1. [Nim Game II](1098.cc) ([problem site](https://cses.fi/problemset/task/1098))
