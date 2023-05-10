@@ -79,6 +79,7 @@ There are solutions for the following
 1. [Opening Ceremony](ceremony.cc) ([problem site](https://open.kattis.com/problems/ceremony))
 1. [Cetvrta](cetvrta.cc) ([problem site](https://open.kattis.com/problems/cetvrta))
 1. [Chanukah Challenge](chanukah.cc) ([problem site](https://open.kattis.com/problems/chanukah))
+1. [Cheating at War](cheatingatwar.cc) ([problem site](https://open.kattis.com/problems/cheatingatwar))
 1. [Chess](chess.cc) ([problem site](https://open.kattis.com/problems/chess))
 1. [A Classy Problem](classy.py) ([problem site](https://open.kattis.com/problems/classy))
 1. [Closest Sums](closestsums.cc) ([problem site](https://open.kattis.com/problems/closestsums))
