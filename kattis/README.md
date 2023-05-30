@@ -21,6 +21,7 @@ There are solutions for the following
 1. [Alice in the Digital World](alicedigital.cc) ([problem site](https://open.kattis.com/problems/alicedigital))
 1. [Alien Numbers](aliennumbers.cc) ([problem site](https://open.kattis.com/problems/aliennumbers))
 1. [Almost Perfect](almostperfect.cc) ([problem site](https://open.kattis.com/problems/almostperfect))
+1. [Almost Sorted](almostsorted2.cc) ([problem site](https://open.kattis.com/problems/almostsorted2))
 1. [Alphabet](alphabet.cc) ([problem site](https://open.kattis.com/problems/alphabet))
 1. [Alphabet Spam](alphabetspam.cc) ([problem site](https://open.kattis.com/problems/alphabetspam))
 1. [A New Alphabet](anewalphabet.cc) ([problem site](https://open.kattis.com/problems/anewalphabet))
