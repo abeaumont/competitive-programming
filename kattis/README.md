@@ -72,6 +72,7 @@ There are solutions for the following
 1. [Button Bashing](buttonbashing.cc) ([problem site](https://open.kattis.com/problems/buttonbashing))
 1. [Cakey McCakeFace](cakeymccakeface.cc) ([problem site](https://open.kattis.com/problems/cakeymccakeface))
 1. [Calories From Fat](calories.cc) ([problem site](https://open.kattis.com/problems/calories))
+1. [Canadians, eh?](canadianseh.py) ([problem site](https://open.kattis.com/problems/canadianseh))
 1. [Candy Division](candydivision.cc) ([problem site](https://open.kattis.com/problems/candydivision))
 1. [Solving for Carrots](carrots.py) ([problem site](https://open.kattis.com/problems/carrots))
 1. Catalan Square: [Common Lisp](catalansquare.lisp), [Python](catalansquare.py) ([problem site](https://open.kattis.com/problems/catalansquare))
