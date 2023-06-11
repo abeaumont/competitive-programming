@@ -96,6 +96,7 @@ There are solutions for the following
 1. [Convex Polygon Area](convexpolygonarea.cc) ([problem site](https://open.kattis.com/problems/convexpolygonarea))
 1. [Cookie Selection](cookieselection.cc) ([problem site](https://open.kattis.com/problems/cookieselection))
 1. [Counting Stars](countingstars.cc) ([problem site](https://open.kattis.com/problems/countingstars))
+1. [Course Planning](courseplanning.cc) ([problem site](https://open.kattis.com/problems/courseplanning))
 1. [Cow Crane](cowcrane.cc) ([problem site](https://open.kattis.com/problems/cowcrane))
 1. [Cracking RSA](crackingrsa.py) ([problem site](https://open.kattis.com/problems/crackingrsa))
 1. [Cracking the Code](crackingthecode.py) ([problem site](https://open.kattis.com/problems/crackingthecode))
