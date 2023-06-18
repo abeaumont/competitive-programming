@@ -244,6 +244,7 @@ There are solutions for the following
 1. [Open-Pit Mining](openpitmining.cc) ([problem site](https://open.kattis.com/problems/openpitmining))
 1. [Open Source](opensource.cc) ([problem site](https://open.kattis.com/problems/opensource))
 1. [Paintball](paintball.cc) ([problem site](https://open.kattis.com/problems/paintball))
+1. [Painting a Fence](paintingafence.cc) ([problem site](https://open.kattis.com/problems/paintingafence))
 1. [Parking](parking.cc) ([problem site](https://open.kattis.com/problems/parking))
 1. [Parking](parking2.cc) ([problem site](https://open.kattis.com/problems/parking2))
 1. [Path Tracing](pathtracing.py) ([problem site](https://open.kattis.com/problems/pathtracing))
