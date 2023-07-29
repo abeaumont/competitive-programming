@@ -334,6 +334,7 @@ There are solutions for the following
 1. [Synchronizing Lists](synchronizinglists.cc) ([problem site](https://open.kattis.com/problems/synchronizinglists))
 1. [T9 Spelling](t9spelling.cc) ([problem site](https://open.kattis.com/problems/t9spelling))
 1. [Tarifa](tarifa.cc) ([problem site](https://open.kattis.com/problems/tarifa))
+1. [Happy Telephones](telephones.cc) ([problem site](https://open.kattis.com/problems/telephones))
 1. [Temperature Confusion](temperatureconfusion.py) ([problem site](https://open.kattis.com/problems/temperatureconfusion))
 1. [Test](test2.cc) ([problem site](https://open.kattis.com/problems/test2))
 1. [The Last Problem](thelastproblem.py) ([problem site](https://open.kattis.com/problems/thelastproblem))
