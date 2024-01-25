@@ -206,6 +206,7 @@ There are solutions for the following
 1. [Last Factorial Digit](lastfactorialdigit.cc) ([problem site](https://open.kattis.com/problems/lastfactorialdigit))
 1. [Lawn Mower](lawnmower.cc) ([problem site](https://open.kattis.com/problems/lawnmower))
 1. [Left Beehind](leftbeehind.cc) ([problem site](https://open.kattis.com/problems/leftbeehind))
+1. [License to Launch](licensetolaunch.cc) ([problem site](https://open.kattis.com/problems/licensetolaunch))
 1. [Line Them Up](lineup.cc) ([problem site](https://open.kattis.com/problems/lineup))
 1. [A List Game](listgame.cc) ([problem site](https://open.kattis.com/problems/listgame))
 1. [Logic Functions](logicfunctions.cc) ([problem site](https://open.kattis.com/problems/logicfunctions))
