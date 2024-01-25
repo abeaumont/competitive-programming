@@ -362,6 +362,7 @@ There are solutions for the following
 1. [Vacuumba](vacuumba.cc) ([problem site](https://open.kattis.com/problems/vacuumba))
 1. [Vauvau](vauvau.cc) ([problem site](https://open.kattis.com/problems/vauvau))
 1. [Vector Functions](vectorfunctions.cc) ([problem site](https://open.kattis.com/problems/vectorfunctions))
+1. [Velkomin!](velkomin.odin) ([problem site](https://open.kattis.com/problems/velkomin))
 1. Virtual Friends: [C++](virtualfriends.cc), [Python](virtualfriends.py) ([problem site](https://open.kattis.com/problems/virtualfriends))
 1. [Volim](volim.cc) ([problem site](https://open.kattis.com/problems/volim))
 1. [Popular Vote](vote.cc) ([problem site](https://open.kattis.com/problems/vote))
