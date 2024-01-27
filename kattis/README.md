@@ -81,6 +81,7 @@ There are solutions for the following
 1. [Cat Coat Colors](catcoat.cc) ([problem site](https://open.kattis.com/problems/catcoat))
 1. [CD](cd.cc) ([problem site](https://open.kattis.com/problems/cd))
 1. [Opening Ceremony](ceremony.cc) ([problem site](https://open.kattis.com/problems/ceremony))
+1. [Cetiri](cetiry.odin) ([problem site](https://open.kattis.com/problems/cetiri))
 1. [Cetvrta](cetvrta.cc) ([problem site](https://open.kattis.com/problems/cetvrta))
 1. [Chanukah Challenge](chanukah.cc) ([problem site](https://open.kattis.com/problems/chanukah))
 1. [Cheating at War](cheatingatwar.cc) ([problem site](https://open.kattis.com/problems/cheatingatwar))
