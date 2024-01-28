@@ -96,6 +96,7 @@ There are solutions for the following
 1. [Collatz Conjecture](collatz.py) ([problem site](https://open.kattis.com/problems/collatz))
 1. [Coloring Socks](color.cc) ([problem site](https://open.kattis.com/problems/color))
 1. [Jumbled Compass](compass.cc) ([problem site](https://open.kattis.com/problems/compass))
+1. [Compound Words](compoundwords.odin) ([problem site](https://open.kattis.com/problems/compoundwords))
 1. [Cryptographer's Conundrum](conundrum.cc) ([problem site](https://open.kattis.com/problems/conundrum))
 1. [Convex Polygon Area](convexpolygonarea.cc) ([problem site](https://open.kattis.com/problems/convexpolygonarea))
 1. [Cookie Selection](cookieselection.cc) ([problem site](https://open.kattis.com/problems/cookieselection))
