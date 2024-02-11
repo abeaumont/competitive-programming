@@ -373,6 +373,7 @@ There are solutions for the following
 1. [Volim](volim.cc) ([problem site](https://open.kattis.com/problems/volim))
 1. [Popular Vote](vote.cc) ([problem site](https://open.kattis.com/problems/vote))
 1. [Lifting Walls](walls.cc) ([problem site](https://open.kattis.com/problems/walls))
+1. [Wedding](wedding.odin) ([problem site](https://open.kattis.com/problems/wedding))
 1. [What does the fox say?](whatdoesthefoxsay.cc) ([problem site](https://open.kattis.com/problems/whatdoesthefoxsay))
 1. [Where's My Internet??](wheresmyinternet.cc) ([problem site](https://open.kattis.com/problems/wheresmyinternet))
 1. [Wizard of Odds](wizardofodds.py) ([problem site](https://open.kattis.com/problems/wizardofodds))
