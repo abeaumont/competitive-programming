@@ -168,6 +168,7 @@ There are solutions for the following
 1. [Greedily Increasing Subsequence](greedilyincreasing.cc) ([problem site](https://open.kattis.com/problems/greedilyincreasing))
 1. [Greeting Card](greetingcard.cc) ([problem site](https://open.kattis.com/problems/greetingcard))
 1. [Greetings!](greetings2.cc) ([problem site](https://open.kattis.com/problems/greetings2))
+1. [Grid](grid.odin) ([problem site](https://open.kattis.com/problems/grid))
 1. [Growling Gears](growlingears.cc) ([problem site](https://open.kattis.com/problems/growlinggears))
 1. [Guess the Number](guess.cc) ([problem site](https://open.kattis.com/problems/guess))
 1. [Guessing Game](guessinggame.cc) ([problem site](https://open.kattis.com/problems/guessinggame))
