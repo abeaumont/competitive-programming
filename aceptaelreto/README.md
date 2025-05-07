@@ -41,3 +41,4 @@ There are solutions for the following
 1. [442 - Camellos, serpientes y kebabs](442.cc) ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=442))
 1. [443 - Abanico de naipes](443.cc) ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=443))
 1. [444 - La digestión de las serpientes](444.cc) ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=444))
+1. [706 - El ingenioso Willy](706.cc) ([problem site](https://www.aceptaelreto.com/problem/statement.php?id=706))
